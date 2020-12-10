@@ -34,12 +34,12 @@ class AoBinUtils(metaclass=SingletonMeta):
                 items.extend(temp_items['items']['equipmentitem'])
                 items.extend(temp_items['items']['weapon'])
                 items.extend(temp_items['items']['mount'])
-                assert items != None, "Failed to load items"
+                assert len(items) > 0, "Failed to load items"
 
             with open(fp_names, encoding='utf8') as json_file:
                 names = json.load(json_file)
                 names = [x for x in names if x['LocalizedNames'] != None]
-                assert names != None, "Failed to load item names"
+                assert len(names) > 0, "Failed to load item names"
 
             self._map_item_names(items, names)
 
