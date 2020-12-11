@@ -17,7 +17,8 @@ class SingletonMeta(type):
         return cls._instances[cls]
 
 
-class AoBinUtils(metaclass=SingletonMeta):
+
+class AoBinData(metaclass=SingletonMeta):
 
     _item_name = {}
 
@@ -77,7 +78,8 @@ class AoBinUtils(metaclass=SingletonMeta):
             raise
 
 
+
 if __name__ == "__main__":
-    abu = AoBinUtils()
+    abu = AoBinData()
 
     abu.print_head()
