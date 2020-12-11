@@ -1,4 +1,5 @@
 from .ao_bin_data import AoBinData
+from .ao_bin_utilities import *
 
 from abc import ABC, abstractmethod
 from typing import Dict, List
@@ -38,10 +39,10 @@ class Strategy(ABC):
 class EfficientItemPower(Strategy):
     """Strategy to return the cheapest items that are at least a specified IP"""
 
-    def __init__(self, target_ip, shop_subcategory: List):
+    def __init__(self, target_ip, items: List):
         self._target_ip = target_ip
-        self._shop_subcategory = shop_subcategory
-        
+        self._items = items
+
     
     def algorithm(self, ao_data) -> Dict:
         pass
