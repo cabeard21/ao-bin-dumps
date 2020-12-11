@@ -15,10 +15,13 @@ class AoBinTools():
 
     Attributes
     ----------
-    _strategy: Strategy object
-        The Strategy that will perform an operation on AO Bin data.
     _ao_data: AoBinData object
         The data to be accessed by Strategy.
+
+    Properties
+    ----------
+    strategy: Strategy object
+        The Strategy that will perform an operation on AO Bin data.
 
     Methods
     -------
