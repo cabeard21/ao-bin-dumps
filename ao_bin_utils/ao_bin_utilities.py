@@ -15,7 +15,7 @@ def get_item_price(item_unique_name, location) -> float:
     float
         Cheapest sell price found at the location for the item.
     """
-    pass
+    pass #TODO: Implement
 
 
 def get_item_power(item_unique_name, ao_data) -> float:
@@ -33,4 +33,4 @@ def get_item_power(item_unique_name, ao_data) -> float:
     float
         The item's Item Power.
     """
-    pass
+    pass #TODO: Implement
