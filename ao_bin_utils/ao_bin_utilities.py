@@ -1,5 +1,6 @@
 from ao_bin_data import AoBinData
 
+
 def get_item_price(item_unique_name, location) -> float:
     """Utility function to get an item's cheapest sell price at a given location.
 
@@ -16,16 +17,21 @@ def get_item_price(item_unique_name, location) -> float:
         Cheapest sell price found at the location for the item.
     """
 
-    pass #TODO: Implement
+    pass  # TODO: Implement
 
 
-def get_item_power(item_unique_name, quality, mastery, ao_data: AoBinData) -> int:
+def get_item_power(
+        item_unique_name,
+        quality,
+        mastery,
+        ao_data: AoBinData) -> int:
     """Utility function to find an item's Item Power.
 
     Parameters
     ----------
     item_unique_name: str
-        Unique name of the item to be found.
+        Unique name of the item to be found. An item with '@' character is
+        added to the end for enchant level.
     quality: int
         Quality level of the item (1 = Normal, 2 = Good, etc).
     mastery: int
@@ -70,9 +76,7 @@ def get_item_power(item_unique_name, quality, mastery, ao_data: AoBinData) -> in
     res = base_item_power + quality_item_power + mastery
 
     # Mastery Modifier
-
     mod = (1 + float(item_data['@masterymodifier']))
-
     res = res * mod
 
     return res

@@ -1,6 +1,6 @@
 import json
 import os  # For relative paths
-from threading import Lock # For Singleton
+from threading import Lock  # For Singleton
 
 
 class SingletonMeta(type):
@@ -11,15 +11,17 @@ class SingletonMeta(type):
     _instanced: dictionary
         Dictionary that stores each class' singleton instance.
     _lock: Lock object
-        Locks access to the dictionary of instances when a thread is accessing it.
+        Locks access to the dictionary of instances when a thread
+        is accessing it.
 
     Methods
     -------
     __call__(cls, *args, **kwargs):
         Returns a pointer to the single instance of the class.
 
-        This is called whenever an object is created. It will create an instance of the class
-        if it isn't found, otherwise it returns the previously created instance. This is thread-safe.
+        This is called whenever an object is created. It will create
+        an instance of the class if it isn't found, otherwise it returns
+        the previously created instance. This is thread-safe.
     """
 
     _instances = {}
@@ -28,8 +30,10 @@ class SingletonMeta(type):
     def __call__(cls, *args, **kwargs):
         """Returns a pointer to the single instance of the class.
 
-        This is called whenever an object is created. It will create an instance of the class
-        if it isn't found, otherwise it returns the previously created instance. This is thread-safe.
+        This is called whenever an object is created.
+        It will create an instance of the class if it isn't found,
+        otherwise it returns the previously created instance.
+        This is thread-safe.
         """
 
         with cls._lock:
@@ -38,7 +42,6 @@ class SingletonMeta(type):
                 cls._instances[cls] = instance
 
         return cls._instances[cls]
-
 
 
 class AoBinData(metaclass=SingletonMeta):
@@ -66,14 +69,15 @@ class AoBinData(metaclass=SingletonMeta):
     """
 
     def __init__(
-        self, 
-        item_file='..\\items.json', 
+        self,
+        item_file='..\\items.json',
         name_file='..\\formatted\\items.json',
         game_file='..\\gamedata.json',
     ):
         """Constructor sets location of relevant data files.
 
-        Performs any additional initialization e.g. building complex class attributes.
+        Performs any additional initialization
+            e.g. building complex class attributes.
 
         Parameters
         ----------
@@ -101,7 +105,7 @@ class AoBinData(metaclass=SingletonMeta):
 
         with open(fp_names, encoding='utf8') as json_file:
             names = json.load(json_file)
-            names = [x for x in names if x['LocalizedNames'] != None]
+            names = [x for x in names if x['LocalizedNames'] is not None]
             assert len(names) > 0, "Failed to load item names"
 
         with open(fp_game, encoding='utf8') as json_file:
@@ -109,25 +113,30 @@ class AoBinData(metaclass=SingletonMeta):
             self._game = game['AO-GameData']
 
         self._map_item_names(items, names)
-    
+
     def _map_item_names(self, items, names):
         """Builds the _item_name dictionary.
 
-        Sets the keys to the item's localized name. Sets the value to the JSON data of the item.
+        Sets the keys to the item's localized name. Sets the value
+        to the JSON data of the item.
 
         Parameters
         ----------
         items: JSON object
             Item data from the forked AO Binary Data repo.
         names: JSON object
-            Localization data for the items from the forked AO Binary Data repo.
+            Localization data for the items from the forked
+            AO Binary Data repo.
         """
 
         res = {}
         for item in items:
-            item_name = [x['LocalizedNames']['EN-US'] for x in names if x['UniqueName'] == item['@uniquename']]
+            item_name = [
+                x['LocalizedNames']['EN-US']
+                for x in names if x['UniqueName'] == item['@uniquename']
+            ]
             if len(item_name) == 1:
-                res[item_name[0]] = item                     
+                res[item_name[0]] = item
 
         self._item_name = res
 
@@ -139,8 +148,8 @@ class AoBinData(metaclass=SingletonMeta):
         item_name: str
             The item's name.
         unique: bool
-            If true, then item_name is the item's unque name, otherwise, it is the item's
-            localized name.
+            If true, then item_name is the item's unque name,
+            otherwise, it is the item's localized name.
 
         Returns
         -------
@@ -160,7 +169,8 @@ class AoBinData(metaclass=SingletonMeta):
         return res
 
     def get_quality_table(self):
-        """Returns the JSON dictionary portion containing the quality information for items.
+        """Returns the JSON dictionary portion containing the quality
+        information for items.
 
         Returns
         -------

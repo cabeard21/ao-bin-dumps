@@ -3,6 +3,7 @@ import unittest
 from ao_bin_data import AoBinData
 from ao_bin_utilities import get_item_power
 
+
 class UnitTests(unittest.TestCase):
 
     def setUp(self):
@@ -28,7 +29,8 @@ class UnitTests(unittest.TestCase):
         test_item = "T5_OFF_SHIELD@1"
         self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 900 * 1.05)
         self.assertEqual(get_item_power(test_item, 2, 0, self._ao), 910 * 1.05)
-        self.assertEqual(get_item_power(test_item, 5, 100, self._ao), 1100 * 1.05)
+        self.assertEqual(
+            get_item_power(test_item, 5, 100, self._ao), 1100 * 1.05)
 
 
 if __name__ == "__main__":

@@ -1,16 +1,16 @@
+from __future__ import annotations
 from .ao_bin_data import AoBinData
-from .ao_bin_utilities import *
 
 from abc import ABC, abstractmethod
 from typing import Dict, List
-from __future__ import annotations
 
 
 class AoBinTools():
     """Allows for calculations to be perfomed on AO Bin data.
 
-    Different Strategies can be used on AO Bin data by changing the Strategy attribute.
-    
+    Different Strategies can be used on AO Bin data by changing
+    the Strategy attribute.
+
     ...
 
     Attributes
@@ -31,26 +31,24 @@ class AoBinTools():
 
     def __init__(self, strategy: Strategy):
         """Constructor that takes a Strategy
-        
+
         Parameters
         ----------
         strategy: Strategy
-            A concrete implementation of the Strategy abstract class. Performs the actual calculation.
+            A concrete implementation of the Strategy abstract class.
+            Performs the actual calculation.
         """
         self._strategy = strategy
         self._ao_data = AoBinData()
-
 
     # Getter and setter for strategy.
     @property
     def strategy(self) -> Strategy:
         return self._strategy
 
-
     @strategy.setter
     def strategy(self, strategy: Strategy) -> None:
         self._strategy = strategy
-
 
     def get_calculation(self) -> Dict:
         """Calls the Strategy's algorithm and passes _ao_data to it.
@@ -64,16 +62,16 @@ class AoBinTools():
         return self._strategy.algorithm(self._ao_data)
 
 
-
 class Strategy(ABC):
     """Abstract Strategy base class.
-    
+
     ...
 
     Methods
     -------
     algorithm(ao_data):
-        Abstract method that is used by client to call concrete Strategy algorithm.
+        Abstract method that is used by client to call concrete
+        Strategy algorithm.
     """
 
     @abstractmethod
@@ -83,7 +81,8 @@ class Strategy(ABC):
         Parameters
         ----------
         ao_data: AoBinData object
-            Allows the concrete class to access item data. Provided by the context class to avoid tight coupling.
+            Allows the concrete class to access item data. Provided by the
+            context class to avoid tight coupling.
 
         Returns
         -------
@@ -94,12 +93,11 @@ class Strategy(ABC):
         pass
 
 
-
 class EfficientItemPower(Strategy):
     """Strategy to return the cheapest items that are at least a specified IP.
-    
-    The idea is to find the cheapest version of each item in a build that is at least
-    a minimum Item Power (IP).
+
+    The idea is to find the cheapest version of each item in a build that
+    is at least a minimum Item Power (IP).
 
     ...
 
@@ -120,7 +118,8 @@ class EfficientItemPower(Strategy):
         Concrete implementation of the abstract method inherited from Strategy.
     """
 
-    def __init__(self, target_ip: int, items: List, specs: List, location: str):
+    def __init__(
+            self, target_ip: int, items: List, specs: List, location: str):
         """Constructor for the class.
 
         Parameters
@@ -139,27 +138,29 @@ class EfficientItemPower(Strategy):
         self._items = items
         self._location = location
 
-    
     def algorithm(self, ao_data: AoBinData) -> Dict:
         """Concrete implementation of the abstract method inherited from Strategy.
-        
+
         The method accomplishes the class's goal by:
             1: Loop through each item stored by the class.
             2: For each item:
-                a: Use ao_data to find all items that meet the minimum IP when including specs.
+                a: Use ao_data to find all items that meet the minimum IP when
+                    including specs.
                 b: Do an API call to get the price for all items found in (a).
                 c: Add the cheapest item and price to the result dictionary.
 
         Parameters
         ----------
         ao_data: AoBinData object
-            Allows the concrete class to access item data. Provided by the context class to avoid tight coupling.
+            Allows the concrete class to access item data. Provided by the
+            context class to avoid tight coupling.
 
         Returns
         -------
         dictionary
             'Items': List of item unique names for the chosen items.
-            'Prices': List of floats that are the market prices for each item in 'Items'.
+            'Prices': List of floats that are the market prices for each
+            item in 'Items'.
         """
 
-        pass #TODO: Implement
+        pass  # TODO: Implement
