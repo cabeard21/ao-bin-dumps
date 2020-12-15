@@ -52,20 +52,27 @@ class AoBinData(metaclass=SingletonMeta):
     ----------
     _item_name: dictionary
         Dictionary of "readable" item names and it's JSON data.
+    _game: list
+        List of dictionaries as read from the game JSON data file.
 
     Methods
     -------
     __init__(self, item_file, name_file)
         Constructor sets location of relevant data files.
-    print_head(self, n)
-        Prints the first n items of _item_name.
     _map_item_names(self, items, names)
         Builds the _item_name dictionary.
+    get_item(item_name, unique)
+        Returns item information given the item's name.
     """
 
     _item_name = {}
 
-    def __init__(self, item_file='..\\items.json', name_file='..\\formatted\\items.json'):
+    def __init__(
+        self, 
+        item_file='..\\items.json', 
+        name_file='..\\formatted\\items.json',
+        game_file='..\\gamedata.json',
+    ):
         """Constructor sets location of relevant data files.
 
         Performs any additional initialization e.g. building complex class attributes.
@@ -76,6 +83,8 @@ class AoBinData(metaclass=SingletonMeta):
             Location of JSON file containing item data.
         name_file: str
             Location of JSON file containing localization data for items.
+        game_file: str
+            Location of JSON file containing game data.
 
         Raises
         ------
@@ -86,6 +95,7 @@ class AoBinData(metaclass=SingletonMeta):
         try:
             fp_items = os.path.join(os.path.dirname(__file__), item_file)
             fp_names = os.path.join(os.path.dirname(__file__), name_file)
+            fp_game = os.path.join(os.path.dirname(__file__), game_file)
 
             items = []
             names = []
@@ -102,31 +112,15 @@ class AoBinData(metaclass=SingletonMeta):
                 names = [x for x in names if x['LocalizedNames'] != None]
                 assert len(names) > 0, "Failed to load item names"
 
+            with open(fp_game, encoding='utf8') as json_file:
+                self._game = json.load(json_file)
+
             self._map_item_names(items, names)
 
         except Exception as e:
             print(f'Failed to create: {type(self).__name__}')
             print(f'{e}')
             raise
-
-
-    def print_head(self, n=5):
-        """Prints the first n items of _item_name.
-
-        Parameters
-        ----------
-        n: int (Default: 5)
-            The number of items to print.
-        """
-
-        i = 0
-        for name, item in self._item_name.items():
-            if i >= n:
-                return
-
-            print(f'{name}: {item}')
-            i = i + 1
-
     
     def _map_item_names(self, items, names):
         """Builds the _item_name dictionary.
@@ -145,26 +139,43 @@ class AoBinData(metaclass=SingletonMeta):
         Assertion Error
             If there are no item/name pairs found in the given parameters.
         """
-        
+
         res = {}
-        try:
-            for item in items:
-                item_name = [x['LocalizedNames']['EN-US'] for x in names if x['UniqueName'] == item['@uniquename']]
-                if len(item_name) == 1:
-                    res[item_name[0]] = item                     
+        for item in items:
+            item_name = [x['LocalizedNames']['EN-US'] for x in names if x['UniqueName'] == item['@uniquename']]
+            if len(item_name) == 1:
+                res[item_name[0]] = item                     
 
-            assert len(res) > 0, 'Res is empty'
+        assert len(res) > 0, 'Res is empty'
 
-            self._item_name = res
-        
-        except Exception as e:
-            print('Error in _map_item_names()')
-            print(f'{e}')
-            raise
+        self._item_name = res
 
+    def get_item(self, item_name, unique=True) -> dict:
+        """Returns item information given the item's name.
 
+        Parameters
+        ----------
+        item_name: str
+            The item's name.
+        unique: bool
+            If true, then item_name is the item's unque name, otherwise, it is the item's
+            localized name.
 
-if __name__ == "__main__":
-    abu = AoBinData()
+        Returns
+        -------
+        dictionary
+            The item's information as a dictionary, taken from the JSON file.
+        """
 
-    abu.print_head()
+        res = {}
+        if not unique:
+            res = self._item_name[item_name]
+        else:
+            for v in self._item_name.values():
+                if v['@uniquename'] == item_name:
+                    res = v
+                    break
+
+        assert len(res) > 0, f"Failed to find '{item_name}'"
+
+        return res

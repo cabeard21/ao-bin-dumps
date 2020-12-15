@@ -1,5 +1,7 @@
 """Collection of classes and functions that represent a library for interacting with the expanded AO binary data.
 
+...
+
 Modules
 -------
 ao_bin_data
