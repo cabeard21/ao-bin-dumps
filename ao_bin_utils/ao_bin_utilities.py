@@ -19,7 +19,7 @@ def get_item_price(item_unique_name, location) -> float:
     pass #TODO: Implement
 
 
-def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
+def get_item_power(item_unique_name, quality, mastery, ao_data: AoBinData) -> int:
     """Utility function to find an item's Item Power.
 
     Parameters
@@ -27,7 +27,9 @@ def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
     item_unique_name: str
         Unique name of the item to be found.
     quality: int
-        Quality level of the item (1 = Normal, 2 = Good, etc)
+        Quality level of the item (1 = Normal, 2 = Good, etc).
+    mastery: int
+        Bonus from item mastery.
     ao_data: AoBinData object
         Pointer to the AoBinData object containing item information.
 
@@ -65,7 +67,7 @@ def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
                 quality_item_power = int(quality_level['@itempowerbonus'])
                 break
 
-    res = base_item_power + quality_item_power
+    res = base_item_power + quality_item_power + mastery
 
     # Mastery Modifier
 
