@@ -65,8 +65,6 @@ class AoBinData(metaclass=SingletonMeta):
         Returns item information given the item's name.
     """
 
-    _item_name = {}
-
     def __init__(
         self, 
         item_file='..\\items.json', 
@@ -107,7 +105,8 @@ class AoBinData(metaclass=SingletonMeta):
             assert len(names) > 0, "Failed to load item names"
 
         with open(fp_game, encoding='utf8') as json_file:
-            self._game = json.load(json_file)
+            game = json.load(json_file)
+            self._game = game['AO-GameData']
 
         self._map_item_names(items, names)
     
@@ -159,3 +158,14 @@ class AoBinData(metaclass=SingletonMeta):
                     break
 
         return res
+
+    def get_quality_table(self):
+        """Returns the JSON dictionary portion containing the quality information for items.
+
+        Returns
+        -------
+        dictionary
+            The JSON information from game data.
+        """
+
+        return self._game['Items']['QualityLevels']['qualitylevel']

@@ -40,7 +40,6 @@ def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
     # Enchantment Level
     if '@' in item_unique_name:
         base_item_name, enchant_lvl = item_unique_name.split('@')
-
     else:
         base_item_name, enchant_lvl = item_unique_name, None
 
@@ -52,15 +51,26 @@ def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
             if enchantment['@enchantmentlevel'] == enchant_lvl:
                 item_power_data = enchantment
                 break
-
     else:
         item_power_data = item_data
 
     base_item_power = int(item_power_data['@itempower'])
 
     # Quality
-    
+    quality_item_power = 0
+    if quality > 1 and quality < 6:
+        quality_data = ao_data.get_quality_table()
+        for quality_level in quality_data:
+            if int(quality_level['@level']) == quality:
+                quality_item_power = int(quality_level['@itempowerbonus'])
+                break
 
-    res = base_item_power
+    res = base_item_power + quality_item_power
+
+    # Mastery Modifier
+
+    mod = (1 + float(item_data['@masterymodifier']))
+
+    res = res * mod
 
     return res

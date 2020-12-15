@@ -24,8 +24,11 @@ class UnitTests(unittest.TestCase):
     def test_get_item_power(self):
         test_item = "T4_SHOES_PLATE_HELL"
         self.assertEqual(get_item_power(test_item, 1, self._ao), 750)
-        test_item = "T4_SHOES_PLATE_HELL@1"
-        self.assertEqual(get_item_power(test_item, 1,self._ao), 850)
+        
+        test_item = "T5_OFF_SHIELD@1"
+        self.assertEqual(get_item_power(test_item, 1,self._ao), 900 * 1.05)
+        self.assertEqual(get_item_power(test_item, 2,self._ao), 910 * 1.05)
+        self.assertEqual(get_item_power(test_item, 5,self._ao), 1000 * 1.05)
 
 
 if __name__ == "__main__":
