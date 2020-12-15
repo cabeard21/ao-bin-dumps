@@ -19,13 +19,15 @@ def get_item_price(item_unique_name, location) -> float:
     pass #TODO: Implement
 
 
-def get_item_power(item_unique_name, ao_data: AoBinData) -> int:
+def get_item_power(item_unique_name, quality, ao_data: AoBinData) -> int:
     """Utility function to find an item's Item Power.
 
     Parameters
     ----------
     item_unique_name: str
         Unique name of the item to be found.
+    quality: int
+        Quality level of the item (1 = Normal, 2 = Good, etc)
     ao_data: AoBinData object
         Pointer to the AoBinData object containing item information.
 
@@ -35,6 +37,7 @@ def get_item_power(item_unique_name, ao_data: AoBinData) -> int:
         The item's Item Power.
     """
 
+    # Enchantment Level
     if '@' in item_unique_name:
         base_item_name, enchant_lvl = item_unique_name.split('@')
 
@@ -53,22 +56,11 @@ def get_item_power(item_unique_name, ao_data: AoBinData) -> int:
     else:
         item_power_data = item_data
 
-    base_item_power = int(item_power_data.get('@itempower', -1))
-    assert base_item_power >= 0, f"Failed to get {item_unique_name}'s base item power"
+    base_item_power = int(item_power_data['@itempower'])
 
+    # Quality
     
 
     res = base_item_power
 
     return res
-
-
-
-if __name__ == "__main__": 
-    test_item = "T4_SHOES_PLATE_HELL"
-
-    assert get_item_power(test_item, AoBinData()) == 750, 'test for get_item_power() failed!'
-
-    test_item = "T4_SHOES_PLATE_HELL@1"
-
-    assert get_item_power(test_item, AoBinData()) == 850, 'test for get_item_power() failed!'

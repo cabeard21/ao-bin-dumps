@@ -85,42 +85,31 @@ class AoBinData(metaclass=SingletonMeta):
             Location of JSON file containing localization data for items.
         game_file: str
             Location of JSON file containing game data.
-
-        Raises
-        ------
-        Assertion Error
-            If any file location is incorrect or fails to load.
         """
 
-        try:
-            fp_items = os.path.join(os.path.dirname(__file__), item_file)
-            fp_names = os.path.join(os.path.dirname(__file__), name_file)
-            fp_game = os.path.join(os.path.dirname(__file__), game_file)
+        fp_items = os.path.join(os.path.dirname(__file__), item_file)
+        fp_names = os.path.join(os.path.dirname(__file__), name_file)
+        fp_game = os.path.join(os.path.dirname(__file__), game_file)
 
-            items = []
-            names = []
+        items = []
+        names = []
 
-            with open(fp_items) as json_file:
-                temp_items = json.load(json_file)
-                items.extend(temp_items['items']['equipmentitem'])
-                items.extend(temp_items['items']['weapon'])
-                items.extend(temp_items['items']['mount'])
-                assert len(items) > 0, "Failed to load items"
+        with open(fp_items) as json_file:
+            temp_items = json.load(json_file)
+            items.extend(temp_items['items']['equipmentitem'])
+            items.extend(temp_items['items']['weapon'])
+            items.extend(temp_items['items']['mount'])
+            assert len(items) > 0, "Failed to load items"
 
-            with open(fp_names, encoding='utf8') as json_file:
-                names = json.load(json_file)
-                names = [x for x in names if x['LocalizedNames'] != None]
-                assert len(names) > 0, "Failed to load item names"
+        with open(fp_names, encoding='utf8') as json_file:
+            names = json.load(json_file)
+            names = [x for x in names if x['LocalizedNames'] != None]
+            assert len(names) > 0, "Failed to load item names"
 
-            with open(fp_game, encoding='utf8') as json_file:
-                self._game = json.load(json_file)
+        with open(fp_game, encoding='utf8') as json_file:
+            self._game = json.load(json_file)
 
-            self._map_item_names(items, names)
-
-        except Exception as e:
-            print(f'Failed to create: {type(self).__name__}')
-            print(f'{e}')
-            raise
+        self._map_item_names(items, names)
     
     def _map_item_names(self, items, names):
         """Builds the _item_name dictionary.
@@ -133,11 +122,6 @@ class AoBinData(metaclass=SingletonMeta):
             Item data from the forked AO Binary Data repo.
         names: JSON object
             Localization data for the items from the forked AO Binary Data repo.
-
-        Raises
-        ------
-        Assertion Error
-            If there are no item/name pairs found in the given parameters.
         """
 
         res = {}
@@ -145,8 +129,6 @@ class AoBinData(metaclass=SingletonMeta):
             item_name = [x['LocalizedNames']['EN-US'] for x in names if x['UniqueName'] == item['@uniquename']]
             if len(item_name) == 1:
                 res[item_name[0]] = item                     
-
-        assert len(res) > 0, 'Res is empty'
 
         self._item_name = res
 
@@ -175,7 +157,5 @@ class AoBinData(metaclass=SingletonMeta):
                 if v['@uniquename'] == item_name:
                     res = v
                     break
-
-        assert len(res) > 0, f"Failed to find '{item_name}'"
 
         return res
