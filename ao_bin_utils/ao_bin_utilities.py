@@ -1,6 +1,9 @@
-from ao_bin_data import AoBinData
+from __future__ import annotations
+from typing import List
 
 import requests
+
+from ao_bin_data import AoBinData
 
 
 def get_item_price(item_unique_name, quality, location) -> float:
@@ -96,3 +99,28 @@ def get_item_power(
     res = res * mod
 
     return res
+
+
+def get_items_above_ip(self, unique_item_name, ip, mastery) -> List:
+    """Return a list of different tier/quality items that are above a given IP.
+
+    Parameters
+    ----------
+    unique_item_name: str
+        The unique item name of the item type. Only the base item matters.
+    ip: int
+        The IP above which items will be returned.
+    mastery: int
+        Bonus IP from mastery in the item.
+
+    Returns
+    -------
+    list
+        List of item tuples of the following format:
+
+        (unique_item_name, quality, price, ip)
+
+        The item's name will have the enchant level if present.
+    """
+
+    pass  # TODO: Implement

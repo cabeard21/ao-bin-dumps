@@ -146,7 +146,7 @@ class EfficientItemPower(Strategy):
             2: For each item:
                 a: Use ao_data to find all items that meet the minimum IP when
                     including specs.
-                b: Do an API call to get the price for all items found in (a).
+                b: Do a GET request to get the price for all items found in (a).
                 c: Add the cheapest item and price to the result dictionary.
 
         Parameters
