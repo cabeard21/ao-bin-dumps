@@ -1,7 +1,7 @@
 import unittest
 
 from ao_bin_data import AoBinData
-from ao_bin_utilities import get_item_power
+from ao_bin_utilities import get_item_power, get_item_price
 
 
 class UnitTests(unittest.TestCase):
@@ -31,6 +31,14 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(get_item_power(test_item, 2, 0, self._ao), 910 * 1.05)
         self.assertEqual(
             get_item_power(test_item, 5, 100, self._ao), 1100 * 1.05)
+
+    def test_get_item_price(self):
+        item = "T4_BAG@1"
+        quality = 2
+        location = 'Lymhurst'
+
+        price = get_item_price(item, quality, location)
+        self.assertTrue(type(price) == float or type(price) == int)
 
 
 if __name__ == "__main__":

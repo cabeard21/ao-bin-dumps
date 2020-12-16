@@ -1,13 +1,17 @@
 from ao_bin_data import AoBinData
 
+import requests
 
-def get_item_price(item_unique_name, location) -> float:
+
+def get_item_price(item_unique_name, quality, location) -> float:
     """Utility function to get an item's cheapest sell price at a given location.
 
     Parameters
     ----------
     item_unique_name: str
         Unique name of the item to be found.
+    quality: int
+        Quality level of the item (1 = Normal, 2 = Good, etc).
     location: str
         Name of the market whose price should be used.
 
@@ -17,7 +21,19 @@ def get_item_price(item_unique_name, location) -> float:
         Cheapest sell price found at the location for the item.
     """
 
-    pass  # TODO: Implement
+    url = (
+        f"https://www.albion-online-data.com/api/v2/stats/prices/"
+        f"{item_unique_name}"
+    )
+
+    params = {
+        'locations': location,
+        'qualities': quality,
+    }
+
+    response = requests.get(url, params=params).json()
+
+    return response[0]['sell_price_min']
 
 
 def get_item_power(
