@@ -24,6 +24,7 @@ def get_item_price(item_unique_name, quality, location) -> float:
         Cheapest sell price found at the location for the item.
     """
 
+    # TODO: Implement minimum API calls for multiple items logic.
     url = (
         f"https://www.albion-online-data.com/api/v2/stats/prices/"
         f"{item_unique_name}"
@@ -92,11 +93,11 @@ def get_item_power(
                 quality_item_power = int(quality_level['@itempowerbonus'])
                 break
 
-    res = base_item_power + quality_item_power + mastery
+    res = base_item_power + quality_item_power
 
     # Mastery Modifier
     mod = (1 + float(item_data['@masterymodifier']))
-    res = res * mod
+    res = res + (mastery*mod)
 
     return res
 
@@ -118,7 +119,7 @@ def get_items_above_ip(self, unique_item_name, ip, mastery) -> List:
     list
         List of item tuples of the following format:
 
-        (unique_item_name, quality, price, ip)
+        (unique_item_name, quality, ip)
 
         The item's name will have the enchant level if present.
     """

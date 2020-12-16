@@ -27,10 +27,10 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 750)
 
         test_item = "T5_OFF_SHIELD@1"
-        self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 900 * 1.05)
-        self.assertEqual(get_item_power(test_item, 2, 0, self._ao), 910 * 1.05)
+        self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 900)
+        self.assertEqual(get_item_power(test_item, 2, 0, self._ao), 910)
         self.assertEqual(
-            get_item_power(test_item, 5, 100, self._ao), 1100 * 1.05)
+            get_item_power(test_item, 5, 100, self._ao), 1000 + (100*1.05))
 
     def test_get_item_price(self):
         item = "T4_BAG@1"
