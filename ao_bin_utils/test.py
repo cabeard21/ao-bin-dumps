@@ -56,7 +56,7 @@ class UnitTests(unittest.TestCase):
         location = 'Lymhurst'
 
         price = get_item_price(item, quality, location)
-        self.assertTrue(type(price) == float or type(price) == int)
+        self.assertTrue(type(price) == int)
 
     def test_get_items_above_ip(self):
         item = "T4_OFF_SHIELD@1"

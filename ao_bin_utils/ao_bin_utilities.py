@@ -9,7 +9,7 @@ TIER_FINDER = r"T\d_"
 from ao_bin_data import AoBinData
 
 
-def get_item_price(item_unique_name, quality, location) -> float:
+def get_item_price(item_unique_name, quality, location) -> int:
     """Utility function to get an item's cheapest sell price at a given location.
 
     Parameters
@@ -23,7 +23,7 @@ def get_item_price(item_unique_name, quality, location) -> float:
 
     Returns
     -------
-    float
+    int
         Cheapest sell price found at the location for the item.
     """
 
