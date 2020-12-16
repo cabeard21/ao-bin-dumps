@@ -1,12 +1,12 @@
 from __future__ import annotations
-from typing import List
 
+from ao_bin_data import AoBinData
+
+from typing import List
 import requests
 import re
 
 TIER_FINDER = r"T\d_"
-
-from ao_bin_data import AoBinData
 
 
 def get_item_price(item_unique_name, quality, location) -> int:

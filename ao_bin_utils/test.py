@@ -76,7 +76,3 @@ class UnitTests(unittest.TestCase):
             get_items_above_ip(item, ip, mastery, self._ao),
             expected
         )
-
-
-if __name__ == "__main__":
-    unittest.main()
