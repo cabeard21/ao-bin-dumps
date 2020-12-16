@@ -22,6 +22,16 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(item_data['@uniquename'], unique_item)
         self.assertEqual(int(item_data['@itempower']), ip)
 
+    def test_get_unique_name(self):
+        item_name = "Expert's Shield"
+        unique_name = 'T5_OFF_SHIELD'
+        enchant = 1
+
+        self.assertEqual(self._ao.get_unique_name(item_name), unique_name)
+        self.assertEqual(
+            self._ao.get_unique_name(item_name, enchant), unique_name + '@1'
+        )
+
     def test_get_item_power(self):
         test_item = "T4_SHOES_PLATE_HELL"
         self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 750)

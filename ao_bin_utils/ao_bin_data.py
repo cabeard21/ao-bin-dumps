@@ -179,3 +179,25 @@ class AoBinData(metaclass=SingletonMeta):
         """
 
         return self._game['Items']['QualityLevels']['qualitylevel']
+
+    def get_unique_name(self, item_name, enchant=0):
+        """Get an item's unque name from it's local name.
+
+        Parameters
+        ----------
+        item_name: str
+            The item's local name.
+        enchant: int
+            The item's enchant level to add to the unique name. (default: 0)
+
+        Returns
+        -------
+        string
+            Returns the item's unique name with it's enchant level
+            appended after '@'.
+        """
+
+        return (
+            self._item_name[item_name]['@uniquename']
+            + (f'@{enchant}' if enchant > 0 and enchant < 6 else "")
+        )
