@@ -2,6 +2,9 @@ from __future__ import annotations
 from typing import List
 
 import requests
+import re
+
+TIER_FINDER = r"T\d_"
 
 from ao_bin_data import AoBinData
 
@@ -102,8 +105,20 @@ def get_item_power(
     return res
 
 
-def get_items_above_ip(self, unique_item_name, ip, mastery) -> List:
+def get_items_above_ip(
+        unique_item_name,
+        ip,
+        mastery,
+        ao_data: AoBinData) -> List:
     """Return a list of different tier/quality items that are above a given IP.
+
+    Starting with the T4 version of the item:
+        1. If IP >= min, add item at base quality (1)
+        2. Increase quality by 1 and add if IP >= min until quality is > 5.
+        3. Increase enchant level and repeat 1-2
+        4. Increase tier until tier > 8 and repeat 1-3
+
+        Should be 4*5*5 = 100 iterations
 
     Parameters
     ----------
@@ -113,6 +128,8 @@ def get_items_above_ip(self, unique_item_name, ip, mastery) -> List:
         The IP above which items will be returned.
     mastery: int
         Bonus IP from mastery in the item.
+    ao_data: AoBinData object
+        Pointer to the AoBinData object containing item information.
 
     Returns
     -------
@@ -123,5 +140,24 @@ def get_items_above_ip(self, unique_item_name, ip, mastery) -> List:
 
         The item's name will have the enchant level if present.
     """
+    pattern = re.compile(TIER_FINDER)
 
-    pass  # TODO: Implement
+    unique_item_name = unique_item_name.split('@')[0]
+
+    res = []
+
+    for tier in range(4, 9):
+        for enchant in range(0, 4):
+            item_name = (
+                f"T{tier}_" + pattern.split(unique_item_name)[-1]
+                + (f"@{enchant}" if enchant > 0 and enchant < 4 else '')
+            )
+
+            for quality in range(1, 6):
+                curr_ip = get_item_power(item_name, quality, mastery, ao_data)
+                if curr_ip >= ip:
+                    res.append(
+                        (item_name, quality, curr_ip)
+                    )
+
+    return res

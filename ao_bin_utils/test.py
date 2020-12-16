@@ -1,7 +1,7 @@
 import unittest
 
 from ao_bin_data import AoBinData
-from ao_bin_utilities import get_item_power, get_item_price
+from ao_bin_utilities import get_item_power, get_item_price, get_items_above_ip
 
 
 class UnitTests(unittest.TestCase):
@@ -57,6 +57,25 @@ class UnitTests(unittest.TestCase):
 
         price = get_item_price(item, quality, location)
         self.assertTrue(type(price) == float or type(price) == int)
+
+    def test_get_items_above_ip(self):
+        item = "T4_OFF_SHIELD@1"
+        ip = 1400
+        mastery = 0
+        expected = [
+            ('T7_OFF_SHIELD@3', 5, 1400),
+            ('T8_OFF_SHIELD@2', 5, 1400),
+            ('T8_OFF_SHIELD@3', 1, 1400),
+            ('T8_OFF_SHIELD@3', 2, 1410),
+            ('T8_OFF_SHIELD@3', 3, 1420),
+            ('T8_OFF_SHIELD@3', 4, 1450),
+            ('T8_OFF_SHIELD@3', 5, 1500),
+        ]
+
+        self.assertListEqual(
+            get_items_above_ip(item, ip, mastery, self._ao),
+            expected
+        )
 
 
 if __name__ == "__main__":
