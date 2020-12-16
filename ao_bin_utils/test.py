@@ -22,6 +22,14 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(item_data['@uniquename'], unique_item)
         self.assertEqual(int(item_data['@itempower']), ip)
 
+    def test_get_quality_table(self):
+        level = ['2', '3', '4', '5']
+        ip = ['10', '20', '50', '100']
+
+        quality_table = self._ao.get_quality_table()
+        self.assertListEqual([x['@level'] for x in quality_table], level)
+        self.assertListEqual([x['@itempowerbonus'] for x in quality_table], ip)
+
     def test_get_unique_name(self):
         item_name = "Expert's Shield"
         unique_name = 'T5_OFF_SHIELD'
