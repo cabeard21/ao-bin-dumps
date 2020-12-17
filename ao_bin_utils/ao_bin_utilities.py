@@ -2,45 +2,89 @@ from __future__ import annotations
 
 from ao_bin_data import AoBinData
 
-from typing import List
+from typing import List, Dict
 import requests
 import re
 
 TIER_FINDER = r"T\d_"
 
 
-def get_item_price(item_unique_name, quality, location) -> int:
+def get_item_price(item_unique_name, quality, location) -> Dict:
     """Utility function to get an item's cheapest sell price at a given location.
+
+    This method tries to minimize the amount of GET requests needed.
+    The algorithm for the GET requests is:
+        1. Do a GET request for all of the items and qualites passed in.
+        2. Loop through the response and add the first match for each
+            item/quality combo.
+        3. Remove the item from the list of item names.
+        4. Check if the quality can be removed from the list of qualites.
+        5. Repeat 1-4 until item_unique_name is empty.
 
     Parameters
     ----------
-    item_unique_name: str
-        Unique name of the item to be found.
-    quality: int
-        Quality level of the item (1 = Normal, 2 = Good, etc).
+    item_unique_name: list of str
+        Unique names of the items to be found.
+    quality: list of int
+        Quality levels of the items (1 = Normal, 2 = Good, etc).
     location: str
         Name of the market whose price should be used.
 
     Returns
     -------
-    int
-        Cheapest sell price found at the location for the item.
+    dict
+        Cheapest sell price found at the location for each item.
+    """
+    names = item_unique_name.copy()
+    quality_copy = quality.copy()
+
+    quality_no_dupes = remove_dupes(quality_copy)
+
+    res = {}
+
+    while len(names) > 0:
+        url = (
+            f"https://www.albion-online-data.com/api/v2/stats/prices/"
+            f"{','.join(names)}"
+        )
+
+        params = {
+            'locations': location,
+            'qualities': ','.join([str(x) for x in quality_no_dupes]),
+        }
+
+        response = requests.get(url, params=params).json()
+
+        for item in response:
+            item_index = names.index(item['item_id'])
+            if quality_copy[item_index] == item['quality']:
+                res[names.pop(item_index)] = item['sell_price_min']
+
+                quality_copy.pop(item_index)
+                quality_no_dupes = remove_dupes(quality_copy)
+
+    return res
+
+
+def remove_dupes(input_list):
+    """Helper function to remove duplicates from a list.
+
+    Parameters
+    ----------
+    input_list: list
+        The list whose duplicates will be removed.
+
+    Returns
+    -------
+    list
+        Returns a list with dupilcates removed.
     """
 
-    # TODO: Implement minimum API calls for multiple items logic.
-    url = (
-        f"https://www.albion-online-data.com/api/v2/stats/prices/"
-        f"{item_unique_name}"
-    )
+    res = []
 
-    params = {
-        'locations': location,
-        'qualities': quality,
-    }
+    [res.append(x) for x in input_list if x not in res]
 
-    response = requests.get(url, params=params).json()
-
-    return response[0]['sell_price_min']
+    return res
 
 
 def get_item_power(

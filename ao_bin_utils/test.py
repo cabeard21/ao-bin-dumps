@@ -1,7 +1,7 @@
 import unittest
 
 from ao_bin_data import AoBinData
-from ao_bin_utilities import get_item_power, get_item_price, get_items_above_ip
+import ao_bin_utilities as abu
 
 
 class UnitTests(unittest.TestCase):
@@ -42,21 +42,29 @@ class UnitTests(unittest.TestCase):
 
     def test_get_item_power(self):
         test_item = "T4_SHOES_PLATE_HELL"
-        self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 750)
+        self.assertEqual(abu.get_item_power(test_item, 1, 0, self._ao), 750)
 
         test_item = "T5_OFF_SHIELD@1"
-        self.assertEqual(get_item_power(test_item, 1, 0, self._ao), 900)
-        self.assertEqual(get_item_power(test_item, 2, 0, self._ao), 910)
+        self.assertEqual(abu.get_item_power(test_item, 1, 0, self._ao), 900)
+        self.assertEqual(abu.get_item_power(test_item, 2, 0, self._ao), 910)
         self.assertEqual(
-            get_item_power(test_item, 5, 100, self._ao), 1000 + (100*1.05))
+            abu.get_item_power(test_item, 5, 100, self._ao), 1000 + (100*1.05))
+
+    def test_remove_dupes(self):
+        test_list = ['1', '1', 2, 3, 3]
+        expected = ['1', 2, 3]
+
+        self.assertListEqual(abu.remove_dupes(test_list), expected)
 
     def test_get_item_price(self):
-        item = "T4_BAG@1"
-        quality = 2
+        item = ["T4_BAG@1"]
+        quality = [2]
         location = 'Lymhurst'
 
-        price = get_item_price(item, quality, location)
-        self.assertTrue(type(price) == int)
+        prices = abu.get_item_price(item, quality, location)
+        for item_name, item_price in prices.items():
+            self.assertIn(item_name, item)
+            self.assertEqual(type(item_price), int)
 
     def test_get_items_above_ip(self):
         item = "T4_OFF_SHIELD@1"
@@ -73,6 +81,10 @@ class UnitTests(unittest.TestCase):
         ]
 
         self.assertListEqual(
-            get_items_above_ip(item, ip, mastery, self._ao),
+            abu.get_items_above_ip(item, ip, mastery, self._ao),
             expected
         )
+
+
+if __name__ == "__main__":
+    unittest.main()
