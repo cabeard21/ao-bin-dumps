@@ -5,6 +5,7 @@ from ao_bin_data import AoBinData
 from typing import List, Dict
 import requests
 import re
+from time import sleep
 
 TIER_FINDER = r"T\d_"
 
@@ -21,12 +22,15 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
         4. Check if the quality can be removed from the list of qualites.
         5. Repeat 1-4 until item_unique_name is empty.
 
+    This method pauses for 1 second between GET requests.
+
     Parameters
     ----------
     item_unique_name: list of str
-        Unique names of the items to be found.
+        Unique names of the items to be found. Same length as quality.
     quality: list of int
         Quality levels of the items (1 = Normal, 2 = Good, etc).
+        Same length as item_unique_name.
     location: str
         Name of the market whose price should be used.
 
@@ -62,6 +66,8 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
 
                 quality_copy.pop(item_index)
                 quality_no_dupes = remove_dupes(quality_copy)
+
+        len(names) > 0 and sleep(1)  # Pause for 1 second if another request
 
     return res
 

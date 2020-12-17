@@ -57,8 +57,8 @@ class UnitTests(unittest.TestCase):
         self.assertListEqual(abu.remove_dupes(test_list), expected)
 
     def test_get_item_price(self):
-        item = ["T4_BAG@1"]
-        quality = [2]
+        item = ["T4_BAG@1", "T5_BAG@1", "T6_BAG@1"]
+        quality = [2, 2, 2]
         location = 'Lymhurst'
 
         prices = abu.get_item_price(item, quality, location)
