@@ -36,8 +36,11 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
 
     Returns
     -------
-    dict
+    dictionary
         Cheapest sell price found at the location for each item.
+        The keys are the items' unique names and values are tuples of the format
+
+        (quality, price).
     """
     names = item_unique_name.copy()
     quality_copy = quality.copy()
@@ -62,9 +65,10 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
         for item in response:
             item_index = names.index(item['item_id'])
             if quality_copy[item_index] == item['quality']:
-                res[names.pop(item_index)] = item['sell_price_min']
+                res[names.pop(item_index)] = (
+                    quality_copy.pop(item_index), item['sell_price_min']
+                )
 
-                quality_copy.pop(item_index)
                 quality_no_dupes = remove_dupes(quality_copy)
 
         len(names) > 0 and sleep(1)  # Pause for 1 second if another request
@@ -186,7 +190,7 @@ def get_items_above_ip(
     list
         List of item tuples of the following format:
 
-        (unique_item_name, quality, ip)
+        (unique_item_name, quality)
 
         The item's name will have the enchant level if present.
     """
@@ -207,7 +211,7 @@ def get_items_above_ip(
                 curr_ip = get_item_power(item_name, quality, mastery, ao_data)
                 if curr_ip >= ip:
                     res.append(
-                        (item_name, quality, curr_ip)
+                        (item_name, quality)
                     )
 
     return res

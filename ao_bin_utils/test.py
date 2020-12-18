@@ -2,6 +2,10 @@ import unittest
 
 from ao_bin_data import AoBinData
 import ao_bin_utilities as abu
+import ao_bin_utils.ao_bin_tools as aot
+
+import sys
+sys.path.insert(0, 'E:\\GitHub_Repos\\ao-bin-dumps\\')
 
 
 class UnitTests(unittest.TestCase):
@@ -62,28 +66,50 @@ class UnitTests(unittest.TestCase):
         location = 'Lymhurst'
 
         prices = abu.get_item_price(item, quality, location)
-        for item_name, item_price in prices.items():
-            self.assertIn(item_name, item)
-            self.assertEqual(type(item_price), int)
+        for i in range(len(prices)):
+            self.assertEqual(item[i], list(prices.keys())[i])
+            self.assertEqual(quality[i], list(prices.values())[i][0])
+            self.assertEqual(int, type(list(prices.values())[i][1]))
 
     def test_get_items_above_ip(self):
         item = "T4_OFF_SHIELD@1"
         ip = 1400
         mastery = 0
         expected = [
-            ('T7_OFF_SHIELD@3', 5, 1400),
-            ('T8_OFF_SHIELD@2', 5, 1400),
-            ('T8_OFF_SHIELD@3', 1, 1400),
-            ('T8_OFF_SHIELD@3', 2, 1410),
-            ('T8_OFF_SHIELD@3', 3, 1420),
-            ('T8_OFF_SHIELD@3', 4, 1450),
-            ('T8_OFF_SHIELD@3', 5, 1500),
+            ('T7_OFF_SHIELD@3', 5),
+            ('T8_OFF_SHIELD@2', 5),
+            ('T8_OFF_SHIELD@3', 1),
+            ('T8_OFF_SHIELD@3', 2),
+            ('T8_OFF_SHIELD@3', 3),
+            ('T8_OFF_SHIELD@3', 4),
+            ('T8_OFF_SHIELD@3', 5),
         ]
 
         self.assertListEqual(
             abu.get_items_above_ip(item, ip, mastery, self._ao),
             expected
         )
+
+    def test_efficient_item_power(self):
+        target_ip = 980
+        items = [
+            self._ao.get_unique_name("Adept's Bloodletter")
+        ]
+        mastery = [
+            148
+        ]
+        location = 'Lymhurst'
+
+        expected_items = [
+            self._ao.get_unique_name("Adept's Bloodletter") + '@1'
+        ]
+
+        eip = aot.AoBinTools(
+            aot.EfficientItemPower(target_ip, items, mastery, location)
+        )
+
+        eip_res = eip.get_calculation()
+        self.assertEqual(eip_res['items'], expected_items)
 
 
 if __name__ == "__main__":

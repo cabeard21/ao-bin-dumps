@@ -1,5 +1,6 @@
 from __future__ import annotations
 from .ao_bin_data import AoBinData
+import ao_bin_utilities as abu
 
 from abc import ABC, abstractmethod
 from typing import Dict, List
@@ -107,7 +108,7 @@ class EfficientItemPower(Strategy):
         The minimum IP each item must be.
     items: list
         A list of item unique names that represent the build.
-    specs: list
+    mastery: list
         A list of integers that are the bonus IP for each item.
     location: str
         The name of the market to use
@@ -119,7 +120,7 @@ class EfficientItemPower(Strategy):
     """
 
     def __init__(
-            self, target_ip: int, items: List, specs: List, location: str):
+            self, target_ip: int, items: List, mastery: List, location: str):
         """Constructor for the class.
 
         Parameters
@@ -128,7 +129,7 @@ class EfficientItemPower(Strategy):
             The minimum IP each item must be.
         items: list
             A list of item unique names that represent the build.
-        specs: list
+        mastery: list
             A list of integers that are the bonus IP for each item.
         location: str
             The name of the market to use
@@ -136,6 +137,7 @@ class EfficientItemPower(Strategy):
 
         self._target_ip = target_ip
         self._items = items
+        self._mastery = mastery
         self._location = location
 
     def algorithm(self, ao_data: AoBinData) -> Dict:
@@ -145,8 +147,9 @@ class EfficientItemPower(Strategy):
             1: Loop through each item stored by the class.
             2: For each item:
                 a: Use ao_data to find all items that meet the minimum IP when
-                    including specs.
-                b: Do a GET request to get the price for all items found in (a).
+                    including mastery.
+                b: Do a GET request to get the price for all items
+                    found in (a).
                 c: Add the cheapest item and price to the result dictionary.
 
         Parameters
@@ -158,9 +161,48 @@ class EfficientItemPower(Strategy):
         Returns
         -------
         dictionary
-            'Items': List of item unique names for the chosen items.
-            'Prices': List of floats that are the market prices for each
+            'items': List of item unique names for the chosen items.
+            'qualities': List of item quality for each item.
+            'item_power': List of the item power for each item.
+            'prices': List of floats that are the market prices for each
             item in 'Items'.
         """
 
-        pass  # TODO: Implement
+        res = {
+            'items': [],
+            'qualities': [],
+            'item_power': [],
+            'prices': [],
+        }
+        for i in range(len(self._items)):
+            item = self._items[i]
+            mastery = self._mastery[i]
+
+            candidate_items = abu.get_items_above_ip(
+                item,
+                self._target_ip,
+                mastery,
+                ao_data
+            )
+
+            item_names = [x[0] for x in candidate_items]
+            qualities = [x[1] for x in candidate_items]
+            price_data = abu.get_item_price(
+                item_names, qualities, self._location
+            )
+
+            cheapest_item_name = sorted(price_data)[0]
+
+            res['items'].append(cheapest_item_name)
+            res['qualities'].append(price_data[cheapest_item_name][0])
+            res['item_power'].append(
+                abu.get_item_power(
+                    cheapest_item_name,
+                    price_data[cheapest_item_name][0],
+                    mastery,
+                    ao_data
+                )
+            )
+            res['prices'].append(price_data[cheapest_item_name][1])
+
+        return res
