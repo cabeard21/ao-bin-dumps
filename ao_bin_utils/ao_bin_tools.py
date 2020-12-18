@@ -120,7 +120,12 @@ class EfficientItemPower(Strategy):
     """
 
     def __init__(
-            self, target_ip: int, items: List, mastery: List, location: str):
+            self,
+            target_ip: int,
+            items: List,
+            mastery: List,
+            min_tiers: List,
+            location: str,):
         """Constructor for the class.
 
         Parameters
@@ -131,6 +136,9 @@ class EfficientItemPower(Strategy):
             A list of item unique names that represent the build.
         mastery: list
             A list of integers that are the bonus IP for each item.
+        min_tiers: list
+            A list of integers that are the tier above which items will be
+            considered.
         location: str
             The name of the market to use
         """
@@ -138,6 +146,7 @@ class EfficientItemPower(Strategy):
         self._target_ip = target_ip
         self._items = items
         self._mastery = mastery
+        self._min_tiers = min_tiers
         self._location = location
 
     def algorithm(self, ao_data: AoBinData) -> Dict:
@@ -177,11 +186,13 @@ class EfficientItemPower(Strategy):
         for i in range(len(self._items)):
             item = self._items[i]
             mastery = self._mastery[i]
+            min_tier = self._min_tiers[i]
 
             candidate_items = abu.get_items_above_ip(
                 item,
                 self._target_ip,
                 mastery,
+                min_tier,
                 ao_data
             )
 

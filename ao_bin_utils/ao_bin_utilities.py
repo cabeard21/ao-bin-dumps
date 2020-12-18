@@ -38,7 +38,8 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
     -------
     dictionary
         Cheapest sell price found at the location for each item.
-        The keys are the items' unique names and values are tuples of the format
+        The keys are the items' unique names and values are tuples of the
+        format
 
         (quality, price).
     """
@@ -163,10 +164,11 @@ def get_items_above_ip(
         unique_item_name,
         ip,
         mastery,
+        min_tier,
         ao_data: AoBinData) -> List:
     """Return a list of different tier/quality items that are above a given IP.
 
-    Starting with the T4 version of the item:
+    Starting with the minimum tier version of the item:
         1. If IP >= min, add item at base quality (1)
         2. Increase quality by 1 and add if IP >= min until quality is > 5.
         3. Increase enchant level and repeat 1-2
@@ -182,6 +184,8 @@ def get_items_above_ip(
         The IP above which items will be returned.
     mastery: int
         Bonus IP from mastery in the item.
+    min_tier: int
+        The tier to start looking at for minimum IP's.
     ao_data: AoBinData object
         Pointer to the AoBinData object containing item information.
 
@@ -200,7 +204,7 @@ def get_items_above_ip(
 
     res = []
 
-    for tier in range(4, 9):
+    for tier in range(min_tier, 9):
         for enchant in range(0, 4):
             item_name = (
                 f"T{tier}_" + pattern.split(unique_item_name)[-1]

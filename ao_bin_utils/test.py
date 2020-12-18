@@ -86,26 +86,31 @@ class UnitTests(unittest.TestCase):
         ]
 
         self.assertListEqual(
-            abu.get_items_above_ip(item, ip, mastery, self._ao),
+            abu.get_items_above_ip(item, ip, mastery, 4, self._ao),
             expected
         )
 
     def test_efficient_item_power(self):
-        target_ip = 980
+        target_ip = 1090
         items = [
             self._ao.get_unique_name("Adept's Bloodletter")
         ]
         mastery = [
             148
         ]
+        min_tiers = [
+            5
+        ]
         location = 'Lymhurst'
 
         expected_items = [
-            self._ao.get_unique_name("Adept's Bloodletter") + '@1'
+            self._ao.get_unique_name("Expert's Bloodletter") + '@1'
         ]
 
         eip = aot.AoBinTools(
-            aot.EfficientItemPower(target_ip, items, mastery, location)
+            aot.EfficientItemPower(
+                target_ip, items, mastery, min_tiers, location
+            )
         )
 
         eip_res = eip.get_calculation()
