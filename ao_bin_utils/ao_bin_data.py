@@ -212,12 +212,59 @@ class AoBinData(metaclass=SingletonMeta):
     def generate_fixture(self):
         """Generates a Django fixture file ready for import.
 
-        This file is formated to work with a specific Django app. The file 
+        This file is formated to work with a specific Django app. The file
         generated will be in a "fixture" folder that can be software linked to
         the app using it.
 
         Returns
         -------
-        None.
+        boolean
+            True if the statements execute without raising an exception.
         """
-        pass
+        try:
+            import os
+            output_file = os.sep.join([
+                os.path.dirname(__file__), 'fixtures', 'ao_bin_fixture.json'
+            ])
+            with open(output_file, 'w') as f:
+
+                res = []
+                item_types = {}
+                pk = 1
+                for k, v in self._item_name.items():
+                    current_item_type = v['@shopsubcategory1']
+
+                    # Item Type
+                    if current_item_type not in item_types.keys():
+                        item_types[current_item_type] = len(item_types) + 1
+                        current_res = {
+                            'model': 'Equipment.ItemType',
+                            'pk': item_types[current_item_type],
+                            'fields': {
+                                'item_type': current_item_type,
+                            }
+                        }
+                        res.append(current_res)
+
+                    # Item
+                    current_res = {
+                        'model': 'Equipment.Item',
+                        'pk': pk,
+                        'fields': {
+                            'item_name': k,
+                            'tier': v['@tier'],
+                            'item_type': item_types[current_item_type]
+                        }
+                    }
+                    res.append(current_res)
+                    pk = pk + 1
+
+                json.dump(res, f)
+
+            return True
+
+        except Exception as e:
+            print(e)
+            raise
+
+        return False
