@@ -114,7 +114,7 @@ class UnitTests(unittest.TestCase):
         )
 
         eip_res = eip.get_calculation()
-        self.assertEqual(eip_res['items'], expected_items)
+        self.assertEqual(eip_res['item_names'], expected_items)
 
     def test_generate_fixture(self):
         self.assertTrue(self._ao.generate_fixture())

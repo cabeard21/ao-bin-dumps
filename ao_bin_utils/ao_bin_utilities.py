@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from ao_bin_data import AoBinData
+from ao_bin_utils.ao_bin_data import AoBinData
 
 from typing import List, Dict
 import requests
@@ -10,7 +10,7 @@ from time import sleep
 TIER_FINDER = r"T\d_"
 
 
-def get_item_price(item_unique_name, quality, location) -> Dict:
+def get_item_price(item_unique_name, quality, location) -> List:
     """Utility function to get an item's cheapest sell price at a given location.
 
     This method tries to minimize the amount of GET requests needed.
@@ -36,26 +36,29 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
 
     Returns
     -------
-    dictionary
+    list
         Cheapest sell price found at the location for each item.
-        The keys are the items' unique names and values are tuples of the
-        format
 
-        (quality, price).
+        (item_name, quality, price).
+
+        If a non-zero price is not found for an item, it will not be in
+        the results.
     """
     names = item_unique_name.copy()
     quality_copy = quality.copy()
 
-    quality_no_dupes = remove_dupes(quality_copy)
+    res = []
 
-    res = {}
+    item_found = True  # First run
+    while item_found:
+        item_found = False
 
-    while len(names) > 0:
         url = (
             f"https://www.albion-online-data.com/api/v2/stats/prices/"
-            f"{','.join(names)}"
+            f"{','.join(remove_dupes(names))}"
         )
 
+        quality_no_dupes = remove_dupes(quality_copy)
         params = {
             'locations': location,
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
@@ -63,16 +66,27 @@ def get_item_price(item_unique_name, quality, location) -> Dict:
 
         response = requests.get(url, params=params).json()
 
-        for item in response:
-            item_index = names.index(item['item_id'])
-            if quality_copy[item_index] == item['quality']:
-                res[names.pop(item_index)] = (
-                    quality_copy.pop(item_index), item['sell_price_min']
-                )
+        item_index_offset = 0
+        for item_index in range(len(names)):
+            item_index = item_index - item_index_offset
+            for item in response:
+                if (
+                    names[item_index] == item['item_id'] and
+                    quality_copy[item_index] == item['quality'] and
+                    item['sell_price_min'] > 0
+                ):
+                    res.append(
+                        (
+                            names.pop(item_index),
+                            quality_copy.pop(item_index),
+                            item['sell_price_min']
+                        )
+                    )
+                    item_index_offset = item_index_offset + 1
+                    item_found = True
+                    break
 
-                quality_no_dupes = remove_dupes(quality_copy)
-
-        len(names) > 0 and sleep(1)  # Pause for 1 second if another request
+        item_found and sleep(1)  # Pause if another request
 
     return res
 
@@ -88,14 +102,14 @@ def remove_dupes(input_list):
     Returns
     -------
     list
-        Returns a list with dupilcates removed.
+        Returns a sorted list with dupilcates removed.
     """
 
     res = []
 
     [res.append(x) for x in input_list if x not in res]
 
-    return res
+    return sorted(res)
 
 
 def get_item_power(

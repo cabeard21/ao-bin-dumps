@@ -1,6 +1,6 @@
 from __future__ import annotations
-from .ao_bin_data import AoBinData
-import ao_bin_utilities as abu
+from ao_bin_utils.ao_bin_data import AoBinData
+import ao_bin_utils.ao_bin_utilities as abu
 
 from abc import ABC, abstractmethod
 from typing import Dict, List
@@ -170,17 +170,17 @@ class EfficientItemPower(Strategy):
         Returns
         -------
         dictionary
-            'items': List of item unique names for the chosen items.
+            'item_names': List of item unique names for the chosen items.
             'qualities': List of item quality for each item.
-            'item_power': List of the item power for each item.
+            'item_powers': List of the item power for each item.
             'prices': List of floats that are the market prices for each
             item in 'Items'.
         """
 
         res = {
-            'items': [],
+            'item_names': [],
             'qualities': [],
-            'item_power': [],
+            'item_powers': [],
             'prices': [],
         }
         for i in range(len(self._items)):
@@ -202,18 +202,18 @@ class EfficientItemPower(Strategy):
                 item_names, qualities, self._location
             )
 
-            cheapest_item_name = sorted(price_data)[0]
+            cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
-            res['items'].append(cheapest_item_name)
-            res['qualities'].append(price_data[cheapest_item_name][0])
-            res['item_power'].append(
+            res['item_names'].append(cheapest_item[0])
+            res['qualities'].append(cheapest_item[1])
+            res['item_powers'].append(
                 abu.get_item_power(
-                    cheapest_item_name,
-                    price_data[cheapest_item_name][0],
+                    cheapest_item[0],
+                    cheapest_item[1],
                     mastery,
                     ao_data
                 )
             )
-            res['prices'].append(price_data[cheapest_item_name][1])
+            res['prices'].append(cheapest_item[2])
 
         return res

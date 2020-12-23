@@ -164,16 +164,10 @@ class AoBinData(metaclass=SingletonMeta):
             The item's information as a dictionary, taken from the JSON file.
         """
 
-        res = {}
-        if not unique:
-            res = self._item_name[item_name]
-        else:
-            for v in self._item_name.values():
-                if v['@uniquename'] == item_name:
-                    res = v
-                    break
+        if unique:
+            item_name = self.get_local_name(item_name)
 
-        return res
+        return self._item_name[item_name]
 
     def get_quality_table(self):
         """Returns the JSON dictionary portion containing the quality
@@ -208,6 +202,26 @@ class AoBinData(metaclass=SingletonMeta):
             self._item_name[item_name]['@uniquename']
             + (f'@{enchant}' if enchant > 0 and enchant < 6 else "")
         )
+
+    def get_local_name(self, item_name):
+        """Get an item's local name from it's unique name.
+
+        Parameters
+        ----------
+        item_name: str
+            The item's unique name.
+
+        Returns
+        -------
+        string
+            The item's local name. Returns None if none are found.
+        """
+        item_name = item_name.split('@')[0]
+        for k, v in self._item_name.items():
+            if v['@uniquename'] == item_name:
+                return k
+
+        return None
 
     def generate_fixture(self):
         """Generates a Django fixture file ready for import.
