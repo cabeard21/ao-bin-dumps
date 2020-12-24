@@ -1,6 +1,9 @@
 import json
 import os  # For relative paths
 from threading import Lock  # For Singleton
+import re
+
+TIER_FINDER = r"T\d_"
 
 
 class SingletonMeta(type):
@@ -181,6 +184,29 @@ class AoBinData(metaclass=SingletonMeta):
 
         return self._game['Items']['QualityLevels']['qualitylevel']
 
+    def get_quality_name(self, quality):
+        """Returns the quality level's name.
+
+        Parameters
+        ----------
+        quality: int
+            Number that represents the quality level.
+
+        Returns
+        -------
+        string
+            The name of the quality level in game.
+        """
+
+        quality_names = {
+            1: 'Normal',
+            2: 'Good',
+            3: 'Outstanding',
+            4: 'Excellent',
+            5: 'Masterpiece',
+        }
+        return quality_names[quality]
+
     def get_unique_name(self, item_name, enchant=0):
         """Get an item's unque name from it's local name.
 
@@ -222,6 +248,29 @@ class AoBinData(metaclass=SingletonMeta):
                 return k
 
         return None
+
+    def get_item_tier(self, item):
+        """Returns a string with the item's tier and enchant level as a string.
+
+        Parameters
+        ----------
+        item: str
+            The item's unique name w/ enchant level.
+
+        Returns
+        -------
+        string
+            The item's tier and enchant level formated as:
+
+            {tier}.{enchant_lvl} e.g. 4.2
+        """
+
+        tier = re.compile(TIER_FINDER).search(item)[0][1]
+        enchant_lvl = item.split('@')[-1] if '@' in item else 0
+        return (
+            f"{tier}" +
+            (f".{enchant_lvl}" if enchant_lvl != 0 else '')
+        )
 
     def generate_fixture(self):
         """Generates a Django fixture file ready for import.
