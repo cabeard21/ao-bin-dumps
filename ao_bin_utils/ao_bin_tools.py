@@ -133,8 +133,9 @@ class EfficientItemPower(Strategy):
 
         Parameters
         ----------
-        target_ip: int
-            The minimum IP each item must be.
+        target_ip: list
+            The minimum IP each item must be. 0 will choose the cheapest
+            available item and -1 will choose the highest IP/Cost.
         items: list
             A list of item unique names that represent the build.
         mastery: list
@@ -190,10 +191,11 @@ class EfficientItemPower(Strategy):
             item = self._items[i]
             mastery = self._mastery[i]
             min_tier = self._min_tiers[i]
+            target_ip = self._target_ip[i]
 
             candidate_items = abu.get_items_above_ip(
                 item,
-                self._target_ip,
+                target_ip,
                 mastery,
                 min_tier,
                 ao_data
@@ -205,7 +207,20 @@ class EfficientItemPower(Strategy):
                 item_names, qualities, self._location
             )
 
-            cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
+            if target_ip == -1:
+                ip_cost_ratios = list(map(
+                    lambda x: abu.get_item_power(
+                        x[0], x[1], mastery, ao_data
+                    )/x[2],
+                    price_data
+                ))
+                cheapest_item = sorted(
+                    zip(price_data, ip_cost_ratios),
+                    key=lambda x: x[1]
+                )[-1][0]
+
+            else:
+                cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
             res['item_names'].append(cheapest_item[0])
             res['qualities'].append(cheapest_item[1])
