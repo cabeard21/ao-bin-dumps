@@ -221,6 +221,8 @@ def get_items_above_ip(
 
     unique_item_name = unique_item_name.split('@')[0]
 
+    ip = abs(ip)
+
     res = []
 
     for tier in range(min_tier, 9):
