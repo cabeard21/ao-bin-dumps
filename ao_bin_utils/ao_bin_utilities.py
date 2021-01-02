@@ -65,7 +65,12 @@ def get_item_price(item_unique_name, quality, location) -> List:
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
         }
 
-        response = requests.get(url, params=params).json()
+        response = requests.get(url, params=params)
+        print(
+            '.' if response.status_code == 200 else '!',
+            end=''
+        )
+        response = response.json()
 
         item_index_offset = 0
         for item_index in range(len(names)):

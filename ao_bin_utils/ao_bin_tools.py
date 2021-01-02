@@ -1,9 +1,6 @@
 from __future__ import annotations
 from ao_bin_utils.ao_bin_data import AoBinData
 import ao_bin_utils.ao_bin_utilities as abu
-from ao_bin_utils.my_thread import (
-    MyThread, work_queue, queue_lock, result_list, set_exit_flag
-)
 
 from abc import ABC, abstractmethod
 from typing import Dict, List
@@ -233,109 +230,5 @@ class EfficientItemPower(Strategy):
                 )
             )
             res['prices'].append(cheapest_item[2])
-
-        return res
-
-
-class MultiEfficientItemPower(Strategy):
-    """Strategy that makes the EfficientItemPower strategy multi-threaded.
-
-    ...
-
-    Attributes
-    ----------
-    efficient_item_strategy: EfficientItemStrategy object
-        The strategy that will be made multi-threaded.
-
-    Methods
-    -------
-    algorithm(ao_data)
-        Creates a number of threads and then adds each item to a queue for
-        processing by the threads. This returns results in the same format as
-        the non-multithreaded algorithm.
-
-    Dependencies
-    ------------
-    my_thread
-        Provides MyThread class and several global variables used to access
-        queue and results.
-    """
-
-    def __init__(self, efficient_item_strategy):
-        """Constructor for MultiEfficientItemPower.
-
-        Parameters
-        ----------
-        efficient_item_strategy: EfficientItemStrategy object
-            The strategy that will be made multi-threaded.
-        """
-        self._efficient_item_strategy = efficient_item_strategy
-
-    def algorithm(self, ao_data: AoBinData) -> Dict:
-        """Creates a number of threads and then adds each item to a queue for
-        processing by the threads. This returns results in the same format as
-        the non-multithreaded algorithm.
-
-        Parameters
-        ----------
-        ao_data: AoBinData object
-            Allows the concrete class to access item data. Provided by the
-            context class to avoid tight coupling.
-
-        Returns
-        -------
-        dictionary
-            'item_names': List of item unique names for the chosen items.
-            'qualities': List of item quality for each item.
-            'item_powers': List of the item power for each item.
-            'prices': List of floats that are the market prices for each
-            item in 'Items'.
-        """
-
-        set_exit_flag(0)
-
-        threads = []
-        for i in range(4):
-            thread = MyThread(
-                lambda x: x.get_calculation(), work_queue, result_list
-            )
-            thread.start()
-            threads.append(thread)
-
-        queue_lock.acquire()
-        for i in range(len(self._efficient_item_strategy._items)):
-            eip = AoBinTools(
-                EfficientItemPower(
-                    self._efficient_item_strategy._target_ip,
-                    [self._efficient_item_strategy._items[i]],
-                    [self._efficient_item_strategy._mastery[i]],
-                    [self._efficient_item_strategy._min_tiers[i]],
-                    self._efficient_item_strategy._location
-                )
-            )
-            work_queue.put(eip)
-
-        queue_lock.release()
-
-        while not work_queue.empty():
-            pass
-
-        set_exit_flag(1)
-
-        for t in threads:
-            t.join()
-
-        # process results here
-        res = {
-            'item_names': [],
-            'qualities': [],
-            'item_powers': [],
-            'prices': [],
-        }
-        for thread_res in result_list:
-            res['item_names'].extend(thread_res['item_names'])
-            res['qualities'].extend(thread_res['qualities'])
-            res['item_powers'].extend(thread_res['item_powers'])
-            res['prices'].extend(thread_res['prices'])
 
         return res

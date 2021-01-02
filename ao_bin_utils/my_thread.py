@@ -6,7 +6,6 @@ exit_flag = 0
 queue_lock = threading.Lock()
 work_queue = queue.Queue(50)
 result_lock = threading.Lock()
-result_list = list()
 
 
 class MyThread(threading.Thread):
