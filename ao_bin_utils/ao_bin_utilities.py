@@ -156,7 +156,7 @@ def get_item_power(
     item_data = ao_data.get_item(base_item_name)
 
     item_power_data = {}
-    if enchant_lvl is not None:
+    if enchant_lvl is not None and 'enchantments' in item_data:
         for enchantment in item_data['enchantments']['enchantment']:
             if enchantment['@enchantmentlevel'] == enchant_lvl:
                 item_power_data = enchantment
@@ -178,7 +178,7 @@ def get_item_power(
     res = base_item_power + quality_item_power
 
     # Mastery Modifier
-    mod = (1 + float(item_data['@masterymodifier']))
+    mod = (1 + float(item_data.get('@masterymodifier', 0)))
     res = res + (mastery*mod)
 
     return res
