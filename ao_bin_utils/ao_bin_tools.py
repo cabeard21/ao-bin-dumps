@@ -204,6 +204,8 @@ class EfficientItemPower(Strategy):
                 item_names, qualities, self._location
             )
 
+            cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
+
             if target_ip == -1:
                 ip_cost_ratios = list(map(
                     lambda x: abu.get_item_power(
@@ -211,13 +213,12 @@ class EfficientItemPower(Strategy):
                     )/x[2],
                     price_data
                 ))
-                cheapest_item = sorted(
+                cheapest_item_candidate = sorted(
                     zip(price_data, ip_cost_ratios),
                     key=lambda x: x[1]
                 )[-1][0]
-
-            else:
-                cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
+                if cheapest_item_candidate[2] <= cheapest_item[2]*1.1:
+                    cheapest_item = cheapest_item_candidate
 
             res['item_names'].append(cheapest_item[0])
             res['qualities'].append(cheapest_item[1])

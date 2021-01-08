@@ -144,7 +144,7 @@ def get_item_power(
     Returns
     -------
     float
-        The item's Item Power.
+        The item's Item Power. If the item is not found, -1 is returned.
     """
 
     # Enchantment Level
@@ -154,6 +154,9 @@ def get_item_power(
         base_item_name, enchant_lvl = item_unique_name, None
 
     item_data = ao_data.get_item(base_item_name)
+
+    if not item_data:
+        return -1
 
     item_power_data = {}
     if enchant_lvl is not None and 'enchantments' in item_data:

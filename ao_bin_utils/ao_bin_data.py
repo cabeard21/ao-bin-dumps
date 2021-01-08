@@ -164,13 +164,18 @@ class AoBinData(metaclass=SingletonMeta):
         Returns
         -------
         dictionary
-            The item's information as a dictionary, taken from the JSON file.
+            The item's information as a dictionary, taken from the JSON file. If
+            the item is not found, None is returned.
         """
 
         if unique:
-            item_name = self.get_local_name(item_name)
+            item_name = (self.get_local_name(item_name) or item_name)
 
-        return self._item_name[item_name]
+        try:
+            return self._item_name[item_name]
+
+        except KeyError:
+            return None
 
     def get_quality_table(self):
         """Returns the JSON dictionary portion containing the quality
