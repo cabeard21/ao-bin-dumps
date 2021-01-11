@@ -60,6 +60,8 @@ class AoBinData(metaclass=SingletonMeta):
         Dictionary of "readable" item names and it's JSON data.
     _game: list
         List of dictionaries as read from the game JSON data file.
+    TIER_IDENTIFIERS: list
+        List of adjectives used to denote item tiers in local names.
 
     Methods
     -------
@@ -123,6 +125,17 @@ class AoBinData(metaclass=SingletonMeta):
             self._game = game['AO-GameData']
 
         self._map_item_names(items, names)
+
+        self.TIER_IDENTIFIERS = [
+            "Beginner's",
+            "Novice's",
+            "Journeyman's",
+            "Adept's",
+            "Expert's",
+            "Master's",
+            "Grandmaster's",
+            "Elder's",
+        ]
 
     def _map_item_names(self, items, names):
         """Builds the _item_name dictionary.
@@ -226,11 +239,23 @@ class AoBinData(metaclass=SingletonMeta):
         -------
         string
             Returns the item's unique name with it's enchant level
-            appended after '@'.
+            appended after '@'. If the item is not found, None is returned.
         """
 
+        if item_name in self._item_name.keys():
+            item_data = self._item_name[item_name]
+        else:
+            # Only base item has been passed, find first tier that works
+            for tier_name in self.TIER_IDENTIFIERS:
+                test_name = f"{tier_name} {item_name}"
+                if test_name in self._item_name.keys():
+                    item_data = self._item_name[test_name]
+
+        if item_data is None:
+            return None
+
         return (
-            self._item_name[item_name]['@uniquename']
+            item_data['@uniquename']
             + (f'@{enchant}' if enchant > 0 and enchant < 6 else "")
         )
 
@@ -289,6 +314,7 @@ class AoBinData(metaclass=SingletonMeta):
         boolean
             True if the statements execute without raising an exception.
         """
+
         try:
             import os
             output_file = os.sep.join([
@@ -298,7 +324,7 @@ class AoBinData(metaclass=SingletonMeta):
 
                 res = []
                 item_types = {}
-                pk = 1
+                item_names = {}
                 for k, v in self._item_name.items():
                     current_item_type = v['@shopsubcategory1']
 
@@ -315,17 +341,23 @@ class AoBinData(metaclass=SingletonMeta):
                         res.append(current_res)
 
                     # Item
-                    current_res = {
-                        'model': 'Equipment.Item',
-                        'pk': pk,
-                        'fields': {
-                            'item_name': k,
-                            'tier': v['@tier'],
-                            'item_type': item_types[current_item_type]
+                    item_name_words = k.split()
+                    item_name = [
+                        word for word in item_name_words
+                        if word not in self.TIER_IDENTIFIERS
+                    ]
+                    item_name = ' '.join(item_name)
+                    if item_name not in item_names.keys():
+                        item_names[item_name] = len(item_names) + 1
+                        current_res = {
+                            'model': 'Equipment.Item',
+                            'pk': item_names[item_name],
+                            'fields': {
+                                'item_name': item_name,
+                                'item_type': item_types[current_item_type]
+                            }
                         }
-                    }
-                    res.append(current_res)
-                    pk = pk + 1
+                        res.append(current_res)
 
                 json.dump(res, f)
 

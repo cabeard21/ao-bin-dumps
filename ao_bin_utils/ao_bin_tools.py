@@ -206,7 +206,7 @@ class EfficientItemPower(Strategy):
 
             cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
-            if target_ip == -1:
+            if target_ip < 0:
                 ip_cost_ratios = list(map(
                     lambda x: abu.get_item_power(
                         x[0], x[1], mastery, ao_data
