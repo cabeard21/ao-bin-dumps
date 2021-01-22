@@ -76,14 +76,14 @@ def get_item_price(item_unique_name, quality, location) -> List:
         for item_index in range(len(names)):
             item_index = item_index - item_index_offset
             for item in response:
-                data_age = (
-                    datetime.now() - datetime.strptime(item['sell_price_min_date'], '%Y-%m-%dT%H:%M:%S')
-                )
+                # data_age = (
+                #     datetime.now() - datetime.strptime(item['sell_price_min_date'], '%Y-%m-%dT%H:%M:%S')
+                # )
                 if (
                     names[item_index] == item['item_id'] and
                     quality_copy[item_index] == item['quality'] and
-                    item['sell_price_min'] > 0 and
-                    data_age.days <= 1
+                    item['sell_price_min'] > 0 # and
+                    # data_age.days <= 1
                 ):
                     res.append(
                         (
@@ -96,7 +96,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
                     item_found = True
                     break
 
-        (item_found or len(res) == 0) and sleep(1)  # Pause if another request
+        (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
 
     return res
 
