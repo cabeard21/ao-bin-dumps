@@ -82,9 +82,9 @@ class AoBinData(metaclass=SingletonMeta):
 
     def __init__(
         self,
-        item_file='..\\items.json',
-        name_file='..\\formatted\\items.json',
-        game_file='..\\gamedata.json',
+        item_file=os.path.join('..', 'items.json'),
+        name_file=os.path.join('..', 'formatted', 'items.json'),
+        game_file=os.path.join('..', 'gamedata.json'),
     ):
         """Constructor sets location of relevant data files.
 
