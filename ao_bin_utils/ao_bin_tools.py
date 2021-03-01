@@ -204,6 +204,13 @@ class EfficientItemPower(Strategy):
                 item_names, qualities, self._location
             )
 
+            if len(price_data) == 0:
+                # Handle when failing to find prices
+                res['item_names'].append(item_names[-1])
+                res['qualities'].append(0)
+                res['item_powers'].append(0)
+                res['prices'].append(0)
+
             cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
             if target_ip < 0:

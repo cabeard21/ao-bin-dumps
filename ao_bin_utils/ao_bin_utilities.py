@@ -51,6 +51,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
     res = []
 
     item_found = True  # First run
+    fail_count = 0
     while item_found or len(res) == 0:
         item_found = False
 
@@ -64,6 +65,12 @@ def get_item_price(item_unique_name, quality, location) -> List:
             'locations': location,
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
         }
+        if fail_count > 10:
+            print('/')
+            params['locations'] = "Caerleon,Thetford,Lymhurst,Fort Sterling,Martlock,Bridgewatch"
+            print(remove_dupes(names))
+            if fail_count > 20:
+                return res
 
         response = requests.get(url, params=params)
         print(
@@ -94,9 +101,14 @@ def get_item_price(item_unique_name, quality, location) -> List:
                     )
                     item_index_offset = item_index_offset + 1
                     item_found = True
+                    fail_count = 0
                     break
 
         (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
+
+        if not item_found:
+            print('*')
+            fail_count += 1
 
     return res
 
