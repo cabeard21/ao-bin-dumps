@@ -176,6 +176,8 @@ class EfficientItemPower(Strategy):
             'item_powers': List of the item power for each item.
             'prices': List of floats that are the market prices for each
             item in 'Items'.
+
+            Prices will be 0 for items whose price couldn't be found.
         """
 
         res = {

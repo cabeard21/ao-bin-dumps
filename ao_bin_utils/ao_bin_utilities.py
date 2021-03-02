@@ -25,6 +25,9 @@ def get_item_price(item_unique_name, quality, location) -> List:
 
     This method pauses for 1 second between GET requests.
 
+    Additionally, if the item can't be found at the location after a number of
+    tries, all cities will be included in the search.
+
     Parameters
     ----------
     item_unique_name: list of str
