@@ -156,9 +156,9 @@ class AoBinData(metaclass=SingletonMeta):
         for item in items:
             item_name = [
                 x['LocalizedNames']['EN-US']
-                for x in names if x['UniqueName'] == item['@uniquename']
+                for x in names if item['@uniquename'] in x['UniqueName']
             ]
-            if len(item_name) == 1:
+            if len(item_name) >= 1:
                 res[item_name[0]] = item
 
         self._item_name = res
@@ -325,6 +325,10 @@ class AoBinData(metaclass=SingletonMeta):
                 res = []
                 item_types = {}
                 item_names = {}
+                boots = {}
+                mounts = {}
+                mount_types = ['ox', 'ridinghorse', 'rare_mount']
+                bags = {}
                 for k, v in self._item_name.items():
                     current_item_type = v['@shopsubcategory1']
 
@@ -355,6 +359,42 @@ class AoBinData(metaclass=SingletonMeta):
                             'fields': {
                                 'item_name': item_name,
                                 'item_type': item_types[current_item_type]
+                            }
+                        }
+                        res.append(current_res)
+                    # Boots
+                    if ('shoes' in current_item_type and
+                            item_name not in boots.keys()):
+                        boots[item_name] = len(boots) + 1
+                        current_res = {
+                            'model': 'Item_Lists.Boot',
+                            'pk': boots[item_name],
+                            'fields': {
+                                'boot_name': item_name,
+                            }
+                        }
+                        res.append(current_res)
+                    # Mounts
+                    if (current_item_type in mount_types and
+                            item_name not in mounts.keys()):
+                        mounts[item_name] = len(mounts) + 1
+                        current_res = {
+                            'model': 'Item_Lists.Mount',
+                            'pk': mounts[item_name],
+                            'fields': {
+                                'mount_name': item_name,
+                            }
+                        }
+                        res.append(current_res)
+                    # Bags
+                    if ('bag' in current_item_type and
+                            item_name not in bags.keys()):
+                        bags[item_name] = len(bags) + 1
+                        current_res = {
+                            'model': 'Item_Lists.Bag',
+                            'pk': bags[item_name],
+                            'fields': {
+                                'bag_name': item_name,
                             }
                         }
                         res.append(current_res)
