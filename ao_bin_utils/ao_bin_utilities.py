@@ -55,7 +55,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
 
     item_found = True  # First run
     fail_count = 0
-    while item_found or len(res) == 0:
+    while len(names) > 0 and (item_found or len(res) == 0):
         item_found = False
 
         url = (
