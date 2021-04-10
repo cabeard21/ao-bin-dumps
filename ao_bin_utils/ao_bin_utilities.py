@@ -26,8 +26,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
     This method pauses for 1 second between GET requests.
 
     Additionally, if the item can't be found at the location after a number of
-    tries, all cities will be included in the search. If the item still can't
-    be found, item quality will be ignored.
+    tries, all cities will be included in the search.
 
     Parameters
     ----------
@@ -56,10 +55,8 @@ def get_item_price(item_unique_name, quality, location) -> List:
 
     item_found = True  # First run
     fail_count = 0
-    fail_count_threshold = 2  # Should be > 1
-    while len(names) > 0: #and (item_found or len(res) == 0):
+    while len(names) > 0 and (item_found or len(res) == 0):
         item_found = False
-        print(len(names))
 
         url = (
             f"https://www.albion-online-data.com/api/v2/stats/prices/"
@@ -71,11 +68,11 @@ def get_item_price(item_unique_name, quality, location) -> List:
             'locations': location,
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
         }
-        if fail_count >= fail_count_threshold:
+        if fail_count > 10:
             print('/')
             params['locations'] = "Caerleon,Thetford,Lymhurst,Fort Sterling,Martlock,Bridgewatch"
             print(remove_dupes(names))
-            if fail_count > fail_count_threshold*2:
+            if fail_count > 20:
                 return res
 
         response = requests.get(url, params=params)
@@ -94,8 +91,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
                 )
                 if (
                     names[item_index] == item['item_id'] and
-                    (fail_count > fail_count_threshold or 
-                     quality_copy[item_index] == item['quality']) and
+                    quality_copy[item_index] == item['quality'] and
                     item['sell_price_min'] > 0 and
                     data_age.days <= 1
                 ):
@@ -106,14 +102,12 @@ def get_item_price(item_unique_name, quality, location) -> List:
                             item['sell_price_min']
                         )
                     )
-                    print('+', end='')
                     item_index_offset = item_index_offset + 1
                     item_found = True
                     fail_count = 0
                     break
 
-#         (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
-        len(names) > 0 and sleep(0.5)  # Pause if another request
+        (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
 
         if not item_found:
             print('*')
