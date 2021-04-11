@@ -94,10 +94,10 @@ def get_item_price(item_unique_name, quality, location) -> List:
                 )
                 if (
                     names[item_index] == item['item_id'] and
-                    (fail_count > fail_count_threshold or 
+                    (fail_count >= fail_count_threshold or
+                     data_age.days <= 1 and
                      quality_copy[item_index] == item['quality']) and
-                    item['sell_price_min'] > 0 and
-                    data_age.days <= 1
+                    item['sell_price_min'] > 0
                 ):
                     res.append(
                         (
@@ -109,7 +109,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
                     print('+', end='')
                     item_index_offset = item_index_offset + 1
                     item_found = True
-                    fail_count = 0
+                    # fail_count = 0
                     break
 
 #         (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
