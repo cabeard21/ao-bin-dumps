@@ -83,41 +83,45 @@ def get_item_price(item_unique_name, quality, location) -> List:
             '.' if response.status_code == 200 else '!',
             end=''
         )
-        response = response.json()
+        try:
+            response = response.json()
 
-        item_index_offset = 0
-        for item_index in range(len(names)):
-            item_index = item_index - item_index_offset
-            for item in response:
-                data_age = (
-                    datetime.now() - datetime.strptime(item['sell_price_min_date'], '%Y-%m-%dT%H:%M:%S')
-                )
-                if (
-                    names[item_index] == item['item_id'] and
-                    (fail_count >= fail_count_threshold or
-                     data_age.days <= 1 and
-                     quality_copy[item_index] == item['quality']) and
-                    item['sell_price_min'] > 0
-                ):
-                    res.append(
-                        (
-                            names.pop(item_index),
-                            quality_copy.pop(item_index),
-                            item['sell_price_min']
-                        )
+            item_index_offset = 0
+            for item_index in range(len(names)):
+                item_index = item_index - item_index_offset
+                for item in response:
+                    data_age = (
+                        datetime.now() - datetime.strptime(item['sell_price_min_date'], '%Y-%m-%dT%H:%M:%S')
                     )
-                    print('+', end='')
-                    item_index_offset = item_index_offset + 1
-                    item_found = True
-                    # fail_count = 0
-                    break
+                    if (
+                        names[item_index] == item['item_id'] and
+                        (fail_count >= fail_count_threshold or
+                         data_age.days <= 1 and
+                         quality_copy[item_index] == item['quality']) and
+                        item['sell_price_min'] > 0
+                    ):
+                        res.append(
+                            (
+                                names.pop(item_index),
+                                quality_copy.pop(item_index),
+                                item['sell_price_min']
+                            )
+                        )
+                        print('+', end='')
+                        item_index_offset = item_index_offset + 1
+                        item_found = True
+                        # fail_count = 0
+                        break
 
-#         (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
-        len(names) > 0 and sleep(0.5)  # Pause if another request
+    #         (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
+            len(names) > 0 and sleep(0.5)  # Pause if another request
 
-        if not item_found:
-            print('*')
-            fail_count += 1
+            if not item_found:
+                print('*')
+                fail_count += 1
+        
+        except:
+            sleep(1)
 
     return res
 
