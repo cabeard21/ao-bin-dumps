@@ -42,6 +42,7 @@
       <xs:enumeration value="cast_staffsmashground"/>
       <xs:enumeration value="cast_spawnmob"/>
       <xs:enumeration value="cast_staffonground"/>
+      <xs:enumeration value="cast_staffarc"/>
       <xs:enumeration value="cast_standardattack"/>
       <xs:enumeration value="cast_stomp"/>
       <xs:enumeration value="cast_stomp_big"/>
@@ -63,7 +64,7 @@
       <xs:enumeration value="MagicStaff2H_AoeSpell"/>
 
       <xs:enumeration value="melee_areaattack"/>
-      <xs:enumeration value="melee_areadamage"/>
+      <xs:enumeration value="melee_areadamage"/>   
       <xs:enumeration value="melee_bigswing"/>      
       <xs:enumeration value="melee_crescentslash"/>
       <xs:enumeration value="melee_enlarge_weapon"/>
@@ -86,9 +87,11 @@
       <xs:enumeration value="melee_sweepingblow"/>
       <xs:enumeration value="melee_sweepingblow2"/>
       <xs:enumeration value="mount_ability_01"/>
+      <xs:enumeration value="mount_ability_02"/>
       <xs:enumeration value="mount_ability_channel"/>
       <xs:enumeration value="mount_ability_ultimate"/>
       <xs:enumeration value="mount_ability_utility"/>
+      <xs:enumeration value="mount_bastion_charge"/>
       <xs:enumeration value="mount_raven_scream"/>
       <xs:enumeration value="mount_rhino_charge"/>
       <xs:enumeration value="mount_rhino_stomp"/> 
@@ -102,9 +105,11 @@
       <xs:enumeration value="mount_beetle_buzz"/>
       <xs:enumeration value="mount_beetle_charge_climax"/>
       <xs:enumeration value="mount_beetle_fly_liftup"/>
+      <xs:enumeration value="pole_vault"/>
       <xs:enumeration value="quarterstaff_slam"/>
       <xs:enumeration value="ranged_aimcrossbow"/>
       <xs:enumeration value="ranged_heavycrossbow"/>
+      <xs:enumeration value="ranged_crossbow_aim"/>
       <xs:enumeration value="ranged_heavyshot" />      
       <xs:enumeration value="ranged_horizontalshot"/>
       <xs:enumeration value="ranged_standardshot"/>
@@ -119,7 +124,7 @@
       <xs:enumeration value="shoot_ground"/>
       <xs:enumeration value="taunt_01"/>
       <xs:enumeration value="throw_snowball"/>
-      <xs:enumeration value="throw_spear"/>
+      <xs:enumeration value="throw_weapon"/>
       <xs:enumeration value="vanity_beer_drink"/>
       <xs:enumeration value="vanity_hunting_horn"/>
       <xs:enumeration value="vanity_trumpet_play"/>
@@ -127,6 +132,8 @@
 	    <xs:enumeration value="vanity_poison_pot_trick"/>
       <xs:enumeration value="vanity_warbanner_present"/>
       <xs:enumeration value="vanity_warbanner_charge"/>
+  	  <xs:enumeration value="vanity_spellbook_fireworks"/>
+      <xs:enumeration value="vanity_spellbook_bird"/>
       <xs:enumeration value="open_chest"/>
       <xs:enumeration value="open_shrine"/>
       <xs:enumeration value="use_portal"/>
@@ -152,6 +159,7 @@
       <xs:enumeration value="channel_melee_aoe_01"/>
       <xs:enumeration value="channel_melee_attack_01"/>
       <xs:enumeration value="channel_melee_attack_02"/>
+      <xs:enumeration value="channel_melee_combo"/>
       <xs:enumeration value="channel_melee_heavy"/>
       <xs:enumeration value="channel_melee_whirlwind_01"/>
       <xs:enumeration value="channel_mount_ability"/>
@@ -187,32 +195,44 @@
       <xs:enumeration value="openworldattackconquer"/>
       <xs:enumeration value="territoryclaiming"/>
       <xs:enumeration value="orbclaiming"/>
+      <xs:enumeration value="traveltohideout"/>
+      <xs:enumeration value="hideoutmove"/>
     </xs:restriction>
   </xs:simpleType>
   
   <xs:simpleType name="forcedmovementSubID">
     <xs:restriction base="xs:string">
-      <!-- dash -->      
+      <!-- dash -->
+      <xs:enumeration value="mount_bastion_charge"/>
       <xs:enumeration value="cast_charge"/>
       <xs:enumeration value="etherialwalk"/>
       <xs:enumeration value="horse_dash"/>
       <xs:enumeration value="march"/>
       <xs:enumeration value="mount_rhino_charge"/>
+      <xs:enumeration value="mount_moabird_zigzag"/>
+      <xs:enumeration value="mount_swampdragon_shedskin"/>
       <!--scaled dash-->
       <xs:enumeration value="axe_jump"/>
+      <xs:enumeration value="banner_jump"/>
       <xs:enumeration value="bigjump_halberd"/>
       <xs:enumeration value="cartwheel"/>
       <xs:enumeration value="cast_jump"/>
       <xs:enumeration value="charge_2hsword"/>
+      <xs:enumeration value="dagger_dash"/>      
+      <xs:enumeration value="divekick"/>
       <xs:enumeration value="dbstaff_leap"/>
-      <xs:enumeration value="elbowtackle"/>    
+      <xs:enumeration value="elbowtackle"/>
+      <xs:enumeration value="forwardkick"/>      
       <xs:enumeration value="jump"/>
       <xs:enumeration value="jump_attack"/>
       <xs:enumeration value="jump_toad"/>
       <xs:enumeration value="leap_spear"/>
+      <xs:enumeration value="mount_beetle_charge"/>
+      <xs:enumeration value="mount_juggernaut_charge"/>
       <xs:enumeration value="melee_sweepingblow2"/>      
       <xs:enumeration value="mighty_blow_jump"/>      
       <xs:enumeration value="mount_giantstag_leap"/>
+      <xs:enumeration value="pole_vault_jump"/>
       <xs:enumeration value="rapierstab"/>
       <xs:enumeration value="rendingrage_jump"/>      
       <xs:enumeration value="slam_down"/>
@@ -221,11 +241,10 @@
       <xs:enumeration value="strike_2hsword"/>
       <xs:enumeration value="tackle"/>
       <xs:enumeration value="tackle_ram"/>
-      <xs:enumeration value="mount_beetle_charge"/>
-      <xs:enumeration value="dagger_dash"/>
+      <xs:enumeration value="triplekick"/>
       <!--knockback-->
-      <xs:enumeration value="jumpshot"/>
-      <xs:enumeration value="cast_jump_back"/>      
+      <xs:enumeration value="cast_jump_back"/>
+      <xs:enumeration value="jumpshot"/>      
       <!--pull-->
       <xs:enumeration value="dash"/>
 

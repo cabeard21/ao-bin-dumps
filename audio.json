@@ -6,6 +6,49 @@
   "AudioInfos": {
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "@xsi:noNamespaceSchemaLocation": "audio.xsd",
+    "BattleMusicSystem": {
+      "@RangeToEnter": "30.0",
+      "@RangeToLeave": "40.0",
+      "@PartyMemberPvEWeighting": "6",
+      "@PvEMediumIntensityThreshold": "0.67",
+      "@PvEHighIntensityThreshold": "1.5",
+      "@PvPMediumIntensityTheshold": "0.66",
+      "@PvPHighIntensityThreshold": "1.5",
+      "@PlayerHealthMediumIntensityThreshold": "0.5",
+      "@PlayerHealthHighIntensityThreshold": "0.3"
+    },
+    "DangerZoneSettings": [
+      {
+        "@name": "BOSS_HELL",
+        "@RangeToEnter": "26",
+        "@RangeToLeave": "35",
+        "@BossType": "Hell"
+      },
+      {
+        "@name": "BOSS_STANDARD",
+        "@RangeToEnter": "25",
+        "@RangeToLeave": "32",
+        "@BossType": "Standard"
+      },
+      {
+        "@name": "BOSS_STANDARD_BIGAREA",
+        "@RangeToEnter": "30",
+        "@RangeToLeave": "40",
+        "@BossType": "Standard"
+      },
+      {
+        "@name": "BOSS_HIGHTHREAT",
+        "@RangeToEnter": "25",
+        "@RangeToLeave": "35",
+        "@BossType": "HighThreat"
+      },
+      {
+        "@name": "BOSS_HIGHTHREAT_BIGAREA",
+        "@RangeToEnter": "35",
+        "@RangeToLeave": "42",
+        "@BossType": "HighThreat"
+      }
+    ],
     "WwiseSwitchInfo": [
       {
         "@name": "HUMAN_MALE",
@@ -95,6 +138,15 @@
         }
       },
       {
+        "@name": "MOUNT_HORSE_HELL",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "horse_hell"
+        }
+      },
+      {
         "@name": "MOUNT_OX",
         "CharType": {
           "@name": "mount"
@@ -140,6 +192,15 @@
         }
       },
       {
+        "@name": "MOUNT_DIREWOLF_ARMORED",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "direwolf_armored"
+        }
+      },
+      {
         "@name": "MOUNT_DIREBOAR",
         "CharType": {
           "@name": "mount"
@@ -164,6 +225,15 @@
         },
         "MountType": {
           "@name": "direbear"
+        }
+      },
+      {
+        "@name": "MOUNT_DIREBEAR_ARMORED_PLATE",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "direbear_armored_plate"
         }
       },
       {
@@ -554,6 +624,15 @@
         }
       },
       {
+        "@name": "MOUNT_BEETLE_TANK",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "beetle_tank"
+        }
+      },
+      {
         "@name": "MOUNT_SPIDER",
         "CharType": {
           "@name": "mount"
@@ -587,6 +666,42 @@
         },
         "MountType": {
           "@name": "ent"
+        }
+      },
+      {
+        "@name": "MOUNT_JUGGERNAUT",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "juggernaut"
+        }
+      },
+      {
+        "@name": "MOUNT_LYNX",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "lynx"
+        }
+      },
+      {
+        "@name": "MOUNT_BASTION",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "bastion"
+        }
+      },
+      {
+        "@name": "MOUNT_CHIMERA",
+        "CharType": {
+          "@name": "mount"
+        },
+        "MountType": {
+          "@name": "chimera"
         }
       },
       {
@@ -743,6 +858,150 @@
         },
         "WeaponType": {
           "@name": "fire"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_BOSS",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "commander_caerleon"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "plate"
+        },
+        "WeaponType": {
+          "@name": "sword_big"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_KNIGHT",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "caerleon_knight"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "plate"
+        },
+        "WeaponType": {
+          "@name": "rapier_medium"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_GUARD_MALE",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "caerleon_guard_male"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "leather"
+        },
+        "WeaponType": {
+          "@name": "sword_long"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_GUARD_MALE_SUMMONED",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "caerleon_guard_male_summon"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "leather"
+        },
+        "WeaponType": {
+          "@name": "sword_long"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_GUARD_FEMALE",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "caerleon_guard_female"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "leather"
+        },
+        "WeaponType": {
+          "@name": "dagger_medium"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_GUARD_FEMALE_SUMMONED",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "caerleon_guard_female_summon"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "leather"
+        },
+        "WeaponType": {
+          "@name": "dagger_medium"
         },
         "MountType": {
           "@name": "empty"
@@ -1319,6 +1578,30 @@
         },
         "MobType": {
           "@name": "hide_giantstag"
+        },
+        "Size": {
+          "@name": "medium_ungulate"
+        },
+        "ArmorType": {
+          "@name": "hide"
+        },
+        "WeaponType": {
+          "@name": "swoosh_medium"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_MOOSE",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "hide"
+        },
+        "MobType": {
+          "@name": "hide_moose"
         },
         "Size": {
           "@name": "medium_ungulate"
@@ -2476,7 +2759,7 @@
           "@name": "leather"
         },
         "WeaponType": {
-          "@name": "swoosh_medium"
+          "@name": "dagger_small"
         },
         "MountType": {
           "@name": "empty"
@@ -2674,7 +2957,7 @@
           "@name": "plate"
         },
         "WeaponType": {
-          "@name": "swoosh_medium"
+          "@name": "mace_medium"
         },
         "MountType": {
           "@name": "empty"
@@ -2887,7 +3170,7 @@
           "@name": "plate"
         },
         "WeaponType": {
-          "@name": "spear_standard"
+          "@name": "spear_2h"
         },
         "MountType": {
           "@name": "empty"
@@ -2959,7 +3242,7 @@
           "@name": "plate"
         },
         "WeaponType": {
-          "@name": "swoosh_big"
+          "@name": "mace_2h_big"
         },
         "MountType": {
           "@name": "empty"
@@ -2983,7 +3266,7 @@
           "@name": "cloth"
         },
         "WeaponType": {
-          "@name": "barehanded"
+          "@name": "cursed"
         },
         "MountType": {
           "@name": "empty"
@@ -3271,7 +3554,7 @@
           "@name": "leather"
         },
         "WeaponType": {
-          "@name": "bolt_swoosh"
+          "@name": "bolt_medium"
         },
         "MountType": {
           "@name": "empty"
@@ -3526,7 +3809,7 @@
           "@name": "bone"
         },
         "WeaponType": {
-          "@name": "arrow_swoosh_mob"
+          "@name": "bow_standard"
         },
         "MountType": {
           "@name": "empty"
@@ -3629,6 +3912,78 @@
         }
       },
       {
+        "@name": "MOB_UNDEAD_BASIC_SKELETON",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "undead"
+        },
+        "MobType": {
+          "@name": "undead_skeleton"
+        },
+        "Size": {
+          "@name": "bone"
+        },
+        "ArmorType": {
+          "@name": "bone"
+        },
+        "WeaponType": {
+          "@name": "swoosh_small"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_UNDEAD_SKELETON_ARCHER",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "undead"
+        },
+        "MobType": {
+          "@name": "undead_skeleton"
+        },
+        "Size": {
+          "@name": "bone"
+        },
+        "ArmorType": {
+          "@name": "bone"
+        },
+        "WeaponType": {
+          "@name": "bow_standard"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_UNDEAD_SUMMONED_SWORD_SKELETON",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "undead"
+        },
+        "MobType": {
+          "@name": "undead_skeleton"
+        },
+        "Size": {
+          "@name": "bone"
+        },
+        "ArmorType": {
+          "@name": "bone"
+        },
+        "WeaponType": {
+          "@name": "sword_small"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
         "@name": "MOB_UNDEAD_PULLER",
         "CharType": {
           "@name": "mob"
@@ -3706,7 +4061,7 @@
           "@name": "undead"
         },
         "MobType": {
-          "@name": "undead_sarcophagus"
+          "@name": "undead_statue"
         },
         "Size": {
           "@name": "rock_big"
@@ -3754,7 +4109,7 @@
           "@name": "undead_necromancer"
         },
         "Size": {
-          "@name": "incorporeal_big"
+          "@name": "bone"
         },
         "ArmorType": {
           "@name": "bone"
@@ -3832,7 +4187,7 @@
           "@name": "bone_plate"
         },
         "WeaponType": {
-          "@name": "sword_big"
+          "@name": "hammer_big"
         },
         "MountType": {
           "@name": "empty"
@@ -3941,6 +4296,30 @@
         },
         "Size": {
           "@name": "wing_medium"
+        },
+        "ArmorType": {
+          "@name": "hide"
+        },
+        "WeaponType": {
+          "@name": "cursed"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_DEMON_IMP_ANTIRESET",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "demon"
+        },
+        "MobType": {
+          "@name": "demon_imp_antireset"
+        },
+        "Size": {
+          "@name": "wing_small"
         },
         "ArmorType": {
           "@name": "hide"
@@ -4127,6 +4506,30 @@
         },
         "MobType": {
           "@name": "demon_warlord_boss"
+        },
+        "Size": {
+          "@name": "big"
+        },
+        "ArmorType": {
+          "@name": "leather"
+        },
+        "WeaponType": {
+          "@name": "swoosh_big"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_DEMON_BRUTE",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "demon"
+        },
+        "MobType": {
+          "@name": "demon_brute"
         },
         "Size": {
           "@name": "big"
@@ -4540,7 +4943,7 @@
           "@name": "leather"
         },
         "WeaponType": {
-          "@name": "axe_swoosh_thrown"
+          "@name": "axe_small"
         },
         "MountType": {
           "@name": "empty"
@@ -5051,6 +5454,30 @@
         }
       },
       {
+        "@name": "MOB_ARCANE_SPIDER_BOSS",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "arcane"
+        },
+        "MobType": {
+          "@name": "arcane_spider_boss"
+        },
+        "Size": {
+          "@name": "small"
+        },
+        "ArmorType": {
+          "@name": "crystal"
+        },
+        "WeaponType": {
+          "@name": "blade_small"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
         "@name": "MOB_TERRITORY_COLLECTOR",
         "CharType": {
           "@name": "mob"
@@ -5069,6 +5496,54 @@
         },
         "WeaponType": {
           "@name": "frost"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_TERRITORY_ENERGY_CRYSTAL",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "territory_energy_crystal"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "crystal"
+        },
+        "WeaponType": {
+          "@name": "arcane"
+        },
+        "MountType": {
+          "@name": "empty"
+        }
+      },
+      {
+        "@name": "MOB_TERRITORY_POWER_CORE",
+        "CharType": {
+          "@name": "mob"
+        },
+        "MobFaction": {
+          "@name": "territory"
+        },
+        "MobType": {
+          "@name": "territory_power_core"
+        },
+        "Size": {
+          "@name": "medium"
+        },
+        "ArmorType": {
+          "@name": "crystal"
+        },
+        "WeaponType": {
+          "@name": "arcane"
         },
         "MountType": {
           "@name": "empty"
@@ -5228,6 +5703,12 @@
         "@name": "ITEM_GAUNTLETS",
         "WeaponType": {
           "@name": "gauntlets"
+        }
+      },
+      {
+        "@name": "ITEM_GAUNTLETS_SPEED",
+        "WeaponType": {
+          "@name": "gauntlets_fast"
         }
       },
       {
@@ -6179,6 +6660,12 @@
         }
       },
       {
+        "@name": "NPC_CITY_COMMANDER_CAERLEON",
+        "NpcType": {
+          "@name": "commander_caerleon"
+        }
+      },
+      {
         "@name": "NPC_TUTORIAL_TIA",
         "NpcType": {
           "@name": "tia"
@@ -6194,6 +6681,18 @@
     "WwiseEventInfo": [
       {
         "@name": "MOB_AVALON_CAPTAIN_BOSS",
+        "OnMobDied": {
+          "@name": "Die"
+        }
+      },
+      {
+        "@name": "MOB_UNDEAD_STATUE",
+        "OnMobDied": {
+          "@name": "Die"
+        }
+      },
+      {
+        "@name": "MOB_DEMON_IMP_ANTIRESET",
         "OnMobDied": {
           "@name": "Die"
         }
@@ -6224,6 +6723,12 @@
       },
       {
         "@name": "MOB_DEMON_BRUTE_BOSS",
+        "OnMobDied": {
+          "@name": "Die"
+        }
+      },
+      {
+        "@name": "MOB_DEMON_BRUTE",
         "OnMobDied": {
           "@name": "Die"
         }
@@ -6295,6 +6800,24 @@
         }
       },
       {
+        "@name": "MOB_ARCANE_SPIDER_BOSS",
+        "OnMobDied": {
+          "@name": "Die"
+        }
+      },
+      {
+        "@name": "MOB_TERRITORY_ENERGY_CRYSTAL",
+        "OnMobViewInit": {
+          "@name": "Play_mob_loops"
+        }
+      },
+      {
+        "@name": "MOB_TERRITORY_POWER_CORE",
+        "OnMobViewInit": {
+          "@name": "Play_mob_loops"
+        }
+      },
+      {
         "@name": "SPELLHIT_WEAPON_IMPACT",
         "OnSpellHit": {
           "ImpactType": null
@@ -6356,6 +6879,18 @@
         }
       },
       {
+        "@name": "MELEE_CAST_LOAD_ONLY",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        }
+      },
+      {
         "@name": "MELEE_HAMMER_BASH",
         "OnCastStart": {
           "@name": "Play_hammer_bash_small"
@@ -6403,9 +6938,21 @@
         }
       },
       {
+        "@name": "MELEE_SWORD_MIGHTY_BLOW",
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_big_double"
+        }
+      },
+      {
+        "@name": "MELEE_SWORD_HAMSTRING_DASH",
+        "OnCastFinished": {
+          "@name": "Play_melee_hamstring_jump"
+        }
+      },
+      {
         "@name": "MELEE_MEDIUMCAST",
         "OnCastStart": {
-          "@name": "Play_melee_swoosh_medium"
+          "@name": "Play_melee_swoosh_medium_noauto"
         }
       },
       {
@@ -6448,6 +6995,12 @@
         }
       },
       {
+        "@name": "MELEE_MEDIUMCAST_CHANNELED",
+        "OnChannelingStart": {
+          "@name": "Play_melee_swoosh_small_autoattack"
+        }
+      },
+      {
         "@name": "MELEE_MEDIUMCAST_NOAUTO_MEDIUMIMPACT",
         "OnCastStart": {
           "@name": "Play_melee_swoosh_load_medium"
@@ -6471,6 +7024,12 @@
         }
       },
       {
+        "@name": "MELEE_BIG_ROCK_IMPACT_HITONLY",
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_rock_big"
+        }
+      },
+      {
         "@name": "MELEE_MEDIUMCAST_ROCKIMPACT",
         "OnCastStart": {
           "@name": "Play_melee_swoosh_medium"
@@ -6486,6 +7045,12 @@
         },
         "OnSpellHit": {
           "@name": "Play_melee_impact_rock_big"
+        }
+      },
+      {
+        "@name": "MELEE_SPELLHIT_ROCKIMPACT_SMALL",
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_rock_small"
         }
       },
       {
@@ -6717,6 +7282,15 @@
         }
       },
       {
+        "@name": "SPELL_THROW_AXE",
+        "OnCastStart": {
+          "@name": "Play_emote_foley_armor_move_fast"
+        },
+        "OnCastFinished": {
+          "@name": "Play_throw_axe"
+        }
+      },
+      {
         "@name": "MELEE_BIG_SPIN_BIG_IMPACT",
         "OnCastStart": {
           "@name": "Play_melee_spin_big"
@@ -6728,6 +7302,12 @@
       },
       {
         "@name": "MELEE_SPINATTACK",
+        "OnCastFinished": {
+          "@name": "Play_spinning_blades"
+        }
+      },
+      {
+        "@name": "MELEE_SPINATTACK_IMPACT",
         "OnSpellHit": {
           "@name": "Play_melee_impact_big",
           "ImpactType": null
@@ -6944,6 +7524,22 @@
         }
       },
       {
+        "@name": "MELEE_GROUND_SHAKER_MACE",
+        "OnCastStart": {
+          "@name": "Play_melee_mace_load_swoosh_faster"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_mace_load_swoosh_faster"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_mace_load_swoosh_faster"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
         "@name": "MELEE_HEAVYSLAM_MACE",
         "OnCastStart": {
           "@name": "Play_melee_mace_load_swoosh"
@@ -7011,6 +7607,15 @@
         }
       },
       {
+        "@name": "MELEE_MACE_QUADRUNE_CAST",
+        "OnCastStart": {
+          "@name": "Play_cast_guard_rune"
+        },
+        "OnCastFinished": {
+          "@name": "Play_magicrune_cast"
+        }
+      },
+      {
         "@name": "MELEE_HAMMER_IRONBREAKER",
         "OnCastStart": {
           "@name": "Play_hammer_ironbreaker"
@@ -7018,8 +7623,8 @@
       },
       {
         "@name": "MELEE_CAST_EARTHSHATTER",
-        "OnCastStart": {
-          "@name": "Play_melee_cast_jump_swoosh"
+        "OnCastFinished": {
+          "@name": "Play_melee_cast_earthshatterer"
         }
       },
       {
@@ -7085,10 +7690,6 @@
         },
         "OnCastInterrupted": {
           "@name": "Stop_melee_execution_cast"
-        },
-        "OnSpellHit": {
-          "@name": "Play_melee_impact_big",
-          "ImpactType": null
         }
       },
       {
@@ -7104,6 +7705,12 @@
         "@name": "MELEE_RAPIERSTAB",
         "OnCastStart": {
           "@name": "Play_melee_lungingstab_cast"
+        }
+      },
+      {
+        "@name": "MELEE_DAGGER_BLOODBLADE",
+        "OnCastFinished": {
+          "@name": "Play_melee_bloodblade"
         }
       },
       {
@@ -7240,6 +7847,12 @@
         }
       },
       {
+        "@name": "MELEE_SCYTHESWING_FINALE",
+        "OnCastFinished": {
+          "@name": "Play_melee_scytheswing_finale"
+        }
+      },
+      {
         "@name": "MELEE_DUALAXE_CRAWLER",
         "OnCastStart": {
           "@name": "Play_melee_dualaxe_crawler"
@@ -7280,6 +7893,21 @@
         },
         "OnSpellHit": {
           "ImpactType": null
+        }
+      },
+      {
+        "@name": "MELEE_CAST_STAFF_VAULT_ATTACK",
+        "OnCastStart": {
+          "@name": "Play_melee_staff_vault_attack_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_staff_vault_attack_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_staff_vault_attack_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_staff_vault_attack"
         }
       },
       {
@@ -7343,6 +7971,329 @@
         "@name": "MELEE_CAST_SOULSHAKER",
         "OnCastFinished": {
           "@name": "Play_melee_soulshaker"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BASE_SWING_HIT",
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_swoosh_small_del"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckle_punch_impact_small",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BASE_SWING_SECOND_HIT",
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_swoosh_small_del"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckles_impact_basic",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BASE_SWING_HIT_INSTANT",
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_swoosh_small"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_small_add",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_DASH_SLIDE_KICK",
+        "OnCastFinished": {
+          "@name": "Play_melee_dash_slide"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_DASH_SLIDE_KICK_ONHIT",
+        "OnSpellHit": {
+          "@name": "Play_melee_dash_slide_kick"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_KICK_Q_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckles_impact_add_small",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_UPPERCUT_JUMP",
+        "OnCastFinished": {
+          "@name": "Play_melee_uppercut_jump"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_IMPACT_BASIC",
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckles_impact_basic",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_FIST_KNOCKBACK_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_self_knockback",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_CROSSTEP_DODGE",
+        "OnCastFinished": {
+          "@name": "Play_dodge_crosstep"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_SHOCKWAVE_PUNCH",
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_shockwave_punch_cast"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_SHOCKWAVE_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_shockwave_impact"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BLAZING_GEYSIR",
+        "OnCastFinished": {
+          "@name": "Play_melee_geyser_punch_cast"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BACKHAND_PUNCH",
+        "OnCastFinished": {
+          "@name": "Play_melee_backhand_punch"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_PARRY_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_melee_knuckles_parry_pose"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_melee_knuckles_parry_pose"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_melee_knuckles_parry_pose"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_melee_knuckles_parry_pose"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_COUNTER_DASH",
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_dash"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_COUNTER_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_melee_backhand_impact"
+        }
+      },
+      {
+        "@name": "SPELL_MELEE_KNUCKLECOMBO_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_melee_knucklecombo_punch"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_melee_knucklecombo_punch"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_melee_knucklecombo_punch"
+        }
+      },
+      {
+        "@name": "SPELL_MELEE_KNUCKLECOMBO_CHANNEL_HIT_INCL",
+        "OnChannelingStart": {
+          "@name": "Play_melee_knucklecombo_punch_hit_incl"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_melee_knucklecombo_punch_hit_incl"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_melee_knucklecombo_punch_hit_incl"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_DIVEPUNCH_RISE",
+        "OnCastFinished": {
+          "@name": "Play_melee_divepunch_rise"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_DIVEPUNCH_FALL",
+        "OnCastFinished": {
+          "@name": "Play_melee_divepunch_fall"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_DIVEPUNCH_EXPLOSION",
+        "OnSpellHit": {
+          "@name": "Play_melee_divepunch_explosion"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_TRIPLEKICK",
+        "OnCastFinished": {
+          "@name": "Play_melee_triplekick"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_TRIPLEKICK_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_melee_kick_impact_quick"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_IMPULSEPUNCH",
+        "OnCastStart": {
+          "@name": "Play_melee_impulsepunch"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_impulsepunch"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_impulsepunch"
+        }
+      },
+      {
+        "@name": "SPELL_MELEE_PUMMELING_STRIKE_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_melee_pummeling_strike_channel"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_melee_pummeling_strike_channel"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_melee_pummeling_strike_channel"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_melee_pummeling_strike_channel"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_PUMMELING_CAST",
+        "OnCastStart": {
+          "@name": "Play_melee_pummeling_strike_cast"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BOULDER_CAST",
+        "OnCastStart": {
+          "@name": "Play_melee_bouldertoss_cast_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_bouldertoss_cast_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_bouldertoss_cast_load"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_BOULDER_HIT_TARGET",
+        "OnSpellHit": {
+          "@name": "Play_spell_boulder_impact_target"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_GROWING_PUNCH_CAST",
+        "OnCastStart": {
+          "@name": "Play_melee_knuckles_load_growing_punch"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_growing_punch"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_GROWING_PUNCH_CAST_CHANNEL",
+        "OnCastStart": {
+          "@name": "Play_melee_knuckles_load_growing_punch"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_GROWING_PUNCH_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_melee_knuckles_growing_punch"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_GROWING_PUNCH_CHANNEL_EXPLOSIONONEND",
+        "OnChannelingStart": {
+          "@name": "Play_melee_knuckles_load_growing_punch"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_melee_knuckles_load_growing_punch"
+        },
+        "OnChannelingEnd": {
+          "@name": "Play_melee_knuckles_growing_punch"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_TRIPLE_ROUNDHOUSE",
+        "OnCastFinished": {
+          "@name": "Play_melee_knuckles_triple_roundhouse"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_IMPACT_BIG_PUNCH",
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckles_impact_big_punch",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_IMPACT_BIG_PUNCH_ADD_MELEE",
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckles_impact_big_punch_addmelee",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_TRIPLE_DIVEKICK",
+        "OnCastFinished": {
+          "@name": "Play_melee_divekick"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_TRIPLE_POWERPUNCH",
+        "OnCastStart": {
+          "@name": "Play_melee_powerpunch_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_powerpunch_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_powerpunch_load"
+        }
+      },
+      {
+        "@name": "SPELL_KNUCKLES_IMPACT_EXPLOSION",
+        "OnSpellHit": {
+          "@name": "Play_melee_knuckle_explosion"
         }
       },
       {
@@ -7493,6 +8444,21 @@
         }
       },
       {
+        "@name": "SPELL_ARROW_KNOCKBACKSHOT",
+        "OnCastStart": {
+          "@name": "Play_bolt_load_silencer"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_bolt_load_silencer"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_bolt_load_silencer"
+        },
+        "OnCastFinished": {
+          "@name": "Play_arrow_cast_medium_instant"
+        }
+      },
+      {
         "@name": "SPELL_ARROW_CAST_ARMOURPIERCER",
         "OnCastStart": {
           "@name": "Play_arrow_cast_swoosh_big"
@@ -7520,6 +8486,15 @@
         }
       },
       {
+        "@name": "SPELL_ARROW_CAST_BIG_WITHHIT",
+        "OnCastStart": {
+          "@name": "Play_arrow_cast_big"
+        },
+        "OnSpellHit": {
+          "@name": "Play_arrow_impact_medium"
+        }
+      },
+      {
         "@name": "SPELL_ARROW_UNDEAD_MINE",
         "OnCastStart": {
           "@name": "Play_arrow_cast_swoosh_big"
@@ -7531,6 +8506,12 @@
       {
         "@name": "SPELL_ARROW_HIT_MEDIUM",
         "OnSpellHit": {
+          "@name": "Play_arrow_impact_medium"
+        }
+      },
+      {
+        "@name": "SPELL_ARROW_HIT_MEDIUM_CHANNELED",
+        "OnChannelingHit": {
           "@name": "Play_arrow_impact_medium"
         }
       },
@@ -7693,6 +8674,9 @@
       },
       {
         "@name": "SPELL_THROW_SPEAR",
+        "OnCastStart": {
+          "@name": "Play_emote_foley_armor_move_fast"
+        },
         "OnCastFinished": {
           "@name": "Play_throw_spear_intense"
         }
@@ -7803,6 +8787,18 @@
         }
       },
       {
+        "@name": "SPELL_ARCANE_CAST_LOAD_CHANNEL",
+        "OnCastStart": {
+          "@name": "Play_arcane_cast_load_short"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_arcane_cast_load_short"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_arcane_cast_load_short"
+        }
+      },
+      {
         "@name": "SPELL_ARCANE_HIT_MEDIUM",
         "OnSpellHit": {
           "@name": "Play_arcane_impact_medium"
@@ -7892,13 +8888,13 @@
       {
         "@name": "SPELL_CURSED_CAST_DARKMATTER",
         "OnCastStart": {
-          "@name": "Play_cursed_cast_start_standard"
+          "@name": "Play_cursed_cast_darkmatter"
         },
         "OnCastInterrupted": {
-          "@name": "Stop_cursed_cast_start_standard"
+          "@name": "Stop_cursed_cast_darkmatter"
         },
         "OnCastCanceled": {
-          "@name": "Stop_cursed_cast_start_standard"
+          "@name": "Stop_cursed_cast_darkmatter"
         },
         "OnCastFinished": {
           "@name": "Play_cursed_cast_medium"
@@ -7916,7 +8912,13 @@
           "@name": "Stop_cursed_cast_start_enfeeble"
         },
         "OnCastFinished": {
-          "@name": "Play_cursed_cast_medium_stomp"
+          "@name": "Stop_cursed_cast_start_enfeeble"
+        }
+      },
+      {
+        "@name": "SPELL_CURSED_CHANNEL_ENFEEBLEBLADES",
+        "OnChannelingStart": {
+          "@name": "Play_cursed_cast_medium_blade"
         }
       },
       {
@@ -7932,9 +8934,6 @@
         },
         "OnCastFinished": {
           "@name": "Play_cursed_cast_medium"
-        },
-        "OnSpellHit": {
-          "@name": "Play_cursed_impact_medium"
         }
       },
       {
@@ -7980,6 +8979,39 @@
         },
         "OnCastFinished": {
           "@name": "Play_cursed_cast_medium"
+        }
+      },
+      {
+        "@name": "SPELL_CURSED_CAST_LOAD_HIT_MEDIUM",
+        "OnCastStart": {
+          "@name": "Play_cursed_cast_start_standard"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_cursed_cast_start_standard"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_cursed_cast_start_standard"
+        },
+        "OnCastFinished": {
+          "@name": "Play_cursed_cast_medium"
+        },
+        "OnSpellHit": {
+          "@name": "Play_cursed_impact_medium"
+        }
+      },
+      {
+        "@name": "SPELL_CURSED_CAST_BIG",
+        "OnCastStart": {
+          "@name": "Play_cursed_load_dynamic"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_cursed_load_dynamic"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_cursed_load_dynamic"
+        },
+        "OnCastFinished": {
+          "@name": "Play_cursed_cast_big"
         }
       },
       {
@@ -8079,6 +9111,24 @@
         },
         "OnCastFinished": {
           "@name": "Play_fire_cast_big"
+        }
+      },
+      {
+        "@name": "SPELL_FIRE_CAST_LOAD_BIG_HIT",
+        "OnCastStart": {
+          "@name": "Play_fire_cast_load_big"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_fire_cast_load_big"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_fire_cast_load_big"
+        },
+        "OnCastFinished": {
+          "@name": "Play_fire_cast_big"
+        },
+        "OnSpellHit": {
+          "@name": "Play_fire_impact_medium"
         }
       },
       {
@@ -8220,6 +9270,12 @@
         }
       },
       {
+        "@name": "SPELL_FIRE_BUFF_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_fire_buff_impact"
+        }
+      },
+      {
         "@name": "SPELL_FROST_START_MEDIUM",
         "OnCastStart": {
           "@name": "Play_frost_cast_medium"
@@ -8280,6 +9336,21 @@
         },
         "OnCastFinished": {
           "@name": "Play_frost_cast_big"
+        }
+      },
+      {
+        "@name": "SPELL_FROST_CAST_MEDIUM_LOAD",
+        "OnCastStart": {
+          "@name": "Play_frost_cast_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_frost_cast_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_frost_cast_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_frost_cast_medium"
         }
       },
       {
@@ -8361,6 +9432,21 @@
         }
       },
       {
+        "@name": "SPELL_HIT_FROST_CRACK",
+        "OnSpellHit": {
+          "@name": "Play_frost_crack"
+        }
+      },
+      {
+        "@name": "SPELL_FROST_FREEZINGWIND_CAST",
+        "OnCastFinished": {
+          "@name": "Play_frost_freezingwind"
+        },
+        "OnSpellHit": {
+          "@name": "Play_frost_impact_medium"
+        }
+      },
+      {
         "@name": "SPELL_HOLY_CAST_LOAD_SMALL",
         "OnCastStart": {
           "@name": "Play_holy_cast_load_small"
@@ -8417,7 +9503,7 @@
           "@name": "Stop_holy_cast_load_damage"
         },
         "OnCastFinished": {
-          "@name": "Play_holy_cast_medium"
+          "@name": "Play_holy_cast_damage_medium"
         }
       },
       {
@@ -8469,6 +9555,21 @@
         }
       },
       {
+        "@name": "SPELL_HOLY_CELESTIAL_SPHERE",
+        "OnCastStart": {
+          "@name": "Play_holy_cast_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_holy_cast_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_holy_cast_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_holy_cast_celestial_sphere"
+        }
+      },
+      {
         "@name": "SPELL_LIGHTNING_CAST_SMALL",
         "OnCastFinished": {
           "@name": "Play_lightning_cast_small"
@@ -8484,6 +9585,12 @@
         "@name": "SPELL_LIGHTNING_CAST_BIG",
         "OnCastFinished": {
           "@name": "Play_lightning_cast_big"
+        }
+      },
+      {
+        "@name": "SPELL_LIGHTNING_HIT_ADD",
+        "OnCastFinished": {
+          "@name": "Play_lightning_impact_add"
         }
       },
       {
@@ -8505,6 +9612,12 @@
         },
         "OnCastFinished": {
           "@name": "Play_lightning_cast_medium"
+        }
+      },
+      {
+        "@name": "SPELL_LIGHTNING_LOAD_CAST_ONFINISHED",
+        "OnCastFinished": {
+          "@name": "Play_cast_load_damage_lightning"
         }
       },
       {
@@ -8571,6 +9684,21 @@
         }
       },
       {
+        "@name": "SPELL_NATURE_CAST_LOAD_LONG_BIG",
+        "OnCastStart": {
+          "@name": "Play_nature_cast_load_long"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_nature_cast_load_long"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_nature_cast_load_long"
+        },
+        "OnCastFinished": {
+          "@name": "Play_nature_cast_big"
+        }
+      },
+      {
         "@name": "SPELL_NATURE_CAST_LOAD_DAMAGE",
         "OnCastStart": {
           "@name": "Play_nature_cast_load_damage"
@@ -8601,6 +9729,18 @@
         },
         "OnDamagReflected": {
           "@name": "Play_mob_stump_small_pierce"
+        }
+      },
+      {
+        "@name": "SPELL_NATURE_HEAL_SMALL",
+        "OnSpellHit": {
+          "@name": "Play_nature_heal_small"
+        }
+      },
+      {
+        "@name": "SPELL_NATURE_HEAL_ULTIMATE_END",
+        "OnSpellHit": {
+          "@name": "Play_nature_ultimate_end"
         }
       },
       {
@@ -8640,6 +9780,39 @@
         }
       },
       {
+        "@name": "SPELLHIT_DISMOUNTED_HOSTILE",
+        "OnSpellHit": {
+          "@name": "Play_dismounted_hostile"
+        }
+      },
+      {
+        "@name": "SPELLHIT_SPEED_INCREASE",
+        "OnSpellHit": {
+          "@name": "Play_speed_increase"
+        }
+      },
+      {
+        "@name": "SPELLHIT_ARMOR_INCREASE",
+        "OnSpellHit": {
+          "@name": "Play_armor_increase_repeated"
+        }
+      },
+      {
+        "@name": "SPELLHIT_CASTSPEED_INCREASE",
+        "OnSpellHit": {
+          "@name": "Play_castspeed_increase"
+        }
+      },
+      {
+        "@name": "SPELLHIT_MAXHEALTH_INCREASE",
+        "OnSpellHit": {
+          "@name": "Play_maxhealth_increase"
+        },
+        "OnSpellRemoved": {
+          "@name": "Play_shrink_repeated"
+        }
+      },
+      {
         "@name": "SPELLHIT_INVISIBILITY",
         "OnSpellHit": {
           "@name": "Play_cast_invisibility"
@@ -8652,15 +9825,33 @@
         }
       },
       {
+        "@name": "SPELL_SELF_BUFF_CASTFINISHED",
+        "OnCastFinished": {
+          "@name": "Play_selfbuff_cast"
+        }
+      },
+      {
         "@name": "SPELL_SMALL_DEBUFF",
         "OnSpellHit": {
           "@name": "Play_small_debuff"
         }
       },
       {
+        "@name": "SPELL_FROST_ROOT",
+        "OnSpellHit": {
+          "@name": "Play_root_frost"
+        }
+      },
+      {
         "@name": "SPELL_SELF_BUFF_HIT",
         "OnSpellHit": {
           "@name": "Play_selfbuff_cast"
+        }
+      },
+      {
+        "@name": "SPELL_VITALITY_BUFF_HIT",
+        "OnSpellHit": {
+          "@name": "Play_vitality_increase"
         }
       },
       {
@@ -8694,6 +9885,15 @@
         },
         "OnCastFinished": {
           "@name": "Play_melee_stomp_small"
+        }
+      },
+      {
+        "@name": "SPELL_SELF_BUFF_STOMP_DEL",
+        "OnCastStart": {
+          "@name": "Play_selfbuff_cast"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_stomp_small_del"
         }
       },
       {
@@ -8829,6 +10029,21 @@
         }
       },
       {
+        "@name": "SPELL_CHANNELING_DEBUFF",
+        "OnChannelingStart": {
+          "@name": "Play_channeling_debuff"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_channeling_debuff"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_channeling_debuff"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_channeling_debuff"
+        }
+      },
+      {
         "@name": "SPELL_FEAR_HIT",
         "OnCastFinished": {
           "@name": "Play_fear_impact"
@@ -8856,6 +10071,24 @@
         "@name": "SPELL_ROOT_IMPACT",
         "OnSpellHit": {
           "@name": "Play_root_loop"
+        }
+      },
+      {
+        "@name": "SPELL_SMOKEBOMB",
+        "OnSpellHit": {
+          "@name": "Play_cast_smokebomb"
+        }
+      },
+      {
+        "@name": "SPELL_DISAPPEAR",
+        "OnSpellHit": {
+          "@name": "Play_mount_disappear"
+        }
+      },
+      {
+        "@name": "SPELL_BURNAURA_CAST",
+        "OnCastFinished": {
+          "@name": "Play_fire_aura_cast"
         }
       },
       {
@@ -8962,6 +10195,12 @@
         },
         "OnSpellRemoved": {
           "@name": "Play_end_invisibility"
+        }
+      },
+      {
+        "@name": "SPELL_HELLGATE_MATCH_START",
+        "OnCastFinished": {
+          "@name": "Play_hellgate_cooldown_reset"
         }
       },
       {
@@ -9244,6 +10483,57 @@
         }
       },
       {
+        "@name": "SPELL_TANKBEETLE_ARROWRAIN_CAST",
+        "OnCastStart": {
+          "@name": "Play_mount_tankbeetle_load_arrowrain"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mount_tankbeetle_shoot_arrowrain"
+        }
+      },
+      {
+        "@name": "SPELL_TANKBEETLE_SPEARS_CAST",
+        "OnCastStart": {
+          "@name": "Play_mount_tankbeetle_spears_cast"
+        }
+      },
+      {
+        "@name": "SPELL_TANKBEETLE_CHANNEL_SPEARS",
+        "OnChannelingStart": {
+          "@name": "Play_mount_tankbeetle_spears_sequence"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_mount_tankbeetle_spears_loop"
+        },
+        "OnChannelingEnd": {
+          "@name": "Play_mount_tankbeetle_spears_end"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_mount_tankbeetle_spears_loop"
+        }
+      },
+      {
+        "@name": "SPELL_TANKBEETLE_BARRAGE_CAST",
+        "OnCastStart": {
+          "@name": "Play_mount_tankbeetle_barrage_load"
+        }
+      },
+      {
+        "@name": "SPELL_TANKBEETLE_CHANNEL_BARRAGE",
+        "OnChannelingStart": {
+          "@name": "Play_mount_tankbeetle_barrage_cast_sequence"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_mount_tankbeetle_barrage"
+        },
+        "OnChannelingEnd": {
+          "@name": "Play_mount_tankbeetle_barrage_end"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_mount_tankbeetle_barrage"
+        }
+      },
+      {
         "@name": "SPELL_MOUNT_HUSKY_HOWL",
         "OnCastStart": {
           "@name": "Play_cast_dog_howl"
@@ -9325,6 +10615,57 @@
         }
       },
       {
+        "@name": "SPELL_JUGGERNAUT_GROUND_SMASH",
+        "OnCastFinished": {
+          "@name": "Play_juggernaut_ground_smash"
+        }
+      },
+      {
+        "@name": "SPELL_JUGGERNAUT_ASSAULT",
+        "OnCastStart": {
+          "@name": "Play_juggernaut_spell_load_assault"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_juggernaut_spell_load_assault"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_juggernaut_spell_load_assault"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_dash_mob"
+        }
+      },
+      {
+        "@name": "SPELL_JUGGERNAUT_TORNADO_CAST",
+        "OnCastStart": {
+          "@name": "Play_juggernaut_cast_tornado"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_juggernaut_cast_tornado"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_juggernaut_cast_tornado"
+        },
+        "OnCastFinished": {
+          "@name": "Play_juggernaut_smash_swoosh"
+        }
+      },
+      {
+        "@name": "SPELL_JUGGERNAUT_TORNADO_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_rockaura_loop"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_rockaura_loop"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_rockaura_loop"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_rockaura_loop"
+        }
+      },
+      {
         "@name": "SPELL_MOUNT_OWL_SHIELD",
         "OnCastFinished": {
           "@name": "Play_owl_load"
@@ -9394,6 +10735,130 @@
         }
       },
       {
+        "@name": "SPELL_MOUNT_BASTION_BEAM",
+        "OnCastStart": {
+          "@name": "Play_bastion_cast_beam_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_bastion_shoot_beam"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_BASTION_CHARGE",
+        "OnCastStart": {
+          "@name": "Play_bastion_cast_charge"
+        },
+        "OnCastFinished": {
+          "@name": "Play_bastion_charge"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_BASTION_SHIELD_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_bastion_buff_shield_loop"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_bastion_buff_shield_loop"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_bastion_buff_shield_loop"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_bastion_buff_shield_loop"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_GREYWOLF_HUNTERSMARK_SPELLHIT",
+        "OnSpellHit": {
+          "@name": "Play_mount_greywolf_huntersmark_heartbeat",
+          "@onlytarget": "true"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_MOABIRD_ZIGZAG_DASH",
+        "OnCastFinished": {
+          "@name": "Play_mount_moabird_zigzag_dash"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_CAERLEON",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_caerleon"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_STEPPE",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_steppe"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_SWAMP",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_swamp"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_MOUNTAIN",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_mountain"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_HIGHLAND",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_highland"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_FW_BANNER_FOREST",
+        "OnCastFinished": {
+          "@name": "Play_mount_fw_banner_forest"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_DRAGON_SHEDSKIN",
+        "OnCastFinished": {
+          "@name": "Play_mount_dragon_shedskin"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_RAM_CHANNEL_DEFENSE",
+        "OnChannelingStart": {
+          "@name": "Play_mount_ram_channel_defensebonus"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_nature_resilience_loop"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_nature_resilience_loop"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_nature_resilience_loop"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_DIREBOAR_DASH",
+        "OnCastFinished": {
+          "@name": "Play_mount_direboar_dash"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_DIREBEAR_CALL",
+        "OnCastFinished": {
+          "@name": "Play_mount_direbear_shout"
+        }
+      },
+      {
+        "@name": "SPELL_MOUNT_DIREWOLF_HUNTERSMARK",
+        "OnCastFinished": {
+          "@name": "Play_mount_direwolf_call"
+        },
+        "OnSpellHit": {
+          "@name": "Play_huntersmark_impact"
+        }
+      },
+      {
         "@name": "SPELL_MOB_DAMAGE_INCREASE",
         "OnCastFinished": {
           "@name": "Play_mob_damage_increase"
@@ -9402,7 +10867,7 @@
       {
         "@name": "SPELL_MOB_SPEED_INCREASE",
         "OnCastFinished": {
-          "@name": "Play_mob_damage_increase"
+          "@name": "Play_mob_speed_increase"
         }
       },
       {
@@ -9427,6 +10892,45 @@
         "@name": "SPELL_ARCANE_BOSS_TORNADO",
         "OnCastFinished": {
           "@name": "Play_mob_arcane_elemental_boss_tornado"
+        }
+      },
+      {
+        "@name": "SPELL_ARCANE_SPIDER_DASH",
+        "OnCastStart": {
+          "@name": "Play_mob_arcane_spider_dash"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_dash_mob"
+        }
+      },
+      {
+        "@name": "SPELL_ARCANE_SPIDER_CAST_PUDDLE",
+        "OnCastStart": {
+          "@name": "Play_arcane_spider_cast_load_B"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_arcane_spider_cast_load_B"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_arcane_spider_cast_load_B"
+        },
+        "OnCastFinished": {
+          "@name": "Play_frost_cast_small"
+        }
+      },
+      {
+        "@name": "SPELL_ARCANE_SPIDER_CAST_PRISON",
+        "OnCastStart": {
+          "@name": "Play_mob_arcane_spider_cast_prison"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_arcane_spider_cast_prison"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_arcane_spider_cast_prison"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_arcane_spider_prison_beam"
         }
       },
       {
@@ -9601,12 +11105,94 @@
         }
       },
       {
+        "@name": "SPELL_HERETIC_THIEF_HEAVYSTRIKE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_heretic_heavystrike"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_small",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_THIEF_CLEAVE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_heretic_thief_cleave"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_THIEF_DASH",
+        "OnCastFinished": {
+          "@name": "Play_heretic_thief_dash"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_TANK_CRUSH",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_heretic_heavystrike"
+        }
+      },
+      {
         "@name": "SPELL_HERETIC_ARCHER_KNOCKBACK",
         "OnCastFinished": {
           "@name": "Play_arrow_cast_medium"
         },
         "OnSpellHit": {
           "@name": "Play_fire_impact_medium"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_ARCHER_KNOCKBACK_WITHLOAD",
+        "OnCastStart": {
+          "@name": "Play_bolt_load_snipeshot"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_bolt_load_snipeshot"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_bolt_load_snipeshot"
+        },
+        "OnCastFinished": {
+          "@name": "Play_arrow_cast_medium"
+        },
+        "OnSpellHit": {
+          "@name": "Play_fire_impact_medium"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_ARCHER_FLEE",
+        "OnCastStart": {
+          "@name": "Play_mob_heretic_archer_flee_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_heretic_archer_flee"
         }
       },
       {
@@ -9632,6 +11218,15 @@
       },
       {
         "@name": "SPELL_HERETIC_BALLISTA_BOSS_MORTAR",
+        "OnCastStart": {
+          "@name": "Play_fire_cast_load_big_short"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_fire_cast_load_big_short"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_fire_cast_load_big_short"
+        },
         "OnCastFinished": {
           "@name": "Play_ballista_boss_mortar_vo"
         }
@@ -9640,6 +11235,36 @@
         "@name": "SPELL_HERETIC_MORTAR",
         "OnCastFinished": {
           "@name": "Play_mortar_shoot"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_OVERSEER_SWIRL_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_overseer_swirl"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_overseer_swirl"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_overseer_swirl"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_overseer_swirl"
+        },
+        "OnChannelingHit": {
+          "@name": "Play_whip_haul"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_OVERSEER_HAUL",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_small_autoattack"
+        }
+      },
+      {
+        "@name": "SPELL_HERETIC_OVERSEER_HAUL_PULL",
+        "OnCastFinished": {
+          "@name": "Play_overseer_pull"
         }
       },
       {
@@ -9779,12 +11404,160 @@
         }
       },
       {
+        "@name": "SPELL_KEEPER_AXETHROWER_GROUNDBREAKER",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_small_instant"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_rock_big"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_AXETHROWER_LIGHTNING_AXE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_small_autoattack_delatt"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_UNPROVEN_EMPORED_SWING",
+        "OnCastFinished": {
+          "@name": "Play_keeper_unproven_empowered_attack"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_UNPROVEN_THROW",
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_small_autoattack_delatt"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_BERSERK_SUNDER",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_small_autoattack_delatt"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_BERSERK_SWING",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_keeper_berserk_axe_swoosh_single"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_BERSERK_SWING_DOUBLE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_keeper_berserk_axe_swoosh_double"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_BERSERK_ROCKSLIDE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_keeper_berserk_rockslide"
+        }
+      },
+      {
         "@name": "SPELL_KEEPER_BERSERKER_ENRAGE",
         "OnCastFinished": {
           "@name": "Play_mob_damage_increase"
         },
         "OnSpellHit": {
           "@name": "Play_berserker_enrage"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_BERSERKER_ENRAGE_VOONLY",
+        "OnSpellHit": {
+          "@name": "Play_berserker_enrage"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_GIANT_KICK_ROCKSLIDE",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_big"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_keeper_giant_rockslide"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_GIANT_WARSTOMP_CAST",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_basic"
         }
       },
       {
@@ -9803,12 +11576,100 @@
         }
       },
       {
-        "@name": "SPELL_KEEPER_CHIEFTAIN_ROAR",
+        "@name": "SPELL_KEEPER_GIANT_BOULDERTOSS",
+        "OnCastStart": {
+          "@name": "Play_mob_keeper_giant_create_boulder"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_keeper_giant_create_boulder"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_keeper_giant_create_boulder"
+        },
         "OnCastFinished": {
-          "@name": "Play_mob_damage_increase"
+          "@name": "Play_melee_swoosh_small"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_GIANT_THROW_ROCK",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_medium"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_medium"
+        },
+        "OnCastFinished": {
+          "@name": "Play_melee_swoosh_small_instant"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_CHIEFTAIN_ROAR",
+        "OnCastStart": {
+          "@name": "Play_keeper_chieftain_roar"
         },
         "OnSpellHit": {
-          "@name": "Play_keeper_chieftain_roar"
+          "@name": "Play_mob_damage_increase"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_CHIEFTAIN_DASH",
+        "OnCastFinished": {
+          "@name": "Play_mob_keeper_chieftain_dash"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_medium",
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_CHIEFTAIN_SMASH",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_big"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_keeper_chieftain_smash"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_rock_medium"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_CHIEFTAIN_SMASH_JUMP",
+        "OnCastStart": {
+          "@name": "Play_mob_keeper_chieftain_smash_jump"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_keeper_chieftain_smash_jump"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_keeper_chieftain_smash_jump"
+        },
+        "OnSpellHit": {
+          "@name": "Play_melee_impact_rock_medium"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_CHIEFTAIN_WHIRLWIND",
+        "OnCastStart": {
+          "@name": "Play_melee_swoosh_load_big"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_melee_swoosh_load_big"
+        },
+        "OnCastFinished": {
+          "@name": "Stop_melee_swoosh_load_big"
         }
       },
       {
@@ -9905,6 +11766,15 @@
         "@name": "SPELL_KEEPER_EARTHDAUGHTER_THUNDERSLAM",
         "OnCastStart": {
           "@name": "Play_mob_keeper_earthdaughter_thunderslam_vo"
+        }
+      },
+      {
+        "@name": "SPELL_KEEPER_EARTHDAUGHTER_THUNDERSLAM_BROKENGROUND",
+        "OnCastStart": {
+          "@name": "Play_mob_keeper_earthdaughter_thunderslam_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_keeper_earthdaughter_thunderslam_groundbreaker"
         }
       },
       {
@@ -10025,6 +11895,42 @@
         }
       },
       {
+        "@name": "SPELL_MORGANA_DEMONIC_BOLT",
+        "OnCastStart": {
+          "@name": "Play_cursed_cast_darkmatter"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_cursed_cast_darkmatter"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_cursed_cast_darkmatter"
+        },
+        "OnCastFinished": {
+          "@name": "Play_cursed_cast_medium"
+        },
+        "OnSpellHit": {
+          "@name": "Play_cursed_impact_medium"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_ACOLYTE_EMPOWERED_ATTACK",
+        "OnCastStart": {
+          "@name": "Play_cursed_cast_start_standard"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_cursed_cast_start_standard"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_cursed_cast_start_standard"
+        },
+        "OnCastFinished": {
+          "@name": "Play_cursed_cast_medium"
+        },
+        "OnSpellHit": {
+          "@name": "Play_cursed_impact_medium"
+        }
+      },
+      {
         "@name": "SPELL_MORGANA_CULTIST_BOMBARDIER_BEAM_VOICED",
         "OnCastStart": {
           "@name": "Play_mob_morgana_summoner_miniboss_beam_vo"
@@ -10103,6 +12009,27 @@
         }
       },
       {
+        "@name": "SPELL_MORGANA_KNIGHT_SHIELDBASH",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_knight_shieldbash"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_KNIGHT_ORDER",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_knight_order_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_morgana_knight_dash"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_SELFBUFF",
+        "OnSpellHit": {
+          "@name": "Play_mob_morgana_selfbuff"
+        }
+      },
+      {
         "@name": "SPELL_MORGANA_CROSSBOW_JUMP",
         "OnCastFinished": {
           "@name": "Play_mob_morgana_crossbow_jump"
@@ -10148,6 +12075,27 @@
         "@name": "SPELL_MORGANA_MAGISTRA_CHANNEL_LAUGH",
         "OnChannelingStart": {
           "@name": "Play_mob_morgana_magistra_exstatic_vo"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_MAGISTRA_CAST_LAUGH",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_magistra_exstatic_vo"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_CHANNEL_IMP_BUFF",
+        "OnChannelingStart": {
+          "@name": "Play_channel_demon"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_channel_demon"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_channel_demon"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_channel_demon"
         }
       },
       {
@@ -10274,6 +12222,108 @@
         "@name": "MORGANA_TRAP_CAST",
         "OnCastFinished": {
           "@name": "Play_mob_morgana_trap_shoot"
+        }
+      },
+      {
+        "@name": "MORGANA_SOLDIER_STAB_CAST",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_soldier_stab"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_morgana_soldier_stab"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_morgana_soldier_stab"
+        }
+      },
+      {
+        "@name": "MORGANA_SOLDIER_DEMONIC_FOCUS_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_demonic_circle_loop"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_demonic_circle_loop"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_demonic_circle_loop"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_demonic_circle_loop"
+        }
+      },
+      {
+        "@name": "MORGANA_SOLDIER_MINIBOSS_SWING",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_soldier_swing"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_morgana_soldier_swing"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_morgana_soldier_swing"
+        }
+      },
+      {
+        "@name": "MORGANA_SOLDIER_MINIBOSS_JUMP",
+        "OnCastFinished": {
+          "@name": "Play_mob_morgana_soldier_jump"
+        }
+      },
+      {
+        "@name": "MORGANA_SOLDIER_BOSS_BANNER",
+        "OnCastFinished": {
+          "@name": "Play_mob_morgana_banner"
+        }
+      },
+      {
+        "@name": "MORGANA_CAST_DEMONIC_BLADES",
+        "OnCastStart": {
+          "@name": "Play_cursed_cast_start_enfeeble"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_cursed_cast_start_enfeeble"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_cursed_cast_start_enfeeble"
+        },
+        "OnCastFinished": {
+          "@name": "Play_cursed_cast_medium"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_BLIGHT_CAST",
+        "OnCastStart": {
+          "@name": "Play_morgana_blight_area_cast"
+        },
+        "OnSpellHit": {
+          "@name": "Play_cursed_beam_oneshot"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_BLIGHT_CHANNEL",
+        "OnChannelingHit": {
+          "@name": "Play_cursed_beam_oneshot"
+        }
+      },
+      {
+        "@name": "SPELL_MORGANA_CAST_MARK",
+        "OnCastStart": {
+          "@name": "Play_mob_morgana_summoner_cast_blades"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_morgana_summoner_cast_blades"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_morgana_summoner_cast_blades"
+        },
+        "OnCastFinished": {
+          "@name": "Play_morgana_demonic_circle_start"
+        }
+      },
+      {
+        "@name": "DEMON_HELLGATE_MOBDESPAWN",
+        "OnSpellHit": {
+          "@name": "Play_demon_disappear_pentagram_vfx"
         }
       },
       {
@@ -10414,6 +12464,21 @@
         }
       },
       {
+        "@name": "DEMON_BRUTE_CHARGE",
+        "OnCastStart": {
+          "@name": "Play_mob_demon_warlord_castload_dash"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_demon_warlord_castload_dash"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_demon_warlord_castload_dash"
+        },
+        "OnCastFinished": {
+          "@name": "Play_charge"
+        }
+      },
+      {
         "@name": "DEMON_BRUTE_OFFHAND_KNOCKBACK_LAUGH",
         "OnCastStart": {
           "@name": "Play_mob_demon_warlord_offhandknockback_vo"
@@ -10462,6 +12527,15 @@
         },
         "OnCastFinished": {
           "@name": "Play_fire_cast_boomerang"
+        }
+      },
+      {
+        "@name": "DEMON_BRUTE_SWINGREDY_ROAR",
+        "OnCastFinished": {
+          "@name": "Play_mob_demon_warlord_brute_swingready_roar"
+        },
+        "OnSpellRemoved": {
+          "@name": "Stop_mob_demon_warlord_brute_swingready_roar"
         }
       },
       {
@@ -10588,6 +12662,102 @@
         }
       },
       {
+        "@name": "SPELL_UNDEAD_FIRE_BUFF",
+        "OnCastFinished": {
+          "@name": "Play_undead_stomp"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_HAND_CAST",
+        "OnCastStart": {
+          "@name": "Play_undead_skeleton_hand"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_undead_skeleton_hand"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_undead_skeleton_hand"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_SKELETON_SELFBUFF",
+        "OnCastFinished": {
+          "@name": "Play_undead_skeleton_selfbuff_vo"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_SOLDIER_CONSUMELIVING",
+        "OnCastStart": {
+          "@name": "Play_mob_undead_consume_living_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_undead_consume_living_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_undead_consume_living_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_undead_consume_living_cast"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_SOLDIER_SPLITTINGSTRIKE",
+        "OnCastStart": {
+          "@name": "Play_mob_undead_consume_living_load"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_undead_consume_living_load"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_undead_consume_living_load"
+        },
+        "OnCastFinished": {
+          "@name": "Play_undead_knight_splittingstrike"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_ARCHER_SKILLSHOT",
+        "OnCastStart": {
+          "@name": "Play_arrow_load_short"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_arrow_load_short"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_arrow_load_short"
+        },
+        "OnCastFinished": {
+          "@name": "Play_arrow_cast_medium"
+        },
+        "OnSpellHit": {
+          "@name": "Play_arrow_impact_medium"
+        },
+        "OnProjectileHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_ARROW_MULTISHOT",
+        "OnCastStart": {
+          "@name": "Play_arrow_load_short"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_arrow_load_short"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_arrow_load_short"
+        },
+        "OnCastFinished": {
+          "@name": "Play_arrow_cast_small"
+        },
+        "OnSpellHit": {
+          "@name": "Play_arrow_impact_medium"
+        },
+        "OnProjectileHit": {
+          "ImpactType": null
+        }
+      },
+      {
         "@name": "SPELL_UNDEAD_HARVESTER_SCYTHE",
         "OnCastFinished": {
           "@name": "Play_melee_scythe"
@@ -10670,7 +12840,31 @@
         }
       },
       {
+        "@name": "SPELL_UNDEAD_GOVERNOR_SWEEP",
+        "OnCastStart": {
+          "@name": "Play_undead_governor_cast"
+        },
+        "OnCastFinished": {
+          "@name": "Play_undead_melee_swoosh"
+        }
+      },
+      {
         "@name": "SPELL_UNDEAD_GHOUL_DASH",
+        "OnCastFinished": {
+          "@name": "Play_undead_ghoul_jump"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_GHOUL_DASH_WITHLOAD",
+        "OnCastStart": {
+          "@name": "Play_undead_ghoul_barf_shout"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_undead_ghoul_barf_shout"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_undead_ghoul_barf_shout"
+        },
         "OnCastFinished": {
           "@name": "Play_undead_ghoul_jump"
         }
@@ -10709,6 +12903,21 @@
         },
         "OnCastInterrupted": {
           "@name": "Stop_undead_ghoul_boss_barf"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_GHOUL_BOSS_BARF_IMPACT",
+        "OnSpellHit": {
+          "@name": "Play_mob_undead_barf_impact"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_GHOUL_BITE",
+        "OnCastFinished": {
+          "@name": "Play_undead_ghoul_jump"
+        },
+        "OnSpellHit": {
+          "@name": "Play_mob_undead_bite_big"
         }
       },
       {
@@ -10769,6 +12978,18 @@
         }
       },
       {
+        "@name": "SPELL_UNDEAD_KNIGHT_SPLITTINGSTRIKE_CASTFINISHED",
+        "OnCastStart": {
+          "@name": "Play_undead_knight_splittingstrike_castfinished"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_undead_knight_splittingstrike_castfinished"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_undead_knight_splittingstrike_castfinished"
+        }
+      },
+      {
         "@name": "SPELL_UNDEAD_HERO_CLEAVE",
         "OnCastStart": {
           "@name": "Play_undead_melee_swoosh"
@@ -10780,6 +13001,33 @@
       {
         "@name": "SPELL_UNDEAD_HERO_GROUNDSTAB",
         "OnCastStart": {
+          "@name": "Play_undead_soldier_boss_swing"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_undead_soldier_boss_swing"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_undead_soldier_boss_swing"
+        },
+        "OnSpellHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_SOLDIER_MINIBOSS_CLEAVE",
+        "OnCastStart": {
+          "@name": "Play_melee_jump_start"
+        },
+        "OnCastFinished": {
+          "@name": "Play_undead_melee_swoosh"
+        }
+      },
+      {
+        "@name": "SPELL_UNDEAD_SOLDIER_BOSS_GROUNDSTAB",
+        "OnCastStart": {
+          "@name": "Play_mob_undead_soldier_boss_load"
+        },
+        "OnCastFinished": {
           "@name": "Play_undead_swing"
         },
         "OnSpellHit": {
@@ -10925,6 +13173,39 @@
         },
         "OnCastFinished": {
           "@name": "Play_mob_avalon_builder_orb_shoot"
+        }
+      },
+      {
+        "@name": "SPELL_AVALON_TREASURE_DRONE_LASER_CAST",
+        "OnCastStart": {
+          "@name": "Play_mob_avalon_treasuredrone_beamload"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_mob_avalon_treasuredrone_beamload"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_mob_avalon_treasuredrone_beamload"
+        }
+      },
+      {
+        "@name": "SPELL_AVALON_TREASURE_DRONE_LASER_CHANNEL",
+        "OnChannelingStart": {
+          "@name": "Play_mob_avalon_treasuredrone_laser"
+        },
+        "OnChannelingEnd": {
+          "@name": "Stop_mob_avalon_treasuredrone_laser"
+        },
+        "OnChannelingCancelled": {
+          "@name": "Stop_mob_avalon_treasuredrone_laser"
+        },
+        "OnChannelingInterrupted": {
+          "@name": "Stop_mob_avalon_treasuredrone_laser"
+        }
+      },
+      {
+        "@name": "SPELL_AVALON_TREASURE_DRONE_KNOCKBACK",
+        "OnSpellHit": {
+          "@name": "Play_mob_avalon_drone_knockback"
         }
       },
       {
@@ -11698,6 +13979,15 @@
         }
       },
       {
+        "@name": "SPELL_CITY_FOREST_BOARIS_ENRAGE",
+        "OnCastStart": {
+          "@name": "Play_mob_hide_direboar_cast_spell"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_damage_increase"
+        }
+      },
+      {
         "@name": "SPELL_CITY_FOREST_BOARIS_DIE",
         "OnCastFinished": {
           "@name": "Play_forest_commander_boaris_die"
@@ -11707,6 +13997,15 @@
         "@name": "SPELL_CITY_FOREST_WINDWALL_CAST",
         "OnCastStart": {
           "@name": "Play_forest_commander_tornado_cast_start"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_forest_commander_tornado_cast_start"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_forest_commander_tornado_cast_start"
+        },
+        "OnCastFinished": {
+          "@name": "Play_forest_shoot_windwall"
         }
       },
       {
@@ -11725,12 +14024,18 @@
         "@name": "SPELL_CITY_SWAMP_METEOR_CAST",
         "OnCastStart": {
           "@name": "Play_swamp_commander_meteor_cast_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_fire_cast_big"
         }
       },
       {
         "@name": "SPELL_CITY_SWAMP_FIREWALL_CAST",
         "OnCastStart": {
           "@name": "Play_swamp_commander_cast_firewall"
+        },
+        "OnCastFinished": {
+          "@name": "Play_fire_cast_medium"
         }
       },
       {
@@ -11746,6 +14051,153 @@
         },
         "OnCastFinished": {
           "@name": "Play_fire_cast_medium"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_COMMANDER_TORCH_CAST",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_throw_short"
+        },
+        "OnCastFinished": {
+          "@name": "Play_fire_cast_small"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_CAST_SUMMON_PHASE1",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_commander_spell_summon_phase1"
+        },
+        "OnSpellRemoved": {
+          "@name": "Stop_caerleon_commander_spell_summon_phase1"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_CAST_SUMMON_PHASE2",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo_closed"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_commander_spell_summon_phase2"
+        },
+        "OnSpellRemoved": {
+          "@name": "Stop_caerleon_commander_spell_summon_phase2"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_COMMANDER_DASH",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_load_long_vo"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_caerleon_commander_spell_load_long_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_commander_spell_dash"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_COMMANDER_SHOUT",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_load_medium_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_commander_spell_shout"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_COMMANDER_CLEAVE",
+        "OnCastStart": {
+          "@name": "Play_caerleon_commander_spell_load_short_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_commander_spell_cleave"
+        },
+        "OnSpellHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_GUARD_FEMALE_TORCH",
+        "OnCastStart": {
+          "@name": "Play_caerleon_guard_female_load_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_guard_female_poison_vo"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_GUARD_MALE_CLEAVE",
+        "OnCastStart": {
+          "@name": "Play_caerleon_guard_male_load_vo"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_guard_male_cleave"
+        },
+        "OnSpellHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_KNIGHT_ENRAGE",
+        "OnCastStart": {
+          "@name": "Play_caerleon_knight_enrage"
+        },
+        "OnCastFinished": {
+          "@name": "Play_mob_damage_increase"
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_KNIGHT_CLEAVE",
+        "OnCastStart": {
+          "@name": "Play_caerleon_knight_cleave_swing_caststart"
+        },
+        "OnCastCanceled": {
+          "@name": "Stop_caerleon_knight_cleave_swing_caststart"
+        },
+        "OnCastInterrupted": {
+          "@name": "Stop_caerleon_knight_cleave_swing_caststart"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_knight_cleave_swing_castfinished"
+        },
+        "OnSpellHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_KNIGHT_CLEAVE_ENRAGED",
+        "OnCastStart": {
+          "@name": "Play_caerleon_knight_cleave_enraged_cast"
+        },
+        "OnCastFinished": {
+          "@name": "Play_caerleon_knight_cleave_enraged_swing"
+        },
+        "OnSpellHit": {
+          "ImpactType": null
+        }
+      },
+      {
+        "@name": "SPELL_CITY_CAERLEON_KNIGHT_JUMP",
+        "OnCastFinished": {
+          "@name": "Play_caerleon_knight_jump"
         }
       },
       {
@@ -11857,6 +14309,12 @@
         "@name": "SPELL_MOUNT_SPEED",
         "OnSpellHit": {
           "@name": "Play_mount_speed_increase"
+        }
+      },
+      {
+        "@name": "TUTORIAL_MUSIC_STRANDED",
+        "OnCastFinished": {
+          "@name": "Play_ui_jingles_tutorial_music_stranded"
         }
       },
       {
@@ -12308,6 +14766,18 @@
         "OnCastFinished": {
           "@name": "Play_knightset_banner_present"
         }
+      },
+      {
+        "@name": "VANITY_MAGEBOOK_FIREWORKS",
+        "OnCastFinished": {
+          "@name": "Play_mageset_fireworks"
+        }
+      },
+      {
+        "@name": "VANITY_MAGEBOOK_BIRDIE",
+        "OnCastFinished": {
+          "@name": "Play_mageset_birdie"
+        }
       }
     ],
     "WwiseGlobalEnvironmentEffect": [
@@ -12332,7 +14802,7 @@
       {
         "@name": "dungeon_hell",
         "ClusterTypes": {
-          "@name": "Dungeon"
+          "@name": "Hellgate"
         }
       },
       {
@@ -12397,7 +14867,7 @@
           "@name": "World"
         },
         "Biom": {
-          "@name": "Mountains"
+          "@name": "Mountain"
         },
         "SubBiom": {
           "@name": "Dead"
@@ -12418,7 +14888,7 @@
           "@name": "World"
         },
         "Biom": {
-          "@name": "Highlands"
+          "@name": "Highland"
         },
         "SubBiom": {
           "@name": "Dead"
@@ -12439,7 +14909,7 @@
           "@name": "World"
         },
         "Biom": {
-          "@name": "Highlands"
+          "@name": "Highland"
         },
         "SubBiom": {
           "@name": "Dead"
@@ -12460,7 +14930,7 @@
           "@name": "World"
         },
         "Biom": {
-          "@name": "Highlands"
+          "@name": "Highland"
         },
         "SubBiom": {
           "@name": "Dead"
@@ -12623,7 +15093,7 @@
         }
       },
       {
-        "@clustername": "CenterCity-DNG-01_DNG_.*_.*_.*_NON_GROUP",
+        "@clustername": "CenterCity-DNG-01_DNG_.*_.*_.*_NON_ROY",
         "Environment": {
           "@name": "Sewers"
         },
@@ -12682,7 +15152,7 @@
           "@name": "None"
         },
         "Music": {
-          "@name": "StartTown"
+          "@name": "territory"
         },
         "GlobalEnvironmentEffect": {
           "@name": "swamp"
@@ -12703,7 +15173,7 @@
           "@name": "None"
         },
         "Music": {
-          "@name": "StartTown"
+          "@name": "territory"
         },
         "GlobalEnvironmentEffect": {
           "@name": "forest"
@@ -12715,7 +15185,7 @@
           "@name": "City"
         },
         "Biom": {
-          "@name": "Mountains"
+          "@name": "Mountain"
         },
         "SubBiom": {
           "@name": "Green"
@@ -12724,7 +15194,7 @@
           "@name": "None"
         },
         "Music": {
-          "@name": "StartTown"
+          "@name": "territory"
         },
         "GlobalEnvironmentEffect": {
           "@name": "mountain"
@@ -12737,6 +15207,54 @@
         },
         "SubEnvironment": {
           "@name": "Hideout_Small"
+        },
+        "Biom": {
+          "@name": "None"
+        },
+        "SubBiom": {
+          "@name": "None"
+        },
+        "MobFaction": {
+          "@name": "None"
+        },
+        "Music": {
+          "@name": "Hideout"
+        },
+        "GlobalEnvironmentEffect": {
+          "@name": "cave"
+        }
+      },
+      {
+        "@clustername": "HIDEOUT-0001b_*",
+        "Environment": {
+          "@name": "Hideout"
+        },
+        "SubEnvironment": {
+          "@name": "Hideout_Medium"
+        },
+        "Biom": {
+          "@name": "None"
+        },
+        "SubBiom": {
+          "@name": "None"
+        },
+        "MobFaction": {
+          "@name": "None"
+        },
+        "Music": {
+          "@name": "Hideout"
+        },
+        "GlobalEnvironmentEffect": {
+          "@name": "cave"
+        }
+      },
+      {
+        "@clustername": "HIDEOUT-0001c_*",
+        "Environment": {
+          "@name": "Hideout"
+        },
+        "SubEnvironment": {
+          "@name": "Hideout_Big"
         },
         "Biom": {
           "@name": "None"
@@ -12817,7 +15335,10 @@
           "@name": "None"
         },
         "Music": {
-          "@name": "StartArea"
+          "@name": "Tutorial"
+        },
+        "Tutorial_State": {
+          "@name": "NoMusic"
         }
       },
       {
@@ -12844,7 +15365,7 @@
           "@name": "World"
         },
         "Biom": {
-          "@name": "Mountains"
+          "@name": "Mountain"
         },
         "SubBiom": {
           "@name": "Green"
@@ -12871,7 +15392,7 @@
           "@name": "None"
         },
         "Music": {
-          "@name": "StartTown"
+          "@name": "territory"
         }
       },
       {
@@ -13636,7 +16157,7 @@
           "@name": "Dungeon"
         },
         "GlobalEnvironmentEffect": {
-          "@name": "dungeon_heretic"
+          "@name": "dungeon_hell"
         }
       },
       {
@@ -13660,7 +16181,7 @@
           "@name": "Dungeon"
         },
         "GlobalEnvironmentEffect": {
-          "@name": "dungeon_heretic"
+          "@name": "dungeon_hell"
         }
       },
       {
@@ -13685,6 +16206,36 @@
         },
         "GlobalEnvironmentEffect": {
           "@name": "barracks"
+        }
+      }
+    ],
+    "QuestStateEvent": [
+      {
+        "@name": "TUT_FIRST_QUEST_ACCEPTED",
+        "States": {
+          "Music": {
+            "@name": "Tutorial"
+          },
+          "Tutorial_State": {
+            "@name": "FirstQuest"
+          }
+        }
+      },
+      {
+        "@name": "TUT_CLEAR_MUSIC",
+        "States": {
+          "Music": {
+            "@name": "Tutorial"
+          },
+          "Tutorial_State": {
+            "@name": "NoMusic"
+          }
+        }
+      },
+      {
+        "@name": "TUT_FINISH_SHIP_ARRIVES",
+        "Event": {
+          "@name": "Play_ui_jingle_tutorial_finished"
         }
       }
     ]

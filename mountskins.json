@@ -73,6 +73,24 @@
             "@reference": "SKIN_HORSE_UNICORN_WHITE_TELLAFRIEND",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_HORSE_HELL",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_HORSE_QUESTING_BEAST",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_HORSE_DEMONHUNTER",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
           }
         ]
       },
@@ -122,31 +140,55 @@
             "@goldprice": "3000",
             "@reference": "SKIN_ARMORED_HORSE_ROGUE",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
           },
           {
             "@goldprice": "3000",
             "@reference": "SKIN_ARMORED_HORSE_ROGUE_GUILD_COLORED",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
           },
           {
             "@goldprice": "3000",
             "@reference": "SKIN_ARMORED_HORSE_KNIGHT",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
           },
           {
             "@goldprice": "3000",
             "@reference": "SKIN_ARMORED_HORSE_KNIGHT_GUILD_COLORED",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_ARMORED_HORSE_MAGE",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_ARMORED_HORSE_MAGE_GUILD_COLORED",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
           },
           {
             "@goldprice": "0",
             "@reference": "SKIN_ARMORED_HORSE_PONY_NATIVE_CLIENT",
             "@mountview": "MountViewSmall",
             "@state": "Hidden"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_ARMORED_HORSE_PALADIN",
+            "@mountview": "MountViewTall",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_ARMORED_HORSE_PALADIN_GUILD_COLORED",
+            "@mountview": "MountViewTall",
+            "@state": "Locked"
           }
         ]
       },
@@ -198,6 +240,18 @@
             "@goldprice": "3000",
             "@reference": "SKIN_OX_BISON_ROYAL",
             "@mountview": "MountViewTall"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_OX_CART_LUXUS_TELLAFRIEND",
+            "@mountview": "MountViewTall",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_OX_MIST",
+            "@mountview": "MountViewTall",
+            "@state": "Hidden"
           }
         ]
       },
@@ -258,6 +312,31 @@
             "@reference": "SKIN_DIREWOLF_HYENA_TELLAFRIEND",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_DIREWOLF_BARBARIAN",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_DIREWOLF_SHEPHERD_TELLAFRIEND",
+            "@mountview": "MountViewSmall",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_DIREWOLF_MIST",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_DIREWOLF_SNOWFOX_TELLAFRIEND",
+            "@mountview": "MountViewSmall",
+            "@state": "Locked",
+            "@hiddenuntil": "2021-10-01T10:00:00Z"
           }
         ]
       },
@@ -300,6 +379,25 @@
             "@reference": "SKIN_GIANTSTAG_ALPACA",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_STAG_SOULKEEPER",
+            "@mountview": "MountViewTall",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_STAG_DRUID",
+            "@mountview": "MountViewTall",
+            "@state": "Hidden"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_GIANTSTAG_REINDEER_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2021-12-01T10:00:00Z"
           }
         ]
       },
@@ -315,7 +413,20 @@
           },
           {
             "@goldprice": "0",
+            "@reference": "SKIN_COUGAR_SNOWLEOPARD_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2021-08-01T10:00:00Z"
+          },
+          {
+            "@goldprice": "0",
             "@reference": "SKIN_COUGAR_TIGER_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_COUGAR_LYNX_TELLAFRIEND",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
           },
@@ -342,6 +453,30 @@
             "@reference": "SKIN_COUGAR_TOURNAMENT",
             "@mountview": "MountViewMedium",
             "@state": "Hidden"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_COUGAR_TOURNAMENT_02",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_COUGAR_MIST",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_COUGAR_DARK",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_COUGAR_SHADOWCAT",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
           }
         ]
       },
@@ -364,7 +499,7 @@
           {
             "@goldprice": "0",
             "@reference": "SKIN_DIREBOAR_WHITE_TELLAFRIEND",
-            "@mountview": "MountViewSmall",
+            "@mountview": "MountViewMedium",
             "@state": "Locked"
           }
         ]

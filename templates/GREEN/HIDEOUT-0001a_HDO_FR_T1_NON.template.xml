@@ -2,7 +2,7 @@
   <criticalscenemembers>
     <criticalscenemember id="fasttravelpoint_01" type="fasttravelpoint" layerId="">
       <tile name="FASTTRAVEL_POINT" pos="-10 -8 3">
-        <fasttravelpoint spawnpos="9.93 -1.02" />
+        <fasttravelpoint spawnpos="7.911424 -1.02" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="actionbuilding_02" type="actionbuilding" layerId="">
@@ -74,9 +74,9 @@
     <tile name="FOREST_GREEN_DNG_CONSTRUCTION_CORNER" pos="70 -20 40" roty="270" />
     <tile name="FOREST_GREEN_DNG_CONSTRUCTION_CORNER" pos="50 -20 60" roty="90" />
     <criticaltile name="FASTTRAVEL_POINT" pos="-10 -8 3" id="fasttravelpoint_01" type="fasttravelpoint">
-      <fasttravelpoint spawnpos="9.93 -1.02" />
+      <fasttravelpoint spawnpos="7.911424 -1.02" />
     </criticaltile>
-    <tile name="MiniMapMarker" pos="-10 -8 3">
+    <tile name="MiniMapMarker" pos="-11 -8 3">
       <minimapmarker type="Harbor" />
     </tile>
     <tile name="HIDEOUT_MANAGEMENT" pos="-16 -12 22">
@@ -390,8 +390,6 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_30x30_A" pos="90 -32 10" roty="270" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_20x20_A" pos="5 4 -55" roty="90" scale="2 1 2" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_20x20_A" pos="25 4 -55" roty="90" scale="2 1 2" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_20x20_A" pos="5 4 -35" roty="90" scale="2 1 2" />
-    <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_20x20_A" pos="25 4 -35" roty="90" scale="2 1 2" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK_20x20_A" pos="-15 0 -45" scale="2 1 2" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="100 -8 20" roty="90" />
     <tile name="FOREST_GREEN_DNG_CAVE_WALL_INNERCORNER_A" pos="100 -20 20" roty="90" />
@@ -423,6 +421,8 @@
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="110 -8 100" roty="270" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="110 -8 110" roty="270" />
     <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="110 -8 120" roty="270" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="30 4 -40" roty="90" />
+    <tile name="FOREST_GREEN_DNG_GROUND_OBJ_NOCLICK" pos="30 4 -30" roty="90" />
     <tile name="FOREST_GREEN_DNG_PLATEAU_ROCK_DEBRIS_SMALL_A" pos="5 -12 62" roty="90" />
     <tile name="FOREST_GREEN_DNG_FILL_ROCK_DEBRIS_SMALL_A" pos="-17 -12 50" />
     <tile name="FOREST_GREEN_HER_MINE_WALL_ROCK_RUBBLE_B_NOCOL" pos="-31 -18 -16" rot="2 0 350" scale="1.256359 1.256359 1.256358" />
@@ -825,12 +825,12 @@
     <tile name="FOREST_GREEN_FILL_CITY_TORCH_A_POINTLIGHT" pos="65.5 -20 11.5" roty="263" />
     <tile name="FOREST_GREEN_FILL_FARM_GROUND_STRAW_A" pos="-2.5 -12 41.5" roty="62.7" />
     <tile name="FOREST_GREEN_FILL_PLATFORM_STONE_FLAT_C_DECO" pos="0 -8 -10" scale="1.11 0.5 1.11" />
-    <tile name="FILL_STORAGE_BARREL_CLOSED_SMALL_A" pos="-13.5 -8 1.5" roty="270" />
-    <tile name="FILL_STORAGE_CRATE_LARGE_A" pos="-13 -8 3" roty="112" />
-    <tile name="FILL_STORAGE_CRATE_MEDIUM_A" pos="-13.5 -6 3.5" roty="131" />
-    <tile name="FILL_STORAGE_TRANSPORT_CART_A" pos="-9.5 -8 6.5" roty="186" />
+    <tile name="FOREST_GREEN_FILL_STORAGE_TRANSPORT_CART_A" pos="-9.5 -8 6.5" roty="186" />
     <tile name="FOREST_GREEN_FILL_FARM_GROUND_STRAW_A" pos="-10.5 -8 3.5" />
+    <tile name="FOREST_GREEN_FILL_STORAGE_CRATE_MEDIUM_A" pos="-13.5 -6 3.5" roty="131" />
     <tile name="FOREST_GREEN_GROUND_STONES_CALM_C" pos="-10 -8 3" roty="180" />
+    <tile name="FOREST_GREEN_FILL_STORAGE_BARREL_CLOSED_SMALL_A" pos="-13.5 -8 1.5" roty="270" />
+    <tile name="FOREST_GREEN_FILL_STORAGE_CRATE_LARGE_A" pos="-13 -8 3" roty="112" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="-20 -20 75" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="35 -4 -66" roty="270" />
     <tile name="FOREST_GREEN_DNG_CAVE_ROCK_A" pos="43 -8 -12" roty="90" />

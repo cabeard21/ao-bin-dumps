@@ -2,7 +2,7 @@
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="">
       <tile name="Exit" pos="9.5 0 -0.5" roty="90">
-        <exit size="5 5" spawnpos="7.500002 0" faction="Heretic" kind="DungeonSolo" roadtype="Primary">
+        <exit size="5 5" spawnpos="7.500002 0" faction="Heretic" kind="DungeonSolo" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="14.5 -8.000003" />
             <guard pos="4.499999 -8.000003" />
@@ -14,9 +14,6 @@
   <tiles>
     <layergroup name="Layer">
       <layer id="Layer_01" name="no_road">
-        <tile name="FOREST_GREEN_FILL_FARM_GROUND_STRAW_A" pos="56.5 0 -8.5" roty="270" />
-        <tile name="FOREST_GREEN_FILL_FARM_GROUND_STRAW_A" pos="57.5 0 -4.5" />
-        <tile name="FOREST_GREEN_FILL_STORAGE_BARRELS_BROKEN_B" pos="-4.5 0 -41.5" roty="90" />
         <tile name="SpawnPoint_T2_MOB_HERETIC_WOODGATHERER" pos="39.87 0 -13.1" roty="207.19">
           <mobspawnpoint behavior="GUARD" />
         </tile>
@@ -43,6 +40,9 @@
         <tile name="SWAMP_GREEN_FILL_STORAGE_CRATE_BROKEN_B" pos="58 0 -6.5" roty="180" />
         <tile name="SWAMP_GREEN_CITYWALL_WOOD_STRAIGHT_SHORT_ATTACKED_A" pos="55.5 0 -10.5" roty="90" />
         <tile name="SWAMP_GREEN_FILL_WINE_SPLATTER_LARGE_B" pos="29 0 -7" />
+        <tile name="SWAMP_GREEN_FILL_FARM_GROUND_STRAW_A" pos="57.5 0 -4.5" />
+        <tile name="SWAMP_GREEN_FILL_STORAGE_BARRELS_BROKEN_B" pos="-4.5 0 -41.5" roty="90" />
+        <tile name="SWAMP_GREEN_FILL_FARM_GROUND_STRAW_A" pos="56.5 0 -8.5" roty="270" />
       </layer>
       <layer id="Layer_02" name="road">
         <tile name="SWAMP_GREEN_ROAD_ROAD_END_B" pos="70 0 -10" roty="180" />
@@ -55,7 +55,7 @@
       </layer>
     </layergroup>
     <criticaltile name="Exit" pos="9.5 0 -0.5" roty="90" id="exit_01" type="exit">
-      <exit size="5 5" spawnpos="7.500002 0" faction="Heretic" kind="DungeonSolo" roadtype="Primary">
+      <exit size="5 5" spawnpos="7.500002 0" faction="Heretic" kind="DungeonSolo" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="14.5 -8.000003" />
           <guard pos="4.499999 -8.000003" />

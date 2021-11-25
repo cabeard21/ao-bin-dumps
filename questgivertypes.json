@@ -57,15 +57,12 @@
         }
       },
       {
-        "@uniquename": "GOLD_SMUGGLER",
+        "@uniquename": "SHIP_REPAIRMAN",
         "@mobfaction": "ROYALARMY",
         "@level": "2",
-        "@tags": "GOLD_SMUGGLER",
+        "@tags": "SHIP_REPAIRMAN",
         "@maxsilverpool": "1000",
-        "@secondspersilver": "100",
-        "questslot": {
-          "@tags": "goldsmuggler"
-        }
+        "@secondspersilver": "100"
       },
       {
         "@uniquename": "COMBATAGENT_ROYAL",
@@ -74,57 +71,6 @@
         "@tags": "COMBATAGENT_ROYAL",
         "questslot": {
           "@tags": "debug"
-        }
-      },
-      {
-        "@uniquename": "ROYALCOMMANDER",
-        "@mobfaction": "ROYALARMY",
-        "@level": "2",
-        "@tags": "ROYALCOMMANDER",
-        "questgroup": [
-          {
-            "@locatag": "@BASIC_COMBAT_INTRO",
-            "quest": {
-              "@uniquename": "MISSIONS_T2_TUTORIAL_COMBAT"
-            }
-          },
-          {
-            "@locatag": "@BASIC_TUTORIAL_HINTS",
-            "quest": [
-              {
-                "@uniquename": "MISSIONS_T2_STT_HINT_DB"
-              },
-              {
-                "@uniquename": "MISSIONS_T2_STT_HINT_MAP"
-              },
-              {
-                "@uniquename": "MISSIONS_T2_STT_HINT_WHATYOUWEAR"
-              },
-              {
-                "@uniquename": "MISSIONS_T2_STT_HINT_WEAPONS"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "@uniquename": "ROYALCRAFTER",
-        "@mobfaction": "ROYALARMY",
-        "@level": "2",
-        "@tags": "ROYALCRAFTER",
-        "@secondspersilver": "1",
-        "@maxsilverpool": "10000",
-        "questslot": {
-          "@tags": "crafter"
-        }
-      },
-      {
-        "@uniquename": "ROYALSOLDIER",
-        "@mobfaction": "ROYALARMY",
-        "@level": "2",
-        "@tags": "ROYALSOLDIER",
-        "questslot": {
-          "@tags": "soldier"
         }
       },
       {
@@ -137,12 +83,148 @@
         }
       },
       {
-        "@uniquename": "ROYALCAPTAIN",
+        "@uniquename": "ROYALCOMMANDER",
         "@mobfaction": "ROYALARMY",
         "@level": "2",
-        "@tags": "ROYALCAPTAIN",
+        "@tags": "ROYALCOMMANDER",
+        "questgroup": [
+          {
+            "@locatag": "@MISSION_GROUP_INTRO",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_OPTIONS"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_CITYTOUR_SWAMP"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_CITYTOUR_FOREST"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_CITYTOUR_STEPPE"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_CITYTOUR_HIGHLAND"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_CITYTOUR_MOUNTAIN"
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_COMBAT",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_TEACH_COMBAT"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_TEACH_COMBAT2"
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_GATHERANDCRAFT",
+            "quest": {
+              "@uniquename": "MISSIONS_T2_TUTORIAL_GO_TO_CRAFTER"
+            }
+          },
+          {
+            "@locatag": "@MISSION_GROUP_SMUGGLER",
+            "quest": {
+              "@uniquename": "MISSIONS_T2_TUTORIAL_GO_TO_GOLD_SMUGGLER"
+            }
+          },
+          {
+            "@locatag": "@MISSION_GROUP_YOU_ARE_READY",
+            "quest": {
+              "@uniquename": "MISSIONS_T2_TUTORIAL_GO_TO_CITY"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "ROYALCRAFTER",
+        "@mobfaction": "ROYALARMY",
+        "@level": "2",
+        "@tags": "ROYALCRAFTER",
+        "@secondspersilver": "1",
+        "@maxsilverpool": "10000",
+        "questgroup": [
+          {
+            "@locatag": "@MISSION_GROUP_CRAFTING",
+            "quest": {
+              "@uniquename": "MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED"
+            }
+          },
+          {
+            "@locatag": "@MISSION_GROUP_GATHERING_ADVANCED",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_FIBER_REFINING"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_WOOD_REFINING"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_ROCK_REFINING"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_ORE_REFINING"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_HIDE_REFINING"
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_GATHERING",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_ADVANCED"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_FIBER"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_WOOD"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_ROCK"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_ORE"
+              },
+              {
+                "@uniquename": "MISSIONS_T2_TUTORIAL_GATHERING_HIDE"
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_CRAFTER_YOU_ARE_READY",
+            "quest": {
+              "@uniquename": "MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "GOLD_SMUGGLER",
+        "@mobfaction": "ROYALARMY",
+        "@level": "2",
+        "@tags": "GOLD_SMUGGLER",
+        "@maxsilverpool": "1000",
+        "@secondspersilver": "100",
         "questslot": {
-          "@tags": "captain"
+          "@tags": "goldsmuggler"
+        }
+      },
+      {
+        "@uniquename": "ROYALEXPLORER",
+        "@mobfaction": "ROYALARMY",
+        "@level": "2",
+        "@tags": "ROYALEXPLORER",
+        "questslot": {
+          "@tags": "adventurer"
         }
       }
     ],
@@ -170,6 +252,11 @@
       {
         "@uniquename": "TRADING_OUTPOST_SMUGGLER_MOUNTAIN",
         "@playerfaction": "Mountain",
+        "@tags": "faction_outside"
+      },
+      {
+        "@uniquename": "TRADING_OUTPOST_SMUGGLER_CAERLEON",
+        "@playerfaction": "Caerleon",
         "@tags": "faction_outside"
       },
       {
@@ -252,6 +339,32 @@
         "@tags": "faction_store",
         "questgroup": [
           {
+            "@locatag": "@MISSION_GROUP_CAERLEON",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              }
+            ]
+          },
+          {
             "@locatag": "@MISSION_GROUP_HIGHLAND",
             "quest": [
               {
@@ -281,21 +394,21 @@
             "@locatag": "@MISSION_GROUP_MOUNTAIN",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
@@ -307,21 +420,21 @@
             "@locatag": "@MISSION_GROUP_FOREST",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
@@ -363,6 +476,32 @@
         "@tags": "faction_store",
         "questgroup": [
           {
+            "@locatag": "@MISSION_GROUP_CAERLEON",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              }
+            ]
+          },
+          {
             "@locatag": "@MISSION_GROUP_STEPPE",
             "quest": [
               {
@@ -392,21 +531,21 @@
             "@locatag": "@MISSION_GROUP_MOUNTAIN",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
@@ -418,21 +557,21 @@
             "@locatag": "@MISSION_GROUP_SWAMP",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
@@ -474,24 +613,50 @@
         "@tags": "faction_store",
         "questgroup": [
           {
+            "@locatag": "@MISSION_GROUP_CAERLEON",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              }
+            ]
+          },
+          {
             "@locatag": "@MISSION_GROUP_FOREST",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Forest"
@@ -503,21 +668,21 @@
             "@locatag": "@MISSION_GROUP_HIGHLAND",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Highland"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Highland"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Highland"
@@ -529,21 +694,21 @@
             "@locatag": "@MISSION_GROUP_MOUNTAIN",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Mountain"
@@ -585,6 +750,32 @@
         "@tags": "faction_store",
         "questgroup": [
           {
+            "@locatag": "@MISSION_GROUP_CAERLEON",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              }
+            ]
+          },
+          {
             "@locatag": "@MISSION_GROUP_STEPPE",
             "quest": [
               {
@@ -614,21 +805,21 @@
             "@locatag": "@MISSION_GROUP_SWAMP",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_B",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_A",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Swamp"
@@ -696,6 +887,32 @@
         "@tags": "faction_store",
         "questgroup": [
           {
+            "@locatag": "@MISSION_GROUP_CAERLEON",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_CAERLEON",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Caerleon"
+                }
+              }
+            ]
+          },
+          {
             "@locatag": "@MISSION_GROUP_SWAMP",
             "quest": [
               {
@@ -751,21 +968,21 @@
             "@locatag": "@MISSION_GROUP_STEPPE",
             "quest": [
               {
-                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Steppe"
                 }
               },
               {
-                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Steppe"
                 }
               },
               {
-                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_C",
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_TO_OUTPOST_DISTANCE_D",
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Steppe"
@@ -795,6 +1012,143 @@
                 "factionvariable": {
                   "@name": "FACTION_B",
                   "@value": "Highland"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "@uniquename": "FACTIONSTORE_CAERLEON",
+        "@playerfaction": "Caerleon",
+        "@tags": "faction_store",
+        "questgroup": [
+          {
+            "@locatag": "@MISSION_GROUP_SWAMP",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Swamp"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Swamp"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Swamp"
+                }
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_FOREST",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Forest"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Forest"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Forest"
+                }
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_MOUNTAIN",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Mountain"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Mountain"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Mountain"
+                }
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_HIGHLAND",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Highland"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Highland"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Highland"
+                }
+              }
+            ]
+          },
+          {
+            "@locatag": "@MISSION_GROUP_STEPPE",
+            "quest": [
+              {
+                "@uniquename": "MISSIONS_LIGHT_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Steppe"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_MEDIUM_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Steppe"
+                }
+              },
+              {
+                "@uniquename": "MISSIONS_HEAVY_TRADE_PACK_CAERLEON_TO_FACTION",
+                "factionvariable": {
+                  "@name": "FACTION_B",
+                  "@value": "Steppe"
                 }
               }
             ]

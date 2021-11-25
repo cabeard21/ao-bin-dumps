@@ -34,6 +34,10 @@
             "@rotationOffset": "90 0 90"
           },
           {
+            "@socketname": "chest",
+            "@bonename": "Spine_3"
+          },
+          {
             "@socketname": "floor",
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 0.1 0"
@@ -67,6 +71,10 @@
           {
             "@socketname": "offhand_norotation",
             "@bonename": "LeftArm_3"
+          },
+          {
+            "@socketname": "mainhand_norotation",
+            "@bonename": "RightArm_3"
           },
           {
             "@socketname": "offhandprojectile",
@@ -119,6 +127,12 @@
             "@bonename": "RightLeg_2"
           },
           {
+            "@socketname": "power_crystal",
+            "@bonename": "Spine_1",
+            "@positionOffset": "0 0 0",
+            "@rotationOffset": "90 0 90"
+          },
+          {
             "@socketname": "vanity_spine1",
             "@bonename": "Spine_1"
           },
@@ -159,6 +173,68 @@
           {
             "@socketname": "vanity_knight_head",
             "@bonename": "Neck_Head"
+          },
+          {
+            "@socketname": "vanity_mage_leftshoulder",
+            "@bonename": "LeftArm_1",
+            "@positionOffset": "0.044 -0.033 -0.006",
+            "@scaling": "1.1"
+          },
+          {
+            "@socketname": "vanity_mage_rightshoulder",
+            "@bonename": "RightArm_1",
+            "@positionOffset": "-0.0429 0.0331 0.008",
+            "@rotationOffset": "0.8 0 -0.2",
+            "@scaling": "1.1"
+          },
+          {
+            "@socketname": "vanity_mage_head",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "0.008 0 0"
+          },
+          {
+            "@socketname": "vanity_mage_scrolls",
+            "@bonename": "Spine_1",
+            "@positionOffset": "0.03 0 0",
+            "@scaling": "1.1"
+          },
+          {
+            "@socketname": "vanity_barbarian_leftshoulder",
+            "@bonename": "LeftShoulderArmor"
+          },
+          {
+            "@socketname": "vanity_barbarian_rightshoulder",
+            "@bonename": "RightShoulderArmor"
+          },
+          {
+            "@socketname": "vanity_soulkeeper_leftshoulder",
+            "@bonename": "LeftShoulderArmor"
+          },
+          {
+            "@socketname": "vanity_soulkeeper_lantern",
+            "@bonename": "RightLeg_1"
+          },
+          {
+            "@socketname": "vanity_paladin_leftshoulder",
+            "@bonename": "LeftShoulderArmor",
+            "@positionOffset": "-0.02 0 0.01"
+          },
+          {
+            "@socketname": "vanity_paladin_rightshoulder",
+            "@bonename": "RightShoulderArmor",
+            "@rotationOffset": "0 0 180"
+          },
+          {
+            "@socketname": "vanity_demonhunter_leftshoulder",
+            "@bonename": "LeftClavicle"
+          },
+          {
+            "@socketname": "vanity_demonhunter_rightshoulder",
+            "@bonename": "RightClavicle"
+          },
+          {
+            "@socketname": "vanity_demonhunter_flask",
+            "@bonename": "Spine_3"
           }
         ]
       },
@@ -270,6 +346,12 @@
             "@rotationOffset": "90 -90 0"
           },
           {
+            "@socketname": "power_crystal",
+            "@bonename": "Spine_1",
+            "@positionOffset": "0 0 0",
+            "@rotationOffset": "90 0 90"
+          },
+          {
             "@socketname": "vanity_spine1",
             "@bonename": "Spine_1",
             "@positionOffset": "-0.0154 0.016 0.0197",
@@ -321,6 +403,81 @@
             "@socketname": "vanity_knight_head",
             "@bonename": "Neck_Head",
             "@positionOffset": "-0.02 0 0"
+          },
+          {
+            "@socketname": "vanity_mage_leftshoulder",
+            "@bonename": "LeftArm_1",
+            "@positionOffset": "0.001 0 0"
+          },
+          {
+            "@socketname": "vanity_mage_rightshoulder",
+            "@bonename": "RightArm_1",
+            "@positionOffset": "0 -0.001 0"
+          },
+          {
+            "@socketname": "vanity_mage_head",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "-0.0001 0 0"
+          },
+          {
+            "@socketname": "vanity_mage_scrolls",
+            "@bonename": "Spine_1"
+          },
+          {
+            "@socketname": "vanity_barbarian_leftshoulder",
+            "@bonename": "LeftShoulderArmor",
+            "@positionOffset": "-0.045 -0.022 -0.02",
+            "@rotationOffset": "0 -4 0",
+            "@scaling": "0.85"
+          },
+          {
+            "@socketname": "vanity_barbarian_rightshoulder",
+            "@bonename": "RightShoulderArmor",
+            "@positionOffset": "0.048 0.02 0.02",
+            "@rotationOffset": "0 -3 0",
+            "@scaling": "0.85"
+          },
+          {
+            "@socketname": "vanity_soulkeeper_leftshoulder",
+            "@bonename": "LeftShoulderArmor",
+            "@positionOffset": "-0.06 -0.06 -0.025",
+            "@rotationOffset": "-3.97 7.8 -8.97"
+          },
+          {
+            "@socketname": "vanity_soulkeeper_lantern",
+            "@bonename": "RightLeg_1",
+            "@positionOffset": "0.038 -0.035 0.015",
+            "@rotationOffset": "0.58 -0.45 3.43"
+          },
+          {
+            "@socketname": "vanity_paladin_leftshoulder",
+            "@bonename": "LeftShoulderArmor",
+            "@positionOffset": "-0.02 -0.05 0"
+          },
+          {
+            "@socketname": "vanity_paladin_rightshoulder",
+            "@bonename": "RightShoulderArmor",
+            "@positionOffset": "0.02 0.05 0",
+            "@rotationOffset": "0 0 180"
+          },
+          {
+            "@socketname": "vanity_demonhunter_leftshoulder",
+            "@bonename": "LeftShoulderArmor",
+            "@positionOffset": "0.193 -0.118 0.058",
+            "@scaling": "0.9"
+          },
+          {
+            "@socketname": "vanity_demonhunter_rightshoulder",
+            "@bonename": "RightShoulderArmor",
+            "@positionOffset": "-0.186 0.118 -0.055",
+            "@scaling": "0.9"
+          },
+          {
+            "@socketname": "vanity_demonhunter_flask",
+            "@bonename": "Spine_3",
+            "@positionOffset": "-0.05 -0.003 -0.018",
+            "@rotationOffset": "-1 -10 0.5",
+            "@scaling": "0.9"
           }
         ]
       },
@@ -749,6 +906,10 @@
             "@bonename": "Spine_1",
             "@positionOffset": "-0.85 -0.45 0",
             "@rotationOffset": "0 -90 0"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -838,21 +999,19 @@
             "@positionOffset": "0 0.1 0"
           },
           {
+            "@socketname": "damage",
+            "@bonename": "Spine_0",
+            "@positionOffset": "-0.6 -0.4 0",
+            "@rotationOffset": "90 0 0"
+          },
+          {
             "@socketname": "halo",
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 3 0"
           },
           {
-            "@socketname": "damage",
-            "@bonename": "Chest",
-            "@positionOffset": "0 -0.26 0",
-            "@rotationOffset": "90 0 90"
-          },
-          {
             "@socketname": "mainhand",
-            "@bonename": "RightWeapon",
-            "@positionOffset": "1.14 0.05 -0.02",
-            "@rotationOffset": "1.54 91.55 178.75"
+            "@bonename": "RightWeapon"
           },
           {
             "@socketname": "offhand",
@@ -860,19 +1019,85 @@
           },
           {
             "@socketname": "mainhandprojectile",
-            "@bonename": "RightWeapon"
+            "@bonename": "RightWeapon",
+            "@positionOffset": "1.1 0 -0.1",
+            "@rotationOffset": "-115 0 0"
           },
           {
             "@socketname": "maintrail",
             "@bonename": "Skeleton_Root",
-            "@positionOffset": "0 1 0.3",
-            "@rotationOffset": "0 0 0"
+            "@positionOffset": "0 1 0.3"
           },
           {
             "@socketname": "maintrail_180",
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 1 0.3",
             "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "offhandprojectile",
+            "@bonename": "LeftWeapon",
+            "@positionOffset": "-1.4 0 0",
+            "@rotationOffset": "0 -90 0"
+          },
+          {
+            "@socketname": "howl",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 3 0"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_CITY_CAERLEON_KNIGHT",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@positionOffset": "-0.1 -0.15 0",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.5 0"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 225 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 0 180"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightFingers",
+            "@positionOffset": "0 0.15 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftFingers",
+            "@positionOffset": "0 -0.1 0",
+            "@rotationOffset": "120 0 0"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@rotationOffset": "0 90 180"
           }
         ]
       },
@@ -1855,8 +2080,7 @@
           {
             "@socketname": "halo",
             "@bonename": "Skeleton_Root",
-            "@positionOffset": "0 4.5 0.5",
-            "@rotationOffset": "270 0 0"
+            "@positionOffset": "0 4.5 0.5"
           },
           {
             "@socketname": "root",
@@ -3036,6 +3260,36 @@
         ]
       },
       {
+        "@name": "MOB_UNDEAD_STATUE",
+        "Socket": [
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "damage",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0.3 2 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "head",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0.5 4.8 0"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0.5 3.5 0"
+          }
+        ]
+      },
+      {
         "@name": "MOB_UNDEAD_BAT",
         "Socket": [
           {
@@ -3273,6 +3527,24 @@
             "@socketname": "head",
             "@bonename": "Neck_Head",
             "@rotationOffset": "90 0 0"
+          },
+          {
+            "@socketname": "bow_front",
+            "@bonename": "LeftArm_3",
+            "@positionOffset": "-0.3 -0.1 0",
+            "@rotationOffset": "0 270 0"
+          },
+          {
+            "@socketname": "fx_bow",
+            "@bonename": "RightArm_3"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_quiver",
+            "@bonename": "Quiver"
           }
         ]
       },
@@ -3352,6 +3624,18 @@
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 1 0.3",
             "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "Weapon"
+          },
+          {
+            "@socketname": "fx_shield",
+            "@bonename": "Shield"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -3411,6 +3695,44 @@
             "@socketname": "torso",
             "@bonename": "Chest",
             "@positionOffset": "0.06 0.1 0"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightWeapon",
+            "@positionOffset": "1.5 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Chest"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightWeapon",
+            "@positionOffset": "0 0 -0.03",
+            "@rotationOffset": "0.98 90.77 -1.799"
+          },
+          {
+            "@socketname": "fx_eyes",
+            "@bonename": "Helmet"
+          },
+          {
+            "@socketname": "fx_eyes_02",
+            "@bonename": "Helmet",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "fx_weapon_SD",
+            "@bonename": "RightWeapon"
+          },
+          {
+            "@socketname": "head",
+            "@bonename": "Helmet"
+          },
+          {
+            "@socketname": "damage",
+            "@bonename": "Chest",
+            "@rotationOffset": "90 0 0"
           }
         ]
       },
@@ -3477,6 +3799,18 @@
             "@socketname": "head",
             "@bonename": "Neck_Head",
             "@rotationOffset": "90 0 0"
+          },
+          {
+            "@socketname": "fx_rightarm",
+            "@bonename": "RightArm_3"
+          },
+          {
+            "@socketname": "fx_leftarm",
+            "@bonename": "LeftArm_3"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -3712,6 +4046,26 @@
             "@socketname": "dangericon",
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 3.5 0"
+          },
+          {
+            "@socketname": "fx_rightarm",
+            "@bonename": "RightArm_3"
+          },
+          {
+            "@socketname": "fx_leftarm",
+            "@bonename": "LeftArm_3"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RtHandHardPoint"
+          },
+          {
+            "@socketname": "fx_skull",
+            "@bonename": "Skull"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -3771,6 +4125,18 @@
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 1 -0.5",
             "@rotationOffset": "0 30 180"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "fx_eyes",
+            "@bonename": "Neck_Head"
           }
         ]
       },
@@ -3846,6 +4212,32 @@
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 1 -0.5",
             "@rotationOffset": "0 30 180"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "fx_weaponoff",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_banner",
+            "@bonename": "Spine_3"
+          },
+          {
+            "@socketname": "fx_backpack",
+            "@bonename": "Spine_3",
+            "@rotationOffset": "90 -90 0"
+          },
+          {
+            "@socketname": "fx_eyeglow",
+            "@bonename": "Neck_Head",
+            "@rotationOffset": "83 -90 0"
           }
         ]
       },
@@ -3948,6 +4340,33 @@
             "@socketname": "head",
             "@bonename": "Hood",
             "@positionOffset": "0 -0.25 0"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "fx_sickle",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_axe_02",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0 0.03 0.03",
+            "@rotationOffset": "31.90011 153.1 -176.3"
+          },
+          {
+            "@socketname": "fx_sickle_02",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "fx_eye_02",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "-14.32999 0 0"
           }
         ]
       },
@@ -4014,6 +4433,49 @@
             "@socketname": "offhandprojectile",
             "@bonename": "Fingers",
             "@rotationOffset": "90 0 0"
+          },
+          {
+            "@socketname": "lefteye",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "-0.04 0.17 -0.16",
+            "@rotationOffset": "240 0 0"
+          },
+          {
+            "@socketname": "righteye",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "0.04 0.17 -0.16",
+            "@rotationOffset": "240 0 0"
+          },
+          {
+            "@socketname": "fx_mace",
+            "@bonename": "HardPointRt"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_banner",
+            "@bonename": "Banner"
+          },
+          {
+            "@socketname": "fx_eyes",
+            "@bonename": "Neck_Head"
+          },
+          {
+            "@socketname": "fx_hammer",
+            "@bonename": "HardPointRt",
+            "@rotationOffset": "-67.90002 -97.70001 -179.9997"
+          },
+          {
+            "@socketname": "fx_eyeglow",
+            "@bonename": "Neck_Head",
+            "@rotationOffset": "-90 0 0"
+          },
+          {
+            "@socketname": "head",
+            "@bonename": "Neck_Head",
+            "@positionOffset": "0 0.07 -0.05"
           }
         ]
       },
@@ -4063,6 +4525,22 @@
             "@socketname": "spit",
             "@bonename": "Head",
             "@positionOffset": "0 -0.7 0"
+          },
+          {
+            "@socketname": "fx_head",
+            "@bonename": "Head"
+          },
+          {
+            "@socketname": "fx_leftfingers",
+            "@bonename": "LeftFingers"
+          },
+          {
+            "@socketname": "fx_rightfingers",
+            "@bonename": "RightFingers"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Chest"
           }
         ]
       },
@@ -4371,6 +4849,10 @@
           {
             "@socketname": "fx_head",
             "@bonename": "Neck_Head"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -4432,6 +4914,14 @@
             "@bonename": "Spine_2",
             "@positionOffset": "-0.43 0.118 -0.044",
             "@rotationOffset": "-5.78169E-07 -6.625438E-07 -9.683191E-07"
+          },
+          {
+            "@socketname": "mace",
+            "@bonename": "HardPointRt"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Banner"
           }
         ]
       },
@@ -4593,6 +5083,10 @@
             "@bonename": "Mace",
             "@positionOffset": "-2.31 0 0",
             "@rotationOffset": "0 -90 0"
+          },
+          {
+            "@socketname": "mace",
+            "@bonename": "Mace"
           }
         ]
       },
@@ -4693,6 +5187,97 @@
             "@bonename": "RightHandHardPoint",
             "@positionOffset": "1.2 0 0",
             "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_ROAMING_ACOLYTE",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "1.12 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_ACOLYTE_BOOK",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightArm_3",
+            "@rotationOffset": "-40 90 0"
           }
         ]
       },
@@ -4785,6 +5370,11 @@
             "@bonename": "RightHandHardPoint",
             "@positionOffset": "1.1 0.036 -0.053",
             "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "mainhand_championSD",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "-0.035 0 0"
           }
         ]
       },
@@ -4931,6 +5521,11 @@
             "@bonename": "RightHandHardPoint",
             "@positionOffset": "1.09 0.0225 -0.037",
             "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "mainhand_miniSD",
+            "@bonename": "RightHandHardPoint",
+            "@scaling": "1.03"
           }
         ]
       },
@@ -4981,6 +5576,15 @@
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 1 0.3",
             "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "1.09 0.0225 -0.037"
           }
         ]
       },
@@ -5115,6 +5719,284 @@
         ]
       },
       {
+        "@name": "MOB_MORGANA_INFESTOR_TRASH_ROAMING",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0.93 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 -45 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RightHandHardPoint"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_INFESTOR_STANDARD_ROAMING",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0.93 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 -45 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_INFESTOR_CHAMPION_ROAMING",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0.93 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 -45 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_INFESTOR_MINIBOSS_ROAMING",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0.93 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 -45 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_MORGANA_INFESTOR_BOSS_ROAMING",
+        "Socket": [
+          {
+            "@socketname": "damage",
+            "@bonename": "Spine_2",
+            "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.3 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "offhand",
+            "@bonename": "LeftHandHardPoint"
+          },
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "mainhandprojectile",
+            "@bonename": "RightHandHardPoint",
+            "@positionOffset": "0.93 0 0",
+            "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 -45 0"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 1 0.3",
+            "@rotationOffset": "0 45 180"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Breast"
+          },
+          {
+            "@socketname": "fx_head",
+            "@bonename": "Neck_Head"
+          }
+        ]
+      },
+      {
         "@name": "MOB_HERETIC_ARCHER",
         "Socket": [
           {
@@ -5153,6 +6035,34 @@
           {
             "@socketname": "root",
             "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "fx_mainhand",
+            "@bonename": "RtHandHardPoint"
+          },
+          {
+            "@socketname": "fx_offhand",
+            "@bonename": "LtHandHardPoint"
+          },
+          {
+            "@socketname": "maintrail_180",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.8 0",
+            "@rotationOffset": "0 0 180"
+          },
+          {
+            "@socketname": "maintrail",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.75 0",
+            "@rotationOffset": "0 0 0"
+          },
+          {
+            "@socketname": "fx_bow",
+            "@bonename": "LeftArm_3"
+          },
+          {
+            "@socketname": "fx_dagger",
+            "@bonename": "Spine_0"
           }
         ]
       },
@@ -5450,8 +6360,11 @@
           {
             "@socketname": "fx_weapon",
             "@bonename": "RtHandHardPoint",
-            "@positionOffset": "-0.24 0.84 0",
-            "@rotationOffset": "286 260 100"
+            "@positionOffset": "-0.24 0.84 0"
+          },
+          {
+            "@socketname": "fx_staff",
+            "@bonename": "RtHandHardPoint"
           }
         ]
       },
@@ -5499,14 +6412,21 @@
           {
             "@socketname": "fx_weapon",
             "@bonename": "RtHandHardPoint",
-            "@positionOffset": "-0.3 0.84 -0.05",
-            "@rotationOffset": "286 260 100"
+            "@positionOffset": "-0.3 0.84 -0.05"
           },
           {
             "@socketname": "fx_offhand",
             "@bonename": "LeftFingers",
             "@positionOffset": "0.02 -0.16 0.2",
             "@rotationOffset": "-51 40 18"
+          },
+          {
+            "@socketname": "fx_staff",
+            "@bonename": "RtHandHardPoint"
+          },
+          {
+            "@socketname": "fx_book",
+            "@bonename": "LeftFingers"
           }
         ]
       },
@@ -5554,8 +6474,7 @@
           {
             "@socketname": "fx_weapon",
             "@bonename": "RtHandHardPoint",
-            "@positionOffset": "-0.35 1 -0.05",
-            "@rotationOffset": "286 260 100"
+            "@positionOffset": "-0.35 1 -0.05"
           },
           {
             "@socketname": "fx_offhand",
@@ -5574,6 +6493,14 @@
             "@bonename": "Neck_Head",
             "@positionOffset": "-0.03 -0.15 0",
             "@rotationOffset": "90 0 0"
+          },
+          {
+            "@socketname": "fx_staff",
+            "@bonename": "RtHandHardPoint"
+          },
+          {
+            "@socketname": "fx_book",
+            "@bonename": "LeftFingers"
           }
         ]
       },
@@ -5765,6 +6692,22 @@
             "@socketname": "fx_lamp",
             "@bonename": "Lamp2",
             "@positionOffset": "-0.45 0 0.01"
+          },
+          {
+            "@socketname": "fx_lantern",
+            "@bonename": "Lamp2"
+          },
+          {
+            "@socketname": "fx_dagger",
+            "@bonename": "LeftLeg_1"
+          },
+          {
+            "@socketname": "fx_body",
+            "@bonename": "Chest"
+          },
+          {
+            "@socketname": "fx_whip",
+            "@bonename": "Whip_9"
           }
         ]
       },
@@ -5836,6 +6779,14 @@
             "@bonename": "RightHandHardPoint",
             "@positionOffset": "0.041 -0.944 1.181",
             "@rotationOffset": "4.406697 180 180"
+          },
+          {
+            "@socketname": "fx_cannon",
+            "@bonename": "RightHandHardPoint"
+          },
+          {
+            "@socketname": "fx_smoke",
+            "@bonename": "Chest"
           }
         ]
       },
@@ -6027,6 +6978,18 @@
           {
             "@socketname": "mainhandprojectile",
             "@bonename": "RightHardPoint"
+          },
+          {
+            "@socketname": "chest",
+            "@bonename": "Chest"
+          },
+          {
+            "@socketname": "head",
+            "@bonename": "Head"
+          },
+          {
+            "@socketname": "fx_quiver",
+            "@bonename": "Quiver"
           }
         ]
       },
@@ -6262,6 +7225,26 @@
             "@bonename": "RightLeg_1",
             "@positionOffset": "0.616 -0.142 0.269",
             "@rotationOffset": "51.75214 81.39326 191.8314"
+          },
+          {
+            "@socketname": "fx_rightaxe",
+            "@bonename": "RightAxe"
+          },
+          {
+            "@socketname": "fx_leftaxe",
+            "@bonename": "LeftAxe"
+          },
+          {
+            "@socketname": "fx_backspear",
+            "@bonename": "Spine_2"
+          },
+          {
+            "@socketname": "fx_legaxe",
+            "@bonename": "RightLeg_1"
+          },
+          {
+            "@socketname": "fx_backaxe",
+            "@bonename": "BackAxe"
           }
         ]
       },
@@ -6323,6 +7306,22 @@
             "@bonename": "RightArm_2",
             "@positionOffset": "1.28 -0.57 -0.02",
             "@rotationOffset": "192.04 180 0"
+          },
+          {
+            "@socketname": "fx_rightarm",
+            "@bonename": "RightArm_2"
+          },
+          {
+            "@socketname": "fx_leftarm",
+            "@bonename": "LeftArm_2"
+          },
+          {
+            "@socketname": "fx_rightshoulder",
+            "@bonename": "RightShoulder"
+          },
+          {
+            "@socketname": "fx_body",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -6390,6 +7389,26 @@
           {
             "@socketname": "mainhand_zero",
             "@bonename": "RightArm_2"
+          },
+          {
+            "@socketname": "fx_rightarm",
+            "@bonename": "RightArm_2"
+          },
+          {
+            "@socketname": "fx_leftarm",
+            "@bonename": "LeftArm_2"
+          },
+          {
+            "@socketname": "fx_leftshoulder",
+            "@bonename": "LeftShoulder"
+          },
+          {
+            "@socketname": "fx_rightshoulder",
+            "@bonename": "RightShoulder"
+          },
+          {
+            "@socketname": "fx_body",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -6477,6 +7496,22 @@
             "@bonename": "LeftAxe",
             "@positionOffset": "-0.011 -0.073 0.966",
             "@rotationOffset": "359.2288 0.7366621 356.9355"
+          },
+          {
+            "@socketname": "fx_rightaxe",
+            "@bonename": "RightAxe"
+          },
+          {
+            "@socketname": "fx_leftaxe",
+            "@bonename": "LeftAxe"
+          },
+          {
+            "@socketname": "fx_backspear",
+            "@bonename": "Spine_1"
+          },
+          {
+            "@socketname": "fx_backspear_champion",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -6534,6 +7569,18 @@
             "@bonename": "LeftAxe",
             "@positionOffset": "-0.011 -0.073 0.966",
             "@rotationOffset": "359.2288 0.7366621 356.9355"
+          },
+          {
+            "@socketname": "fx_rightaxe",
+            "@bonename": "RightAxe"
+          },
+          {
+            "@socketname": "fx_leftaxe",
+            "@bonename": "LeftAxe"
+          },
+          {
+            "@socketname": "fx_backspear",
+            "@bonename": "Spine_1"
           }
         ]
       },
@@ -6591,6 +7638,18 @@
             "@bonename": "LeftAxe",
             "@positionOffset": "0.03 -0.13 1.1",
             "@rotationOffset": "353 2 357.93"
+          },
+          {
+            "@socketname": "fx_rightaxe",
+            "@bonename": "RightAxe"
+          },
+          {
+            "@socketname": "fx_leftaxe",
+            "@bonename": "LeftAxe"
+          },
+          {
+            "@socketname": "fx_backaxe",
+            "@bonename": "Spine_1"
           }
         ]
       },
@@ -6692,6 +7751,26 @@
             "@bonename": "RightShoulder",
             "@positionOffset": "0.28 -0.39 0.08",
             "@rotationOffset": "359.2142 179.6197 177.2095"
+          },
+          {
+            "@socketname": "fx_weapon",
+            "@bonename": "RtHandHardPoint"
+          },
+          {
+            "@socketname": "fx_skull",
+            "@bonename": "Skull"
+          },
+          {
+            "@socketname": "fx_leftshoulder",
+            "@bonename": "LeftShoulder"
+          },
+          {
+            "@socketname": "fx_rightshoulder",
+            "@bonename": "RightShoulder"
+          },
+          {
+            "@socketname": "fx_chest",
+            "@bonename": "Spine_2"
           }
         ]
       },
@@ -6789,6 +7868,18 @@
           {
             "@socketname": "LeftArm2",
             "@bonename": "LeftArm_3"
+          },
+          {
+            "@socketname": "fx_body",
+            "@bonename": "Chest"
+          },
+          {
+            "@socketname": "fx_rightshoulder",
+            "@bonename": "RightShoulderFeathers"
+          },
+          {
+            "@socketname": "fx_leftshoulder",
+            "@bonename": "LeftShoulderFeathers"
           }
         ]
       },
@@ -7011,6 +8102,36 @@
             "@bonename": "RtHandHardPoint",
             "@positionOffset": "0 1.9 0",
             "@rotationOffset": "270 0 0"
+          }
+        ]
+      },
+      {
+        "@name": "MOB_ARCANE_CRYSTALSPIDER_BOSS",
+        "Socket": [
+          {
+            "@socketname": "root",
+            "@bonename": "Skeleton_Root"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "Skeleton_Root",
+            "@positionOffset": "0 2.8 0.7"
+          },
+          {
+            "@socketname": "damage",
+            "@bonename": "Pelvis",
+            "@rotationOffset": "0 -90 0"
+          },
+          {
+            "@socketname": "mainhand",
+            "@bonename": "Spine_1",
+            "@positionOffset": "0.2 -0.8 0",
+            "@rotationOffset": "90 0 0"
           }
         ]
       },
@@ -7345,6 +8466,10 @@
             "@rotationOffset": "0 270 0"
           },
           {
+            "@socketname": "eyes",
+            "@bonename": "Head"
+          },
+          {
             "@socketname": "fireball_start",
             "@bonename": "Skeleton_Root",
             "@positionOffset": "0 2.85 2.85"
@@ -7533,6 +8658,10 @@
             "@socketname": "fx_weapon",
             "@bonename": "RightArm_2",
             "@rotationOffset": "11.37339 142.5504 -124.3619"
+          },
+          {
+            "@socketname": "fx_weapon_knight",
+            "@bonename": "RightArm_2"
           },
           {
             "@socketname": "weapon_tip",
@@ -9539,6 +10668,40 @@
         ]
       },
       {
+        "@name": "MOUNT_JUGGERNAUT",
+        "Socket": [
+          {
+            "@socketname": "root_mount",
+            "@bonename": "mount|Skeleton_Root"
+          },
+          {
+            "@socketname": "head_mount",
+            "@bonename": "mount|Head"
+          },
+          {
+            "@socketname": "head_mount_crystal",
+            "@bonename": "mount|Head",
+            "@positionOffset": "0 -0.04 -0.17"
+          },
+          {
+            "@socketname": "chest_mount",
+            "@bonename": "mount|Chest"
+          },
+          {
+            "@socketname": "leftarm_mount",
+            "@bonename": "mount|LeftArm_3"
+          },
+          {
+            "@socketname": "rightarm_mount",
+            "@bonename": "mount|RightArm_3"
+          },
+          {
+            "@socketname": "leftshoulder_mount",
+            "@bonename": "mount|LeftShoulderPlate"
+          }
+        ]
+      },
+      {
         "@name": "MOUNT_SPIDER",
         "Socket": [
           {
@@ -9692,6 +10855,10 @@
             "@bonename": "mount|RightLegToeBase",
             "@positionOffset": "0.22 0.05 0",
             "@rotationOffset": "-215 270 0"
+          },
+          {
+            "@socketname": "head_mount_chimera",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -9918,6 +11085,10 @@
           {
             "@socketname": "fx_cocoon",
             "@bonename": "mount|Skeleton_Root"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -9927,6 +11098,19 @@
           {
             "@socketname": "cart",
             "@bonename": "mount|Cart"
+          },
+          {
+            "@socketname": "lamp",
+            "@bonename": "mount|Lamp"
+          }
+        ]
+      },
+      {
+        "@name": "MOUNT_CART_LUXUS",
+        "Socket": [
+          {
+            "@socketname": "lamp_front",
+            "@bonename": "mount|LampFront"
           },
           {
             "@socketname": "lamp",
@@ -10027,6 +11211,10 @@
           {
             "@socketname": "pelvis",
             "@bonename": "mount|Spine_0"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -10060,6 +11248,10 @@
             "@bonename": "mount|RightLeg_3",
             "@positionOffset": "0.18 -0.1 0",
             "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -10105,6 +11297,10 @@
             "@bonename": "mount|RightLeg_3",
             "@positionOffset": "0.04 -0.05 0",
             "@rotationOffset": "90 0 90"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Neck_Head"
           }
         ]
       },
@@ -10154,6 +11350,10 @@
             "@bonename": "mount|RightLegToeBase",
             "@positionOffset": "0.12 0.03 0",
             "@rotationOffset": "125 270 0"
+          },
+          {
+            "@socketname": "lantern",
+            "@bonename": "mount|Lantern"
           }
         ]
       },
@@ -10214,6 +11414,10 @@
           {
             "@socketname": "fx_cocoon",
             "@bonename": "mount|Skeleton_Root"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Head"
           }
         ]
       },
@@ -10272,8 +11476,21 @@
             "@rotationOffset": "0 90 0"
           },
           {
-            "@socketname": "fx_cocoon",
-            "@bonename": "mount|Skeleton_Root"
+            "@socketname": "bastion_front",
+            "@bonename": "mount|CowCatcher"
+          },
+          {
+            "@socketname": "bastion_front_crystal",
+            "@bonename": "mount|CowCatcher",
+            "@positionOffset": "0 0.99 1.41"
+          },
+          {
+            "@socketname": "bastion_left_banner",
+            "@bonename": "mount|LeftFlagStaff"
+          },
+          {
+            "@socketname": "bastion_right_banner",
+            "@bonename": "mount|RightFlagStaff"
           }
         ]
       },
@@ -10349,6 +11566,10 @@
             "@bonename": "mount|RightLeg_3",
             "@positionOffset": "0.15 -0.12 0",
             "@rotationOffset": "0 90 0"
+          },
+          {
+            "@socketname": "head_mount",
+            "@bonename": "mount|Head"
           }
         ]
       },
@@ -10539,6 +11760,58 @@
         ]
       },
       {
+        "@name": "MOUNT_TANKBEETLE",
+        "Socket": [
+          {
+            "@socketname": "root_mount",
+            "@bonename": "mount|Skeleton_Root"
+          },
+          {
+            "@socketname": "head_mount",
+            "@bonename": "mount|Head"
+          },
+          {
+            "@socketname": "gem_mount_crystal",
+            "@bonename": "mount|Pelvis"
+          },
+          {
+            "@socketname": "gem_mount_gold",
+            "@bonename": "mount|Pelvis",
+            "@positionOffset": "-0.035 0.245 0",
+            "@scaling": "0.93"
+          }
+        ]
+      },
+      {
+        "@name": "MOUNT_MOABIRD",
+        "Socket": [
+          {
+            "@socketname": "root",
+            "@bonename": "mount|Skeleton_Root"
+          },
+          {
+            "@socketname": "floor",
+            "@bonename": "mount|Skeleton_Root",
+            "@positionOffset": "0 0.1 0"
+          },
+          {
+            "@socketname": "halo",
+            "@bonename": "mount|Skeleton_Root",
+            "@positionOffset": "0 4.5 0.5"
+          },
+          {
+            "@socketname": "damage",
+            "@bonename": "mount|Spine_1",
+            "@positionOffset": "-0.85 -0.45 0",
+            "@rotationOffset": "0 -90 0"
+          },
+          {
+            "@socketname": "fx_head_FW",
+            "@bonename": "mount|Head"
+          }
+        ]
+      },
+      {
         "@name": "SEA_CIRC",
         "Socket": [
           {
@@ -10624,6 +11897,11 @@
             "@positionOffset": "0 1 0"
           },
           {
+            "@socketname": "centerProjectileOffset",
+            "@bonename": "center",
+            "@positionOffset": "0 1 1"
+          },
+          {
             "@socketname": "centerGround",
             "@bonename": "center"
           },
@@ -10676,6 +11954,11 @@
             "@socketname": "backcenter",
             "@bonename": "backcenter",
             "@positionOffset": "0 2 0"
+          },
+          {
+            "@socketname": "backcenterHigh",
+            "@bonename": "backcenter",
+            "@positionOffset": "0 3.5 0"
           },
           {
             "@socketname": "backcenterLaser",

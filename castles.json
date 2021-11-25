@@ -10,10 +10,10 @@
       {
         "@uniquename": "SMALLCASTLE",
         "@worldmapprefab": "castle_small",
-        "@eliteguardarrivalinmin": "2",
-        "@eliteguardarrivalwarninginmin": "1",
-        "@castlelordarrivalinmin": "2",
-        "@castlelordarrivalwarninginmin": "1",
+        "@eliteguardarrivalinmin": "1",
+        "@eliteguardarrivalwarninginmin": "0",
+        "@castlelordarrivalinmin": "1",
+        "@castlelordarrivalwarninginmin": "0",
         "@castlephasetimeoutinmin": "30",
         "@castlephasetimeoutwarninginmin": "25",
         "gvgseasonscoring": {
@@ -24,23 +24,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "8"
+                  "@pointspercycle": "10"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "8"
+                  "@pointspercycle": "10"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "8"
+                  "@pointspercycle": "10"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "8"
+                  "@pointspercycle": "10"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "8"
+                  "@pointspercycle": "10"
                 }
               ]
             },
@@ -49,23 +49,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "16"
+                  "@pointspercycle": "14"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "16"
+                  "@pointspercycle": "14"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "16"
+                  "@pointspercycle": "14"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "16"
+                  "@pointspercycle": "14"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "16"
+                  "@pointspercycle": "14"
                 }
               ]
             },
@@ -74,23 +74,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "24"
+                  "@pointspercycle": "18"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "24"
+                  "@pointspercycle": "18"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "24"
+                  "@pointspercycle": "18"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "24"
+                  "@pointspercycle": "18"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "24"
+                  "@pointspercycle": "18"
                 }
               ]
             },
@@ -99,23 +99,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "32"
+                  "@pointspercycle": "22"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "32"
+                  "@pointspercycle": "22"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "32"
+                  "@pointspercycle": "22"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "32"
+                  "@pointspercycle": "22"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "32"
+                  "@pointspercycle": "22"
                 }
               ]
             },
@@ -124,23 +124,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "40"
+                  "@pointspercycle": "26"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "40"
+                  "@pointspercycle": "26"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "40"
+                  "@pointspercycle": "26"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "40"
+                  "@pointspercycle": "26"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "40"
+                  "@pointspercycle": "26"
                 }
               ]
             },
@@ -149,23 +149,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "48"
+                  "@pointspercycle": "30"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "48"
+                  "@pointspercycle": "30"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "48"
+                  "@pointspercycle": "30"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "48"
+                  "@pointspercycle": "30"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "48"
+                  "@pointspercycle": "30"
                 }
               ]
             }
@@ -305,23 +305,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "45"
+                  "@pointspercycle": "75"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "45"
+                  "@pointspercycle": "75"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "45"
+                  "@pointspercycle": "75"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "45"
+                  "@pointspercycle": "75"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "45"
+                  "@pointspercycle": "75"
                 }
               ]
             },
@@ -330,23 +330,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "90"
+                  "@pointspercycle": "105"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "90"
+                  "@pointspercycle": "105"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "90"
+                  "@pointspercycle": "105"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "90"
+                  "@pointspercycle": "105"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "90"
+                  "@pointspercycle": "105"
                 }
               ]
             },
@@ -380,23 +380,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "180"
+                  "@pointspercycle": "165"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "180"
+                  "@pointspercycle": "165"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "180"
+                  "@pointspercycle": "165"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "180"
+                  "@pointspercycle": "165"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "180"
+                  "@pointspercycle": "165"
                 }
               ]
             },
@@ -405,23 +405,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "225"
+                  "@pointspercycle": "195"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "225"
+                  "@pointspercycle": "195"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "225"
+                  "@pointspercycle": "195"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "225"
+                  "@pointspercycle": "195"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "225"
+                  "@pointspercycle": "195"
                 }
               ]
             },
@@ -430,23 +430,23 @@
               "clustertier": [
                 {
                   "@tier": "4",
-                  "@pointspercycle": "270"
+                  "@pointspercycle": "225"
                 },
                 {
                   "@tier": "5",
-                  "@pointspercycle": "270"
+                  "@pointspercycle": "225"
                 },
                 {
                   "@tier": "6",
-                  "@pointspercycle": "270"
+                  "@pointspercycle": "225"
                 },
                 {
                   "@tier": "7",
-                  "@pointspercycle": "270"
+                  "@pointspercycle": "225"
                 },
                 {
                   "@tier": "8",
-                  "@pointspercycle": "270"
+                  "@pointspercycle": "225"
                 }
               ]
             }

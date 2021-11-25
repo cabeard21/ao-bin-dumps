@@ -2,12 +2,12 @@
   <criticalscenemembers>
     <criticalscenemember id="exit_02" type="exit" layerId="Layer_01">
       <tile name="SWAMP_RED_KPR_ENTRANCE_DUNGEON_BASE_A" pos="0 0 0">
-        <exit size="7 7" spawnpos="10 0" faction="Keeper" kind="DungeonGroup" roadtype="Primary" />
+        <exit size="7 7" spawnpos="0 0" faction="Keeper" kind="DungeonGroup" roadtype="Primary" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="exit_01" type="exit" layerId="Layer_02">
       <tile name="SWAMP_RED_KPR_ENTRANCE_DUNGEON_BASE_A" pos="0 0 0">
-        <exit size="7 7" spawnpos="10 0" faction="Keeper" kind="DungeonStubSolo" roadtype="Primary" />
+        <exit size="7 7" spawnpos="0 0" faction="Keeper" kind="DungeonStubSolo" roadtype="Primary" />
       </tile>
     </criticalscenemember>
   </criticalscenemembers>
@@ -18,12 +18,12 @@
           <worldmapmarker type="LevelMarker_SoloMobcamp_GroupDungeon_Keeper_30x30_SW" />
         </tile>
         <criticaltile name="SWAMP_RED_KPR_ENTRANCE_DUNGEON_BASE_A" pos="0 0 0" id="exit_02" type="exit">
-          <exit size="7 7" spawnpos="10 0" faction="Keeper" kind="DungeonGroup" roadtype="Primary" />
+          <exit size="7 7" spawnpos="0 0" faction="Keeper" kind="DungeonGroup" roadtype="Primary" />
         </criticaltile>
       </layer>
       <layer id="Layer_02" name="SoloDungeon">
         <criticaltile name="SWAMP_RED_KPR_ENTRANCE_DUNGEON_BASE_A" pos="0 0 0" id="exit_01" type="exit">
-          <exit size="7 7" spawnpos="10 0" faction="Keeper" kind="DungeonStubSolo" roadtype="Primary" />
+          <exit size="7 7" spawnpos="0 0" faction="Keeper" kind="DungeonStubSolo" roadtype="Primary" />
         </criticaltile>
         <tile name="LevelMarker_Mobcamp_Keeper_15x15_SW" pos="0 0 0">
           <worldmapmarker type="LevelMarker_Mobcamp_Keeper_15x15_SW" />
@@ -606,10 +606,6 @@
     <tile name="SWAMP_RED_VEG_WATER_LILY_C" pos="55.5 -4 6.5" roty="112" />
     <tile name="SWAMP_RED_VEG_WATER_LILY_C" pos="6.5 -4 60.5" roty="112" />
     <tile name="SWAMP_RED_VEG_WATER_LILY_C" pos="-5.5 -4 60.5" roty="73" />
-    <tile name="FOREST_RED_BRIDGE_HANGING_30M_A" pos="0 0 -60" roty="90" />
-    <tile name="FOREST_RED_BRIDGE_HANGING_30M_A" pos="60 0 0" roty="180" />
-    <tile name="FOREST_RED_BRIDGE_HANGING_30M_A" pos="-60 0 0" />
-    <tile name="FOREST_RED_BRIDGE_HANGING_30M_A" pos="0 0 60" roty="270" />
     <tile name="SWAMP_RED_FILL_ROCK_MEDIUM_G" pos="45 -33 -49" />
     <tile name="SWAMP_RED_FILL_ROCK_MEDIUM_G" pos="49 -34 -45" roty="180" />
     <tile name="SWAMP_RED_FILL_ROCK_MEDIUM_G" pos="47 -32 -47" roty="90" />
@@ -750,6 +746,10 @@
     <tile name="SWAMP_RED_KPR_FIREBOWL_TRIPOD_A" pos="-21.5 0 -24.5" roty="135" />
     <tile name="SWAMP_RED_VEG_MOSS_PATCH_A" pos="-21.5 0 -24.5" roty="217" />
     <tile name="SWAMP_RED_VEG_MOSS_PATCH_B" pos="0.5 0 25.5" roty="270" />
+    <tile name="SWAMP_RED_BRIDGE_HANGING_30M_A" pos="0 0 -60" roty="90" />
+    <tile name="SWAMP_RED_BRIDGE_HANGING_30M_A" pos="0 0 60" roty="270" />
+    <tile name="SWAMP_RED_BRIDGE_HANGING_30M_A" pos="-60 0 0" />
+    <tile name="SWAMP_RED_BRIDGE_HANGING_30M_A" pos="60 0 0" roty="180" />
     <tile name="SpawnPoint_T5_MOB_KEEPER_AXE_THROWER" pos="42 0 -16" roty="270">
       <mobspawnpoint behavior="PATROL">
         <path>

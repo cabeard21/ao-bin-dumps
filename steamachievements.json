@@ -8,6 +8,170 @@
     "@xsi:noNamespaceSchemaLocation": "steamachievements.xsd",
     "achievement": [
       {
+        "@name": "SA_EXPLORATION_TREASURE",
+        "usefunction": {
+          "@function": "OpenTreasureChest"
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_TREASURE_100",
+        "@stat": "SA_ST_EXPLORATION_TREASURE_100",
+        "usefunction": {
+          "@function": "OpenTreasureChest",
+          "@count": "100"
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_STATIC_DUNGEON_FAME",
+        "@stat": "SA_ST_EXPLORATION_STATIC_DUNGEON_FAME",
+        "killmobfame": {
+          "@value": "10000000",
+          "@specialcondition": "InStaticDungeon"
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_STATIC_DUNGEON_EVENT",
+        "killmobfame": {
+          "@value": "1",
+          "@specialcondition": "DuringStaticDungeonEvent"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_REROLL",
+        "rerollitems": {
+          "@count": "1"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_REROLL_MASTERPIECE",
+        "rerollitems": {
+          "@count": "1",
+          "@minresultquality": "5"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_REROLL_STACK",
+        "rerollitems": {
+          "@count": "1",
+          "@minoriginalstacksize": "999"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_ELITE_FIRST",
+        "unlockachievement": {
+          "@achievement": "any",
+          "@elitelevel": "1"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_ELITE_FINISH",
+        "unlockachievement": {
+          "@achievement": "any",
+          "@elitelevel": "20"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_WARGLOVES_MULTIKILL",
+        "killwithsinglespellcast": {
+          "@count": "1",
+          "@kills": "3",
+          "@spell": "PUMMELING_STRIKES_DELAYED_DAMAGE"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_HIDEOUT_HOME",
+        "usefunction": {
+          "@function": "MakeHideoutHome"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_HIDEOUT_POWER",
+        "usefunction": {
+          "@function": "CaptureHideoutPowerCrystal"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_TERRITORY_ENERGY",
+        "usefunction": {
+          "@function": "CaptureTerritoryPowerCrystal"
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_HELLGATE_01",
+        "@stat": "SA_ST_COLLECTION_HELLGATE_01",
+        "or": {
+          "haveinfamy": [
+            {
+              "@amount": "100000",
+              "@infamytype": "Hell2v2"
+            },
+            {
+              "@amount": "100000",
+              "@infamytype": "Hell5v5"
+            },
+            {
+              "@amount": "100000",
+              "@infamytype": "Hell10v10"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "SA_COLLECTION_HELLGATE_02",
+        "@stat": "SA_ST_COLLECTION_HELLGATE_02",
+        "or": {
+          "haveinfamy": [
+            {
+              "@amount": "250000",
+              "@infamytype": "Hell2v2"
+            },
+            {
+              "@amount": "250000",
+              "@infamytype": "Hell5v5"
+            },
+            {
+              "@amount": "250000",
+              "@infamytype": "Hell10v10"
+            }
+          ]
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_CHAIN_HELLGATE_01",
+        "@stat": "SA_ST_EXPLORATION_CHAIN_HELLGATE_01",
+        "chainhellgate": {
+          "@count": "2"
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_CHAIN_HELLGATE_02",
+        "@stat": "SA_ST_EXPLORATION_CHAIN_HELLGATE_02",
+        "chainhellgate": {
+          "@count": "5"
+        }
+      },
+      {
+        "@name": "SA_EXPLORATION_CHAIN_HELLGATE_03",
+        "@stat": "SA_ST_EXPLORATION_CHAIN_HELLGATE_03",
+        "chainhellgate": {
+          "@count": "10"
+        }
+      },
+      {
+        "@name": "SA_FACTIONWARFARE_CLUSTER_CAPTURE",
+        "gainfactionpoints": {
+          "@value": "1",
+          "@source": "CLUSTER_CAPTURED"
+        }
+      },
+      {
+        "@name": "SA_FACTIONWARFARE_BANDIT_ASSAULT",
+        "gainfactionpoints": {
+          "@value": "1",
+          "@source": "REDZONE_EVENT"
+        }
+      },
+      {
         "@name": "SA_PVP_CORRUPTED_DUNGEON_01",
         "killplayer": {
           "@where": "all",
@@ -29,7 +193,8 @@
         "@name": "SA_COLLECTION_CORRUPTED_DUNGEONS_INFAMY",
         "@stat": "SA_ST_COLLECTION_CORRUPTED_DUNGEONS_INFAMY",
         "haveinfamy": {
-          "@amount": "100000"
+          "@amount": "100000",
+          "@infamytype": "CorruptedDungeon"
         }
       },
       {
@@ -812,6 +977,10 @@
             "@masterylevel": "0"
           },
           {
+            "@achievement": "COMBAT_KNUCKLES",
+            "@masterylevel": "0"
+          },
+          {
             "@achievement": "COMBAT_CROSSBOWS",
             "@masterylevel": "0"
           },
@@ -917,6 +1086,10 @@
           },
           {
             "@achievement": "CRAFT_HAMMERS",
+            "@masterylevel": "0"
+          },
+          {
+            "@achievement": "CRAFT_KNUCKLES",
             "@masterylevel": "0"
           },
           {
@@ -1075,6 +1248,10 @@
           },
           {
             "@achievement": "COMBAT_HAMMERS",
+            "@masterylevel": "0"
+          },
+          {
+            "@achievement": "COMBAT_KNUCKLES",
             "@masterylevel": "0"
           },
           {
@@ -1248,6 +1425,10 @@
               "@masterylevel": "0"
             },
             {
+              "@achievement": "CRAFT_KNUCKLES",
+              "@masterylevel": "0"
+            },
+            {
               "@achievement": "CRAFT_CROSSBOWS",
               "@masterylevel": "0"
             },
@@ -1399,6 +1580,10 @@
               "@masterylevel": "29"
             },
             {
+              "@achievement": "CRAFT_KNUCKLES",
+              "@masterylevel": "29"
+            },
+            {
               "@achievement": "CRAFT_CROSSBOWS",
               "@masterylevel": "29"
             },
@@ -1547,6 +1732,10 @@
             },
             {
               "@achievement": "CRAFT_HAMMERS",
+              "@masterylevel": "99"
+            },
+            {
+              "@achievement": "CRAFT_KNUCKLES",
               "@masterylevel": "99"
             },
             {
@@ -2081,31 +2270,67 @@
       {
         "@name": "SA_PVE_KILL_MINIGUARDIANS",
         "@stat": "SA_ST_PVE_KILL_MINIGUARDIANS",
-        "killmob": [
+        "killmob": {
+          "@mobid": "T6_MOB_MINIGUARDIAN_STEPPE_MAMMOTH",
+          "@count": "1",
+          "@countpartykills": "true"
+        },
+        "or": [
           {
-            "@mobid": "T6_MOB_MINIGUARDIAN_SWAMP_DRYAD",
-            "@count": "1",
-            "@countpartykills": "true"
+            "killmob": [
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_FIBER_SWAMP_RED",
+                "@count": "1",
+                "@countpartykills": "true"
+              },
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_FIBER_SWAMP_DEAD",
+                "@count": "1",
+                "@countpartykills": "true"
+              }
+            ]
           },
           {
-            "@mobid": "T6_MOB_MINIGUARDIAN_STEPPE_MAMMOTH",
-            "@count": "1",
-            "@countpartykills": "true"
+            "killmob": [
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_ORE_MOUNTAIN_RED",
+                "@count": "1",
+                "@countpartykills": "true"
+              },
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_ORE_MOUNTAIN_DEAD",
+                "@count": "1",
+                "@countpartykills": "true"
+              }
+            ]
           },
           {
-            "@mobid": "T6_MOB_MINIGUARDIAN_MOUNTAIN_GIANT",
-            "@count": "1",
-            "@countpartykills": "true"
+            "killmob": [
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_WOOD_FOREST_RED",
+                "@count": "1",
+                "@countpartykills": "true"
+              },
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_WOOD_FOREST_DEAD",
+                "@count": "1",
+                "@countpartykills": "true"
+              }
+            ]
           },
           {
-            "@mobid": "T6_MOB_MINIGUARDIAN_FOREST_SPIRIT",
-            "@count": "1",
-            "@countpartykills": "true"
-          },
-          {
-            "@mobid": "T6_MOB_MINIGUARDIAN_HIGHLAND_GIANT",
-            "@count": "1",
-            "@countpartykills": "true"
+            "killmob": [
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_ROCK_HIGHLAND_RED",
+                "@count": "1",
+                "@countpartykills": "true"
+              },
+              {
+                "@mobid": "T6_MOB_MINIGUARDIAN_ROCK_HIGHLAND_DEAD",
+                "@count": "1",
+                "@countpartykills": "true"
+              }
+            ]
           }
         ]
       },
@@ -2184,7 +2409,9 @@
       },
       {
         "@name": "SA_PVP_WIN_HELLGATE_01",
-        "completehellgate": null
+        "usefunction": {
+          "@function": "WinHellgatePvp"
+        }
       },
       {
         "@name": "SA_SOCIAL_GUILD",
@@ -2238,28 +2465,9 @@
       },
       {
         "@name": "SA_FACTIONWARFARE_JOIN",
-        "joinfaction": null
-      },
-      {
-        "@name": "SA_FACTIONWARFARE_JOIN_ALL",
-        "@stat": "SA_ST_FACTIONWARFARE_JOIN_ALL",
-        "joinfaction": [
-          {
-            "@faction": "swamp"
-          },
-          {
-            "@faction": "steppe"
-          },
-          {
-            "@faction": "highland"
-          },
-          {
-            "@faction": "mountain"
-          },
-          {
-            "@faction": "forest"
-          }
-        ]
+        "usefunction": {
+          "@function": "EnlistWithFaction"
+        }
       },
       {
         "@name": "SA_FACTIONWARFARE_CAPTURE_01",
@@ -2282,40 +2490,102 @@
       {
         "@name": "SA_FACTIONWARFARE_KILLBOSS_ALL",
         "@stat": "SA_ST_FACTIONWARFARE_KILLBOSS_ALL",
-        "killmob": [
-          {
-            "@mobid": "T4_MOB_CITY_FOREST_BOSS",
-            "@count": "1",
-            "@countpartykills": "true"
-          },
-          {
-            "@mobid": "T4_MOB_CITY_HIGHLAND_BOSS",
-            "@count": "1",
-            "@countpartykills": "true"
-          },
-          {
-            "@mobid": "T4_MOB_CITY_MOUNTAIN_BOSS",
-            "@count": "1",
-            "@countpartykills": "true"
-          },
-          {
-            "@mobid": "T4_MOB_CITY_STEPPE_BOSS",
-            "@count": "1",
-            "@countpartykills": "true"
-          },
-          {
-            "@mobid": "T4_MOB_CITY_SWAMP_BOSS",
-            "@count": "1",
-            "@countpartykills": "true"
-          }
-        ]
+        "any": {
+          "@count": "5",
+          "or": [
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_FOREST_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_FOREST_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            },
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_HIGHLAND_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_HIGHLAND_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            },
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_MOUNTAIN_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_MOUNTAIN_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            },
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_STEPPE_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_STEPPE_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            },
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_SWAMP_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_SWAMP_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            },
+            {
+              "killmob": [
+                {
+                  "@mobid": "T5_MOB_CITY_CAERLEON_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                },
+                {
+                  "@mobid": "T6_MOB_CITY_CAERLEON_BOSS",
+                  "@count": "1",
+                  "@countpartykills": "true"
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "@name": "SA_FACTIONWARFARE_STANDING_MAX",
         "@stat": "SA_ST_FACTIONWARFARE_STANDING_MAX",
         "havefactionstanding": {
           "@faction": "any",
-          "@value": "240000"
+          "@value": "330000"
         }
       },
       {

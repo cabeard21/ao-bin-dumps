@@ -7,6 +7,93 @@
 
     ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! ACHTUNG! -->
 
+
+  <!--Torsten Update Achievements-->
+
+
+  <achievement name="SA_EXPLORATION_TREASURE">
+    <usefunction function="OpenTreasureChest"/>
+  </achievement>
+
+  <achievement name="SA_EXPLORATION_TREASURE_100" stat="SA_ST_EXPLORATION_TREASURE_100">
+    <usefunction function="OpenTreasureChest" count="100"/>
+  </achievement>
+
+  <achievement name="SA_EXPLORATION_STATIC_DUNGEON_FAME" stat="SA_ST_EXPLORATION_STATIC_DUNGEON_FAME">
+    <killmobfame value="10000000" specialcondition="InStaticDungeon"/>
+  </achievement>
+
+  <achievement name="SA_EXPLORATION_STATIC_DUNGEON_EVENT">
+    <killmobfame value="1" specialcondition="DuringStaticDungeonEvent"/>
+  </achievement>
+  
+  <achievement name="SA_COLLECTION_REROLL">
+    <rerollitems count="1" />
+  </achievement>
+
+  <achievement name="SA_COLLECTION_REROLL_MASTERPIECE">
+    <rerollitems count="1" minresultquality="5" />
+  </achievement>
+
+  <achievement name="SA_COLLECTION_REROLL_STACK">
+    <rerollitems count="1" minoriginalstacksize="999"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_ELITE_FIRST">
+    <unlockachievement achievement="any" elitelevel="1"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_ELITE_FINISH">
+    <unlockachievement achievement="any" elitelevel="20"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_WARGLOVES_MULTIKILL">
+    <killwithsinglespellcast count="1" kills="3" spell="PUMMELING_STRIKES_DELAYED_DAMAGE"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_HIDEOUT_HOME">
+    <usefunction function="MakeHideoutHome"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_HIDEOUT_POWER">
+    <usefunction function="CaptureHideoutPowerCrystal"/>
+  </achievement>
+
+  <achievement name="SA_COLLECTION_TERRITORY_ENERGY">
+    <usefunction function="CaptureTerritoryPowerCrystal"/>
+  </achievement>
+
+  <!--Sagramore Update Achievements-->
+  <achievement name="SA_COLLECTION_HELLGATE_01" stat="SA_ST_COLLECTION_HELLGATE_01">
+    <or>
+      <haveinfamy amount="100000" infamytype="Hell2v2" />
+      <haveinfamy amount="100000" infamytype="Hell5v5" />
+      <haveinfamy amount="100000" infamytype="Hell10v10" />
+    </or>
+  </achievement>
+  <achievement name="SA_COLLECTION_HELLGATE_02" stat="SA_ST_COLLECTION_HELLGATE_02">
+    <or>
+      <haveinfamy amount="250000" infamytype="Hell2v2" />
+      <haveinfamy amount="250000" infamytype="Hell5v5" />
+      <haveinfamy amount="250000" infamytype="Hell10v10" />
+    </or>
+  </achievement>
+  <achievement name="SA_EXPLORATION_CHAIN_HELLGATE_01" stat="SA_ST_EXPLORATION_CHAIN_HELLGATE_01">
+    <chainhellgate count="2"/>
+  </achievement>
+  <achievement name="SA_EXPLORATION_CHAIN_HELLGATE_02" stat="SA_ST_EXPLORATION_CHAIN_HELLGATE_02">
+    <chainhellgate count="5"/>
+  </achievement>
+  <achievement name="SA_EXPLORATION_CHAIN_HELLGATE_03" stat="SA_ST_EXPLORATION_CHAIN_HELLGATE_03">
+    <chainhellgate count="10"/>
+  </achievement>
+  <achievement name="SA_FACTIONWARFARE_CLUSTER_CAPTURE">
+    <gainfactionpoints value="1" source="CLUSTER_CAPTURED" />
+  </achievement>
+  <achievement name="SA_FACTIONWARFARE_BANDIT_ASSAULT">
+    <gainfactionpoints value="1" source="REDZONE_EVENT" />
+  </achievement>
+
   <!--Roland Update Achievements-->
   <achievement name="SA_PVP_CORRUPTED_DUNGEON_01">
     <killplayer where="all" count="1" minvalue="0" specialcondition="KillCorruptedDungeonInvader"/>
@@ -15,7 +102,7 @@
     <killplayer where="all" count="1" minvalue="0" specialcondition="KillCorruptedDungeonHost" />
   </achievement>
   <achievement name="SA_COLLECTION_CORRUPTED_DUNGEONS_INFAMY" stat="SA_ST_COLLECTION_CORRUPTED_DUNGEONS_INFAMY">
-    <haveinfamy amount="100000" />
+    <haveinfamy amount="100000" infamytype="CorruptedDungeon" />
   </achievement>
   <achievement name="SA_PVE_CORRUPTED_DUNGEONS_01">
 	<or>
@@ -325,7 +412,8 @@
     <unlockachievement achievement="COMBAT_AXES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_MACES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_HAMMERS" masterylevel="0"/>
-    <unlockachievement achievement="COMBAT_CROSSBOWS" masterylevel="0"/>
+    <unlockachievement achievement="COMBAT_KNUCKLES" masterylevel="0"/>
+	  <unlockachievement achievement="COMBAT_CROSSBOWS" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_SHIELDS" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_LEATHER_SHOES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_LEATHER_ARMORS" masterylevel="0"/>
@@ -352,7 +440,8 @@
     <unlockachievement achievement="CRAFT_AXES" masterylevel="0"/>
     <unlockachievement achievement="CRAFT_MACES" masterylevel="0"/>
     <unlockachievement achievement="CRAFT_HAMMERS" masterylevel="0"/>
-    <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="0"/>
+    <unlockachievement achievement="CRAFT_KNUCKLES" masterylevel="0"/>
+	  <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="0"/>
     <unlockachievement achievement="CRAFT_SHIELDS" masterylevel="0"/>
     <unlockachievement achievement="CRAFT_LEATHER_SHOES" masterylevel="0"/>
     <unlockachievement achievement="CRAFT_LEATHER_ARMORS" masterylevel="0"/>
@@ -392,6 +481,7 @@
     <unlockachievement achievement="COMBAT_AXES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_MACES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_HAMMERS" masterylevel="0"/>
+	  <unlockachievement achievement="COMBAT_KNUCKLES" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_CROSSBOWS" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_SHIELDS" masterylevel="0"/>
     <unlockachievement achievement="COMBAT_BOWS" masterylevel="0"/>
@@ -451,7 +541,8 @@
       <unlockachievement achievement="CRAFT_AXES" masterylevel="0"/>
       <unlockachievement achievement="CRAFT_MACES" masterylevel="0"/>
       <unlockachievement achievement="CRAFT_HAMMERS" masterylevel="0"/>
-      <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="0"/>
+	  <unlockachievement achievement="CRAFT_KNUCKLES" masterylevel="0"/>
+	  <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="0"/>
       <unlockachievement achievement="CRAFT_SHIELDS" masterylevel="0"/>
       <unlockachievement achievement="CRAFT_LEATHER_SHOES" masterylevel="0"/>
       <unlockachievement achievement="CRAFT_LEATHER_ARMORS" masterylevel="0"/>
@@ -492,7 +583,8 @@
       <unlockachievement achievement="CRAFT_AXES" masterylevel="29"/>
       <unlockachievement achievement="CRAFT_MACES" masterylevel="29"/>
       <unlockachievement achievement="CRAFT_HAMMERS" masterylevel="29"/>
-      <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="29"/>
+	  <unlockachievement achievement="CRAFT_KNUCKLES" masterylevel="29"/>
+	  <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="29"/>
       <unlockachievement achievement="CRAFT_SHIELDS" masterylevel="29"/>
       <unlockachievement achievement="CRAFT_LEATHER_SHOES" masterylevel="29"/>
       <unlockachievement achievement="CRAFT_LEATHER_ARMORS" masterylevel="29"/>
@@ -533,6 +625,7 @@
       <unlockachievement achievement="CRAFT_AXES" masterylevel="99"/>
       <unlockachievement achievement="CRAFT_MACES" masterylevel="99"/>
       <unlockachievement achievement="CRAFT_HAMMERS" masterylevel="99"/>
+	  <unlockachievement achievement="CRAFT_KNUCKLES" masterylevel="99"/>
       <unlockachievement achievement="CRAFT_CROSSBOWS" masterylevel="99"/>
       <unlockachievement achievement="CRAFT_SHIELDS" masterylevel="99"/>
       <unlockachievement achievement="CRAFT_LEATHER_SHOES" masterylevel="99"/>
@@ -756,11 +849,23 @@
   </achievement>
 
   <achievement name="SA_PVE_KILL_MINIGUARDIANS" stat="SA_ST_PVE_KILL_MINIGUARDIANS">
-    <killmob mobid="T6_MOB_MINIGUARDIAN_SWAMP_DRYAD" count="1" countpartykills="true"/>
     <killmob mobid="T6_MOB_MINIGUARDIAN_STEPPE_MAMMOTH" count="1" countpartykills="true"/>
-    <killmob mobid="T6_MOB_MINIGUARDIAN_MOUNTAIN_GIANT" count="1" countpartykills="true"/>
-    <killmob mobid="T6_MOB_MINIGUARDIAN_FOREST_SPIRIT" count="1" countpartykills="true"/>
-    <killmob mobid="T6_MOB_MINIGUARDIAN_HIGHLAND_GIANT" count="1" countpartykills="true"/>
+    <or>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_FIBER_SWAMP_RED" count="1" countpartykills="true"/>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_FIBER_SWAMP_DEAD" count="1" countpartykills="true"/>
+    </or>
+    <or>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_ORE_MOUNTAIN_RED" count="1" countpartykills="true"/>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_ORE_MOUNTAIN_DEAD" count="1" countpartykills="true"/>
+    </or>
+    <or>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_WOOD_FOREST_RED" count="1" countpartykills="true"/>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_WOOD_FOREST_DEAD" count="1" countpartykills="true"/>
+    </or>
+    <or>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_ROCK_HIGHLAND_RED" count="1" countpartykills="true"/>
+      <killmob mobid="T6_MOB_MINIGUARDIAN_ROCK_HIGHLAND_DEAD" count="1" countpartykills="true"/>
+    </or>
   </achievement>
 
   <!--Reputation-->
@@ -806,7 +911,7 @@
   </achievement>
 
   <achievement name="SA_PVP_WIN_HELLGATE_01">
-    <completehellgate/>
+    <usefunction function="WinHellgatePvp"/>
   </achievement>
 
   <!--Social-->
@@ -842,15 +947,7 @@
 
   <!-- Faction Warfare -->
   <achievement name="SA_FACTIONWARFARE_JOIN">
-    <joinfaction/>
-  </achievement>
-
-  <achievement name="SA_FACTIONWARFARE_JOIN_ALL" stat="SA_ST_FACTIONWARFARE_JOIN_ALL">
-    <joinfaction faction="swamp"/>
-    <joinfaction faction="steppe"/>
-    <joinfaction faction="highland"/>
-    <joinfaction faction="mountain"/>
-    <joinfaction faction="forest"/>
+    <usefunction function="EnlistWithFaction"/>
   </achievement>
 
   <achievement name="SA_FACTIONWARFARE_CAPTURE_01">
@@ -866,15 +963,36 @@
   </achievement>
 
   <achievement name="SA_FACTIONWARFARE_KILLBOSS_ALL" stat="SA_ST_FACTIONWARFARE_KILLBOSS_ALL">
-    <killmob mobid="T4_MOB_CITY_FOREST_BOSS" count="1" countpartykills="true"/>
-    <killmob mobid="T4_MOB_CITY_HIGHLAND_BOSS" count="1" countpartykills="true"/>
-    <killmob mobid="T4_MOB_CITY_MOUNTAIN_BOSS" count="1" countpartykills="true"/>
-    <killmob mobid="T4_MOB_CITY_STEPPE_BOSS" count="1" countpartykills="true"/>
-    <killmob mobid="T4_MOB_CITY_SWAMP_BOSS" count="1" countpartykills="true"/>
+    <any count="5">
+      <or>
+        <killmob mobid="T5_MOB_CITY_FOREST_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_FOREST_BOSS" count="1" countpartykills="true"/>
+      </or>
+      <or>
+        <killmob mobid="T5_MOB_CITY_HIGHLAND_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_HIGHLAND_BOSS" count="1" countpartykills="true"/>
+      </or>      
+      <or>
+        <killmob mobid="T5_MOB_CITY_MOUNTAIN_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_MOUNTAIN_BOSS" count="1" countpartykills="true"/>
+      </or>
+      <or>
+        <killmob mobid="T5_MOB_CITY_STEPPE_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_STEPPE_BOSS" count="1" countpartykills="true"/>
+      </or>
+      <or>
+        <killmob mobid="T5_MOB_CITY_SWAMP_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_SWAMP_BOSS" count="1" countpartykills="true"/>
+      </or>
+      <or>
+        <killmob mobid="T5_MOB_CITY_CAERLEON_BOSS" count="1" countpartykills="true"/>
+        <killmob mobid="T6_MOB_CITY_CAERLEON_BOSS" count="1" countpartykills="true"/>
+      </or>
+    </any>
   </achievement>
 
   <achievement name="SA_FACTIONWARFARE_STANDING_MAX" stat="SA_ST_FACTIONWARFARE_STANDING_MAX">
-    <havefactionstanding faction="any" value="240000"/>
+    <havefactionstanding faction="any" value="330000"/>
   </achievement>
 
   <achievement name="SA_FACTIONWARFARE_TRADEMISSION_01">

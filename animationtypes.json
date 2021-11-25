@@ -125,6 +125,9 @@
               "@value": "cast_staffonground"
             },
             {
+              "@value": "cast_staffarc"
+            },
+            {
               "@value": "cast_standardattack"
             },
             {
@@ -248,6 +251,9 @@
               "@value": "mount_ability_01"
             },
             {
+              "@value": "mount_ability_02"
+            },
+            {
               "@value": "mount_ability_channel"
             },
             {
@@ -255,6 +261,9 @@
             },
             {
               "@value": "mount_ability_utility"
+            },
+            {
+              "@value": "mount_bastion_charge"
             },
             {
               "@value": "mount_raven_scream"
@@ -296,6 +305,9 @@
               "@value": "mount_beetle_fly_liftup"
             },
             {
+              "@value": "pole_vault"
+            },
+            {
               "@value": "quarterstaff_slam"
             },
             {
@@ -303,6 +315,9 @@
             },
             {
               "@value": "ranged_heavycrossbow"
+            },
+            {
+              "@value": "ranged_crossbow_aim"
             },
             {
               "@value": "ranged_heavyshot"
@@ -344,7 +359,7 @@
               "@value": "throw_snowball"
             },
             {
-              "@value": "throw_spear"
+              "@value": "throw_weapon"
             },
             {
               "@value": "vanity_beer_drink"
@@ -366,6 +381,12 @@
             },
             {
               "@value": "vanity_warbanner_charge"
+            },
+            {
+              "@value": "vanity_spellbook_fireworks"
+            },
+            {
+              "@value": "vanity_spellbook_bird"
             },
             {
               "@value": "open_chest"
@@ -433,6 +454,9 @@
             },
             {
               "@value": "channel_melee_attack_02"
+            },
+            {
+              "@value": "channel_melee_combo"
             },
             {
               "@value": "channel_melee_heavy"
@@ -530,6 +554,12 @@
             },
             {
               "@value": "orbclaiming"
+            },
+            {
+              "@value": "traveltohideout"
+            },
+            {
+              "@value": "hideoutmove"
             }
           ]
         }
@@ -539,6 +569,9 @@
         "xs:restriction": {
           "@base": "xs:string",
           "xs:enumeration": [
+            {
+              "@value": "mount_bastion_charge"
+            },
             {
               "@value": "cast_charge"
             },
@@ -555,7 +588,16 @@
               "@value": "mount_rhino_charge"
             },
             {
+              "@value": "mount_moabird_zigzag"
+            },
+            {
+              "@value": "mount_swampdragon_shedskin"
+            },
+            {
               "@value": "axe_jump"
+            },
+            {
+              "@value": "banner_jump"
             },
             {
               "@value": "bigjump_halberd"
@@ -570,10 +612,19 @@
               "@value": "charge_2hsword"
             },
             {
+              "@value": "dagger_dash"
+            },
+            {
+              "@value": "divekick"
+            },
+            {
               "@value": "dbstaff_leap"
             },
             {
               "@value": "elbowtackle"
+            },
+            {
+              "@value": "forwardkick"
             },
             {
               "@value": "jump"
@@ -588,6 +639,12 @@
               "@value": "leap_spear"
             },
             {
+              "@value": "mount_beetle_charge"
+            },
+            {
+              "@value": "mount_juggernaut_charge"
+            },
+            {
               "@value": "melee_sweepingblow2"
             },
             {
@@ -595,6 +652,9 @@
             },
             {
               "@value": "mount_giantstag_leap"
+            },
+            {
+              "@value": "pole_vault_jump"
             },
             {
               "@value": "rapierstab"
@@ -621,16 +681,13 @@
               "@value": "tackle_ram"
             },
             {
-              "@value": "mount_beetle_charge"
-            },
-            {
-              "@value": "dagger_dash"
-            },
-            {
-              "@value": "jumpshot"
+              "@value": "triplekick"
             },
             {
               "@value": "cast_jump_back"
+            },
+            {
+              "@value": "jumpshot"
             },
             {
               "@value": "dash"

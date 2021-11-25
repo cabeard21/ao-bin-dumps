@@ -5819,6 +5819,92 @@
           ]
         },
         {
+          "@name": "HIDE_FOREST_02",
+          "@resource": "HIDE",
+          "ToolModifier": {
+            "Modifier": [
+              {
+                "@tierdifference": "-1",
+                "@timefactor": "1.5"
+              },
+              {
+                "@tierdifference": "0",
+                "@timefactor": "1"
+              },
+              {
+                "@tierdifference": "1",
+                "@timefactor": "0.7"
+              },
+              {
+                "@tierdifference": "2",
+                "@timefactor": "0.5"
+              },
+              {
+                "@tierdifference": "3",
+                "@timefactor": "0.35"
+              },
+              {
+                "@tierdifference": "4",
+                "@timefactor": "0.25"
+              },
+              {
+                "@tierdifference": "5",
+                "@timefactor": "0.15"
+              },
+              {
+                "@tierdifference": "6",
+                "@timefactor": "0.15"
+              },
+              {
+                "@tierdifference": "7",
+                "@timefactor": "0.15"
+              }
+            ]
+          },
+          "Tier": {
+            "@tier": "6",
+            "@item": "T6_HIDE",
+            "@maxchargesperharvest": "1",
+            "@respawntimeseconds": "0",
+            "@harvesttimeseconds": "8",
+            "@requirestool": "true",
+            "@tile": "FOREST_GREEN_T6_HIDE_GIANTSTAG",
+            "@decaytimeseconds": "3600",
+            "@decaytimewhenexhaustedseconds": "7000",
+            "Charge": [
+              {
+                "@level": "0",
+                "@gfxstate": "0",
+                "@respawnfactormin": "0.5",
+                "@respawnfactormax": "1.5",
+                "@respawncharges": "1"
+              },
+              {
+                "@level": "1-5",
+                "@yield": "1",
+                "@gfxstate": "1",
+                "@respawnfactormin": "0.5",
+                "@respawnfactormax": "1.5",
+                "@respawncharges": "1"
+              }
+            ],
+            "RareState": [
+              {
+                "@state": "1",
+                "@item": "T6_HIDE_LEVEL1"
+              },
+              {
+                "@state": "2",
+                "@item": "T6_HIDE_LEVEL2"
+              },
+              {
+                "@state": "3",
+                "@item": "T6_HIDE_LEVEL3"
+              }
+            ]
+          }
+        },
+        {
           "@name": "HIDE_STEPPE",
           "@resource": "HIDE",
           "ToolModifier": {
@@ -20171,7 +20257,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "3.2976",
+                  "@yield": "3.63",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20199,7 +20285,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "10.3",
+                  "@yield": "11.33",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20227,7 +20313,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "19.6446",
+                  "@yield": "21.61",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20255,7 +20341,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "35.1253",
+                  "@yield": "38.64",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20283,7 +20369,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "46.8353",
+                  "@yield": "51.52",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20311,7 +20397,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "63",
+                  "@yield": "69.3",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20339,7 +20425,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "80.4593",
+                  "@yield": "88.51",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20367,7 +20453,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "106.4314",
+                  "@yield": "117.07",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20400,7 +20486,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "13.1903",
+                  "@yield": "14.51",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20428,7 +20514,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "41.2",
+                  "@yield": "41.32",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20456,7 +20542,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "78.5783",
+                  "@yield": "86.44",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20484,7 +20570,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "140.5013",
+                  "@yield": "154.55",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20512,7 +20598,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "187.3412",
+                  "@yield": "206.08",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20540,7 +20626,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "252",
+                  "@yield": "277.2",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20568,7 +20654,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "321.8374",
+                  "@yield": "354.02",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"
@@ -20596,7 +20682,7 @@
                 },
                 {
                   "@level": "1",
-                  "@yield": "425.7255",
+                  "@yield": "468.3",
                   "@gfxstate": "1",
                   "@respawnfactormin": "0.5",
                   "@respawnfactormax": "1.5"

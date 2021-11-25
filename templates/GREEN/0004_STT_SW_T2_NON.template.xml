@@ -107,7 +107,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_03" type="exit" layerId="">
       <tile name="Exit" pos="120.5 0 192.5" roty="90">
-        <exit size="15 15" spawnpos="12.33981 -0.5249329" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="12.33981 -0.5249329" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="124.9751 180.1602" />
             <guard pos="114.9751 180.1602" />
@@ -117,7 +117,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_05" type="exit" layerId="">
       <tile name="Exit" pos="119.5 0 26.5" roty="90">
-        <exit size="15 15" spawnpos="-13.31589 0.5186081" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="-13.31589 0.5186081" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="125.0186 39.81589" />
             <guard pos="115.0186 39.81589" />
@@ -127,7 +127,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_06" type="exit" layerId="">
       <tile name="Exit" pos="166.5 0 110.5" roty="90">
-        <exit size="15 15" spawnpos="0.7580719 -11.72964" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="0.7580719 -11.72964" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="159.7704 109.7419" />
             <guard pos="149.7704 109.7419" />
@@ -456,28 +456,28 @@
     <tile name="SWAMP_GREEN_FILL_DIRTY_WATER_BARREL_A" pos="60.5 0 93.5" roty="270" />
     <tile name="SWAMP_GREEN_FILL_FISH_SACK_A" pos="61.5 0 120.5" roty="270" />
     <tile name="SWAMP_GREEN_FILL_MEAT_FISH_SACKS_B" pos="73 0 116" roty="290" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_A_20x20" pos="185 0 35" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_A_20x20" pos="155 0 165" roty="180" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_B" pos="150 0 100" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_C" pos="110 0 50" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_C" pos="140 0 70" roty="180" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_C" pos="110 0 140" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_D" pos="90 0 160" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_D" pos="130 0 80" roty="180" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_D" pos="130 0 40" roty="180" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_D" pos="90 0 60" roty="180" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_D" pos="100 0 0" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_E" pos="100 0 70" roty="270" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_E" pos="140 0 80" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_E" pos="140 0 50" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_E" pos="100 0 150" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_F" pos="130 0 160" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_F" pos="140 0 180" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_F" pos="100 0 10" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_G_10x20" pos="110 0 5" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_G_10x20" pos="110 0 195" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_H" pos="110 0 80" roty="90" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_H" pos="110 0 180" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_A_20x20" pos="185 0 35" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_A_20x20" pos="155 0 165" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_B" pos="150 0 100" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_C" pos="110 0 50" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_C" pos="140 0 70" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_C" pos="110 0 140" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_D" pos="90 0 160" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_D" pos="130 0 80" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_D" pos="130 0 40" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_D" pos="90 0 60" roty="180" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_D" pos="100 0 0" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_E" pos="100 0 70" roty="270" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_E" pos="140 0 80" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_E" pos="140 0 50" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_E" pos="100 0 150" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_F" pos="130 0 160" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_F" pos="140 0 180" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_F" pos="100 0 10" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_G_10x20" pos="110 0 5" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_G_10x20" pos="110 0 195" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_H" pos="110 0 80" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_H" pos="110 0 180" roty="180" />
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER" pos="150 0 20" roty="90" />
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER" pos="140 0 10" roty="90" />
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER" pos="180 0 90" roty="90" />
@@ -490,7 +490,7 @@
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER_STRAIGHT_A" pos="190 0 160" roty="270" />
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER_STRAIGHT_A" pos="150 0 220" roty="180" />
     <tile name="SWAMP_GREEN_GROUND_SHALLOW_WATER_STRAIGHT_B" pos="190 0 120" />
-    <tile name="SWAMP_GREEN_ISLAND_BOAT" pos="56.5 -1 114.5" />
+    <tile name="SWAMP_GREEN_ISLAND_BOAT_A" pos="56.5 -1 114.5" />
     <tile name="SWAMP_GREEN_PLATEAU_12M_STRAIGHT_B_NOCOL" pos="80 -12 100" roty="90" />
     <tile name="SWAMP_GREEN_SUB_01_PUDDLE_C" pos="180 0 200" roty="90" />
     <tile name="SWAMP_GREEN_T1_BUSH_A" pos="96.5 0 53.5" roty="90" />
@@ -574,7 +574,7 @@
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_BEAM_SIDE_B" pos="64.5 1 92.5" roty="270" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_BEAM_SIDE_B" pos="60.5 1 105.5" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_BEAM_SIDE_B" pos="69.5 1 117.5" />
-    <tile name="SWAMP_GREEN_BASE_PUDDLE_G_10x20" pos="175 0 210" roty="90" />
+    <tile name="SWAMP_GREEN_WATER_BASE_PUDDLE_G_10x20" pos="175 0 210" roty="90" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_BEAM_SIDE_B" pos="60.5 1 118.5" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PLATFORM_10M_A" pos="65 0 107" roty="180" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PLATFORM_10M_A" pos="75 0 97" roty="180" />
@@ -784,6 +784,60 @@
     <tile name="XMAS_FILL_CITY_BANNER_A" pos="156.5 0 115.5" />
     <tile name="XMAS_FILL_CITY_BANNER_A" pos="116.5 0 37.5" roty="180" />
     <tile name="SWAMP_GREEN_PLATEAU_12M_INNERCORNER_NOCOL" pos="90 -12 100" roty="90" />
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T2_WOOD" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T2_HIDE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T3_WOOD" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T3_HIDE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T2_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="118.5 0 20.6" roty="90">
+      <locationmarker locationid="T3_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T2_WOOD" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T2_HIDE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T3_WOOD" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T3_HIDE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T2_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.2 0 109.5" roty="90">
+      <locationmarker locationid="T3_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T3_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T3_ORE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T2_FIBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T2_ROCK" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T2_ORE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="120.6 0 199" roty="90">
+      <locationmarker locationid="T3_ROCK" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
     <tile name="LocationMarker" pos="147.5 0 121.5" roty="90">
       <locationmarker locationid="CRAFTINGBUILDING" radius="5" visibleinworld="false" visibleonminimap="false" />
     </tile>
@@ -902,7 +956,7 @@
       <locationmarker locationid="SMUGGLER" radius="3" visibleinworld="false" visibleonminimap="false" />
     </tile>
     <criticaltile name="Exit" pos="120.5 0 192.5" roty="90" id="exit_03" type="exit">
-      <exit size="15 15" spawnpos="12.33981 -0.5249329" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="12.33981 -0.5249329" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="124.9751 180.1602" />
           <guard pos="114.9751 180.1602" />
@@ -910,7 +964,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="119.5 0 26.5" roty="90" id="exit_05" type="exit">
-      <exit size="15 15" spawnpos="-13.31589 0.5186081" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="-13.31589 0.5186081" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="125.0186 39.81589" />
           <guard pos="115.0186 39.81589" />
@@ -918,7 +972,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="166.5 0 110.5" roty="90" id="exit_06" type="exit">
-      <exit size="15 15" spawnpos="0.7580719 -11.72964" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="0.7580719 -11.72964" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="159.7704 109.7419" />
           <guard pos="149.7704 109.7419" />
@@ -1014,5 +1068,50 @@
     <tile name="SpawnPoint_Swamp_SNAKE" pos="109.06 0 46.05" roty="90" />
     <tile name="SpawnPoint_Swamp_SNAKE" pos="92.48 0 58.69" roty="90" />
     <tile name="SpawnPoint_Swamp_TOAD" pos="146.5 0 161.5" roty="90" />
+    <tile name="LocationMarker" pos="145.5 0 123.5" roty="90">
+      <locationmarker locationid="FORGE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="135.5 0 145.5" roty="90">
+      <locationmarker locationid="TOOLMAKER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="106.5 0 164.5" roty="90">
+      <locationmarker locationid="HUNTER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="134.5 0 163.5" roty="90">
+      <locationmarker locationid="STABLE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="104.5 0 143.5" roty="90">
+      <locationmarker locationid="MAGE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="108.5 0 122.5" roty="90">
+      <locationmarker locationid="MARKETPLACE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="100.5 0 100.5" roty="90">
+      <locationmarker locationid="SMELTER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="105.5 0 85.5" roty="90">
+      <locationmarker locationid="WEAVER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="136.5 0 93.5" roty="90">
+      <locationmarker locationid="REPAIR" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="106.5 0 64.5" roty="90">
+      <locationmarker locationid="TANNER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="134.5 0 73.5" roty="90">
+      <locationmarker locationid="MASON" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="122.5 0 109.5" roty="90">
+      <locationmarker locationid="BANK" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="133.5 0 54.5" roty="90">
+      <locationmarker locationid="LUMBER" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="131.5 0 127.5" roty="90">
+      <locationmarker locationid="EXPEDITION" radius="8.56" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="172.5 0 109.5" roty="90">
+      <locationmarker locationid="CITY" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
   </tiles>
 </template>

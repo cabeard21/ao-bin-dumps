@@ -22,16 +22,6 @@
         </clustermonolith>
       </tile>
     </criticalscenemember>
-    <criticalscenemember id="actionbuilding_03" type="actionbuilding" layerId="">
-      <tile name="STEPPE_RED_T1_CASTLEGATE_OUTPOST" pos="0 2 -19.5">
-        <actionbuilding />
-      </tile>
-    </criticalscenemember>
-    <criticalscenemember id="actionbuilding_04" type="actionbuilding" layerId="">
-      <tile name="STEPPE_RED_T1_CASTLEGATE_OUTPOST" pos="19.5 2 0" roty="270">
-        <actionbuilding />
-      </tile>
-    </criticalscenemember>
   </criticalscenemembers>
   <tiles>
     <layergroup name="">
@@ -94,7 +84,15 @@
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="-7 0 23.5" />
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="8 0 23.5" />
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="23.5 0 10" roty="90" />
-    <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="23.5 0 -10" roty="90" />
+    <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="23.5 0 -9" roty="90" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_A" pos="13 0 -24" roty="270" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_A" pos="-3 0 24" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_A" pos="24 0 14" roty="64.64" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_A" pos="-24 0 10" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_B" pos="24 0 -13" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_B" pos="4 0 24" roty="270" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_B" pos="-24 0 12" roty="270" />
+    <tile name="STEPPE_RED_T1_TREE_PALM_B" pos="-24 0 -12" roty="270" />
     <tile name="STEPPE_RED_VEG_BLEND_SMALL_A" pos="6.5 0 23.5" />
     <tile name="STEPPE_RED_VEG_BLEND_SMALL_A" pos="-12.5 0 -23.5" />
     <tile name="STEPPE_RED_VEG_BLEND_SMALL_A" pos="7.5 0 -22.5" />
@@ -106,7 +104,7 @@
     <tile name="STEPPE_RED_VEG_BLEND_SMALL_A" pos="-21.5 0 20.5" roty="270" />
     <tile name="STEPPE_RED_VEG_BLEND_SMALL_A" pos="-9.5 0 23.5" roty="180" />
     <tile name="STEPPE_RED_CASTLE_WALL_SLOPE_8M_DOOR_SIEGE_A" pos="21 0 0" roty="180" />
-    <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="10 0 -23.5" roty="180" />
+    <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="9 0 -23.5" roty="180" />
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="-10 0 -23.5" roty="180" />
     <tile name="STEPPE_RED_CASTLE_WALL_SLOPE_8M_DOOR_SIEGE_A" pos="0 0 -21" roty="270" />
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A_DIAGONAL" pos="23 0 -23" roty="136" />
@@ -218,7 +216,6 @@
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="-6 4 -18.5" roty="180" />
     <tile name="STEPPE_RED_FILL_SPIKES_STOCKADE_A" pos="18.5 4 6" roty="90" />
     <tile name="STEPPE_RED_MOR_SIEGE_STONEBOAT" pos="10.5 5 -18.5" scale="0.83586 0.83586 0.83586" />
-    <tile name="STEPPE_RED_MOR_SIEGE_STONEBOAT" pos="19.5 5 16.5" roty="107" scale="0.8358604 0.83586 0.8358604" />
     <tile name="castle_banner_hanging_01" pos="5 1 -21" />
     <tile name="castle_banner_hanging_01" pos="-5 1 -21" />
     <tile name="castle_banner_hanging_01" pos="-4 3 19" />
@@ -245,12 +242,6 @@
     <tile name="MiniMapMarker" pos="-16 5 18">
       <minimapmarker type="Castle_Outpost" />
     </tile>
-    <criticaltile name="STEPPE_RED_T1_CASTLEGATE_OUTPOST" pos="0 2 -19.5" id="actionbuilding_03" type="actionbuilding">
-      <actionbuilding />
-    </criticaltile>
-    <criticaltile name="STEPPE_RED_T1_CASTLEGATE_OUTPOST" pos="19.5 2 0" roty="270" id="actionbuilding_04" type="actionbuilding">
-      <actionbuilding />
-    </criticaltile>
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-20 -4 -20" />
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-20 -4 -10" />
     <tile name="BLOCK_CONSTRUCTIONS_10x10" pos="-20 -4 0" />

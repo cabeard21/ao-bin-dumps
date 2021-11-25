@@ -31,9 +31,17 @@
     <avatar name="GVGSEASON_08" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_09" locked="true" hidden="true"/>
     <avatar name="GVGSEASON_10" locked="true" hidden="true"/>
-    <!--
     <avatar name="GVGSEASON_11" locked="true" hidden="true"/>
-    -->
+    <avatar name="GVGSEASON_12" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_13" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_ENERGY_RUSH_BRONZE" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_CRYSTAL" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_GOLD" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_SILVER" locked="true" hidden="true"/>
+    <avatar name="GVGSEASON_14_BRONZE" locked="true" hidden="true"/>      
 
     <avatar name="AVATAR_FAMERANK_01" locked="true"/>
     <avatar name="AVATAR_FAMERANK_02" locked="true"/>
@@ -65,7 +73,9 @@
 
     
     <avatar name="AVATAR_ADC_TOKENLOCKED_01" locked="true" hidden="true"/>    
-    
+    <!-- Vanity Avatars -->
+	<avatar name="VANITY_BARBARIAN_01" locked="true" hidden="true"/>
+	
   </avatars>
   <avatarrings><!-- first in list is the default ring-->
 
@@ -109,8 +119,15 @@
     <avatarring name="AVATARRING_ADC_TOKENLOCKED_NATURE" locked="true" hidden="true"/>
     <avatarring name="AVATARRING_ADC_TOKENLOCKED_FIRE" locked="true" hidden="true"/>
     <avatarring name="AVATARRING_ADC_TOKENLOCKED_ARCANE" locked="true" hidden="true"/>
-    <avatarring name="AVATARRING_ADC_TOKENLOCKED_SWORDS" locked="true" hidden="true"/>    
+    <avatarring name="AVATARRING_ADC_TOKENLOCKED_SWORDS" locked="true" hidden="true"/>
+	<avatarring name="AVATARRING_ADC_TOKENLOCKED_FARMING" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_ADC_TOKENLOCKED_AXES" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_ADC_TOKENLOCKED_FISHING" locked="true" hidden="true"/>
+    <avatarring name="AVATARRING_ADC_TOKENLOCKED_NECROMANCER" locked="true" hidden="true"/>    
     
+	<!-- Vanity Rings -->
+	<avatarring name="AVATARRING_VANITY_BARBARIAN" locked="true" hidden="true"/>
+	 
     <!--
     <avatarring name="RING_PVE_1" locked="true"/>
     <avatarring name="RING_PVE_2" locked="true"/>

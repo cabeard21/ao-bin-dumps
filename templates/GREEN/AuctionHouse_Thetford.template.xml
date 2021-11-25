@@ -2,7 +2,7 @@
   <criticalscenemembers>
     <criticalscenemember id="exit_01" type="exit" layerId="">
       <tile name="Exit" pos="-0.5 -8 42.5" roty="270">
-        <exit size="15 15" spawnpos="15.00006 9.536743E-07" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="15.00006 9.536743E-07" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="-5.500003 57.50006" />
             <guard pos="4.499997 57.50006" />
@@ -12,7 +12,7 @@
     </criticalscenemember>
     <criticalscenemember id="exit_02" type="exit" layerId="">
       <tile name="Exit" pos="-41.5 -3 89.5">
-        <exit size="15 15" spawnpos="20 0.5" faction="None" kind="Cluster" roadtype="Primary">
+        <exit size="15 15" spawnpos="20 0.5" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
           <guards>
             <guard pos="-21.5 95" />
             <guard pos="-21.5 85" />
@@ -21,7 +21,7 @@
       </tile>
     </criticalscenemember>
     <criticalscenemember id="actionbuilding_02" type="actionbuilding" layerId="">
-      <tile name="HIGHLAND_GREEN_MARKETPLACE_CENTERCITY" pos="-1 -7 108">
+      <tile name="SWAMP_GREEN_MARKETPLACE_CENTERCITY" pos="-1 -7 108">
         <actionbuilding />
       </tile>
     </criticalscenemember>
@@ -29,7 +29,7 @@
   <tiles>
     <tile name="CAM_fx_env_undead_dust" pos="-0.5 0 -0.5" />
     <criticaltile name="Exit" pos="-0.5 -8 42.5" roty="270" id="exit_01" type="exit">
-      <exit size="15 15" spawnpos="15.00006 9.536743E-07" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="15.00006 9.536743E-07" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="-5.500003 57.50006" />
           <guard pos="4.499997 57.50006" />
@@ -37,7 +37,7 @@
       </exit>
     </criticaltile>
     <criticaltile name="Exit" pos="-41.5 -3 89.5" id="exit_02" type="exit">
-      <exit size="15 15" spawnpos="20 0.5" faction="None" kind="Cluster" roadtype="Primary">
+      <exit size="15 15" spawnpos="20 0.5" faction="None" kind="Cluster" roadtype="Primary" staticdungeonentrance="NoStaticDungeonExit">
         <guards>
           <guard pos="-21.5 95" />
           <guard pos="-21.5 85" />
@@ -45,7 +45,7 @@
       </exit>
     </criticaltile>
     <tile name="Atmosphere_WRL_NONE_SW_GREEN_CityDungeon" pos="0 0 0" />
-    <criticaltile name="HIGHLAND_GREEN_MARKETPLACE_CENTERCITY" pos="-1 -7 108" id="actionbuilding_02" type="actionbuilding">
+    <criticaltile name="SWAMP_GREEN_MARKETPLACE_CENTERCITY" pos="-1 -7 108" id="actionbuilding_02" type="actionbuilding">
       <actionbuilding />
     </criticaltile>
     <tile name="MiniMapMarker" pos="0 -7 108">
@@ -400,12 +400,7 @@
     <tile name="SWAMP_GREEN_WATER_PUDDLE_PLANE_B" pos="10 -8 80" />
     <tile name="SWAMP_GREEN_WATER_PUDDLE_PLANE_B" pos="-10 -8 80" />
     <tile name="SWAMP_GREEN_FILL_STORAGE_CRATE_LONG_BROKEN_A" pos="-9.5 -7 106.5" roty="354.56" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="34.5 -18 62.5" roty="90" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="29.5 -18 82.5" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="27.5 -18 107.5" roty="270" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="18.5 -18 114.5" roty="180" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-29.5 -18 118.5" roty="90" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-19.5 -18 123.5" />
+    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_BANK_C" pos="-4.55 -8 65.96" roty="270" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_B" pos="60 4 50" roty="180" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_B" pos="60 -24 50" roty="180" />
     <tile name="SWAMP_GREEN_CASTLE_WALL_STRAIGHT_NO_BATTLEMENT_A" pos="-50 0 80" roty="90" />
@@ -429,11 +424,8 @@
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B" pos="-50 -16 60" roty="180" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B" pos="-30 -16 60" roty="180" />
     <tile name="SWAMP_GREEN_FILL_RUIN_ROAD_CITY_BROKEN_B" pos="-60 -16 80" roty="270" />
-    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_BANK_A" pos="-4.5 -8 66.5" rot="0.96 245.22 1.7" />
-    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_BANK_A" pos="4.5 -8 66.5" rot="1 145 356" />
-    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-4.5 -8 53.5" rot="0 325 358" />
-    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="8.5 -8 104.5" rot="0 26.25 358" />
-    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="4.5 -8 53.5" rot="358 40 0" />
+    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="-3.5 -8 52.5" rot="0 270 358" />
+    <tile name="SWAMP_GREEN_FILL_CITY_BANNER_MARKETPLACE_A" pos="3.5 -8 52.5" rot="358 270 0" />
     <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-4.5 -7 57.5" roty="217" />
     <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="5.5 -7 57.5" roty="127" />
     <tile name="SWAMP_GREEN_FILL_CITY_LANTERN_B" pos="-32.5 -4 84.5" roty="270" />
@@ -487,8 +479,8 @@
     <tile name="SWAMP_GREEN_FILL_WATER_SHIP_ROWBOAT_B" pos="-21.5 -17 129.5" roty="346.02" />
     <tile name="SWAMP_GREEN_FILL_WATER_SHIP_ROWBOAT_B" pos="20.5 -17 116.5" roty="351" />
     <tile name="SWAMP_GREEN_FILL_WATER_SHIP_ROWBOAT_LONG_A" pos="30.5 -17 89.5" roty="262" />
-    <tile name="SWAMP_GREEN_ISLAND_BOAT" pos="-71.5 -17 56.5" roty="97" scale="1.78923 1.78923 1.78923" />
-    <tile name="SWAMP_GREEN_ISLAND_BOAT" pos="-3.5 -17 133.5" roty="87" scale="1.789231 1.78923 1.789231" />
+    <tile name="SWAMP_GREEN_ISLAND_BOAT_A" pos="-71.5 -17 56.5" roty="97" scale="1.78923 1.78923 1.78923" />
+    <tile name="SWAMP_GREEN_ISLAND_BOAT_A" pos="-3.5 -17 133.5" roty="87" scale="1.789231 1.78923 1.789231" />
     <tile name="SWAMP_GREEN_MOR_TORTURER_CHAIN_C" pos="-43 -16 60" roty="180" />
     <tile name="SWAMP_GREEN_MOR_TORTURER_CHAIN_C" pos="-63 -16 69" roty="180" />
     <tile name="SWAMP_GREEN_T1_DECO_TREE_WATER_B" pos="24.5 -17 126.5" roty="99" />
@@ -510,8 +502,14 @@
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-37 -16 53" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-67 -16 71" roty="90" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-18 -16 53" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-13.5 -18 46.5" roty="270" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="5.5 -18 49.5" roty="180" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-13.5 -18 46.5" roty="270" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="5.5 -18 49.5" roty="180" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-19.5 -18 123.5" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-29.5 -18 118.5" roty="90" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="29.5 -18 82.5" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="34.5 -18 62.5" roty="90" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="18.5 -18 114.5" roty="180" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="27.5 -18 107.5" roty="270" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="-38.6 140.78 -52.4" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="4.5 140.78 -58.6" />
     <tile name="FishingZone_FRESHWATER_BASE_ROUND" pos="43.2 140.78 -49.3" />
@@ -853,7 +851,7 @@
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -9 -10" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -1 10" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -9 30" />
-    <tile name="SWAMP_GREEN_ISLAND_BOAT" pos="-22.5 -17 44.5" roty="88" scale="1.789229 1.78923 1.789229" />
+    <tile name="SWAMP_GREEN_ISLAND_BOAT_A" pos="-22.5 -17 44.5" roty="88" scale="1.789229 1.78923 1.789229" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -20 -20" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="-48 -17 -30" roty="180" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 7 30" />
@@ -916,7 +914,7 @@
     <tile name="SWAMP_GREEN_UND_CRYPT_COLUMN_LARGE_EXTENSION_HEAD_A" pos="-35 6 -35" />
     <tile name="SWAMP_GREEN_MOR_CASTLE_GATE_ENTRANCE_DOOR_A" pos="56 -1 -30" />
     <tile name="SWAMP_GREEN_CASTLE_STAIRS_8M_RAILING_A" pos="-9 -16 -35" roty="270" />
-    <tile name="SWAMP_GREEN_ISLAND_BOAT" pos="-42.5 -17 35.5" roty="99" scale="1.789231 1.78923 1.789231" />
+    <tile name="SWAMP_GREEN_ISLAND_BOAT_A" pos="-42.5 -17 35.5" roty="99" scale="1.789231 1.78923 1.789231" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-37 -16 28" />
     <tile name="SWAMP_GREEN_CASTLE_STRAIGHT_RAILING_D" pos="-9 -8 -25" roty="270" />
     <tile name="SWAMP_GREEN_WALKWAY_WOODEN_PATH_20M_STRAIGHT_A_NOCOL" pos="-18 -16 28" />
@@ -1356,15 +1354,21 @@
     <tile name="SWAMP_GREEN_MOR_FX_GODRAY_ROOF_30X30_A" pos="10 -4 50" rot="0 0 49" />
     <tile name="SWAMP_GREEN_MOR_FX_GODRAY_ROOF_A" pos="-20 -2 90" rot="0 346 66" />
     <tile name="SWAMP_GREEN_MOR_FX_GODRAY_ROOF_30X30_A" pos="-50 -12 60" roty="293" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="39.5 -18 23.5" roty="180" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="44.5 -18 14.5" roty="90" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="47.5 -18 -5.5" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="46.5 -18 -24.5" roty="180" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="31.5 -18 -27.5" roty="90" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="16.5 -18 -40.5" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-6.5 -18 -38.5" roty="270" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-36.5 -18 -33.5" roty="90" />
-    <tile name="FOREST_GREEN_VEG_SOIL_C" pos="-32.5 -18 -43.5" />
     <tile name="SWAMP_GREEN_HER_FILL_MINE_LAMP_A" pos="-5.5 -6 35.5" roty="270" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="16.5 -18 -40.5" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-6.5 -18 -38.5" roty="270" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="31.5 -18 -27.5" roty="90" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="47.5 -18 -5.5" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-36.5 -18 -33.5" roty="90" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="44.5 -18 14.5" roty="90" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="39.5 -18 23.5" roty="180" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="46.5 -18 -24.5" roty="180" />
+    <tile name="SWAMP_GREEN_VEG_SOIL_C" pos="-32.5 -18 -43.5" />
+    <tile name="LocationMarker" pos="-53.5 -4 92.5">
+      <locationmarker locationid="ARTIFACTFOUNDRY" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
+    <tile name="LocationMarker" pos="-0.5 -8 103.5">
+      <locationmarker locationid="MARKETPLACE" radius="10" visibleinworld="false" visibleonminimap="false" />
+    </tile>
   </tiles>
 </template>
