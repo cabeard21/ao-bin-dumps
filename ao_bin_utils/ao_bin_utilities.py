@@ -7,8 +7,32 @@ import requests
 import re
 from time import sleep
 from datetime import datetime
+import math
 
 TIER_FINDER = r"T\d_"
+
+
+def make_sublists(a: list, n: int) -> list:
+    """Split a into sublists of approximate n length"""
+
+    k, m = divmod(len(a), n)
+    return [a[i*k + min(i, m):(i + 1)*k + min(i + 1, m)] for i in range(n)]
+
+
+def calculate_ema(prices: list, smoothing: float, days: int) -> int:
+    """Calculate the Exponential Moving Average of prices."""
+
+    if len(prices) < days:
+        return prices[-1]
+
+    ema_yesterday = prices[-days-1:-1]
+    ema_yesterday = sum(ema_yesterday)/len(ema_yesterday)
+
+    smoothing_factor = smoothing/(1 + days)
+    result = math.floor(
+        prices[-1]*smoothing_factor + ema_yesterday*(1 - smoothing_factor)
+    )
+    return result
 
 
 def get_item_price(item_unique_name, quality, location) -> List:
@@ -59,7 +83,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
         item_found = False
 
         url = (
-            f"https://www.albion-online-data.com/api/v2/stats/prices/"
+            f"https://www.albion-online-data.com/api/v2/stats/history/"
             f"{','.join(remove_dupes(names))}"
         )
 
@@ -67,6 +91,7 @@ def get_item_price(item_unique_name, quality, location) -> List:
         params = {
             'locations': location,
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
+            'time-scale': 1,
         }
         if fail_count > 10:
             print('/')
@@ -86,28 +111,49 @@ def get_item_price(item_unique_name, quality, location) -> List:
         for item_index in range(len(names)):
             item_index = item_index - item_index_offset
             for item in response:
-                data_age = (
-                    datetime.now() - datetime.strptime(item['sell_price_min_date'], '%Y-%m-%dT%H:%M:%S')
-                )
+                # data_age = (
+                #     datetime.now() -
+                #     datetime.strptime(
+                #         item['sell_price_min_date'],
+                #         '%Y-%m-%dT%H:%M:%S'
+                #     )
+                # )
+                prices = [x['avg_price'] for x in item['data']]
+                max_price = max(prices)
+                min_price = min(prices)
+                if min_price/max_price < 0.25:
+                    continue
+
                 if (
                     names[item_index] == item['item_id'] and
-                    quality_copy[item_index] == item['quality'] and
-                    item['sell_price_min'] > 0 and
-                    data_age.days <= 1
+                    quality_copy[item_index] == item['quality']  # and
+                    # item['sell_price_min'] > 0 and
+                    # data_age.days <= 1
                 ):
                     res.append(
                         (
                             names.pop(item_index),
                             quality_copy.pop(item_index),
-                            item['sell_price_min']
+                            # item['sell_price_min']
+                            # item['data'][-1]['avg_price']
+                            calculate_ema(
+                                [
+                                    item['data'][i]['avg_price']
+                                    for i in range(len(item['data']))
+                                ],
+                                2,
+                                5
+                            )
                         )
                     )
+
                     item_index_offset = item_index_offset + 1
                     item_found = True
                     fail_count = 0
                     break
 
-        (item_found or len(res) == 0) and sleep(0.5)  # Pause if another request
+        (item_found or len(res) == 0) and \
+            sleep(0.5)  # Pause if another request
 
         if not item_found:
             print('*')

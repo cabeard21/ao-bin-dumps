@@ -209,36 +209,37 @@ class EfficientItemPower(Strategy):
             if len(price_data) == 0:
                 # Handle when failing to find prices
                 res['item_names'].append(item_names[-1])
-                res['qualities'].append(0)
+                res['qualities'].append(1)
                 res['item_powers'].append(0)
                 res['prices'].append(0)
 
-            cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
+            else:
+                cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
-            if target_ip < 0:
-                ip_cost_ratios = list(map(
-                    lambda x: abu.get_item_power(
-                        x[0], x[1], mastery, ao_data
-                    )/x[2],
-                    price_data
-                ))
-                cheapest_item_candidate = sorted(
-                    zip(price_data, ip_cost_ratios),
-                    key=lambda x: x[1]
-                )[-1][0]
-                if cheapest_item_candidate[2] <= cheapest_item[2]*1.1:
-                    cheapest_item = cheapest_item_candidate
+                if target_ip < 0:
+                    ip_cost_ratios = list(map(
+                        lambda x: abu.get_item_power(
+                            x[0], x[1], mastery, ao_data
+                        )/x[2],
+                        price_data
+                    ))
+                    cheapest_item_candidate = sorted(
+                        zip(price_data, ip_cost_ratios),
+                        key=lambda x: x[1]
+                    )[-1][0]
+                    if cheapest_item_candidate[2] <= cheapest_item[2]*1.1:
+                        cheapest_item = cheapest_item_candidate
 
-            res['item_names'].append(cheapest_item[0])
-            res['qualities'].append(cheapest_item[1])
-            res['item_powers'].append(
-                abu.get_item_power(
-                    cheapest_item[0],
-                    cheapest_item[1],
-                    mastery,
-                    ao_data
+                res['item_names'].append(cheapest_item[0])
+                res['qualities'].append(cheapest_item[1])
+                res['item_powers'].append(
+                    abu.get_item_power(
+                        cheapest_item[0],
+                        cheapest_item[1],
+                        mastery,
+                        ao_data
+                    )
                 )
-            )
-            res['prices'].append(cheapest_item[2])
+                res['prices'].append(cheapest_item[2])
 
         return res
