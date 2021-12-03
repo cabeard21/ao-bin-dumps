@@ -203,43 +203,58 @@ class EfficientItemPower(Strategy):
             item_names = [x[0] for x in candidate_items]
             qualities = [x[1] for x in candidate_items]
             price_data = abu.get_item_price(
-                item_names, qualities, self._location
+                item_names, qualities, self._location, 5
             )
 
             if len(price_data) == 0:
                 # Handle when failing to find prices
-                res['item_names'].append(item_names[-1])
-                res['qualities'].append(1)
-                res['item_powers'].append(0)
-                res['prices'].append(0)
-
-            else:
-                cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
-
-                if target_ip < 0:
-                    ip_cost_ratios = list(map(
-                        lambda x: abu.get_item_power(
-                            x[0], x[1], mastery, ao_data
-                        )/x[2],
-                        price_data
-                    ))
-                    cheapest_item_candidate = sorted(
-                        zip(price_data, ip_cost_ratios),
-                        key=lambda x: x[1]
-                    )[-1][0]
-                    if cheapest_item_candidate[2] <= cheapest_item[2]*1.1:
-                        cheapest_item = cheapest_item_candidate
-
-                res['item_names'].append(cheapest_item[0])
-                res['qualities'].append(cheapest_item[1])
-                res['item_powers'].append(
-                    abu.get_item_power(
-                        cheapest_item[0],
-                        cheapest_item[1],
-                        mastery,
-                        ao_data
-                    )
+                candidate_items = abu.get_items_above_ip(
+                    item,
+                    -1,
+                    mastery,
+                    4,
+                    ao_data
                 )
-                res['prices'].append(cheapest_item[2])
+
+                item_names = [x[0] for x in candidate_items]
+                qualities = [x[1] for x in candidate_items]
+                price_data = abu.get_item_price(
+                    item_names, qualities, self._location, 60
+                )
+
+                if len(price_data) == 0:
+                    res['item_names'].append(item_names[-1])
+                    res['qualities'].append(1)
+                    res['item_powers'].append(0)
+                    res['prices'].append(0)
+                    continue
+
+            cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
+
+            if target_ip < 0:
+                ip_cost_ratios = list(map(
+                    lambda x: abu.get_item_power(
+                        x[0], x[1], mastery, ao_data
+                    )/x[2],
+                    price_data
+                ))
+                cheapest_item_candidate = sorted(
+                    zip(price_data, ip_cost_ratios),
+                    key=lambda x: x[1]
+                )[-1][0]
+                if cheapest_item_candidate[2] <= cheapest_item[2]*1.1:
+                    cheapest_item = cheapest_item_candidate
+
+            res['item_names'].append(cheapest_item[0])
+            res['qualities'].append(cheapest_item[1])
+            res['item_powers'].append(
+                abu.get_item_power(
+                    cheapest_item[0],
+                    cheapest_item[1],
+                    mastery,
+                    ao_data
+                )
+            )
+            res['prices'].append(cheapest_item[2])
 
         return res

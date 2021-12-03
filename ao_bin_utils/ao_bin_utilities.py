@@ -1,15 +1,20 @@
 from __future__ import annotations
 
+import json
+import math
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from time import sleep
+from typing import Dict, List
+
+import pytz
+import requests
+
 from ao_bin_utils.ao_bin_data import AoBinData
 
-from typing import List, Dict
-import requests
-import re
-from time import sleep
-from datetime import datetime
-import math
-
 TIER_FINDER = r"T\d_"
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def make_sublists(a: list, n: int) -> list:
@@ -35,7 +40,7 @@ def calculate_ema(prices: list, smoothing: float, days: int) -> int:
     return result
 
 
-def get_item_price(item_unique_name, quality, location) -> List:
+def get_item_price(item_unique_name, quality, location, max_age: int) -> List:
     """Utility function to get an item's cheapest sell price at a given location.
 
     This method tries to minimize the amount of GET requests needed.
@@ -61,6 +66,8 @@ def get_item_price(item_unique_name, quality, location) -> List:
         Same length as item_unique_name.
     location: str
         Name of the market whose price should be used.
+    max_age: int
+        Max age of an item in minutes that is acceptable.
 
     Returns
     -------
@@ -94,10 +101,8 @@ def get_item_price(item_unique_name, quality, location) -> List:
         }
         if fail_count > 10:
             print('/')
-            params['locations'] = "Caerleon,Thetford,Lymhurst,Fort Sterling,Martlock,Bridgewatch"
             print(remove_dupes(names))
-            if fail_count > 20:
-                return res
+            return res
 
         response = requests.get(url, params=params)
         print(
@@ -111,18 +116,22 @@ def get_item_price(item_unique_name, quality, location) -> List:
             item_index = item_index - item_index_offset
             for item in response:
                 data_age = (
-                    datetime.now() -
-                    datetime.strptime(
-                        item['sell_price_min_date'],
-                        '%Y-%m-%dT%H:%M:%S'
-                    )
+                    datetime.now(tz=timezone.utc) -
+                    pytz.utc.localize(datetime.strptime(
+                        f"{item['sell_price_min_date']}",
+                        f'%Y-%m-%dT%H:%M:%S'
+                    ))
                 )
 
+                name_matches = names[item_index] == item['item_id']
+                quality_matches = quality_copy[item_index] == item['quality']
+                price_valid = item['sell_price_min'] > 0
+                price_fresh = data_age.seconds/60 <= max_age
                 if (
-                    names[item_index] == item['item_id'] and
-                    quality_copy[item_index] == item['quality'] and
-                    item['sell_price_min'] > 0 and
-                    data_age.days <= 1
+                    name_matches and
+                    quality_matches and
+                    price_valid and
+                    price_fresh
                 ):
                     res.append(
                         (
@@ -136,6 +145,24 @@ def get_item_price(item_unique_name, quality, location) -> List:
                     item_found = True
                     fail_count = 0
                     break
+
+                if False:
+                    if not name_matches:
+                        continue
+                    elif not quality_matches:
+                        continue
+                    elif not price_valid:
+                        item_result = "!P"
+                    elif not price_fresh:
+                        item_result = f"!F: {data_age.seconds/60}"
+                    else:
+                        item_result = 'M'
+
+                    time_now = datetime.now()
+                    with open(BASE_DIR / 'responses' / f"{item['item_id']}.csv", 'a') as fp:
+                        fp.write(
+                            f"{time_now},{item['item_id']},{item['city']},{item['quality']},{item['sell_price_min']},{item['sell_price_min_date']},{item_result}\n"
+                        )
 
         (item_found or len(res) == 0) and \
             sleep(0.5)  # Pause if another request
