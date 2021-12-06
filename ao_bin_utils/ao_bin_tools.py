@@ -203,31 +203,37 @@ class EfficientItemPower(Strategy):
             item_names = [x[0] for x in candidate_items]
             qualities = [x[1] for x in candidate_items]
             price_data = abu.get_item_price(
-                item_names, qualities, self._location, 5
+                item_names, qualities, self._location, 10
             )
 
             if len(price_data) == 0:
                 # Handle when failing to find prices
-                candidate_items = abu.get_items_above_ip(
-                    item,
-                    -1,
-                    mastery,
-                    4,
-                    ao_data
-                )
-
-                item_names = [x[0] for x in candidate_items]
-                qualities = [x[1] for x in candidate_items]
                 price_data = abu.get_item_price(
                     item_names, qualities, self._location, 60
                 )
 
                 if len(price_data) == 0:
-                    res['item_names'].append(item_names[-1])
-                    res['qualities'].append(1)
-                    res['item_powers'].append(0)
-                    res['prices'].append(0)
-                    continue
+
+                    candidate_items = abu.get_items_above_ip(
+                        item,
+                        -1,
+                        mastery,
+                        min_tier,
+                        ao_data
+                    )
+
+                    item_names = [x[0] for x in candidate_items]
+                    qualities = [x[1] for x in candidate_items]
+                    price_data = abu.get_item_price(
+                        item_names, qualities, self._location, 60
+                    )
+
+                    if len(price_data) == 0:
+                        res['item_names'].append(item_names[-1])
+                        res['qualities'].append(1)
+                        res['item_powers'].append(0)
+                        res['prices'].append(0)
+                        continue
 
             cheapest_item = sorted(price_data, key=lambda x: x[2])[0]
 
