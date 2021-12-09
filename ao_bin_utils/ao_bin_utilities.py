@@ -98,7 +98,7 @@ def get_item_price(item_unique_name, quality, location, max_age: int) -> List:
             'locations': location,
             'qualities': ','.join([str(x) for x in quality_no_dupes]),
         }
-        if fail_count > 10:
+        if fail_count > 2:
             print('/')
             print(remove_dupes(names))
             return res
@@ -164,7 +164,7 @@ def get_item_price(item_unique_name, quality, location, max_age: int) -> List:
                         )
 
         (item_found or len(res) == 0) and \
-            sleep(0.5)  # Pause if another request
+            sleep(0.250)  # Pause if another request
 
         if not item_found:
             print('*')
