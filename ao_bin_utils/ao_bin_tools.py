@@ -225,7 +225,7 @@ class EfficientItemPower(Strategy):
                     item_names = [x[0] for x in candidate_items]
                     qualities = [x[1] for x in candidate_items]
                     price_data = abu.get_item_price(
-                        item_names, qualities, self._location, 60
+                        item_names, qualities, self._location, 60*23
                     )
 
                     if len(price_data) == 0:
