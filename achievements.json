@@ -4,7 +4,7 @@
     "@encoding": "utf-8"
   },
   "achievements": {
-    "@Version": "c1bfb1dd-7e52-4341-a3fa-dc27bd58ae5a",
+    "@Version": "722a3b4b-5ec5-4478-ab5a-e8c52abf8807",
     "@xsi:noNamespaceSchemaLocation": "achievements.xsd",
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "template": [
@@ -72,7 +72,7 @@
         },
         "elitelevels": {
           "@structure": "Fame;SilverPerReSpec",
-          "#text": "\n    1056819;0.3\n    1117415;0.3\n    1238607;0.3\n    1420395;0.3\n    1662779;0.3\n    1965759;0.3\n    2329335;0.3\n    2753507;0.3\n    3238275;0.3\n    3783639;0.3\n    4389599;0.3\n    5056155;0.3\n    5783307;0.3\n    6571055;0.3\n    7419399;0.3\n    8328339;0.3\n    9297875;0.3\n    10328007;0.3\n    11418735;0.3\n    12570059;0.3\n    "
+          "#text": "\n    1056819;0.33\n    1117415;0.33\n    1238607;0.33\n    1420395;0.33\n    1662779;0.33\n    1965759;0.33\n    2329335;0.33\n    2753507;0.33\n    3238275;0.33\n    3783639;0.33\n    4389599;0.33\n    5056155;0.33\n    5783307;0.33\n    6571055;0.33\n    7419399;0.33\n    8328339;0.33\n    9297875;0.33\n    10328007;0.33\n    11418735;0.33\n    12570059;0.33\n    "
         }
       },
       {
@@ -167,7 +167,7 @@
         },
         "elitelevels": {
           "@structure": "Fame;SilverPerReSpec",
-          "#text": "\n    1056819;0.3\n    1117415;0.3\n    1238607;0.3\n    1420395;0.3\n    1662779;0.3\n    1965759;0.3\n    2329335;0.3\n    2753507;0.3\n    3238275;0.3\n    3783639;0.3\n    4389599;0.3\n    5056155;0.3\n    5783307;0.3\n    6571055;0.3\n    7419399;0.3\n    8328339;0.3\n    9297875;0.3\n    10328007;0.3\n    11418735;0.3\n    12570059;0.3\n    "
+          "#text": "\n    1056819;0.33\n    1117415;0.33\n    1238607;0.33\n    1420395;0.33\n    1662779;0.33\n    1965759;0.33\n    2329335;0.33\n    2753507;0.33\n    3238275;0.33\n    3783639;0.33\n    4389599;0.33\n    5056155;0.33\n    5783307;0.33\n    6571055;0.33\n    7419399;0.33\n    8328339;0.33\n    9297875;0.33\n    10328007;0.33\n    11418735;0.33\n    12570059;0.33\n    "
         }
       }
     ],
@@ -2857,9 +2857,14 @@
               "rewardgroup": {
                 "reward": {
                   "@type": "itemuse",
-                  "entry": {
-                    "@id": "T3_2H_TOOL_SICKLE"
-                  }
+                  "entry": [
+                    {
+                      "@id": "T3_2H_TOOL_SICKLE"
+                    },
+                    {
+                      "@id": "T4_SKILLBOOK_GATHER_FIBER"
+                    }
+                  ]
                 }
               }
             }
@@ -2909,9 +2914,14 @@
               "rewardgroup": {
                 "reward": {
                   "@type": "itemuse",
-                  "entry": {
-                    "@id": "T3_2H_TOOL_KNIFE"
-                  }
+                  "entry": [
+                    {
+                      "@id": "T3_2H_TOOL_KNIFE"
+                    },
+                    {
+                      "@id": "T4_SKILLBOOK_GATHER_HIDE"
+                    }
+                  ]
                 }
               }
             }
@@ -2961,9 +2971,14 @@
               "rewardgroup": {
                 "reward": {
                   "@type": "itemuse",
-                  "entry": {
-                    "@id": "T3_2H_TOOL_PICK"
-                  }
+                  "entry": [
+                    {
+                      "@id": "T3_2H_TOOL_PICK"
+                    },
+                    {
+                      "@id": "T4_SKILLBOOK_GATHER_ORE"
+                    }
+                  ]
                 }
               }
             }
@@ -3013,9 +3028,14 @@
               "rewardgroup": {
                 "reward": {
                   "@type": "itemuse",
-                  "entry": {
-                    "@id": "T3_2H_TOOL_HAMMER"
-                  }
+                  "entry": [
+                    {
+                      "@id": "T3_2H_TOOL_HAMMER"
+                    },
+                    {
+                      "@id": "T4_SKILLBOOK_GATHER_ROCK"
+                    }
+                  ]
                 }
               }
             }
@@ -3138,9 +3158,14 @@
               "rewardgroup": {
                 "reward": {
                   "@type": "itemuse",
-                  "entry": {
-                    "@id": "T3_2H_TOOL_AXE"
-                  }
+                  "entry": [
+                    {
+                      "@id": "T3_2H_TOOL_AXE"
+                    },
+                    {
+                      "@id": "T4_SKILLBOOK_GATHER_WOOD"
+                    }
+                  ]
                 }
               }
             }
@@ -55945,6 +55970,9 @@
             },
             {
               "@pattern": "T?_FARM_RAM*"
+            },
+            {
+              "@pattern": "T?_FARM_RABBIT*"
             }
           ]
         },
@@ -56047,9 +56075,6 @@
                 },
                 {
                   "@pattern": "T?_MOUNT_GREYWOLF*"
-                },
-                {
-                  "@pattern": "T?_MOUNT_SWAMPDRAGON_FW*"
                 }
               ]
             }
@@ -56116,6 +56141,9 @@
               },
               {
                 "@pattern": "T?_FARM_RAM*"
+              },
+              {
+                "@pattern": "T?_FARM_RABBIT*"
               }
             ]
           }
@@ -56296,6 +56324,9 @@
                 },
                 {
                   "@pattern": "T?_FARM_RAM*"
+                },
+                {
+                  "@pattern": "T?_FARM_RABBIT*"
                 }
               ]
             }
@@ -56704,6 +56735,9 @@
         "itemlist": {
           "itempattern": [
             {
+              "@pattern": "T?_FARM_GIANTSTAG_BABY"
+            },
+            {
               "@pattern": "T?_FARM_DIREWOLF_BABY"
             },
             {
@@ -56714,9 +56748,6 @@
             },
             {
               "@pattern": "T?_FARM_COUGAR_BABY"
-            },
-            {
-              "@pattern": "T?_FARM_GIANTSTAG_BABY"
             },
             {
               "@pattern": "T?_FARM_GIANTSTAG_MOOSE_BABY"
@@ -56744,6 +56775,12 @@
             },
             {
               "@pattern": "T?_FARM_GREYWOLF_FW_CAERLEON_BABY"
+            },
+            {
+              "@pattern": "T?_FARM_RABBIT_EASTER_BABY"
+            },
+            {
+              "@pattern": "T?_FARM_GIANTSTAG_GROWN"
             },
             {
               "@pattern": "T?_FARM_DIREWOLF_GROWN"
@@ -56786,6 +56823,9 @@
             },
             {
               "@pattern": "T?_FARM_GREYWOLF_FW_CAERLEON_GROWN"
+            },
+            {
+              "@pattern": "T?_FARM_RABBIT_EASTER_GROWN"
             }
           ]
         },
@@ -56800,6 +56840,9 @@
             },
             "itempattern": [
               {
+                "@pattern": "T?_FARM_GIANTSTAG_BABY"
+              },
+              {
                 "@pattern": "T?_FARM_DIREWOLF_BABY"
               },
               {
@@ -56810,9 +56853,6 @@
               },
               {
                 "@pattern": "T?_FARM_COUGAR_BABY"
-              },
-              {
-                "@pattern": "T?_FARM_GIANTSTAG_BABY"
               },
               {
                 "@pattern": "T?_FARM_GIANTSTAG_MOOSE_BABY"
@@ -56840,6 +56880,12 @@
               },
               {
                 "@pattern": "T?_FARM_GREYWOLF_FW_CAERLEON_BABY"
+              },
+              {
+                "@pattern": "T?_FARM_RABBIT_EASTER_BABY"
+              },
+              {
+                "@pattern": "T?_FARM_GIANTSTAG_GROWN"
               },
               {
                 "@pattern": "T?_FARM_DIREWOLF_GROWN"
@@ -56882,6 +56928,9 @@
               },
               {
                 "@pattern": "T?_FARM_GREYWOLF_FW_CAERLEON_GROWN"
+              },
+              {
+                "@pattern": "T?_FARM_RABBIT_EASTER_GROWN"
               }
             ]
           }
@@ -58732,6 +58781,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_FIBER*"
+                },
+                {
+                  "@pattern": "T5_SKILLBOOK_GATHER_FIBER"
                 }
               ]
             },
@@ -58987,6 +59039,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_FIBER*"
+                },
+                {
+                  "@pattern": "T6_SKILLBOOK_GATHER_FIBER"
                 }
               ]
             },
@@ -59242,6 +59297,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_FIBER*"
+                },
+                {
+                  "@pattern": "T7_SKILLBOOK_GATHER_FIBER"
                 }
               ]
             },
@@ -59497,6 +59555,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_FIBER*"
+                },
+                {
+                  "@pattern": "T8_SKILLBOOK_GATHER_FIBER"
                 }
               ]
             },
@@ -59933,7 +59994,7 @@
             {
               "@type": "passivebonus",
               "@attribute": "fishingspeed",
-              "@bonus": "0.0016",
+              "@bonus": "0.0015",
               "@mintier": "1",
               "@maxtier": "8",
               "description": {
@@ -59946,7 +60007,7 @@
             {
               "@type": "resourcegatherbonus",
               "@bufftype": "fishingyield",
-              "@bonus": "0.0016",
+              "@bonus": "0.0015",
               "@mintier": "1",
               "@maxtier": "8",
               "description": {
@@ -60043,7 +60104,7 @@
             {
               "@type": "resourcegatherbonus",
               "@bufftype": "fishingyield",
-              "@bonus": "0.0033",
+              "@bonus": "0.0035",
               "@mintier": "1",
               "@maxtier": "8",
               "description": {
@@ -60056,7 +60117,7 @@
             {
               "@type": "passivebonus",
               "@attribute": "fishingspeed",
-              "@bonus": "0.0033",
+              "@bonus": "0.0035",
               "@mintier": "1",
               "@maxtier": "8",
               "description": {
@@ -60213,6 +60274,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_HIDE*"
+                },
+                {
+                  "@pattern": "T5_SKILLBOOK_GATHER_HIDE"
                 }
               ]
             },
@@ -60468,6 +60532,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_HIDE*"
+                },
+                {
+                  "@pattern": "T6_SKILLBOOK_GATHER_HIDE"
                 }
               ]
             },
@@ -60723,6 +60790,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_HIDE*"
+                },
+                {
+                  "@pattern": "T7_SKILLBOOK_GATHER_HIDE"
                 }
               ]
             },
@@ -60978,6 +61048,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_HIDE*"
+                },
+                {
+                  "@pattern": "T8_SKILLBOOK_GATHER_HIDE"
                 }
               ]
             },
@@ -61483,6 +61556,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ORE*"
+                },
+                {
+                  "@pattern": "T5_SKILLBOOK_GATHER_ORE"
                 }
               ]
             },
@@ -61738,6 +61814,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ORE*"
+                },
+                {
+                  "@pattern": "T6_SKILLBOOK_GATHER_ORE"
                 }
               ]
             },
@@ -61993,6 +62072,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ORE*"
+                },
+                {
+                  "@pattern": "T7_SKILLBOOK_GATHER_ORE"
                 }
               ]
             },
@@ -62248,6 +62330,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ORE*"
+                },
+                {
+                  "@pattern": "T8_SKILLBOOK_GATHER_ORE"
                 }
               ]
             },
@@ -62753,6 +62838,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ROCK*"
+                },
+                {
+                  "@pattern": "T5_SKILLBOOK_GATHER_ROCK"
                 }
               ]
             },
@@ -62825,7 +62913,7 @@
                     "@pattern": "T4_SHOES_GATHERER_ROCK"
                   },
                   {
-                    "@pattern": "T4_BACKPACK_GATHERER_ORE*"
+                    "@pattern": "T4_BACKPACK_GATHERER_ROCK"
                   }
                 ]
               },
@@ -63008,6 +63096,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ROCK*"
+                },
+                {
+                  "@pattern": "T6_SKILLBOOK_GATHER_ROCK"
                 }
               ]
             },
@@ -63263,6 +63354,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ROCK*"
+                },
+                {
+                  "@pattern": "T7_SKILLBOOK_GATHER_ROCK"
                 }
               ]
             },
@@ -63518,6 +63612,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_ROCK*"
+                },
+                {
+                  "@pattern": "T8_SKILLBOOK_GATHER_ROCK"
                 }
               ]
             },
@@ -64023,6 +64120,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_WOOD*"
+                },
+                {
+                  "@pattern": "T5_SKILLBOOK_GATHER_WOOD"
                 }
               ]
             },
@@ -64278,6 +64378,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_WOOD*"
+                },
+                {
+                  "@pattern": "T6_SKILLBOOK_GATHER_WOOD"
                 }
               ]
             },
@@ -64533,6 +64636,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_WOOD*"
+                },
+                {
+                  "@pattern": "T7_SKILLBOOK_GATHER_WOOD"
                 }
               ]
             },
@@ -64788,6 +64894,9 @@
                 },
                 {
                   "@pattern": "T?_BACKPACK_GATHERER_WOOD*"
+                },
+                {
+                  "@pattern": "T8_SKILLBOOK_GATHER_WOOD"
                 }
               ]
             },

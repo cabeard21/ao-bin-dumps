@@ -21,7 +21,7 @@
       },
       "Guild": {
         "@cost": "100000",
-        "@guildinvitationdelayinseconds": "60",
+        "@guildinvitationdelayinseconds": "300",
         "@initialclaimterritoryguildfamerequirement": "1000000",
         "@claimterritoryguildfamerequirement": "1000000",
         "@territorybuff": "GUILD_TERRITORY_BUFF",
@@ -31,7 +31,35 @@
         "@guildlogochangegoldcosts": "3000",
         "@guildlogochangesilvercosts": "0",
         "@maxhideouts": "6",
-        "@maxplayers": "300"
+        "@maxplayers": "300",
+        "@hqdeclarationcooldowndays": "14",
+        "@hqlostblockedaccessrightscooldowndays": "7",
+        "@hqbeforeprimetimeblockingperiodminutes": "120",
+        "guildinvitationlimits": {
+          "@declinedinvitefalloffseconds": "3600",
+          "invitesdeclined": [
+            {
+              "@amount": "0",
+              "@cooldownafternewdecline": "0",
+              "@maximumsimultaneousinvites": "300"
+            },
+            {
+              "@amount": "5",
+              "@cooldownafternewdecline": "60",
+              "@maximumsimultaneousinvites": "10"
+            },
+            {
+              "@amount": "10",
+              "@cooldownafternewdecline": "180",
+              "@maximumsimultaneousinvites": "5"
+            },
+            {
+              "@amount": "15",
+              "@cooldownafternewdecline": "300",
+              "@maximumsimultaneousinvites": "1"
+            }
+          ]
+        }
       },
       "SmartClusterQueue": {
         "@EntranceRadius": "300",
@@ -71,6 +99,12 @@
       },
       "Respawn": {
         "@autorespawntimerinsecs": "600"
+      },
+      "PveFameSession": {
+        "@sessionconclusiondelaysecs": "600"
+      },
+      "DecayingItemSettings": {
+        "@marketplaceblockhours": "24"
       },
       "Fame": {
         "@pvpfamesharingradius": "50",
@@ -220,13 +254,13 @@
       },
       "CrowdControlDiminishingReturns": {
         "@breaksondamagefactor": "0.7",
-        "@diminishingreturnmax": "0.75",
-        "@typefactorstun": "0.1",
-        "@typefactorroot": "0.05",
+        "@diminishingreturnmax": "0.8",
+        "@typefactorstun": "0.3",
+        "@typefactorroot": "0.3",
         "@typefactorknockback": "0.04",
-        "@typefactorsilence": "0.05",
-        "@typefactorslow": "0.08",
-        "@typefactorforcedmovement": "0.1",
+        "@typefactorsilence": "0.3",
+        "@typefactorslow": "0.3",
+        "@typefactorforcedmovement": "0.3",
         "@decreasetimestun": "20",
         "@decreasetimeroot": "20",
         "@decreasetimeknockback": "20",
@@ -245,7 +279,7 @@
       },
       "AoeEscalation": {
         "@defaulttargetcountthresholdmin": "1",
-        "@defaulttargetcountthresholdmax": "9"
+        "@defaulttargetcountthresholdmax": "7"
       },
       "RealEstateAuctionSettings": {
         "@auctioncycledurationdays": "28",
@@ -270,7 +304,7 @@
             "@nametagicon": "REPUTATION_POSITIVE04",
             "@rewardicon": "REPUTATION_POSITIVE04",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.002",
+            "@pvegainfactor": "0.0014",
             "@gathergainfactor": "0.01",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -286,7 +320,7 @@
             "@nametagicon": "REPUTATION_POSITIVE03",
             "@rewardicon": "REPUTATION_POSITIVE03",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.004",
+            "@pvegainfactor": "0.0028",
             "@gathergainfactor": "0.02",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -302,7 +336,7 @@
             "@nametagicon": "REPUTATION_POSITIVE02",
             "@rewardicon": "REPUTATION_POSITIVE02",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.006",
+            "@pvegainfactor": "0.0042",
             "@gathergainfactor": "0.03",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -318,7 +352,7 @@
             "@nametagicon": "REPUTATION_POSITIVE01",
             "@rewardicon": "REPUTATION_POSITIVE01",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.008",
+            "@pvegainfactor": "0.0056",
             "@gathergainfactor": "0.04",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -334,7 +368,7 @@
             "@nametagicon": "",
             "@rewardicon": "REPUTATION_NEUTRAL",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.01",
+            "@pvegainfactor": "0.007",
             "@gathergainfactor": "0.05",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -350,7 +384,7 @@
             "@nametagicon": "REPUTATION_NEGATIVE00",
             "@rewardicon": "REPUTATION_NEGATIVE00",
             "@recoveryperday": "0",
-            "@pvegainfactor": "0.012",
+            "@pvegainfactor": "0.0084",
             "@gathergainfactor": "0.04",
             "@candisablepvp": "true",
             "@canenterexpedition": "true",
@@ -366,7 +400,7 @@
             "@nametagicon": "REPUTATION_NEGATIVE01",
             "@rewardicon": "REPUTATION_NEGATIVE01",
             "@recoveryperday": "1000",
-            "@pvegainfactor": "0.02",
+            "@pvegainfactor": "0.014",
             "@gathergainfactor": "0.1",
             "@candisablepvp": "true",
             "@canenterexpedition": "false",
@@ -382,7 +416,7 @@
             "@nametagicon": "REPUTATION_NEGATIVE02",
             "@rewardicon": "REPUTATION_NEGATIVE02",
             "@recoveryperday": "750",
-            "@pvegainfactor": "0.04",
+            "@pvegainfactor": "0.028",
             "@gathergainfactor": "0.2",
             "@candisablepvp": "true",
             "@canenterexpedition": "false",
@@ -398,7 +432,7 @@
             "@nametagicon": "REPUTATION_NEGATIVE03",
             "@rewardicon": "REPUTATION_NEGATIVE03",
             "@recoveryperday": "500",
-            "@pvegainfactor": "0.06",
+            "@pvegainfactor": "0.042",
             "@gathergainfactor": "0.3",
             "@candisablepvp": "true",
             "@canenterexpedition": "false",
@@ -414,7 +448,7 @@
             "@nametagicon": "REPUTATION_NEGATIVE04",
             "@rewardicon": "REPUTATION_NEGATIVE04",
             "@recoveryperday": "2000",
-            "@pvegainfactor": "0.09",
+            "@pvegainfactor": "0.063",
             "@gathergainfactor": "0.45",
             "@candisablepvp": "true",
             "@canenterexpedition": "false",
@@ -431,6 +465,9 @@
       "MiniMap": {
         "@showgraveseconds": "300"
       },
+      "TrainingDummy": {
+        "@comboduration": "5"
+      },
       "CrimeWarning": {
         "@donotshowagainsecondes": "900"
       }
@@ -442,7 +479,8 @@
         "@resistanceprogression": "0.336554399",
         "@hitpointprogression": "0.663445601",
         "@loadprogression": "2.264101591",
-        "@ccdurationfactor": "0.5"
+        "@ccdurationfactorplayers": "0.7",
+        "@ccdurationfactormobs": "0.5"
       },
       "ItemPowerProgression": {
         "mainhand_1h": {
@@ -450,6 +488,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0825",
           "@abilitypowerprogression": "1.0825",
+          "@ccpowerprogression": "1.0474",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -482,6 +521,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -514,6 +554,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -546,6 +587,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -578,6 +620,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -610,6 +653,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -642,6 +686,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -674,6 +719,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -706,6 +752,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -738,6 +785,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -770,6 +818,7 @@
           "@ccrbase": "100",
           "@attackdamageprogression": "1.0918",
           "@abilitypowerprogression": "1.0918",
+          "@ccpowerprogression": "1.0564",
           "@hitpointsprogression": "1.06",
           "@energyprogression": "1.0918",
           "@armorprogression": "1.03",
@@ -860,7 +909,7 @@
           "@book": "0",
           "@orb": "0",
           "@demonskull": "0",
-          "@totem": "0.3",
+          "@totem": "0.25",
           "@censer": "0"
         },
         "energyshare": {
@@ -910,7 +959,8 @@
     "Loot": {
       "@vanishtime": "1800",
       "@mobprotection": "120",
-      "@pvpprotection": "120",
+      "@pvpallowedprotection": "120",
+      "@pvpforcedprotection": "90",
       "@dropvisibilitydelay": "0.5"
     },
     "ActiveBuffScaling": {
@@ -1005,11 +1055,6 @@
           "@min": "-0.5",
           "@max": "2",
           "@absolutemin": "1"
-        },
-        {
-          "@name": "AbilityPowerBonus",
-          "@min": "-0.5",
-          "@max": "2"
         },
         {
           "@name": "PhysicalArmor",
@@ -1971,6 +2016,14 @@
     "VfxSettings": {
       "@fadeouttime": "1.0"
     },
+    "TownPortalSettings": {
+      "@maxLoad": "1.0",
+      "@distanceCostCap": "10",
+      "@distanceModifier": "0.5",
+      "@costModifier": "0.225",
+      "@baseCost": "100.0",
+      "@slotDisabledTimeAfterTownPortalFailedByServerInSec": "2.0"
+    },
     "DuelSettings": {
       "DuelAreaLeftTimerInSeconds": {
         "@value": "10"
@@ -1992,6 +2045,9 @@
       },
       "DuelPreparationTimeInSeconds": {
         "@value": "10"
+      },
+      "DuelMaxDurationInMins": {
+        "@value": "5"
       },
       "DuelFlagPrefab": {
         "@name": "Prefabs/ENV_PREFABS/SHARED/LANDSCAPE/DUEL/DUEL_FLAG_A"
@@ -2091,11 +2147,11 @@
         "TaxFactor": [
           {
             "@name": "setupfee",
-            "@value": "0.015"
+            "@value": "0.025"
           },
           {
             "@name": "transactiontax",
-            "@value": "0.06"
+            "@value": "0.08"
           }
         ],
         "AbsoluteTax": {
@@ -2285,7 +2341,7 @@
       }
     },
     "StudyFame": {
-      "@factor": "2"
+      "@factor": "2.75"
     },
     "SilverDropFromPvp": {
       "@factor": "0.75"
@@ -2299,10 +2355,7 @@
     "ItemValueToBuildingCapacityFactor": {
       "@factor": "0.5"
     },
-    "SilverFreeCrafting": {
-      "@maxTier": "2"
-    },
-    "CraftCapacityFreeCrafting": {
+    "FreeCrafting": {
       "@maxTier": "2"
     },
     "BuildingConsumptionBalanceFactor": {
@@ -2311,6 +2364,9 @@
     "ActionFocus": {
       "@costreductionconstant": "1.00695555005672",
       "CraftingEfficiency": {
+        "@bonus": "0.59"
+      },
+      "StudyingEfficiency": {
         "@bonus": "0.59"
       },
       "CraftingQuality": {
@@ -3427,7 +3483,7 @@
             "@upper": "1"
           },
           "Modifier": {
-            "@silver": "15"
+            "@silver": "16.5"
           },
           "Time": {
             "@crafttimefactor": "0.1"
@@ -3444,42 +3500,42 @@
             "Item": [
               {
                 "@tier": "1",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "2",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "3",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "4",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "5",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "6",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "7",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               },
               {
                 "@tier": "8",
-                "@resource": "0.25",
+                "@resource": "0.2",
                 "@silver": "0.75"
               }
             ]
@@ -3494,19 +3550,19 @@
           "CostModifier": [
             {
               "@level": "1",
-              "@silver": "4"
+              "@silver": "4.4"
             },
             {
               "@level": "2",
-              "@silver": "5"
+              "@silver": "5.5"
             },
             {
               "@level": "3",
-              "@silver": "6"
+              "@silver": "6.6"
             },
             {
               "@level": "4",
-              "@silver": "25.0"
+              "@silver": "27.5"
             }
           ]
         }
@@ -3735,7 +3791,7 @@
     },
     "PremiumLifeTimeRewards": {
       "Reward": {
-        "@days": "30",
+        "@days": "7",
         "@title": "@PREMIUM_STORE_BENEFIT_CONDITIONAL_FIRST_PURCHASE",
         "StatBonus": [
           {
@@ -3779,6 +3835,8 @@
       ]
     },
     "ClusterDangerBonusTypes": {
+      "@globalmoblootfactor": "0.9",
+      "@globalmobsilverlootfactor": "0.9",
       "ClusterDangerBonus": [
         {
           "@type": "safe",
@@ -3891,11 +3949,14 @@
       "@tutorial_idletime_till_highlight": "30"
     },
     "SilverDropSettings": {
-      "@silver": "COINS",
-      "@silverpremium": "COINS_PREMIUM",
+      "@prefab": "COINS",
+      "@premiumprefab": "COINS_PREMIUM",
       "@decaytimemob": "300.0",
       "@decaytimeplayer": "300.0",
-      "@dropvisibilitydelay": "0.5"
+      "@dropvisibilitydelay": "0.5",
+      "@manualpickuprange": "4.0",
+      "@autopickupdelay": "0.2",
+      "@autopickupradius": "4.0"
     },
     "buildingrenovationsettings": {
       "@downgradedelay": "86400",
@@ -4673,7 +4734,7 @@
       ]
     },
     "AchievementProgressConversion": {
-      "@silverConversionRatio": "0.9",
+      "@silverConversionRatio": "1",
       "@fameDecayOnConversion": "0.2",
       "@fameDecayOnMaxLevel": "0.8"
     },
@@ -5633,7 +5694,7 @@
         "@type": "Mount"
       }
     },
-    "MapValueVisualization": {
+    "ClusterValueVisualization": {
       "ClusterValueColors": {
         "@invalidcolor": "292929BF",
         "@name": "@WORLDMAP_OVERLAY_CLUSTERVALUE_LEGEND_NAME_NEUTRAL",
@@ -5654,6 +5715,12 @@
           }
         ]
       }
+    },
+    "FurnituresPlacementRules": {
+      "@openworldfurnituremindistance": "10"
+    },
+    "BatchUseSkillBook": {
+      "@maxfame": "10000000"
     }
   }
 }

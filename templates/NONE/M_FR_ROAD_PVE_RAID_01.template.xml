@@ -3,7 +3,7 @@
   <tiles>
     <layergroup name="Rarity">
       <layer id="Layer_01" name="Super Legendary Raid_T8 ">
-        <tile name="SpawnPoint_LOOTCHEST_MEDIUM_AVALON_ROAD_ELITE_T8" pos="-25 -4 0" roty="90" />
+        <tile name="SpawnPoint_LOOTCHEST_MEDIUM_AVALON_ROAD_ELITE_T8" pos="-25 -4 0" roty="270" />
         <tile name="SpawnPoint_RANDOM_AVALON_ELITE_MAGE_T8" pos="40.92 -8 35.33" roty="249">
           <mobspawnpoint behavior="GUARD" spawnbehavior="AVALON_ELITE_MAGE_T8" />
         </tile>
@@ -290,7 +290,7 @@
         </tile>
       </layer>
       <layer id="Layer_02" name="Epic Raid_T6 ">
-        <tile name="SpawnPoint_LOOTCHEST_MEDIUM_AVALON_ROAD_ELITE_T6" pos="-25 -4 0" roty="90" />
+        <tile name="SpawnPoint_LOOTCHEST_MEDIUM_AVALON_ROAD_ELITE_T6" pos="-25 -4 0" roty="270" />
         <tile name="SpawnPoint_RANDOM_AVALON_ELITE_BOSS_ANY_T6" pos="-13.3 -4 0.34" roty="88">
           <mobspawnpoint behavior="GUARD" spawnbehavior="AVALON_ELITE_BOSS_CONSTRUCT_T6" />
         </tile>
@@ -1582,7 +1582,7 @@
     <tile name="ROADS_ROCK_SPIKES_LARGE_B_NOCOL" pos="-54 -27 48" />
     <tile name="ROADS_VEG_BLEND_SMALL_A_MIST" pos="21.5 -8 53.5" />
     <tile name="ROADS_AVA_GROUND_STONES_COLUMN_CORNER_A_GOLD" pos="23 -4 -10" roty="270" scale="0.5151378 1 0.5151378" />
-    <tile name="SoundBubble_AvalonianRoad" pos="0.1 54 0" />
+    <tile name="SoundBubble_AvalonianRoad_80_65" pos="0.1 54 0" />
     <tile name="ROADS_FILL_TREE_MAMMOTH_SHADOW_MIST" pos="41 0 97" />
     <tile name="ROADS_FILL_TREE_MAMMOTH_SHADOW_MIST" pos="3 0 -91" roty="180" />
     <tile name="ROADS_FILL_TREE_MAMMOTH_SHADOW_MIST" pos="36 0 -80" roty="180" />

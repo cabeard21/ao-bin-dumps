@@ -1,5 +1,15 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Master/City/1012_CTY_FR_T1_NON.unity" unityguid="4a455c2d660de5b45850db48bd438298" editorBoundsMin="0 0" editorBoundsMax="0 0" colBoundsMin="-265 -235" colBoundsMax="127 155">
   <criticalscenemembers>
+    <criticalscenemember id="shrine_03" type="shrine" layerId="">
+      <tile name="FOREST_GREEN_CITY_PORTAL_SHRINE_INVISIBILITY_BUFF" pos="5 0 -17" roty="216">
+        <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
+      </tile>
+    </criticalscenemember>
+    <criticalscenemember id="shrine_02" type="shrine" layerId="">
+      <tile name="FOREST_GREEN_CITY_PORTAL_SHRINE_INVISIBILITY_BUFF" pos="20 0 42" roty="29">
+        <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
+      </tile>
+    </criticalscenemember>
     <criticalscenemember id="actionbuilding_05" type="actionbuilding" layerId="">
       <tile name="SEASONS_STORE" pos="42 2 -20" roty="270">
         <actionbuilding />
@@ -13,16 +23,6 @@
     <criticalscenemember id="actionbuilding_04" type="actionbuilding" layerId="">
       <tile name="FOREST_GREEN_T1_BANK" pos="17 -1 3">
         <actionbuilding />
-      </tile>
-    </criticalscenemember>
-    <criticalscenemember id="shrine_02" type="shrine" layerId="">
-      <tile name="SHRINE_OUTLANDCITY_INVISIBILITY_BUFF" pos="20 0 41">
-        <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
-      </tile>
-    </criticalscenemember>
-    <criticalscenemember id="shrine_03" type="shrine" layerId="">
-      <tile name="SHRINE_OUTLANDCITY_INVISIBILITY_BUFF" pos="5 0 -16" roty="180">
-        <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="actionbuilding_01" type="actionbuilding" layerId="">
@@ -231,8 +231,8 @@
       </tile>
     </criticalscenemember>
     <criticalscenemember id="realestate_24" type="realestate" layerId="">
-      <tile name="RealEstate" pos="-25 0 -85.1">
-        <realestate size="20 20" platepos="-35.5 0 -85.1" doorpos="-35 2.5 -80.1" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="B" />
+      <tile name="RealEstate" pos="-25 0 -85">
+        <realestate size="20 20" platepos="-35.5 0 -85" doorpos="-35 2.5 -80" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="B" />
       </tile>
     </criticalscenemember>
     <criticalscenemember id="realestate_25" type="realestate" layerId="">
@@ -284,6 +284,12 @@
       </layer>
     </layergroup>
     <tile name="Atmosphere_WRL_NONE_MN_GREEN_Beach" pos="-0.4 0 1.7" />
+    <criticaltile name="FOREST_GREEN_CITY_PORTAL_SHRINE_INVISIBILITY_BUFF" pos="5 0 -17" roty="216" id="shrine_03" type="shrine">
+      <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
+    </criticaltile>
+    <criticaltile name="FOREST_GREEN_CITY_PORTAL_SHRINE_INVISIBILITY_BUFF" pos="20 0 42" roty="29" id="shrine_02" type="shrine">
+      <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
+    </criticaltile>
     <criticaltile name="SEASONS_STORE" pos="42 2 -20" roty="270" id="actionbuilding_05" type="actionbuilding">
       <actionbuilding />
     </criticaltile>
@@ -299,12 +305,6 @@
     <tile name="MiniMapMarker" pos="17.5 -1 3.5">
       <minimapmarker type="Bank" />
     </tile>
-    <criticaltile name="SHRINE_OUTLANDCITY_INVISIBILITY_BUFF" pos="20 0 41" id="shrine_02" type="shrine">
-      <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
-    </criticaltile>
-    <criticaltile name="SHRINE_OUTLANDCITY_INVISIBILITY_BUFF" pos="5 0 -16" roty="180" id="shrine_03" type="shrine">
-      <shrine shrinetype="OUTLANDCITY_SHRINE_INVISIBILITY_BUFF" />
-    </criticaltile>
     <criticaltile name="FOREST_GREEN_MARKETPLACE_SMALL" pos="-5 0 23" id="actionbuilding_01" type="actionbuilding">
       <actionbuilding />
     </criticaltile>
@@ -568,7 +568,6 @@
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="6.5 -14 -66.5" rot="340 0 0" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="14.5 0 55.5" roty="90" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="32.5 -2 -27.5" />
-    <tile name="FOREST_GREEN_FILL_RUIN_NATURE_STATUE_LARGE_BROKEN_A" pos="20 1 44" roty="123" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="47.5 -15 -49.5" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="6.5 -1 -37.5" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_SMALL_A" pos="7.5 -2 -31.5" />
@@ -827,7 +826,6 @@
     <tile name="FOREST_GREEN_FILL_RUIN_DEBRIS_A" pos="39 2 42" />
     <tile name="FOREST_GREEN_T1_BUSH_B" pos="54.5 0 13.5" roty="201" />
     <tile name="FOREST_GREEN_VEG_BLEND_HIGH_A" pos="45.5 0 23.5" roty="180" />
-    <tile name="FOREST_GREEN_FILL_RUIN_NATURE_STATUE_LARGE_BROKEN_A" pos="3 1 -19" roty="303" />
     <tile name="FOREST_GREEN_VEG_BLEND_SMALL_A" pos="32.5 2 34.5" />
     <tile name="FOREST_GREEN_FILL_TREE_MAMMOTH_C_NOLEAF_NOCOL" pos="63 -22 22" roty="157" />
     <tile name="FOREST_GREEN_ROOF_LEAFS_A" pos="62.5 28 25.5" />
@@ -2053,8 +2051,8 @@
     <criticaltile name="RealEstate" pos="-25 0 -65" id="realestate_21" type="realestate">
       <realestate size="20 20" platepos="-35.5 0 -65" doorpos="-35 2.5 -60" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="A" />
     </criticaltile>
-    <criticaltile name="RealEstate" pos="-25 0 -85.1" id="realestate_24" type="realestate">
-      <realestate size="20 20" platepos="-35.5 0 -85.1" doorpos="-35 2.5 -80.1" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="B" />
+    <criticaltile name="RealEstate" pos="-25 0 -85" id="realestate_24" type="realestate">
+      <realestate size="20 20" platepos="-35.5 0 -85" doorpos="-35 2.5 -80" doorsize="1 7 2" overridesaleprice="-1" plateorientation="NorthWest" locationquality="B" />
     </criticaltile>
     <criticaltile name="RealEstate" pos="-55 0 -15" id="realestate_25" type="realestate">
       <realestate size="20 20" platepos="-55 0 -25.5" doorpos="-60 2.5 -25" doorsize="2 7 1" overridesaleprice="-1" plateorientation="SouthWest" locationquality="A" />
@@ -2065,5 +2063,22 @@
     <criticaltile name="RealEstate" pos="-145 -4 -15" id="realestate_03" type="realestate">
       <realestate size="20 20" platepos="-145 -4 -25.5" doorpos="-150 -1.5 -25" doorsize="2 7 1" overridesaleprice="-1" plateorientation="SouthWest" locationquality="D" />
     </criticaltile>
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-60 -88 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -88 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -88 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -88 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -88 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -88 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -88 -20" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -88 10" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -88 40" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -88 40" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="10 -88 70" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -88 -50" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -88 -50" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="0 -88 -70" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="30 -88 -70" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="-30 -88 40" />
+    <tile name="BLOCK_CONSTRUCTIONS_30x30" pos="60 -88 -20" />
   </tiles>
 </template>

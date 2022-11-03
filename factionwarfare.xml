@@ -75,7 +75,7 @@
   </factionpointbonus>
 
   <factionpoints>
-    <scalingmultiplier pve="0.0083" gathering="0.1" fishing="0.1" />
+    <scalingmultiplier pve="0.007" gathering="0.1" fishing="0.1" />
   </factionpoints>
   <clustercontrolpoints points="1000" gainfactor="0.0055"/>
   <respawning minimumRespawnDistanceInMeters="100"
@@ -537,6 +537,14 @@
   <clustertypeoverride clusterid="3004" type="FW_CITY_MAIN" />
   <clustertypeoverride clusterid="4000" type="FW_CITY_MAIN" />
   <clustertypeoverride clusterid="3003" type="FW_CAERLEON" />
+
+  <!-- portal city type overrides -->
+
+  <clustertypeoverride clusterid="0301" type="FW_CITY_SECONDARY" />
+  <clustertypeoverride clusterid="1301" type="FW_CITY_SECONDARY" />
+  <clustertypeoverride clusterid="2301" type="FW_CITY_SECONDARY" />
+  <clustertypeoverride clusterid="3301" type="FW_CITY_SECONDARY" />
+  <clustertypeoverride clusterid="4301" type="FW_CITY_SECONDARY" />
 
   <!-- city banks and auctionhouses -->
   

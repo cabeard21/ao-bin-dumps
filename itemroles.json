@@ -6,14 +6,46 @@
   "itemroles": {
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "@xsi:noNamespaceSchemaLocation": "itemroles.xsd",
+    "baserole": [
+      {
+        "@name": "Tank",
+        "@defaultuiorderpriority": "1",
+        "@uisprite": "icon_role_defender"
+      },
+      {
+        "@name": "DPS",
+        "@defaultuiorderpriority": "2",
+        "@uisprite": "icon_role_attacker"
+      },
+      {
+        "@name": "Support",
+        "@defaultuiorderpriority": "3",
+        "@uisprite": "icon_role_support"
+      },
+      {
+        "@name": "Heal",
+        "@defaultuiorderpriority": "4",
+        "@uisprite": "icon_role_healer"
+      },
+      {
+        "@name": "BattleMount",
+        "@defaultuiorderpriority": "5",
+        "@uisprite": "icon_role_battlemount"
+      }
+    ],
     "role": [
       {
         "@uniquename": "TANK",
         "@displayname": "@EXPEDITION_ROLE_DEFENSIVE",
         "@uisprite": "icon_role_defender",
+        "@baserole": "Tank",
         "category": [
           {
             "@value": "sword",
+            "@rating": "4"
+          },
+          {
+            "@value": "knuckles",
             "@rating": "4"
           },
           {
@@ -42,6 +74,7 @@
         "@uniquename": "DPS",
         "@displayname": "@EXPEDITION_ROLE_OFFENSIVE",
         "@uisprite": "icon_role_attacker",
+        "@baserole": "DPS",
         "category": [
           {
             "@value": "hammer",
@@ -73,6 +106,10 @@
           },
           {
             "@value": "quarterstaff",
+            "@rating": "5"
+          },
+          {
+            "@value": "knuckles",
             "@rating": "5"
           },
           {
@@ -113,6 +150,7 @@
         "@uniquename": "HEAL",
         "@displayname": "@EXPEDITION_ROLE_SUPPORTIVE",
         "@uisprite": "icon_role_healer",
+        "@baserole": "Heal",
         "category": [
           {
             "@value": "holystaff",
@@ -136,6 +174,7 @@
         "@uniquename": "ARENA_DPS",
         "@displayname": "@ARENA_ROLE_OFFENSIVE",
         "@uisprite": "icon_role_attacker",
+        "@baserole": "DPS",
         "category": [
           {
             "@value": "hammer",
@@ -163,6 +202,10 @@
           },
           {
             "@value": "staff",
+            "@rating": "5"
+          },
+          {
+            "@value": "knuckles",
             "@rating": "5"
           },
           {
@@ -207,6 +250,7 @@
         "@uniquename": "ARENA_HEAL",
         "@displayname": "@ARENA_ROLE_SUPPORTIVE",
         "@uisprite": "icon_role_healer",
+        "@baserole": "Heal",
         "category": [
           {
             "@value": "holystaff",
@@ -231,9 +275,15 @@
         "@displayname": "@EXPEDITION_ROLE_DEFENSIVE",
         "@uisprite": "icon_role_defender",
         "@context": "party",
+        "@baserole": "Tank",
+        "@mapmarkercolor": "1590f8FF",
         "category": [
           {
             "@value": "sword",
+            "@rating": "4"
+          },
+          {
+            "@value": "knuckles",
             "@rating": "4"
           },
           {
@@ -263,6 +313,8 @@
         "@displayname": "@ARENA_ROLE_OFFENSIVE",
         "@uisprite": "icon_role_attacker",
         "@context": "party",
+        "@baserole": "DPS",
+        "@mapmarkercolor": "b11600FF",
         "category": [
           {
             "@value": "hammer",
@@ -294,6 +346,10 @@
           },
           {
             "@value": "quarterstaff",
+            "@rating": "5"
+          },
+          {
+            "@value": "knuckles",
             "@rating": "5"
           },
           {
@@ -331,6 +387,8 @@
         "@displayname": "@ARENA_ROLE_SUPPORTIVE",
         "@uisprite": "icon_role_healer",
         "@context": "party",
+        "@baserole": "Heal",
+        "@mapmarkercolor": "4eb21aFF",
         "category": [
           {
             "@value": "holystaff",
@@ -355,6 +413,8 @@
         "@displayname": "@PARTY_ROLE_SUPPORT",
         "@uisprite": "icon_role_support",
         "@context": "party",
+        "@baserole": "Support",
+        "@mapmarkercolor": "ffda45FF",
         "category": {
           "@value": "arcanestaff",
           "@rating": "10"
@@ -365,6 +425,8 @@
         "@displayname": "@PARTY_ROLE_BATTLEMOUNT",
         "@uisprite": "icon_role_battlemount",
         "@context": "party",
+        "@baserole": "BattleMount",
+        "@mapmarkercolor": "bfd6e6FF",
         "category": {
           "@value": "arcanestaff",
           "@rating": "1"

@@ -240,7 +240,7 @@
     },
     "factionpoints": {
       "scalingmultiplier": {
-        "@pve": "0.0083",
+        "@pve": "0.007",
         "@gathering": "0.1",
         "@fishing": "0.1"
       }
@@ -2199,6 +2199,26 @@
       {
         "@clusterid": "3003",
         "@type": "FW_CAERLEON"
+      },
+      {
+        "@clusterid": "0301",
+        "@type": "FW_CITY_SECONDARY"
+      },
+      {
+        "@clusterid": "1301",
+        "@type": "FW_CITY_SECONDARY"
+      },
+      {
+        "@clusterid": "2301",
+        "@type": "FW_CITY_SECONDARY"
+      },
+      {
+        "@clusterid": "3301",
+        "@type": "FW_CITY_SECONDARY"
+      },
+      {
+        "@clusterid": "4301",
+        "@type": "FW_CITY_SECONDARY"
       },
       {
         "@clusterid": "0006",

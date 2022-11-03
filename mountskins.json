@@ -70,6 +70,12 @@
           },
           {
             "@goldprice": "0",
+            "@reference": "SKIN_HORSE_UNICORN_AMETHYST",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
             "@reference": "SKIN_HORSE_UNICORN_WHITE_TELLAFRIEND",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
@@ -89,6 +95,38 @@
           {
             "@goldprice": "4000",
             "@reference": "SKIN_HORSE_DEMONHUNTER",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_HORSE_JESTER_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-02-01T10:00:00Z"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_HORSE_MONK",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_HORSE_ANNIVERSARY_2022",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-07-14T10:00:00Z"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_HORSE_VAMPIRE_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_HORSE_PRIEST_HOLY",
             "@mountview": "MountViewMedium",
             "@state": "Hidden"
           }
@@ -189,6 +227,12 @@
             "@reference": "SKIN_ARMORED_HORSE_PALADIN_GUILD_COLORED",
             "@mountview": "MountViewTall",
             "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_ARMORED_HORSE_MARAUDER",
+            "@mountview": "MountViewTall",
+            "@state": "Locked"
           }
         ]
       },
@@ -251,7 +295,21 @@
             "@goldprice": "3000",
             "@reference": "SKIN_OX_MIST",
             "@mountview": "MountViewTall",
-            "@state": "Hidden"
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_OX_FARMER_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-04-01T10:00:00Z"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_OX_XMAS_YAK_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-12-01T10:00:00Z"
           }
         ]
       },
@@ -329,7 +387,7 @@
             "@goldprice": "3000",
             "@reference": "SKIN_DIREWOLF_MIST",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
           },
           {
             "@goldprice": "0",
@@ -337,6 +395,18 @@
             "@mountview": "MountViewSmall",
             "@state": "Locked",
             "@hiddenuntil": "2021-10-01T10:00:00Z"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_DIREWOLF_DEMONICWARRIOR",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "3000",
+            "@reference": "SKIN_DIREWOLF_UNDEAD",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
           }
         ]
       },
@@ -381,6 +451,12 @@
             "@state": "Locked"
           },
           {
+            "@goldprice": "0",
+            "@reference": "SKIN_GIANTSTAG_ALPACA_BROWN",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
             "@goldprice": "3000",
             "@reference": "SKIN_STAG_SOULKEEPER",
             "@mountview": "MountViewTall",
@@ -390,7 +466,7 @@
             "@goldprice": "3000",
             "@reference": "SKIN_STAG_DRUID",
             "@mountview": "MountViewTall",
-            "@state": "Hidden"
+            "@state": "Locked"
           },
           {
             "@goldprice": "0",
@@ -398,6 +474,13 @@
             "@mountview": "MountViewMedium",
             "@state": "Locked",
             "@hiddenuntil": "2021-12-01T10:00:00Z"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_GIANTSTAG_FAWN_TELLAFRIEND",
+            "@mountview": "MountViewSmall",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-06-01T10:00:00Z"
           }
         ]
       },
@@ -476,7 +559,32 @@
             "@goldprice": "4000",
             "@reference": "SKIN_COUGAR_SHADOWCAT",
             "@mountview": "MountViewMedium",
-            "@state": "Hidden"
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_COUGAR_AMETHYST",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_COUGAR_FIREMAGE",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_COUGAR_FROSTMAGE",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked"
+          },
+          {
+            "@goldprice": "0",
+            "@reference": "SKIN_COUGAR_JAGUAR_TELLAFRIEND",
+            "@mountview": "MountViewMedium",
+            "@state": "Locked",
+            "@hiddenuntil": "2022-08-01T10:00:00Z"
           }
         ]
       },
@@ -501,6 +609,12 @@
             "@reference": "SKIN_DIREBOAR_WHITE_TELLAFRIEND",
             "@mountview": "MountViewMedium",
             "@state": "Locked"
+          },
+          {
+            "@goldprice": "4000",
+            "@reference": "SKIN_DIREBOAR_OCCULT",
+            "@mountview": "MountViewMedium",
+            "@state": "Hidden"
           }
         ]
       },

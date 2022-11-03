@@ -1954,6 +1954,9 @@
                         },
                         {
                           "@id": "T3_2H_QUARTERSTAFF"
+                        },
+                        {
+                          "@id": "T3_2H_KNUCKLES_SET1"
                         }
                       ]
                     },
@@ -2426,16 +2429,16 @@
                   "@hideindetailsui": "true",
                   "validchest": [
                     {
-                      "@name": "HERETIC_SOLO_BOOKCHEST_STANDARD"
+                      "@name": "HERETIC_SOLO_CHEST_STANDARD"
                     },
                     {
-                      "@name": "HERETIC_SOLO_BOOKCHEST_UNCOMMON"
+                      "@name": "HERETIC_SOLO_CHEST_UNCOMMON"
                     },
                     {
-                      "@name": "HERETIC_SOLO_BOOKCHEST_RARE"
+                      "@name": "HERETIC_SOLO_CHEST_RARE"
                     },
                     {
-                      "@name": "HERETIC_SOLO_BOOKCHEST_LEGENDARY"
+                      "@name": "HERETIC_SOLO_CHEST_LEGENDARY"
                     },
                     {
                       "@name": "HERETIC_SOLO_CHEST_BOSS_UNCOMMON"
@@ -2447,16 +2450,13 @@
                       "@name": "HERETIC_SOLO_CHEST_BOSS_LEGENDARY"
                     },
                     {
-                      "@name": "HERETIC_SOLO_CHEST_STANDARD"
+                      "@name": "HERETIC_SOLO_BOOKCHEST_STANDARD"
                     },
                     {
-                      "@name": "HERETIC_SOLO_CHEST_UNCOMMON"
+                      "@name": "HERETIC_SOLO_BOOKCHEST_UNCOMMON"
                     },
                     {
-                      "@name": "HERETIC_SOLO_CHEST_RARE"
-                    },
-                    {
-                      "@name": "HERETIC_SOLO_CHEST_LEGENDARY"
+                      "@name": "HERETIC_SOLO_BOOKCHEST_RARE"
                     }
                   ]
                 },
@@ -2521,6 +2521,181 @@
           }
         },
         "rewards": ""
+      },
+      {
+        "@uniquename": "MISSIONS_T2_TUTORIAL_TEACH_COMBAT3",
+        "@mobfaction": "ROYALARMY",
+        "@title": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_TITLE",
+        "@offertext": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_OFFERTEXT",
+        "@progresstext": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_PROGRESSTEXT",
+        "@priority": "1",
+        "@minlevel": "1",
+        "@maxlevel": "2",
+        "@tags": "commander",
+        "@offertimeout": "0",
+        "@questtimeout": "3600000",
+        "@questslotcooldown": "0",
+        "@uicategory": "PROMOTION",
+        "@onceonly": "true",
+        "@previousquests": "MISSIONS_T2_TUTORIAL_TEACH_COMBAT2",
+        "@completetext": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_COMPLETIONTEXT",
+        "@cancelable": "true",
+        "variables": {
+          "dynamiccluster": {
+            "@name": "LOCATION_A",
+            "distancetocluster": {
+              "@mindistance": "0",
+              "@maxdistance": "0"
+            }
+          }
+        },
+        "tasks": {
+          "missionstep": {
+            "or": {
+              "@locationmarkerid": "CITY",
+              "@markedonminimap": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT",
+              "gotocluster": [
+                {
+                  "@clusterdirect": "0202"
+                },
+                {
+                  "@clusterdirect": "1212"
+                },
+                {
+                  "@clusterdirect": "2214"
+                },
+                {
+                  "@clusterdirect": "3210"
+                },
+                {
+                  "@clusterdirect": "4203"
+                }
+              ]
+            }
+          },
+          "extendedmissionstep": [
+            {
+              "@locationmarkerid": "STATIC_DUNGEON",
+              "@markedonminimap": "true",
+              "@markedinworld": "true",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "STATIC_DUNGEON_TRIGGER",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT",
+                  "@hideindetailsui": "true"
+                }
+              }
+            },
+            {
+              "@locationmarkerid": "STATIC_DUNGEON_1",
+              "@markedinworld": "true",
+              "@markedonminimap": "true",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "STATIC_DUNGEON"
+                }
+              },
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "STATIC_DUNGEON_3",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT",
+                  "@hideindetailsui": "true"
+                }
+              }
+            },
+            {
+              "missions": {
+                "or": {
+                  "@locationmarkerid": "STATIC_DUNGEON_2",
+                  "@markedonminimap": "true",
+                  "@hideindetailsui": "false",
+                  "@hideinhud": "false",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT1",
+                  "gotocluster": [
+                    {
+                      "@clusterdirect": "DNG-HER-01-MAIN-01"
+                    },
+                    {
+                      "@clusterdirect": "DNG-HER-01-MAIN-02"
+                    },
+                    {
+                      "@clusterdirect": "DNG-HER-01-MAIN-03"
+                    },
+                    {
+                      "@clusterdirect": "DNG-HER-01-MAIN-04"
+                    },
+                    {
+                      "@clusterdirect": "DNG-HER-01-MAIN-05"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "missions": {
+                "or": {
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEACH_COMBAT3_SIDETEXT_KILL_MOBS",
+                  "killmob": [
+                    {
+                      "@count": "12",
+                      "@faction": "HERETIC",
+                      "@mintier": "3",
+                      "@countpartykills": "true",
+                      "@clusterdirect": "DNG-HER-01-MAIN-01"
+                    },
+                    {
+                      "@count": "12",
+                      "@faction": "HERETIC",
+                      "@mintier": "3",
+                      "@countpartykills": "true",
+                      "@clusterdirect": "DNG-HER-01-MAIN-02"
+                    },
+                    {
+                      "@count": "12",
+                      "@faction": "HERETIC",
+                      "@mintier": "3",
+                      "@countpartykills": "true",
+                      "@clusterdirect": "DNG-HER-01-MAIN-03"
+                    },
+                    {
+                      "@count": "12",
+                      "@faction": "HERETIC",
+                      "@mintier": "3",
+                      "@countpartykills": "true",
+                      "@clusterdirect": "DNG-HER-01-MAIN-04"
+                    },
+                    {
+                      "@count": "12",
+                      "@faction": "HERETIC",
+                      "@mintier": "3",
+                      "@countpartykills": "true",
+                      "@clusterdirect": "DNG-HER-01-MAIN-05"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "extendedcompletionstep": {
+            "@locationmarkerid": "STATIC_DUNGEON_EXIT",
+            "@markedinworld": "true",
+            "@markedonminimap": "true",
+            "missions": {
+              "gotoquestgiver": null
+            }
+          }
+        },
+        "rewards": {
+          "item": {
+            "@itemid": "T5_SKILLBOOK_NONTRADABLE",
+            "@count": "1"
+          }
+        }
       },
       {
         "@uniquename": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
@@ -2602,6 +2777,57 @@
             "@count": "1"
           }
         }
+      },
+      {
+        "@uniquename": "MISSION_GUILD_FINDER",
+        "@mobfaction": "ROYALARMY",
+        "@title": "@MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED_TITLE",
+        "@offertext": "@MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED_OFFERTEXT",
+        "@progresstext": "@MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED_PROGRESSTEXT",
+        "@priority": "1",
+        "@minlevel": "1",
+        "@maxlevel": "2",
+        "@tags": "commander",
+        "@offertimeout": "0",
+        "@questtimeout": "3600000",
+        "@questslotcooldown": "0",
+        "@uicategory": "PROMOTION",
+        "@onceonly": "true",
+        "@previousquests": "",
+        "@requiresonlyonepreviousquest": "false",
+        "@completetext": "@MISSIONS_T2_TUTORIAL_CRAFTING_ADVANCED_COMPLETIONTEXT",
+        "variables": {
+          "dynamiccluster": {
+            "@name": "LOCATION_A",
+            "distancetocluster": {
+              "@mindistance": "0",
+              "@maxdistance": "1"
+            }
+          },
+          "dynamicquestgiver": {
+            "@name": "ROYALEXPLORER",
+            "distancefromquestgiver": {
+              "@mindistance": "0",
+              "@maxdistance": "3"
+            },
+            "questgivertag": {
+              "@tag": "ROYALEXPLORER"
+            }
+          }
+        },
+        "tasks": {
+          "extendedcompletionstep": {
+            "preactions": {
+              "openhintbox": {
+                "@uniquename": "GUILDFINDERINTRO_01"
+              }
+            },
+            "missions": {
+              "gotoquestgiver": null
+            }
+          }
+        },
+        "rewards": ""
       },
       {
         "@uniquename": "MISSIONS_T2_TUTORIAL_RETURN_TO_COMMANDER",
@@ -2785,11 +3011,6 @@
           },
           "extendedmissionstep": [
             {
-              "preactions": {
-                "openhintbox": {
-                  "@uniquename": "T2_WHERE_FIBER"
-                }
-              },
               "missions": {
                 "or": {
                   "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_FIBER_SIDETEXT1",
@@ -2829,8 +3050,27 @@
             },
             {
               "@markedonminimap": "true",
+              "@locationmarkerid": "T2_GATHER_HINT",
+              "@markedinworld": "false",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "T2_GATHER",
+                  "@hideindetailsui": "true",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_MOVE_SIDETEXT"
+                }
+              }
+            },
+            {
+              "@markedonminimap": "true",
               "@locationmarkerid": "T2_FIBER",
               "@markedinworld": "false",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "T2_WHERE_FIBER"
+                }
+              },
               "missions": {
                 "unlockachievement": {
                   "@achievement": "GATHER_TRAINEE",
@@ -2989,6 +3229,7 @@
         "@cancelable": "true",
         "@previousquests": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
         "@completehintbox": "END_OF_TUTORIAL",
+        "@hideifquestcompleted": "MISSIONS_T2_THETFORT_CITYTOUR MISSIONS_T2_LYMHURST_CITYTOUR MISSIONS_T2_FORTSTERLING_CITYTOUR MISSIONS_T2_MARTLOCK_CITYTOUR",
         "variables": {
           "dynamiccluster": [
             {
@@ -3018,13 +3259,6 @@
           ]
         },
         "tasks": {
-          "missionstep": {
-            "haveplaytime": {
-              "@seconds": "1",
-              "@hideinhud": "true",
-              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
-            }
-          },
           "extendedmissionstep": [
             {
               "missions": {
@@ -3231,6 +3465,13 @@
               }
             }
           ],
+          "missionstep": {
+            "haveplaytime": {
+              "@seconds": "1",
+              "@hideinhud": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
+            }
+          },
           "extendedcompletionstep": {
             "preactions": {
               "openhintbox": {
@@ -3267,6 +3508,7 @@
         "@cancelable": "true",
         "@previousquests": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
         "@completehintbox": "END_OF_TUTORIAL",
+        "@hideifquestcompleted": "MISSIONS_T2_THETFORT_CITYTOUR MISSIONS_T2_BRIDGEWATCH_CITYTOUR MISSIONS_T2_FORTSTERLING_CITYTOUR MISSIONS_T2_MARTLOCK_CITYTOUR",
         "variables": {
           "dynamiccluster": [
             {
@@ -3296,13 +3538,6 @@
           ]
         },
         "tasks": {
-          "missionstep": {
-            "haveplaytime": {
-              "@seconds": "1",
-              "@hideinhud": "true",
-              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
-            }
-          },
           "extendedmissionstep": [
             {
               "missions": {
@@ -3509,6 +3744,13 @@
               }
             }
           ],
+          "missionstep": {
+            "haveplaytime": {
+              "@seconds": "1",
+              "@hideinhud": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
+            }
+          },
           "extendedcompletionstep": {
             "preactions": {
               "openhintbox": {
@@ -3545,6 +3787,7 @@
         "@cancelable": "true",
         "@previousquests": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
         "@completehintbox": "END_OF_TUTORIAL",
+        "@hideifquestcompleted": "MISSIONS_T2_THETFORT_CITYTOUR MISSIONS_T2_BRIDGEWATCH_CITYTOUR MISSIONS_T2_LYMHURST_CITYTOUR MISSIONS_T2_MARTLOCK_CITYTOUR",
         "variables": {
           "dynamiccluster": [
             {
@@ -3574,13 +3817,6 @@
           ]
         },
         "tasks": {
-          "missionstep": {
-            "haveplaytime": {
-              "@seconds": "1",
-              "@hideinhud": "true",
-              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
-            }
-          },
           "extendedmissionstep": [
             {
               "missions": {
@@ -3787,6 +4023,13 @@
               }
             }
           ],
+          "missionstep": {
+            "haveplaytime": {
+              "@seconds": "1",
+              "@hideinhud": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
+            }
+          },
           "extendedcompletionstep": {
             "preactions": {
               "openhintbox": {
@@ -3823,6 +4066,7 @@
         "@cancelable": "true",
         "@previousquests": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
         "@completehintbox": "END_OF_TUTORIAL",
+        "@hideifquestcompleted": "MISSIONS_T2_THETFORT_CITYTOUR MISSIONS_T2_BRIDGEWATCH_CITYTOUR MISSIONS_T2_LYMHURST_CITYTOUR MISSIONS_T2_FORTSTERLING_CITYTOUR",
         "variables": {
           "dynamiccluster": [
             {
@@ -3852,13 +4096,6 @@
           ]
         },
         "tasks": {
-          "missionstep": {
-            "haveplaytime": {
-              "@seconds": "1",
-              "@hideinhud": "true",
-              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
-            }
-          },
           "extendedmissionstep": [
             {
               "missions": {
@@ -4065,6 +4302,13 @@
               }
             }
           ],
+          "missionstep": {
+            "haveplaytime": {
+              "@seconds": "1",
+              "@hideinhud": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
+            }
+          },
           "extendedcompletionstep": {
             "preactions": {
               "openhintbox": {
@@ -4101,6 +4345,7 @@
         "@cancelable": "true",
         "@previousquests": "MISSIONS_T2_TUTORIAL_GO_TO_CITY",
         "@completehintbox": "END_OF_TUTORIAL",
+        "@hideifquestcompleted": "MISSIONS_T2_BRIDGEWATCH_CITYTOUR MISSIONS_T2_LYMHURST_CITYTOUR MISSIONS_T2_FORTSTERLING_CITYTOUR MISSIONS_T2_MARTLOCK_CITYTOUR",
         "variables": {
           "dynamiccluster": [
             {
@@ -4130,13 +4375,6 @@
           ]
         },
         "tasks": {
-          "missionstep": {
-            "haveplaytime": {
-              "@seconds": "1",
-              "@hideinhud": "true",
-              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
-            }
-          },
           "extendedmissionstep": [
             {
               "missions": {
@@ -4343,6 +4581,13 @@
               }
             }
           ],
+          "missionstep": {
+            "haveplaytime": {
+              "@seconds": "1",
+              "@hideinhud": "true",
+              "@textloca": "@MISSIONS_T2_TUTORIAL_CITYTOUR_SIDETEXT_STROLL"
+            }
+          },
           "extendedcompletionstep": {
             "preactions": {
               "openhintbox": {
@@ -4733,7 +4978,8 @@
                 "acquireitem": {
                   "@itemid": "T1_MAIN_SWORD",
                   "@count": "1",
-                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEST_D1_SIDETEXT"
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_TEST_D1_SIDETEXT",
+                  "@locationmarkerid": "FORGE"
                 }
               }
             },
@@ -4901,7 +5147,7 @@
                 },
                 "unlockachievement": {
                   "@achievement": "START",
-                  "@masterylevel": "0",
+                  "@masterylevel": "1",
                   "@hideindetailsui": "true",
                   "@hideinhud": "true"
                 }
@@ -4961,16 +5207,28 @@
               "@maxdistance": "0"
             }
           },
-          "dynamicquestgiver": {
-            "@name": "CAPTAIN",
-            "distancefromquestgiver": {
-              "@mindistance": "0",
-              "@maxdistance": "0"
+          "dynamicquestgiver": [
+            {
+              "@name": "CAPTAIN",
+              "distancefromquestgiver": {
+                "@mindistance": "0",
+                "@maxdistance": "0"
+              },
+              "questgivertag": {
+                "@tag": "CAPTAIN_TIA"
+              }
             },
-            "questgivertag": {
-              "@tag": "CAPTAIN_TIA"
+            {
+              "@name": "SHIP_REPAIR_GUY",
+              "distancefromquestgiver": {
+                "@mindistance": "0",
+                "@maxdistance": "0"
+              },
+              "questgivertag": {
+                "@tag": "SHIP_REPAIRMAN"
+              }
             }
-          }
+          ]
         },
         "tasks": {
           "extendedcompletionstep": {
@@ -5831,7 +6089,7 @@
                   "@textloca": "@MISSIONS_T2_TUTORIAL_TEST_MA3_SIDETEXT",
                   "unlockachievement": {
                     "@achievement": "COMBAT_TRAINEE",
-                    "@masterylevel": "0"
+                    "@masterylevel": "1"
                   },
                   "uselearningpoints": {
                     "@value": "1"
@@ -6036,7 +6294,7 @@
                   "@textloca": "@MISSIONS_T2_TUTORIAL_TEST_MA3_SIDETEXT",
                   "unlockachievement": {
                     "@achievement": "COMBAT_TRAINEE",
-                    "@masterylevel": "0"
+                    "@masterylevel": "1"
                   },
                   "uselearningpoints": {
                     "@value": "1"
@@ -6241,7 +6499,7 @@
                   "@textloca": "@MISSIONS_T2_TUTORIAL_TEST_MA3_SIDETEXT",
                   "unlockachievement": {
                     "@achievement": "COMBAT_TRAINEE",
-                    "@masterylevel": "0"
+                    "@masterylevel": "1"
                   },
                   "uselearningpoints": {
                     "@value": "1"
@@ -6893,11 +7151,6 @@
           },
           "extendedmissionstep": [
             {
-              "preactions": {
-                "openhintbox": {
-                  "@uniquename": "T2_WHERE_ORE"
-                }
-              },
               "missions": {
                 "or": {
                   "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_ORE_SIDETEXT1",
@@ -6937,8 +7190,27 @@
             },
             {
               "@markedonminimap": "true",
+              "@locationmarkerid": "T2_GATHER_HINT",
+              "@markedinworld": "false",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "T2_GATHER",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@hideindetailsui": "true",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_MOVE_SIDETEXT"
+                }
+              }
+            },
+            {
+              "@markedonminimap": "true",
               "@locationmarkerid": "T2_ORE",
               "@markedinworld": "false",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "T2_WHERE_ORE"
+                }
+              },
               "missions": {
                 "unlockachievement": {
                   "@achievement": "GATHER_TRAINEE",
@@ -7128,11 +7400,6 @@
           },
           "extendedmissionstep": [
             {
-              "preactions": {
-                "openhintbox": {
-                  "@uniquename": "T2_WHERE_STONE"
-                }
-              },
               "missions": {
                 "or": {
                   "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_ROCK_SIDETEXT1",
@@ -7172,8 +7439,27 @@
             },
             {
               "@markedonminimap": "true",
+              "@locationmarkerid": "T2_GATHER_HINT",
+              "@markedinworld": "false",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "T2_GATHER",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@hideindetailsui": "true",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_MOVE_SIDETEXT"
+                }
+              }
+            },
+            {
+              "@markedonminimap": "true",
               "@locationmarkerid": "T2_ROCK",
               "@markedinworld": "false",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "T2_WHERE_STONE"
+                }
+              },
               "missions": {
                 "unlockachievement": {
                   "@achievement": "GATHER_TRAINEE",
@@ -7363,11 +7649,6 @@
           },
           "extendedmissionstep": [
             {
-              "preactions": {
-                "openhintbox": {
-                  "@uniquename": "T2_WHERE_WOOD"
-                }
-              },
               "missions": {
                 "or": {
                   "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_WOOD_SIDETEXT1",
@@ -7407,8 +7688,27 @@
             },
             {
               "@markedonminimap": "true",
+              "@locationmarkerid": "T2_GATHER_HINT",
+              "@markedinworld": "false",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "T2_GATHER",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@hideindetailsui": "true",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_MOVE_SIDETEXT"
+                }
+              }
+            },
+            {
+              "@markedonminimap": "true",
               "@locationmarkerid": "T2_WOOD",
               "@markedinworld": "false",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "T2_WHERE_WOOD"
+                }
+              },
               "missions": {
                 "unlockachievement": {
                   "@achievement": "GATHER_TRAINEE",
@@ -7598,11 +7898,6 @@
           },
           "extendedmissionstep": [
             {
-              "preactions": {
-                "openhintbox": {
-                  "@uniquename": "T2_WHERE_HIDE"
-                }
-              },
               "missions": {
                 "or": {
                   "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_HIDE_SIDETEXT1",
@@ -7642,8 +7937,27 @@
             },
             {
               "@markedonminimap": "true",
+              "@locationmarkerid": "T2_GATHER_HINT",
+              "@markedinworld": "false",
+              "missions": {
+                "gotolocation": {
+                  "@locationmarkerid": "T2_GATHER",
+                  "@markedinworld": "false",
+                  "@markedonminimap": "false",
+                  "@hideindetailsui": "true",
+                  "@textloca": "@MISSIONS_T2_TUTORIAL_GATHERING_MOVE_SIDETEXT"
+                }
+              }
+            },
+            {
+              "@markedonminimap": "true",
               "@locationmarkerid": "T2_HIDE",
               "@markedinworld": "false",
+              "preactions": {
+                "openhintbox": {
+                  "@uniquename": "T2_WHERE_HIDE"
+                }
+              },
               "missions": {
                 "unlockachievement": {
                   "@achievement": "GATHER_TRAINEE",
@@ -7917,6 +8231,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@count": "20",
@@ -8077,6 +8392,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@count": "20",
@@ -8237,6 +8553,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@count": "20",
@@ -8411,6 +8728,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -8584,6 +8902,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -8757,6 +9076,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -8966,6 +9286,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -9175,6 +9496,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -9384,6 +9706,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -9593,6 +9916,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -9802,6 +10126,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -10011,6 +10336,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -10220,6 +10546,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -10429,6 +10756,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -10638,6 +10966,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -10847,6 +11176,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -11056,6 +11386,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -11265,6 +11596,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -11474,6 +11806,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_LIGHT_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -11683,6 +12016,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_MEDIUM_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"
@@ -11892,6 +12226,7 @@
           },
           "extendedcompletionstep": {
             "@applybuff": "TRADE_PACK_BUFF_HEAVY_B",
+            "@blocktownportalusage": "true",
             "preactions": {
               "receiveitem": {
                 "@itemvariable": "ITEM_B"

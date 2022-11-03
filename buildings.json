@@ -15,6 +15,7 @@
       "@uinpcspritename": "Gui/Avatars/Buildings/NPC_WORKBENCH",
       "@unlocked": "true",
       "@hideonclustermap": "true",
+      "@useautodemolish": "true",
       "AudioInfo": {
         "@name": "HIDEOUT_PLACEABLE_ITEM"
       },
@@ -205,6 +206,26 @@
         "@uniquename": "T8_MELDBUILDING_HIDEOUT"
       },
       {
+        "@template": "T8_MELDBUILDING",
+        "@uniquename": "FOREST_GREEN_T8_MELDBUILDING_PORTAL"
+      },
+      {
+        "@template": "T8_MELDBUILDING",
+        "@uniquename": "HIGHLAND_GREEN_T8_MELDBUILDING_PORTAL"
+      },
+      {
+        "@template": "T8_MELDBUILDING",
+        "@uniquename": "MOUNTAIN_GREEN_T8_MELDBUILDING_PORTAL"
+      },
+      {
+        "@template": "T8_MELDBUILDING",
+        "@uniquename": "STEPPE_GREEN_T8_MELDBUILDING_PORTAL"
+      },
+      {
+        "@template": "T8_MELDBUILDING",
+        "@uniquename": "SWAMP_GREEN_T8_MELDBUILDING_PORTAL"
+      },
+      {
         "@template": "T1_BANK",
         "@uniquename": "SWAMP_GREEN_T1_BANK"
       },
@@ -243,6 +264,26 @@
       {
         "@template": "T1_BANK",
         "@uniquename": "T1_BANK_HIDEOUT_BC"
+      },
+      {
+        "@template": "T1_BANK",
+        "@uniquename": "FOREST_GREEN_T1_BANK_PORTAL"
+      },
+      {
+        "@template": "T1_BANK",
+        "@uniquename": "HIGHLAND_GREEN_T1_BANK_PORTAL"
+      },
+      {
+        "@template": "T1_BANK",
+        "@uniquename": "MOUNTAIN_GREEN_T1_BANK_PORTAL"
+      },
+      {
+        "@template": "T1_BANK",
+        "@uniquename": "STEPPE_GREEN_T1_BANK_PORTAL"
+      },
+      {
+        "@template": "T1_BANK",
+        "@uniquename": "SWAMP_GREEN_T1_BANK_PORTAL"
       },
       {
         "@template": "T1_BANK_OUTLAND",
@@ -365,6 +406,26 @@
         "@uniquename": "MOUNTAIN_GREEN_MARKETPLACE_CENTERCITY"
       },
       {
+        "@template": "MARKETPLACE_SMALL",
+        "@uniquename": "FOREST_GREEN_MARKETPLACE_PORTAL"
+      },
+      {
+        "@template": "MARKETPLACE_SMALL",
+        "@uniquename": "HIGHLAND_GREEN_MARKETPLACE_PORTAL"
+      },
+      {
+        "@template": "MARKETPLACE_SMALL",
+        "@uniquename": "MOUNTAIN_GREEN_MARKETPLACE_PORTAL"
+      },
+      {
+        "@template": "MARKETPLACE_SMALL",
+        "@uniquename": "STEPPE_GREEN_MARKETPLACE_PORTAL"
+      },
+      {
+        "@template": "MARKETPLACE_SMALL",
+        "@uniquename": "SWAMP_GREEN_MARKETPLACE_PORTAL"
+      },
+      {
         "@template": "FARMING_MERCHANT",
         "@uniquename": "FARMING_MERCHANT_HIDEOUT"
       },
@@ -379,6 +440,66 @@
       {
         "@template": "SEASONS_STORE",
         "@uniquename": "HIGHLAND_DEAD_CENTER_CITY_SEASONS_STORE"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "FOREST_GREEN_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "FOREST_RED_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "FOREST_DEAD_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "HIGHLAND_GREEN_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "HIGHLAND_RED_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "HIGHLAND_DEAD_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "MOUNTAIN_GREEN_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "MOUNTAIN_RED_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "MOUNTAIN_DEAD_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "STEPPE_GREEN_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "STEPPE_RED_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "STEPPE_DEAD_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "SWAMP_GREEN_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "SWAMP_RED_SEASONS_STORE_PORTAL"
+      },
+      {
+        "@template": "SEASONS_STORE",
+        "@uniquename": "SWAMP_DEAD_SEASONS_STORE_PORTAL"
       },
       {
         "@template": "VANITY_STORE",
@@ -507,6 +628,26 @@
       {
         "@template": "T8_REPAIRSHOP",
         "@uniquename": "SWAMP_DEAD_REPAIRSHOP_OUTPOST"
+      },
+      {
+        "@template": "T8_REPAIRSHOP",
+        "@uniquename": "FOREST_GREEN_REPAIRSHOP_PORTAL"
+      },
+      {
+        "@template": "T8_REPAIRSHOP",
+        "@uniquename": "HIGHLAND_GREEN_REPAIRSHOP_PORTAL"
+      },
+      {
+        "@template": "T8_REPAIRSHOP",
+        "@uniquename": "MOUNTAIN_GREEN_REPAIRSHOP_PORTAL"
+      },
+      {
+        "@template": "T8_REPAIRSHOP",
+        "@uniquename": "STEPPE_GREEN_REPAIRSHOP_PORTAL"
+      },
+      {
+        "@template": "T8_REPAIRSHOP",
+        "@uniquename": "SWAMP_GREEN_REPAIRSHOP_PORTAL"
       }
     ],
     "repairbuilding": [
@@ -7092,84 +7233,104 @@
         "craftingitemlist": {
           "craftitem": [
             {
-              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH",
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_GLADIATOR_ARENA",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "1"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01",
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_GLADIATOR_ARENA",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "1"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01",
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_GLADIATOR_ARENA",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "1"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01",
+              "@uniquename": "UNIQUE_UNLOCK_CAPE_VANITY_GLADIATOR_ARENA",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "1"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01",
-              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "1"
-            },
-            {
-              "@uniquename": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER",
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_EYEPATCH_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "2"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER",
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_ARENA_SET_01_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "2"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER",
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_ARENA_SET_01_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "2"
             },
             {
-              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_01",
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_ARENA_SET_01_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "4"
+              "@displaygroup": "2"
             },
             {
-              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_02",
+              "@uniquename": "UNIQUE_UNLOCK_CAPE_VANITY_ARENA_SET_01_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "4"
+              "@displaygroup": "2"
             },
             {
-              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_03",
-              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "4"
-            },
-            {
-              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA",
+              "@uniquename": "UNIQUE_UNLOCK_T4_CAPE_ARENA_BANNER_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "3"
             },
             {
-              "@uniquename": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA",
+              "@uniquename": "UNIQUE_UNLOCK_T6_CAPE_ARENA_BANNER_COPY",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
               "@displaygroup": "3"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_T8_CAPE_ARENA_BANNER_COPY",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "3"
+            },
+            {
+              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_04",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_05",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_FURNITUREITEM_VANITY_ARENA_BANNER_06",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_ARENA_COPY",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "4"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_COUGAR_ARENA_COPY",
+              "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
+              "@displaygroup": "4"
             },
             {
               "@uniquename": "QUESTITEM_TOKEN_ROYAL_T4",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "5"
+              "@displaygroup": "6"
             },
             {
               "@uniquename": "QUESTITEM_TOKEN_ROYAL_T5",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "5"
+              "@displaygroup": "6"
             },
             {
               "@uniquename": "QUESTITEM_TOKEN_ROYAL_T6",
               "@category": "@BUILDING_ITEMS_CATEGORY_ARENA",
-              "@displaygroup": "5"
+              "@displaygroup": "6"
             }
           ]
         },
@@ -7259,6 +7420,266 @@
             {
               "@uniquename": "T5_FURNITUREITEM_GUILDBANNER_SHIELD",
               "@category": "@BUILDING_ITEMS_CATEGORY_FURNITURE",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_COUGAR_AMETHYST",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_GIANTSTAG_ALPACA_BROWN",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_CAPE_VANITY_HYENA_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_VANITY_2H_CHICKENGUN_EASTER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T8_GUILD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_OX_BISON_ROYAL_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_HORSE_UNICORN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "T1_KILL_EMOTE_TOMBSTONE_CHARGES_NONTRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "T1_KILL_EMOTE_GHOST_CHARGES_NONTRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_ENTERTAINER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_INNKEEPER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_PIRATE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_HORSE_KEEPER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T6_GUILD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T7_GUILD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_OX_BISON_AH_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_GREEN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_OFF_VANITY_INNKEEPER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_OFF_VANITY_PIRATE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_HORSE_BROWN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_ARMORED_HORSE_T5_GUILD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SKIN_OX_BLACKMARKET_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLUE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_DRESS_BLACK_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_PRIEST_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_DRESS_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_ARMOR_VANITY_BARD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "T1_KILL_EMOTE_FLAG_CHARGES_NONTRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "T1_KILL_EMOTE_OVERGROWN_CHARGES_NONTRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_NIGHTGOWN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_GREEN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLUE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_DRESS_BLACK_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_PRIEST_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_DRESS_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_BARD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_HEAD_VANITY_INNKEEPER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLUE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_BLACK_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_PRIEST_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_DRESS_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_BARD_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_INNKEEPER_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_PIRATE_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_SHOES_VANITY_DRESS_GREEN_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_CAPE_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_OFF_VANITY_PRIEST_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_DRESS_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
+              "@displaygroup": "5"
+            },
+            {
+              "@uniquename": "UNIQUE_UNLOCK_OFF_VANITY_WEDDING_TUXEDO_NON_TRADABLE",
+              "@category": "@BUILDING_ITEMS_CATEGORY_COMMUNITY",
               "@displaygroup": "5"
             },
             {
@@ -39173,6 +39594,11 @@
               "@displaygroup": "8"
             },
             {
+              "@uniquename": "T8_MOUNT_RABBIT_EASTER",
+              "@category": "@BUILDING_ITEMS_CATEGORY_MOUNTS_RARE",
+              "@displaygroup": "8"
+            },
+            {
               "@uniquename": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
               "@category": "@BUILDING_ITEMS_CATEGORY_MOUNTS_RARE",
               "@displaygroup": "8"
@@ -43590,14 +44016,22 @@
         "@tier": "1",
         "@durability": "6400",
         "@recoverytime": "60",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "T1_CASTLEGATE_LARGE",
         "@tier": "1",
         "@durability": "6400",
         "@recoverytime": "60",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE",
@@ -43606,7 +44040,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE",
@@ -43615,7 +44054,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_RED_T1_CASTLEGATE",
@@ -43624,7 +44068,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE",
@@ -43633,7 +44082,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE",
@@ -43642,7 +44096,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE",
@@ -43651,7 +44110,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE",
@@ -43660,7 +44124,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE",
@@ -43669,7 +44138,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_RED_T1_CASTLEGATE",
@@ -43678,7 +44152,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE",
@@ -43687,7 +44166,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE",
@@ -43696,7 +44180,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE",
@@ -43705,7 +44194,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE",
@@ -43714,7 +44208,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE",
@@ -43723,7 +44222,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE",
@@ -43732,7 +44236,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE",
@@ -43741,7 +44250,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE",
@@ -43750,7 +44264,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE",
@@ -43759,7 +44278,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_GREEN_T1_CASTLEGATE",
@@ -43768,7 +44292,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE",
@@ -43777,7 +44306,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_RED_T1_CASTLEGATE",
@@ -43786,7 +44320,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE",
@@ -43795,7 +44334,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_DEAD_T1_CASTLEGATE",
@@ -43804,7 +44348,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE",
@@ -43813,7 +44362,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE",
@@ -43822,7 +44376,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE",
@@ -43831,7 +44390,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE",
@@ -43840,7 +44404,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE",
@@ -43849,7 +44418,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE",
@@ -43858,7 +44432,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE",
@@ -43867,14 +44446,2123 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE_MAIN",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE_MAIN_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE_BASIC_OMNI",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE_BASIC",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_RED_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_RED_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_RED_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_SMALL"
+        }
+      },
+      {
+        "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_LARGE_ELITE",
+        "@tier": "1",
+        "@durability": "6400",
+        "@recoverytime": "60",
+        "@surname": "@BUILDINGS_T1_CASTLEGATE_LARGE",
+        "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
+        "@gatesize": "large",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE_LARGE"
+        }
       },
       {
         "@uniquename": "T1_CASTLEGATE_OUTPOST",
         "@tier": "1",
         "@durability": "1600",
         "@recoverytime": "60",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_GREEN_T1_CASTLEGATE_OUTPOST",
@@ -43883,7 +46571,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_RED_T1_CASTLEGATE_OUTPOST",
@@ -43892,7 +46585,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "SWAMP_DEAD_T1_CASTLEGATE_OUTPOST",
@@ -43901,7 +46599,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_GREEN_T1_CASTLEGATE_OUTPOST",
@@ -43910,7 +46613,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_RED_T1_CASTLEGATE_OUTPOST",
@@ -43919,7 +46627,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "STEPPE_DEAD_T1_CASTLEGATE_OUTPOST",
@@ -43928,7 +46641,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_GREEN_T1_CASTLEGATE_OUTPOST",
@@ -43937,7 +46655,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_RED_T1_CASTLEGATE_OUTPOST",
@@ -43946,7 +46669,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "MOUNTAIN_DEAD_T1_CASTLEGATE_OUTPOST",
@@ -43955,7 +46683,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_GREEN_T1_CASTLEGATE_OUTPOST",
@@ -43964,7 +46697,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_RED_T1_CASTLEGATE_OUTPOST",
@@ -43973,7 +46711,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "FOREST_DEAD_T1_CASTLEGATE_OUTPOST",
@@ -43982,7 +46725,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_GREEN_T1_CASTLEGATE_OUTPOST",
@@ -43991,7 +46739,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_RED_T1_CASTLEGATE_OUTPOST",
@@ -44000,7 +46753,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       },
       {
         "@uniquename": "HIGHLAND_DEAD_T1_CASTLEGATE_OUTPOST",
@@ -44009,7 +46767,12 @@
         "@recoverytime": "60",
         "@surname": "@BUILDINGS_T1_CASTLEGATE",
         "@descriptionlocatag": "@BUILDINGS_T1_CASTLEGATE_DESC",
-        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE"
+        "@gatesize": "small",
+        "@uispritename": "Gui/Avatars/Buildings/TYPE_CASTLE_GATE",
+        "@useautodemolish": "true",
+        "AudioInfo": {
+          "@name": "CASTLEGATE"
+        }
       }
     ],
     "farmbuilding": [
@@ -44400,6 +47163,12 @@
               "@uniquename": "T8_FARM_MAMMOTH_GROWN"
             },
             {
+              "@uniquename": "T8_FARM_RABBIT_EASTER_BABY"
+            },
+            {
+              "@uniquename": "T8_FARM_RABBIT_EASTER_GROWN"
+            },
+            {
               "@uniquename": "T5_FARM_MOABIRD_FW_BRIDGEWATCH_BABY"
             },
             {
@@ -44499,6 +47268,21 @@
       "@uisoundevent": "Play_ui_select_vanitymerchant",
       "craftingitemlist": {
         "craftitem": [
+          {
+            "@uniquename": "T4_TOKEN_CRYSTALLEAGUE_NONLETHAL_LVL_01",
+            "@category": "@BUILDING_ITEMS_CATEGORY_CRYSTALTOKENS",
+            "@displaygroup": "6"
+          },
+          {
+            "@uniquename": "T4_TOKEN_CRYSTALLEAGUE_NONLETHAL_LVL_02",
+            "@category": "@BUILDING_ITEMS_CATEGORY_CRYSTALTOKENS",
+            "@displaygroup": "6"
+          },
+          {
+            "@uniquename": "T4_TOKEN_CRYSTALLEAGUE_NONLETHAL_LVL_03",
+            "@category": "@BUILDING_ITEMS_CATEGORY_CRYSTALTOKENS",
+            "@displaygroup": "6"
+          },
           {
             "@uniquename": "T4_TOKEN_CRYSTALLEAGUE_LVL_01",
             "@category": "@BUILDING_ITEMS_CATEGORY_CRYSTALTOKENS",

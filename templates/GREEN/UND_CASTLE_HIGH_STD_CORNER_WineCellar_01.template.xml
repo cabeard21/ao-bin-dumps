@@ -1,38 +1,30 @@
 <template path="Assets/Levels/LEVEL_TEMPLATES/FOREST/Slave/DungeonBlocks/UNDEAD/UND_CASTLE_HIGH_STD_CORNER_WineCellar_01.unity" unityguid="d2af0b11dcece9f4698c1cd1a78fe9b5" editorBoundsMin="-40 -40" editorBoundsMax="40 40" colBoundsMin="-44 -40" colBoundsMax="42 42">
-  <criticalscenemembers>
-    <criticalscenemember id="lootchest_02" type="lootchest" layerId="Layer_02">
-      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_SOLO_STANDARD" pos="-0.5 -4 -18.5" roty="180" />
-    </criticalscenemember>
-    <criticalscenemember id="lootchest_01" type="lootchest" layerId="Layer_04">
-      <tile name="FOREST_GREEN_LOOTCHEST_UNDEAD_STANDARD" pos="-0.5 -4 -18.5" roty="180" />
-    </criticalscenemember>
-  </criticalscenemembers>
+  <criticalscenemembers />
   <tiles>
     <layergroup name="BACKDROP">
       <layer id="Layer_01" name="Forest">
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="10 -28 30" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -28 30" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -28 10" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -28 -10" roty="90" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -28 -30" roty="90" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="10 -28 -30" roty="90" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-10 -28 -30" roty="180" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -28 -30" roty="180" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -28 -10" roty="180" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -28 10" roty="270" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -28 30" roty="270" />
-        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-10 -28 30" roty="270" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="10 -24 30" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -24 30" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -24 10" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -24 -10" roty="90" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="30 -24 -30" roty="90" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="10 -24 -30" roty="90" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-10 -24 -30" roty="180" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -24 -30" roty="180" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -24 -10" roty="180" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -24 10" roty="270" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-30 -24 30" roty="270" />
+        <tile name="FOREST_GREEN_GROUND_20x20_OBJ_NOCLICK" pos="-10 -24 30" roty="270" />
         <compoundtile name="_FOREST_GREEN_BUSHES_10x20_COMP_01" pos="5 -24 -32" />
         <compoundtile name="_FOREST_GREEN_BUSHES_10x20_COMP_01" pos="25 -24 -35" roty="180" />
         <compoundtile name="_FOREST_GREEN_BUSHES_10x20_COMP_01" pos="-35 -24 -12" roty="270" />
-        <compoundtile name="_FOREST_GREEN_BASE_20x20_COMP_02" pos="33 -24 32" roty="90" />
-        <compoundtile name="_FOREST_GREEN_BASE_20x20_COMP_02" pos="-34 -24 32" />
+        <compoundtile name="_FOREST_GREEN_BASE_20x20_COMP_02" pos="-26 -24 30" />
         <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="26 -24 -28" />
         <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="-17 -24 18" roty="90" />
         <tile name="FOREST_GREEN_PLATEAU_ROCK_8M_B_DEBRIS_NOCOL" pos="-11 -24 -28" />
         <tile name="FOREST_GREEN_VEG_FERN_C" pos="-31 -24 20" />
         <tile name="FOREST_GREEN_VEG_FERN_C" pos="-34 -24 -6" />
-        <tile name="FOREST_GREEN_VEG_FERN_C" pos="-35 -24 -34" />
+        <tile name="FOREST_GREEN_VEG_FERN_C" pos="-32.5 -24 -32.5" />
         <tile name="FOREST_GREEN_VEG_FERN_C" pos="35 -24 -18" />
       </layer>
       <layer id="Layer_08" name="Mountain" />
@@ -206,10 +198,10 @@
     </layergroup>
     <layergroup name="REWARD">
       <layer id="Layer_02" name="reward_solo">
-        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_SOLO_STANDARD" pos="-0.5 -4 -18.5" roty="180" id="lootchest_02" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_UNDEAD_SOLO_STANDARD" pos="-0.5 -4 -18.5" roty="180" />
       </layer>
       <layer id="Layer_04" name="reward_veteran">
-        <criticaltile name="FOREST_GREEN_LOOTCHEST_UNDEAD_STANDARD" pos="-0.5 -4 -18.5" roty="180" id="lootchest_01" type="lootchest" />
+        <tile name="SpawnPoint_LOOTCHEST_UNDEAD_VETERAN_STANDARD" pos="-0.5 -4 -18.5" roty="180" />
       </layer>
     </layergroup>
     <tile name="FOREST_GREEN_CASTLE_GATE_MAIN_SMALL_B_BLEND" pos="-11 -17 -26.5" roty="90" />

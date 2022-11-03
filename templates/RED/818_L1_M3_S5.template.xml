@@ -261,13 +261,13 @@
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_A" pos="365 12 235" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_B" pos="215 12 375" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_30x30_A" pos="340 12 90" roty="180" activelayers="3" />
-    <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_A" pos="-115 4 55" roty="90" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_30x30_DIAGONAL_A" pos="-240 0 -130" roty="90" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_A" pos="125 0 -265" roty="180" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_30x30_A" pos="100 0 -260" roty="270" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_B" pos="-265 0 95" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_10x20_A" pos="-30 8 195" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_10x20_A" pos="325 12 340" roty="90" activelayers="3" />
+    <compoundtile name="_MOUNTAIN_RED_BLOCKER_10x20_B" pos="-115 4 50" roty="90" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_PLATEAU_4M_DIAGONAL_LARGE_RIGHT_A" pos="-15 8 135" roty="180" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_8M_RAMP_LEFT_A" pos="-255 0 205" roty="90" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_PLATEAU_4M_DIAG_LEFT_A" pos="-135 0 -205" roty="90" activelayers="1" />
@@ -982,6 +982,9 @@
     <compoundtile name="_MOUNTAIN_RED_PLATEAU_4M_DIAGONAL_LARGE_LEFT_A" pos="385 20 -35" roty="90" />
     <tile name="MOUNTAIN_RED_PLATEAU_WALL_CORNER_4MTRANSITION_LEFT_A" pos="30 0 -230" />
     <compoundtile name="_MOUNTAIN_RED_PLATEAU_4M_INNERCORNER_A" pos="290 4 -70" />
+    <tile name="MOUNTAIN_RED_PLATEAU_ROCK_DEBRIS_SMALL_C" pos="-243 8 236" roty="90" />
+    <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_INNERCORNER_A" pos="-375 4 375" roty="270" activelayers="3" />
+    <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_A" pos="-375 4 355" roty="270" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_CLIFF_16M_DIAG_LEFT_A" pos="65 12 380" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_CLIFF_16M_DIAG_LEFT_A" pos="360 8 25" roty="90" activelayers="2" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_CLIFF_16M_DIAG_LEFT_A" pos="350 12 175" roty="90" activelayers="3" />
@@ -996,7 +999,6 @@
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_CLIFF_16M_STRAIGHT_B" pos="340 12 355" roty="90" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_CLIFF_16M_STRAIGHT_B" pos="35 0 -370" roty="180" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_INNERCORNER_A" pos="-395 4 335" roty="270" activelayers="3" />
-    <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_B" pos="-375 4 355" roty="270" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_INNERCORNER_A" pos="395 12 325" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_10X20_A" pos="365 8 -20" roty="90" activelayers="2" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_C" pos="-395 4 305" roty="270" activelayers="3" />
@@ -1008,7 +1010,6 @@
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_10X20_A" pos="-395 4 320" roty="270" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_10X20_A" pos="-375 0 -90" roty="270" activelayers="2" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_DIAGONAL_LEFT_A" pos="-370 0 -75" roty="270" activelayers="2" />
-    <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_INNERCORNER_A" pos="-375 4 375" roty="270" activelayers="3" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_10X20_A" pos="-375 0 170" roty="270" activelayers="2" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_STRAIGHT_C" pos="115 12 375" activelayers="2" />
     <compoundtile name="_MOUNTAIN_RED_CLIFF_16M_DIAGONAL_RIGHT_B" pos="265 0 -370" roty="180" activelayers="2" />
@@ -1712,6 +1713,7 @@
     <tile name="MOUNTAIN_RED_GROUND" pos="-30 4 -190" roty="180" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_30x30_A" pos="-200 4 -80" roty="270" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_BLOCKER_20x20_A" pos="65 0 -255" activelayers="1" />
+    <compoundtile name="_MOUNTAIN_RED_10x20_C" pos="-115 4 60" roty="270" />
     <compoundtile name="_MOUNTAIN_RED_10x30_A" pos="-90 0 -230" roty="270" activelayers="1" />
     <compoundtile name="_MOUNTAIN_RED_10x30_B" pos="-270 0 -160" roty="90" />
     <compoundtile name="_MOUNTAIN_RED_10x30_B" pos="-90 0 -280" roty="270" />

@@ -77,29 +77,30 @@
       </layer>
     </layergroup>
     <tile name="Atmosphere_WRL_NONE_FR_GREEN_TUNNELTEST_ROADS_A" pos="0 0 0" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-334 0 -380.3" />
-    <tile name="SoundBubble_AvalonianRoad" pos="56.8 0 260.7" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-237.5 0 -383.7" />
-    <tile name="SoundBubble_AvalonianRoad" pos="2.7 0 -362.1" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-2.2 0 -429.3" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-62 0 -382.7" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-155.1 0 -391.1" />
-    <tile name="SoundBubble_AvalonianRoad" pos="13 0 -167.2" />
-    <tile name="SoundBubble_AvalonianRoad" pos="51.7 0 -93.6" />
-    <tile name="SoundBubble_AvalonianRoad" pos="8.6 0 43.8" />
-    <tile name="SoundBubble_AvalonianRoad" pos="13.3 0 -218" />
-    <tile name="SoundBubble_AvalonianRoad" pos="22 0 -275.1" />
-    <tile name="SoundBubble_AvalonianRoad" pos="15 0 -25.6" />
-    <tile name="SoundBubble_AvalonianRoad" pos="27.5 0 98.5" />
-    <tile name="SoundBubble_AvalonianRoad" pos="-53 0 183.7" />
-    <tile name="SoundBubble_AvalonianRoad" pos="25.8 0 153.1" />
-    <tile name="SoundBubble_AvalonianRoad" pos="26.3 0 391.8" />
-    <tile name="SoundBubble_AvalonianRoad" pos="462.4 0 301.3" />
-    <tile name="SoundBubble_AvalonianRoad" pos="153.3 0 303.6" />
-    <tile name="SoundBubble_AvalonianRoad" pos="274.3 0 307.3" />
-    <tile name="SoundBubble_AvalonianRoad" pos="377.4 0 286.5" />
-    <tile name="SoundBubble_AvalonianRoad" pos="327.2 0 297.3" />
-    <tile name="SoundBubble_AvalonianRoad" pos="221.2 0 301.1" />
+    <tile name="SoundBubble_AvalonianRoad_90_75" pos="15.4 0 -446.1" />
+    <tile name="SoundBubble_AvalonianRoad_90_75" pos="-155.1 0 -391.1" />
+    <tile name="SoundBubble_AvalonianRoad_90_75" pos="-334 0 -380.3" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="15 0 -25.6" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="22 0 -275.1" />
+    <tile name="SoundBubble_AvalonianRoad_70_55" pos="51.7 0 -93.6" />
+    <tile name="SoundBubble_AvalonianRoad_90_75" pos="56.8 0 260.7" />
+    <tile name="SoundBubble_AvalonianRoad_80_65" pos="462.4 0 301.3" />
+    <tile name="SoundBubble_AvalonianRoad_80_65" pos="-53 0 183.7" />
+    <tile name="SoundBubble_AvalonianRoad_80_65" pos="26.3 0 391.8" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="377.4 0 286.5" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="274.3 0 307.3" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="327.2 0 297.3" />
+    <tile name="SoundBubble_AvalonianRoad_60_45" pos="-237.5 0 -383.7" />
+    <tile name="SoundBubble_AvalonianRoad_40_25" pos="221.2 0 301.1" />
+    <tile name="SoundBubble_AvalonianRoad_60_45" pos="-62 0 -382.7" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="153.3 0 303.6" />
+    <tile name="SoundBubble_AvalonianRoad_60_45" pos="2.7 0 -362.1" />
+    <tile name="SoundBubble_AvalonianRoad_40_25" pos="8.6 0 43.8" />
+    <tile name="SoundBubble_AvalonianRoad_40_25" pos="13 0 -167.2" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="25.8 0 153.1" />
+    <tile name="SoundBubble_AvalonianRoad_50_35" pos="27.5 0 98.5" />
+    <tile name="SoundBubble_AvalonianRoad_40_25" pos="13.3 0 -218" />
+    <tile name="SoundBubble_AvalonianRoad_40_25" pos="-6.2 0 303.7" />
     <tile name="ROADS_AVA_GROUND_EMBLEM_SPEEDBUFF_A" pos="175 0 305">
       <spellzone spell="SPELLZONE_ROADS_SPEEDBUFF" />
     </tile>
@@ -565,7 +566,6 @@
     <tile name="ROADS_GROUND_40x40_OBJ_NOCLICK" pos="275 -36 345" roty="180" />
     <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="-605 -36 -625" roty="270" />
     <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="-535 -36 -335" />
-    <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="65 -36 225" roty="180" />
     <tile name="ROADS_GROUND_80x80_OBJ_NOCLICK" pos="215 -36 485" roty="90" />
     <tile name="ROADS_GROUND_80x80_OBJ_NOCLICK" pos="695 -36 505" roty="270" />
     <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="425 -36 -155" roty="180" />
@@ -667,6 +667,11 @@
     <tile name="ROADS_GROUND_80x80_OBJ_NOCLICK" pos="635 -36 185" />
     <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="655 -36 -585" roty="90" />
     <tile name="ROADS_GROUND_40x40_OBJ_NOCLICK" pos="-485 -36 -195" roty="90" />
+    <tile name="ROADS_GROUND_40x40_OBJ_NOCLICK" pos="55 -36 225" roty="180" />
+    <tile name="ROADS_GROUND_20x20_OBJ_NOCLICK" pos="45 -36 195" roty="90" />
+    <tile name="ROADS_GROUND_20x20_OBJ_NOCLICK" pos="45 -36 255" roty="90" />
+    <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="-15 -36 245" />
+    <tile name="ROADS_GROUND_20x40_OBJ_NOCLICK" pos="-15 -36 205" />
     <compoundtile name="_ROADS_MIST_BACKDROP_TREES_40x40_B" pos="324 0 340" />
     <compoundtile name="_ROADS_MIST_BACKDROP_TREES_80x20_A" pos="75 0 278" roty="180" />
     <compoundtile name="_ROADS_MIST_BACKDROP_TREES_20x40" pos="-32 0 -15" roty="270" />
@@ -773,13 +778,13 @@
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_20x40_A" pos="15 0 275" roty="90" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_20x40_A" pos="15 0 -65" roty="270" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_20x40_A" pos="15 0 -225" roty="270" />
-    <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_SQUARE_80x80_A" pos="15 0 225" roty="90" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_COLUMNS_120x40_A" pos="115 0 305" roty="180" />
     <compoundtile name="_ROADS_MIST_TRANS_STRAIGHT_STAIR_40x40_A" pos="-25 0 -95" roty="270" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_20x40_A" pos="15 0 -325" roty="270" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_COLUMNS_120x40_A" pos="-165 0 -355" roty="180" />
     <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_SQUARE_80x80_A" pos="15 0 -275" roty="270" />
     <compoundtile name="_ROADS_MIST_ROAD_T-CROSSING_40x40_A" pos="275 0 305" roty="180" />
+    <compoundtile name="_ROADS_MIST_ROAD_STRAIGHT_SQUARE_80x40_A" pos="15 0 225" roty="90" />
     <tile name="ROAMING_MEDIUM_NODE" pos="-413 -12 134">
       <resourcenode nodetype="medium" resourcetype="roamingmob" />
     </tile>

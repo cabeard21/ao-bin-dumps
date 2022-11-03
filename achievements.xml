@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<achievements Version="c1bfb1dd-7e52-4341-a3fa-dc27bd58ae5a" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<achievements Version="722a3b4b-5ec5-4478-ab5a-e8c52abf8807" xsi:noNamespaceSchemaLocation="achievements.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <template name="REFINE_T4">
     <baselevels structure="Fame;LP;LPThreshold;MissionTargetMinTier;MissionTargetMaxTier;MissionItemMinTier;MissionItemMaxTier;UnlockTier">
     3713;15;0.2;2;8;2;8;4
@@ -936,26 +936,26 @@
     1027392;120;0.2;3;8;2;8;;
     </baselevels>
     <elitelevels structure="Fame;SilverPerReSpec">
-    1056819;0.3
-    1117415;0.3
-    1238607;0.3
-    1420395;0.3
-    1662779;0.3
-    1965759;0.3
-    2329335;0.3
-    2753507;0.3
-    3238275;0.3
-    3783639;0.3
-    4389599;0.3
-    5056155;0.3
-    5783307;0.3
-    6571055;0.3
-    7419399;0.3
-    8328339;0.3
-    9297875;0.3
-    10328007;0.3
-    11418735;0.3
-    12570059;0.3
+    1056819;0.33
+    1117415;0.33
+    1238607;0.33
+    1420395;0.33
+    1662779;0.33
+    1965759;0.33
+    2329335;0.33
+    2753507;0.33
+    3238275;0.33
+    3783639;0.33
+    4389599;0.33
+    5056155;0.33
+    5783307;0.33
+    6571055;0.33
+    7419399;0.33
+    8328339;0.33
+    9297875;0.33
+    10328007;0.33
+    11418735;0.33
+    12570059;0.33
     </elitelevels>
   </template>
   <template name="COMBAT_OFF">
@@ -2310,26 +2310,26 @@
     446692;104;0.2;3;8;2;8;8;
     </baselevels>
     <elitelevels structure="Fame;SilverPerReSpec">
-    1056819;0.3
-    1117415;0.3
-    1238607;0.3
-    1420395;0.3
-    1662779;0.3
-    1965759;0.3
-    2329335;0.3
-    2753507;0.3
-    3238275;0.3
-    3783639;0.3
-    4389599;0.3
-    5056155;0.3
-    5783307;0.3
-    6571055;0.3
-    7419399;0.3
-    8328339;0.3
-    9297875;0.3
-    10328007;0.3
-    11418735;0.3
-    12570059;0.3
+    1056819;0.33
+    1117415;0.33
+    1238607;0.33
+    1420395;0.33
+    1662779;0.33
+    1965759;0.33
+    2329335;0.33
+    2753507;0.33
+    3238275;0.33
+    3783639;0.33
+    4389599;0.33
+    5056155;0.33
+    5783307;0.33
+    6571055;0.33
+    7419399;0.33
+    8328339;0.33
+    9297875;0.33
+    10328007;0.33
+    11418735;0.33
+    12570059;0.33
     </elitelevels>
   </template>
   <achievement id="ADVENTURER_ADEPT" category="main" ring="3" isfameachievement="false" textureReward="HUMAN_MALE_AVATAR_FAMERANK_02">
@@ -20434,6 +20434,7 @@
       <itempattern pattern="T?_FARM_SWAMPDRAGON*" />
       <itempattern pattern="T?_FARM_MOABIRD*" />
       <itempattern pattern="T?_FARM_RAM*" />
+      <itempattern pattern="T?_FARM_RABBIT*" />
     </itemlist>
     <baserewards>
       <unlock type="farmableuse">
@@ -20469,7 +20470,6 @@
         <itempattern pattern="T?_MOUNT_MOABIRD*" />
         <itempattern pattern="T?_MOUNT_RAM*" />
         <itempattern pattern="T?_MOUNT_GREYWOLF*" />
-        <itempattern pattern="T?_MOUNT_SWAMPDRAGON_FW*" />
       </unlock>
       <bonus type="farmingfocuscostreduction" bonus="1" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_ANIMALS_CATEGORYBONUS" />
@@ -20491,6 +20491,7 @@
         <itempattern pattern="T?_FARM_SWAMPDRAGON*" />
         <itempattern pattern="T?_FARM_MOABIRD*" />
         <itempattern pattern="T?_FARM_RAM*" />
+        <itempattern pattern="T?_FARM_RABBIT*" />
       </bonus>
     </baserewards>
     <overridemasterylevel level="9">
@@ -20552,6 +20553,7 @@
           <itempattern pattern="T?_FARM_SWAMPDRAGON*" />
           <itempattern pattern="T?_FARM_MOABIRD*" />
           <itempattern pattern="T?_FARM_RAM*" />
+          <itempattern pattern="T?_FARM_RABBIT*" />
         </bonus>
       </baserewards>
     </overridemasterylevel>
@@ -20690,11 +20692,11 @@
   <templateachievement usetemplate="FARM_SPEC" missiontype="farmraisefame" lpmultiplier="1" famemultiplier="1" id="FARM_ANIMALS_RARE" category="farming" ring="9" spriteReward="FARM_DIREWOLF_BABY_02" itemforsprite="T8_FARM_DIREWOLF_BABY" isfameachievement="false">
     <title tag="@DESTINYBOARD_TITLE_FARM_ANIMALS_RARE" />
     <itemlist>
+      <itempattern pattern="T?_FARM_GIANTSTAG_BABY" />
       <itempattern pattern="T?_FARM_DIREWOLF_BABY" />
       <itempattern pattern="T?_FARM_DIREBOAR_BABY" />
       <itempattern pattern="T?_FARM_DIREBEAR_BABY" />
       <itempattern pattern="T?_FARM_COUGAR_BABY" />
-      <itempattern pattern="T?_FARM_GIANTSTAG_BABY" />
       <itempattern pattern="T?_FARM_GIANTSTAG_MOOSE_BABY" />
       <itempattern pattern="T?_FARM_MAMMOTH_BABY" />
       <itempattern pattern="T?_FARM_SWAMPDRAGON_BABY" />
@@ -20704,6 +20706,8 @@
       <itempattern pattern="T?_FARM_RAM_FW_MARTLOCK_BABY" />
       <itempattern pattern="T?_FARM_SWAMPDRAGON_FW_THETFORD_BABY" />
       <itempattern pattern="T?_FARM_GREYWOLF_FW_CAERLEON_BABY" />
+      <itempattern pattern="T?_FARM_RABBIT_EASTER_BABY" />
+      <itempattern pattern="T?_FARM_GIANTSTAG_GROWN" />
       <itempattern pattern="T?_FARM_DIREWOLF_GROWN" />
       <itempattern pattern="T?_FARM_DIREBOAR_GROWN" />
       <itempattern pattern="T?_FARM_DIREBEAR_GROWN" />
@@ -20718,15 +20722,16 @@
       <itempattern pattern="T?_FARM_RAM_FW_MARTLOCK_GROWN" />
       <itempattern pattern="T?_FARM_SWAMPDRAGON_FW_THETFORD_GROWN" />
       <itempattern pattern="T?_FARM_GREYWOLF_FW_CAERLEON_GROWN" />
+      <itempattern pattern="T?_FARM_RABBIT_EASTER_GROWN" />
     </itemlist>
     <baserewards>
       <bonus type="farmingfocuscostreduction" bonus="2" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_FARM_ANIMALS_RARE_GROUPBONUS" />
+        <itempattern pattern="T?_FARM_GIANTSTAG_BABY" />
         <itempattern pattern="T?_FARM_DIREWOLF_BABY" />
         <itempattern pattern="T?_FARM_DIREBOAR_BABY" />
         <itempattern pattern="T?_FARM_DIREBEAR_BABY" />
         <itempattern pattern="T?_FARM_COUGAR_BABY" />
-        <itempattern pattern="T?_FARM_GIANTSTAG_BABY" />
         <itempattern pattern="T?_FARM_GIANTSTAG_MOOSE_BABY" />
         <itempattern pattern="T?_FARM_MAMMOTH_BABY" />
         <itempattern pattern="T?_FARM_SWAMPDRAGON_BABY" />
@@ -20736,6 +20741,8 @@
         <itempattern pattern="T?_FARM_RAM_FW_MARTLOCK_BABY" />
         <itempattern pattern="T?_FARM_SWAMPDRAGON_FW_THETFORD_BABY" />
         <itempattern pattern="T?_FARM_GREYWOLF_FW_CAERLEON_BABY" />
+        <itempattern pattern="T?_FARM_RABBIT_EASTER_BABY" />
+        <itempattern pattern="T?_FARM_GIANTSTAG_GROWN" />
         <itempattern pattern="T?_FARM_DIREWOLF_GROWN" />
         <itempattern pattern="T?_FARM_DIREBOAR_GROWN" />
         <itempattern pattern="T?_FARM_DIREBEAR_GROWN" />
@@ -20750,6 +20757,7 @@
         <itempattern pattern="T?_FARM_RAM_FW_MARTLOCK_GROWN" />
         <itempattern pattern="T?_FARM_SWAMPDRAGON_FW_THETFORD_GROWN" />
         <itempattern pattern="T?_FARM_GREYWOLF_FW_CAERLEON_GROWN" />
+        <itempattern pattern="T?_FARM_RABBIT_EASTER_GROWN" />
       </bonus>
     </baserewards>
     <parentachievements allrequired="false">
@@ -21475,6 +21483,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T3_2H_TOOL_SICKLE" />
+              <entry id="T4_SKILLBOOK_GATHER_FIBER" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -21529,6 +21538,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_FIBER*" />
+          <itempattern pattern="T5_SKILLBOOK_GATHER_FIBER" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_FIBER_CATEGORYBONUS" />
@@ -21610,6 +21620,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_FIBER*" />
+          <itempattern pattern="T6_SKILLBOOK_GATHER_FIBER" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_FIBER_CATEGORYBONUS" />
@@ -21691,6 +21702,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_FIBER*" />
+          <itempattern pattern="T7_SKILLBOOK_GATHER_FIBER" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_FIBER_CATEGORYBONUS" />
@@ -21772,6 +21784,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_FIBER*" />
           <itempattern pattern="T?_SHOES_GATHERER_FIBER*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_FIBER*" />
+          <itempattern pattern="T8_SKILLBOOK_GATHER_FIBER" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_FIBER_CATEGORYBONUS" />
@@ -21909,11 +21922,11 @@
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
         <itempattern pattern="T?_BACKPACK_GATHERER_FISH*" />
       </bonus>
-      <bonus type="passivebonus" attribute="fishingspeed" bonus="0.0016" mintier="1" maxtier="8">
+      <bonus type="passivebonus" attribute="fishingspeed" bonus="0.0015" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_GATHER_FISH_SPEEDBONUS" />
         <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
       </bonus>
-      <bonus type="resourcegatherbonus" bufftype="fishingyield" bonus="0.0016" mintier="1" maxtier="8">
+      <bonus type="resourcegatherbonus" bufftype="fishingyield" bonus="0.0015" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_GATHER_FISH_YIELDBONUS" />
         <resourcepattern pattern="FISH*" />
       </bonus>
@@ -21943,11 +21956,11 @@
         <itempattern pattern="T?_SHOES_GATHERER_FISH*" />
         <itempattern pattern="T?_BACKPACK_GATHERER_FISH*" />
       </bonus>
-      <bonus type="resourcegatherbonus" bufftype="fishingyield" bonus="0.0033" mintier="1" maxtier="8">
+      <bonus type="resourcegatherbonus" bufftype="fishingyield" bonus="0.0035" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_GATHER_FISH_YIELDBONUS" />
         <resourcepattern pattern="FISH*" />
       </bonus>
-      <bonus type="passivebonus" attribute="fishingspeed" bonus="0.0033" mintier="1" maxtier="8">
+      <bonus type="passivebonus" attribute="fishingspeed" bonus="0.0035" mintier="1" maxtier="8">
         <description tag="@DESTINYBOARD_GATHER_FISH_SPEEDBONUS" />
         <itempattern pattern="T?_2H_TOOL_FISHINGROD*" />
       </bonus>
@@ -21970,6 +21983,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T3_2H_TOOL_KNIFE" />
+              <entry id="T4_SKILLBOOK_GATHER_HIDE" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -22024,6 +22038,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_HIDE*" />
+          <itempattern pattern="T5_SKILLBOOK_GATHER_HIDE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_HIDE_CATEGORYBONUS" />
@@ -22105,6 +22120,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_HIDE*" />
+          <itempattern pattern="T6_SKILLBOOK_GATHER_HIDE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_HIDE_CATEGORYBONUS" />
@@ -22186,6 +22202,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_HIDE*" />
+          <itempattern pattern="T7_SKILLBOOK_GATHER_HIDE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_HIDE_CATEGORYBONUS" />
@@ -22267,6 +22284,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_HIDE*" />
           <itempattern pattern="T?_SHOES_GATHERER_HIDE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_HIDE*" />
+          <itempattern pattern="T8_SKILLBOOK_GATHER_HIDE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_HIDE_CATEGORYBONUS" />
@@ -22398,6 +22416,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T3_2H_TOOL_PICK" />
+              <entry id="T4_SKILLBOOK_GATHER_ORE" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -22452,6 +22471,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ORE*" />
+          <itempattern pattern="T5_SKILLBOOK_GATHER_ORE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ORE_CATEGORYBONUS" />
@@ -22533,6 +22553,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ORE*" />
+          <itempattern pattern="T6_SKILLBOOK_GATHER_ORE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ORE_CATEGORYBONUS" />
@@ -22614,6 +22635,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ORE*" />
+          <itempattern pattern="T7_SKILLBOOK_GATHER_ORE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ORE_CATEGORYBONUS" />
@@ -22695,6 +22717,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ORE*" />
           <itempattern pattern="T?_SHOES_GATHERER_ORE*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ORE*" />
+          <itempattern pattern="T8_SKILLBOOK_GATHER_ORE" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ORE_CATEGORYBONUS" />
@@ -22826,6 +22849,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T3_2H_TOOL_HAMMER" />
+              <entry id="T4_SKILLBOOK_GATHER_ROCK" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -22880,6 +22904,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ROCK*" />
+          <itempattern pattern="T5_SKILLBOOK_GATHER_ROCK" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ROCK_CATEGORYBONUS" />
@@ -22900,7 +22925,7 @@
           <itempattern pattern="T4_HEAD_GATHERER_ROCK" />
           <itempattern pattern="T4_ARMOR_GATHERER_ROCK" />
           <itempattern pattern="T4_SHOES_GATHERER_ROCK" />
-          <itempattern pattern="T4_BACKPACK_GATHERER_ORE*" />
+          <itempattern pattern="T4_BACKPACK_GATHERER_ROCK" />
         </bonus>
         <bonus type="resourcegatherbonus" bonus="0.005" mintier="4" maxtier="4" bufftype="gatheringyield">
           <description tag="@DESTINYBOARD_GATHER_GATHERBONUS" />
@@ -22961,6 +22986,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ROCK*" />
+          <itempattern pattern="T6_SKILLBOOK_GATHER_ROCK" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ROCK_CATEGORYBONUS" />
@@ -23042,6 +23068,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ROCK*" />
+          <itempattern pattern="T7_SKILLBOOK_GATHER_ROCK" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ROCK_CATEGORYBONUS" />
@@ -23123,6 +23150,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_ROCK*" />
           <itempattern pattern="T?_SHOES_GATHERER_ROCK*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_ROCK*" />
+          <itempattern pattern="T8_SKILLBOOK_GATHER_ROCK" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_ROCK_CATEGORYBONUS" />
@@ -23285,6 +23313,7 @@
           <rewardgroup>
             <reward type="itemuse">
               <entry id="T3_2H_TOOL_AXE" />
+              <entry id="T4_SKILLBOOK_GATHER_WOOD" />
             </reward>
           </rewardgroup>
         </rewardgroups>
@@ -23339,6 +23368,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_WOOD*" />
+          <itempattern pattern="T5_SKILLBOOK_GATHER_WOOD" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_WOOD_CATEGORYBONUS" />
@@ -23420,6 +23450,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_WOOD*" />
+          <itempattern pattern="T6_SKILLBOOK_GATHER_WOOD" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_WOOD_CATEGORYBONUS" />
@@ -23501,6 +23532,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_WOOD*" />
+          <itempattern pattern="T7_SKILLBOOK_GATHER_WOOD" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_WOOD_CATEGORYBONUS" />
@@ -23582,6 +23614,7 @@
           <itempattern pattern="T?_ARMOR_GATHERER_WOOD*" />
           <itempattern pattern="T?_SHOES_GATHERER_WOOD*" />
           <itempattern pattern="T?_BACKPACK_GATHERER_WOOD*" />
+          <itempattern pattern="T8_SKILLBOOK_GATHER_WOOD" />
         </unlock>
         <bonus type="itemwearbonus" attribute="itempower" bonus="0.2" mintier="4" maxtier="8">
           <description tag="@DESTINYBOARD_GATHER_WOOD_CATEGORYBONUS" />

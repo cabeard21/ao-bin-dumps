@@ -8,6 +8,50 @@
     "@xsi:noNamespaceSchemaLocation": "assetvfx.xsd",
     "AssetVfxInfo": [
       {
+        "@uniquename": "UNIQUE_MOUNT_HORSE_PRIEST_HOLY",
+        "AssetVfx": [
+          {
+            "@socketname": "head_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_priest_holy_01_head"
+            }
+          },
+          {
+            "@socketname": "spine_0",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_priest_holy_01_tail"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_MOUNT_DIREBOAR_OCCULT",
+        "AssetVfx": {
+          "@socketname": "head_mount",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_mount_direboar_occult_01_head"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_MOUNT_COUGAR_FIREMAGE",
+        "AssetVfx": {
+          "@socketname": "head_mount",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_mount_lion_firemage_01_head"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_MOUNT_COUGAR_FROSTMAGE",
+        "AssetVfx": {
+          "@socketname": "head_mount",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_mount_lion_frostmage_01_head"
+          }
+        }
+      },
+      {
         "@uniquename": "UNIQUE_MOUNT_GIANTSTAG_REINDEER_TELLAFRIEND",
         "AssetVfx": {
           "@socketname": "head_mount",
@@ -330,6 +374,15 @@
         ]
       },
       {
+        "@uniquename": "UNIQUE_MOUNT_ARMORED_HORSE_MONK",
+        "AssetVfx": {
+          "@socketname": "head_mount",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_mount_armored_horse_monk_01_head_glow"
+          }
+        }
+      },
+      {
         "@uniquename": "UNIQUE_MOUNT_ARMORED_HORSE_ROGUE",
         "AssetVfx": {
           "@socketname": "head_mount",
@@ -357,11 +410,37 @@
         }
       },
       {
+        "@uniquename": "UNIQUE_MOUNT_DIREWOLF_UNDEAD",
+        "AssetVfx": [
+          {
+            "@socketname": "head_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_direwolf_undead_01_head"
+            }
+          },
+          {
+            "@socketname": "spine",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_direwolf_undead_01_spine"
+            }
+          }
+        ]
+      },
+      {
         "@uniquename": "UNIQUE_MOUNT_DIREWOLF_BARBARIAN",
         "AssetVfx": {
           "@socketname": "head_mount",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mount_direwolf_barbarian_01_eyes_glow"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_MOUNT_DIREWOLF_DEMONICWARRIOR",
+        "AssetVfx": {
+          "@socketname": "head_mount",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_mount_direwolf_demonicwarrior_01_head"
           }
         }
       },
@@ -401,6 +480,23 @@
             "@socketname": "tail",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mount_horse_hell_mere_01_tail"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_MOUNT_ARMORED_HORSE_MARAUDER",
+        "AssetVfx": [
+          {
+            "@socketname": "mane",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_marauder_01_mane"
+            }
+          },
+          {
+            "@socketname": "spine_0",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_marauder_01_tail"
             }
           }
         ]
@@ -927,6 +1023,29 @@
         ]
       },
       {
+        "@uniquename": "MOUNT_HORSE_UNICORN_AMETHYST",
+        "AssetVfx": [
+          {
+            "@socketname": "head_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_unicorn_amethyst_01_head"
+            }
+          },
+          {
+            "@socketname": "mane",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_unicorn_amethyst_01_mane"
+            }
+          },
+          {
+            "@socketname": "tail",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_horse_unicorn_amethyst_01_tail"
+            }
+          }
+        ]
+      },
+      {
         "@uniquename": "MOUNT_HORSE_UNICORN_WHITE",
         "AssetVfx": [
           {
@@ -1015,6 +1134,35 @@
             "@socketname": "spine_mount",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mount_cougar_occult_spine"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOUNT_COUGAR_AMETHYST",
+        "AssetVfx": [
+          {
+            "@socketname": "head_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_cougar_amethyst_eye_glow"
+            }
+          },
+          {
+            "@socketname": "jaw_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_cougar_amethyst_jaw"
+            }
+          },
+          {
+            "@socketname": "chest_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_cougar_amethyst_chest"
+            }
+          },
+          {
+            "@socketname": "spine_mount",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mount_cougar_amethyst_spine"
             }
           }
         ]
@@ -1255,706 +1403,6 @@
         ]
       },
       {
-        "@uniquename": "MOB_GUARDIAN_DRYAD",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_GUARDIAN_MAMMOTH",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_GUARDIAN_ROCKGIANT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_GUARDIAN_OREGIANT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_GUARDIAN_FOREST_SPIRIT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_MINIGUARDIAN_DRYAD",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_MINIGUARDIAN_MAMMOTH",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_MINIGUARDIAN_ROCKGIANT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_MINIGUARDIAN_OREGIANT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_MINIGUARDIAN_FOREST_SPIRIT",
-        "AssetVfx": [
-          {
-            "@socketname": "floor",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
-              "@ignoreSocketScale": "true"
-            }
-          },
-          {
-            "@socketname": "lefteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
-            }
-          },
-          {
-            "@socketname": "righteye",
-            "Vfx": {
-              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
-            }
-          }
-        ],
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
         "@uniquename": "MOB_UNDEAD_HARVESTER_BOSS",
         "AssetVfx": [
           {
@@ -1974,7 +1422,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -1982,14 +1430,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "torso",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2025,14 +1473,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2062,7 +1510,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2082,14 +1530,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2120,7 +1568,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2128,14 +1576,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "torso",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2212,14 +1660,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2237,7 +1685,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2249,7 +1697,7 @@
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               }
             ]
           },
@@ -2257,7 +1705,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2275,7 +1723,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2284,7 +1732,7 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_body_headglow"
@@ -2295,7 +1743,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2382,14 +1830,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -2401,7 +1849,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2444,7 +1892,7 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_body_headglow"
@@ -2455,7 +1903,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -2468,7 +1916,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2511,7 +1959,7 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_body_headglow"
@@ -2522,7 +1970,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -2535,7 +1983,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2555,8 +2003,22 @@
             "@socketname": "smoke",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_necromancer_smoke",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "head",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
+              "@constraintpreset": "default"
+            }
+          },
+          {
+            "@socketname": "damage",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -2569,7 +2031,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2589,27 +2051,22 @@
             "@socketname": "smoke",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_necromancer_smoke",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
           {
             "@socketname": "head",
-            "Vfx": [
-              {
-                "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
-              },
-              {
-                "@prefabName": "FX/ClientPrefabs/fx_undead_body_headglow"
-              }
-            ]
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
+              "@constraintpreset": "default"
+            }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -2677,7 +2134,7 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2685,11 +2142,11 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_ghoul_body_glow",
-                "@constraintpreset": "pointconstraint",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             ]
@@ -2698,7 +2155,7 @@
             "@socketname": "jaw",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_goo",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -2712,12 +2169,12 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_ghoul_plague",
-                "@constraintpreset": "pointconstraint",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-                "@constraintpreset": "pointconstraint",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             ]
@@ -2726,7 +2183,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_ghoul_body_glow",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2734,7 +2191,7 @@
             "@socketname": "jaw",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_goo",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -2748,13 +2205,13 @@
             "Vfx": [
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_ghoul_plague",
-                "@constraintpreset": "pointconstraint",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_bossmark",
                 "@freecamvisibilitycontrollable": "true",
-                "@constraintpreset": "pointconstraint",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             ]
@@ -2763,7 +2220,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_ghoul_body_glow",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2771,7 +2228,7 @@
             "@socketname": "jaw",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_goo",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -2866,14 +2323,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2935,7 +2392,7 @@
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
               "@freecamvisibilitycontrollable": "true",
               "@scale": "0.87",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -2947,7 +2404,7 @@
               },
               {
                 "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-                "@constraintpreset": "pointconstraint"
+                "@constraintpreset": "default"
               }
             ]
           },
@@ -2955,7 +2412,7 @@
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -2993,7 +2450,7 @@
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
               "@scale": "0.87",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3036,7 +2493,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3044,14 +2501,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "damage",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3087,14 +2544,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -3154,7 +2611,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3206,14 +2663,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3238,7 +2695,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3246,14 +2703,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3277,7 +2734,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3297,14 +2754,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3329,7 +2786,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3356,7 +2813,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3381,7 +2838,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3406,7 +2863,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3438,7 +2895,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3475,7 +2932,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3507,7 +2964,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3539,7 +2996,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3558,7 +3015,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3590,7 +3047,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3622,7 +3079,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3787,7 +3244,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_demon_her_mage_01_staff",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3822,7 +3279,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3856,7 +3313,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3864,7 +3321,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_lord_miniboss_corrupted_smace",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -3883,7 +3340,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -3891,7 +3348,7 @@
             "@socketname": "mouth",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_chained_miniboss_glow_jaw",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4010,7 +3467,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4080,7 +3537,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4105,7 +3562,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4142,7 +3599,7 @@
             "@socketname": "rightaxefx",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_berserk_axe",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4150,7 +3607,7 @@
             "@socketname": "leftaxefx",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_berserk_axe",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -4163,7 +3620,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4182,7 +3639,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4190,7 +3647,7 @@
             "@socketname": "mainhandprojectile",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_priest_core",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -4204,7 +3661,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4212,7 +3669,7 @@
             "@socketname": "mainhandprojectile",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_priest_elite_boss_core",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4236,7 +3693,7 @@
           "@socketname": "center",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_minion",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -4247,7 +3704,7 @@
             "@socketname": "center_fx",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_minion",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4266,7 +3723,7 @@
             "@socketname": "center1",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_minion",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4280,7 +3737,7 @@
             "@socketname": "center2",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_minion",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4294,7 +3751,7 @@
             "@socketname": "center3",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_minion",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4313,7 +3770,7 @@
             "@socketname": "center",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_avalon_treasure_minion_core_01",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4339,7 +3796,7 @@
             "@socketname": "center",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_avalon_treasure_minion_core_02",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4365,7 +3822,7 @@
             "@socketname": "center",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_avalon_treasure_minion_core_03",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4391,7 +3848,7 @@
             "@socketname": "center",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_avalon_treasure_minion_core_04",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -4425,7 +3882,7 @@
           "@socketname": "center",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_drone",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -4435,7 +3892,7 @@
           "@socketname": "root",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_mortar_core",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -4445,7 +3902,7 @@
           "@socketname": "mainhandprojectile",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_wizard_core",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -4462,7 +3919,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -4475,7 +3932,7 @@
             "@socketname": "mainhandprojectile",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_avalon_berserk_axe",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4484,7 +3941,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4534,7 +3991,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -4569,7 +4026,7 @@
           "@socketname": "floor",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-            "@constraintpreset": "pointconstraint",
+            "@constraintpreset": "default",
             "@ignoreSocketScale": "true"
           }
         }
@@ -4581,7 +4038,7 @@
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_bossmark",
             "@freecamvisibilitycontrollable": "true",
-            "@constraintpreset": "pointconstraint",
+            "@constraintpreset": "default",
             "@ignoreSocketScale": "true"
           }
         }
@@ -4594,7 +4051,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4620,7 +4077,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4658,7 +4115,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4723,7 +4180,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4776,7 +4233,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4871,7 +4328,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4896,7 +4353,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -4993,7 +4450,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5037,7 +4494,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5109,7 +4566,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5147,7 +4604,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5207,7 +4664,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5239,7 +4696,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5287,7 +4744,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5325,7 +4782,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5375,7 +4832,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5441,7 +4898,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5473,7 +4930,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5527,7 +4984,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5559,7 +5016,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5597,7 +5054,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5645,7 +5102,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5677,7 +5134,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5737,7 +5194,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_champion_staff_RM",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -5749,7 +5206,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5763,7 +5220,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_miniboss_staff_RM",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -5776,7 +5233,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5790,7 +5247,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_boss_staff_RM",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -5825,7 +5282,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5857,7 +5314,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5895,7 +5352,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -5955,7 +5412,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6003,7 +5460,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6035,7 +5492,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6101,7 +5558,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6127,7 +5584,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6175,7 +5632,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6201,7 +5658,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6255,7 +5712,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6281,7 +5738,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6313,7 +5770,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6339,7 +5796,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6431,7 +5888,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -6457,7 +5914,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -6487,7 +5944,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6513,7 +5970,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6539,7 +5996,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6585,7 +6042,7 @@
             }
           },
           {
-            "@socketname": "fx_rightshoulder",
+            "@socketname": "fx_rightshoulder_child",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_keeper_earthchild_rightshoulder"
             }
@@ -6600,7 +6057,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6737,7 +6194,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6768,7 +6225,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -6808,32 +6265,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_boar_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_boar_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_boar_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_boar_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -6841,7 +6301,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_boar_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -6855,32 +6315,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_bear_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_bear_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_bear_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_bear_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -6888,7 +6351,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_bear_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -6902,32 +6365,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -6935,7 +6401,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -6949,32 +6415,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -6982,7 +6451,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -6996,32 +6465,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7029,47 +6501,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "MOB_GUARDIAN_BASILISK",
-        "AssetVfx": {
-          "@socketname": "floor",
-          "Vfx": {
-            "@prefabName": "FX/ClientPrefabs/fx_bossmark",
-            "@freecamvisibilitycontrollable": "true",
-            "@constraintpreset": "pointconstraint",
-            "@ignoreSocketScale": "true"
-          }
-        },
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_basilisk_lvl2_low",
-                "@socket": "chest",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_basilisk_lvl3_low",
-                "@socket": "chest",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_basilisk_lvl4_low",
-                "@socket": "chest",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7083,32 +6515,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_giantstag_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_giantstag_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_giantstag_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_02",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_giantstag_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7116,7 +6551,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_giantstag_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7130,27 +6565,27 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "pointconstraint",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "pointconstraint",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "pointconstraint",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             },
@@ -7158,8 +6593,8 @@
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "pointconstraint",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             },
@@ -7167,8 +6602,8 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_terrorbird_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "pointconstraint",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
                 "@ignoreSocketScale": "true"
               }
             }
@@ -7182,32 +6617,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_rhino_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_rhino_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_rhino_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_rhino_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7215,7 +6653,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_rhino_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7229,32 +6667,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_04",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_04",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_04",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7262,7 +6703,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7276,32 +6717,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_01",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7309,7 +6753,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7323,32 +6767,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_snake_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_11",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_snake_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_11",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_snake_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_11",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_snake_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7356,7 +6803,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_snake_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7364,38 +6811,94 @@
         }
       },
       {
-        "@uniquename": "MOB_COUGAR",
+        "@uniquename": "MOB_SWAMPDRAGON",
         "RareResourceFx": {
           "RareState": [
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl2_low",
-                "@socket": "damage",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_03",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl3_low",
-                "@socket": "damage",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_03",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl4_low",
-                "@socket": "damage",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_03",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_monitorlizard_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_COUGAR_SMALL",
+        "AssetVfx": {
+          "@socketname": "head",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_critter_cougar_glowy_eyes"
+          }
+        },
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7403,7 +6906,63 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_COUGAR_BIG",
+        "AssetVfx": {
+          "@socketname": "head",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_critter_cougar_glowy_eyes"
+          }
+        },
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_08",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direwolf_lvl6_low",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7417,32 +6976,35 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7450,7 +7012,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7459,57 +7021,10 @@
       },
       {
         "@uniquename": "MOB_DRYAD",
-        "RareResourceFx": {
-          "RareState": [
-            {
-              "@stateid": "1",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "2",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "3",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl4_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "4",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            },
-            {
-              "@stateid": "5",
-              "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
-              }
-            }
-          ]
-        }
-      },
-      {
-        "@uniquename": "T7_MOB_CRITTER_FOREST",
         "AssetVfx": {
           "@socketname": "head",
           "Vfx": {
-            "@prefabName": "FX/ClientPrefabs/fx_mob_critter_forest_dead_spirit_glow"
+            "@prefabName": "FX/ClientPrefabs/fx_critter_dryad_glowy_eyes"
           }
         },
         "RareResourceFx": {
@@ -7517,32 +7032,85 @@
             {
               "@stateid": "1",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl2_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "2",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl3_low",
-                "@socket": "damage",
-                "@constraintpreset": "default"
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "3",
               "Vfx": {
-                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl4_low",
-                "@socket": "damage",
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_SPIRIT_WOOD",
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default",
+                "@ignoreSocketScale": "true"
               }
             },
             {
               "@stateid": "4",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl5_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             },
@@ -7550,7 +7118,7 @@
               "@stateid": "5",
               "Vfx": {
                 "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direbear_lvl6_low",
-                "@socket": "damage",
+                "@socket": "enchantment",
                 "@constraintpreset": "default"
               }
             }
@@ -7616,12 +7184,791 @@
         ]
       },
       {
+        "@uniquename": "MOB_GUARDIAN_DRYAD",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_GUARDIAN_MAMMOTH",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_GUARDIAN_ROCKGIANT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_GUARDIAN_OREGIANT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_GUARDIAN_FOREST_SPIRIT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_GUARDIAN_BASILISK",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_DRYAD",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_06",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_direboar_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_MAMMOTH",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_10",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_ROCKGIANT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_OREGIANT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_01"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_FOREST_SPIRIT",
+        "AssetVfx": [
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          },
+          {
+            "@socketname": "lefteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          },
+          {
+            "@socketname": "righteye",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_mob_eye_glow_02"
+            }
+          }
+        ],
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_07",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_mammoth_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@uniquename": "MOB_MINIGUARDIAN_BASILISK",
+        "AssetVfx": {
+          "@socketname": "floor",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+            "@freecamvisibilitycontrollable": "true",
+            "@constraintpreset": "default",
+            "@ignoreSocketScale": "true"
+          }
+        },
+        "RareResourceFx": {
+          "RareState": [
+            {
+              "@stateid": "1",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_common_group_05",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "2",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_uncommon_group_05",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "3",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/Resources_mobs/fx_resources_mob_rare_group_05",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "4",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_basilisk_lvl5_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            },
+            {
+              "@stateid": "5",
+              "Vfx": {
+                "@prefabName": "FX/ClientPrefabs/fx_mob_resource_basilisk_lvl6_low",
+                "@socket": "enchantment",
+                "@constraintpreset": "default"
+              }
+            }
+          ]
+        }
+      },
+      {
         "@uniquename": "MOB_HERETIC_MAGE",
         "AssetVfx": {
           "@socketname": "fx_weapon",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_01_torch",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -7631,7 +7978,7 @@
           "@socketname": "damage",
           "Vfx": {
             "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_01_torch",
-            "@constraintpreset": "pointconstraint"
+            "@constraintpreset": "default"
           }
         }
       },
@@ -7642,7 +7989,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7650,7 +7997,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_01_torch",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           }
         ]
@@ -7662,7 +8009,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7670,7 +8017,7 @@
             "@socketname": "fx_weapon",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_mob_heretic_mage_01_torch",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7690,7 +8037,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7727,7 +8074,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7788,7 +8135,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7820,7 +8167,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -7894,7 +8241,7 @@
             "@socketname": "staff_vfx",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_staff_fire_01",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -7902,7 +8249,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -7928,7 +8275,7 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
@@ -7949,11 +8296,604 @@
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_bossmark",
               "@freecamvisibilitycontrollable": "true",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           }
         ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_05",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_05_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_05_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_07",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_07_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_07_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_08",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "vanity_leftarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_LeftArm"
+            }
+          },
+          {
+            "@socketname": "vanity_rightarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightArm"
+            }
+          },
+          {
+            "@socketname": "chest",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_Spine_3"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_09",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_RightFingers"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_11",
+        "AssetVfx": [
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_11_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_11_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_12",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_12_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_12_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_14",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_RightHandHardPoint",
+              "@ignoreSocketScale": "false"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_bossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_05_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_05_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_05_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_07_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_07_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_07_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_08_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "vanity_leftarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_LeftArm"
+            }
+          },
+          {
+            "@socketname": "vanity_rightarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightArm"
+            }
+          },
+          {
+            "@socketname": "chest",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_Spine_3"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_08_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_09_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_09_RightFingers"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_11_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_11_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_11_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_12_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_12_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_12_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_14_SMALL",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_14_RightHandHardPoint",
+              "@ignoreSocketScale": "false"
+            }
+          },
+          {
+            "@socketname": "floor",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
+              "@freecamvisibilitycontrollable": "true",
+              "@constraintpreset": "default",
+              "@ignoreSocketScale": "true"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "MOB_ANNIVERSARY_STATUE_SEASON_SECOND",
+        "AssetVfx": [
+          {
+            "@socketname": "head_clean",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_SECOND_Neck_Head"
+            }
+          },
+          {
+            "@socketname": "mainhand",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_anniversary_statue_SECOND_RightHandHardPoint"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_PRIEST_HOLY",
+        "AssetVfx": [
+          {
+            "@socketname": "vanity_offhand_priest_holy",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_LeftArm_3"
+            }
+          },
+          {
+            "@socketname": "vanity_mainhand_priest_holy",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_RightArm_3"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_CAPE_VANITY_PRIEST_HOLY",
+        "AssetVfx": {
+          "@socketname": "vanity_cape_priest_holy",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_HOLY_PRIEST_Neck_0"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_FIREMAGE",
+        "AssetVfx": [
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_01_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "offhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FIREMAGE_LeftHandHardPoint"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_FROSTMAGE",
+        "AssetVfx": [
+          {
+            "@socketname": "leftshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_LeftShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "rightshoulder",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_01_RightShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "mainhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_RightHandHardPoint"
+            }
+          },
+          {
+            "@socketname": "offhand_02",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_FROSTMAGE_LeftHandHardPoint"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_HEAD_VANITY_GLADIATOR_CRYSTAL",
+        "AssetVfx": {
+          "@socketname": "head_clean",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL_Neck_Head"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL",
+        "AssetVfx": {
+          "@socketname": "chest",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_GLADIATOR_CRYSTAL_Spine_3"
+          }
+        }
       },
       {
         "@uniquename": "UNIQUE_ARMOR_VANITY_ROGUE",
@@ -8078,6 +9018,49 @@
         ]
       },
       {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_DEMONICWARRIOR",
+        "AssetVfx": [
+          {
+            "@socketname": "vanity_leftarm_demonicwarrior",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DEMONICWARRIOR_01_LefttShoulderArmor"
+            }
+          },
+          {
+            "@socketname": "vanity_rightshoulder_demonicwarrior",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_DEMONICWARRIOR_01_RightShoulderArmor"
+            }
+          }
+        ]
+      },
+      {
+        "@uniquename": "UNIQUE_HEAD_VANITY_DEMONICWARRIOR",
+        "AssetVfx": {
+          "@socketname": "head_clean",
+          "Vfx": {
+            "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_HEAD_VANITY_DEMONICWARRIOR_01_glow"
+          }
+        }
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_MONK",
+        "AssetVfx": [
+          {
+            "@socketname": "vanity_monk_chest",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MONK_01_Spine_3"
+            }
+          },
+          {
+            "@socketname": "vanity_monk_neck",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MONK_01_Neck_0"
+            }
+          }
+        ]
+      },
+      {
         "@uniquename": "UNIQUE_ARMOR_VANITY_SOULKEEPER",
         "AssetVfx": [
           {
@@ -8160,6 +9143,29 @@
             "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_HEAD_VANITY_DRUID_01_fireflies"
           }
         }
+      },
+      {
+        "@uniquename": "UNIQUE_ARMOR_VANITY_MARAUDER",
+        "AssetVfx": [
+          {
+            "@socketname": "vanity_monk_chest",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MARAUDER_Spine_3"
+            }
+          },
+          {
+            "@socketname": "leftarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MARAUDER_LeftArm_3"
+            }
+          },
+          {
+            "@socketname": "rightarm",
+            "Vfx": {
+              "@prefabName": "FX/ClientPrefabs/fx_UNIQUE_ARMOR_VANITY_MARAUDER_RightArm_3"
+            }
+          }
+        ]
       },
       {
         "@uniquename": "UNIQUE_HEAD_VANITY_SKELETON",
@@ -8293,7 +9299,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -8313,14 +9319,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -8344,7 +9350,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -8370,14 +9376,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
@@ -8401,7 +9407,7 @@
             "@socketname": "floor",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_minibossmark",
-              "@constraintpreset": "pointconstraint",
+              "@constraintpreset": "default",
               "@ignoreSocketScale": "true"
             }
           },
@@ -8431,14 +9437,14 @@
             "@socketname": "head",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_head",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {
             "@socketname": "chest",
             "Vfx": {
               "@prefabName": "FX/ClientPrefabs/fx_undead_sarcophagus_ghost_chest",
-              "@constraintpreset": "pointconstraint"
+              "@constraintpreset": "default"
             }
           },
           {

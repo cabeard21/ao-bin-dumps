@@ -344,8 +344,7 @@
     <wood tier="2">
       <prefabs>
         <prefab name="SWAMP_GREEN_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_GREEN_T2_TREE_B" weight="50" />
-
+        
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -355,8 +354,7 @@
     <wood tier="3">
       <prefabs>
         <prefab name="SWAMP_GREEN_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_GREEN_T3_TREE_B" weight="50" />
-
+        
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -366,8 +364,7 @@
     <wood tier="4">
       <prefabs>
         <prefab name="SWAMP_GREEN_T4_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T4_TREE_B" weight="47" />
-
+        
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
 
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -379,8 +376,7 @@
     <wood tier="5">
       <prefabs>
         <prefab name="SWAMP_GREEN_T5_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T5_TREE_B" weight="47" />
-
+        
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
 
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -392,8 +388,7 @@
     <wood tier="6">
       <prefabs>
         <prefab name="SWAMP_GREEN_T6_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T6_TREE_B" weight="47" />
-
+        
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
 
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -404,8 +399,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="SWAMP_GREEN_T7_TREE_B" weight="500" />
+        <prefab name="SWAMP_GREEN_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -630,8 +624,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_GREEN_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_GREEN_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -640,8 +633,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_GREEN_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_GREEN_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -650,8 +642,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T4_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_GREEN_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -661,8 +652,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T5_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_GREEN_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -672,8 +662,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T6_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T6_TREE_B" weight="47" />
+        <prefab name="SWAMP_GREEN_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -686,8 +675,7 @@
 
 
         <prefab name="SWAMP_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="SWAMP_GREEN_T7_TREE_B" weight="500" />
-
+        
 
       </prefabs>
       <fillerprefabs>
@@ -890,8 +878,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T2_TREE_A" weight="43" />
-        <prefab name="SWAMP_GREEN_T2_TREE_B" weight="43" />
+        <prefab name="SWAMP_GREEN_T2_TREE_A" weight="80" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -900,8 +887,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T3_TREE_A" weight="43" />
-        <prefab name="SWAMP_GREEN_T3_TREE_B" weight="43" />
+        <prefab name="SWAMP_GREEN_T3_TREE_A" weight="80" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -910,8 +896,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T4_TREE_A" weight="41" />
-        <prefab name="SWAMP_GREEN_T4_TREE_B" weight="41" />
+        <prefab name="SWAMP_GREEN_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -923,8 +908,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T5_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_GREEN_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -936,8 +920,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_GREEN_T6_TREE_A" weight="47" />
-        <prefab name="SWAMP_GREEN_T6_TREE_B" weight="47" />
+        <prefab name="SWAMP_GREEN_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
       </prefabs>
@@ -952,8 +935,7 @@
 
 
         <prefab name="SWAMP_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="SWAMP_GREEN_T7_TREE_B" weight="500" />
-
+        
 
       </prefabs>
       <fillerprefabs>
@@ -1048,7 +1030,13 @@
   <mapping name="T5_SWAMP" tier="5" clustertype="World" biome="Swamp" subbiome="Red">
 
     <roamingmob tier="5">
-      <prefabs>
+      <prefabs> 
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        
+        <prefab name="RandomExitPositionMarker_EVENT_SOLO_EXIT_RND-DNG" weight="32" flags="halloween" />
+        
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -1056,7 +1044,6 @@
 
         <!-- Random Dungeon Exit Nodes -->
         <prefab name="RandomExitPositionMarker_SOLO_EXIT_RND-DNG" weight="250" />
-        <prefab name="RandomExitPositionMarker_EVENT_SOLO_EXIT_RND-DNG" weight="32" flags="halloween" />
 
         <!-- Single Mobs -->
         <prefab name="_SWAMP_RED_KEEPER_ROAMING_UNPROVEN" weight="157" />
@@ -1068,6 +1055,8 @@
         <!-- Three Mobs -->
         <prefab name="_SWAMP_RED_KEEPER_ROAMING_AXEUNUN" weight="9" />
         <prefab name="_SWAMP_RED_KEEPER_ROAMING_AXEBERUN" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" continent="Outlands" />
@@ -1124,6 +1113,7 @@
       <prefabs>
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
 
         <!-- Code Resources -->
         <prefab name="SWAMP_RED_T5_FIBER" weight="637" />
@@ -1172,8 +1162,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_RED_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1182,8 +1171,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_RED_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1192,8 +1180,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_RED_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1205,9 +1192,9 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_RED_T5_TREE_A" weight="455" />
-        <prefab name="SWAMP_RED_T5_TREE_B" weight="455" />
+        <prefab name="SWAMP_RED_T5_TREE_A" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -1219,8 +1206,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_RED_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T6_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1232,8 +1218,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_RED_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_RED_T1_ROCK" weight="10" />
@@ -1292,6 +1277,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Swamp_GIANTSNAKE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -1331,6 +1317,9 @@
 
     <roamingmob tier="6">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -1350,6 +1339,8 @@
         <!-- Three Mobs -->
         <prefab name="_SWAMP_RED_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_SWAMP_RED_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -1420,6 +1411,7 @@
         <prefab name="SWAMP_RED_T6_FIBER" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_SWAMP" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -1447,8 +1439,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_RED_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1457,8 +1448,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_RED_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1467,8 +1457,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_RED_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1480,8 +1469,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_RED_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1493,9 +1481,9 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_RED_T6_TREE_A" weight="458" />
-        <prefab name="SWAMP_RED_T6_TREE_B" weight="458" />
+        <prefab name="SWAMP_RED_T6_TREE_A" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -1507,8 +1495,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_RED_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_RED_T1_ROCK" weight="10" />
@@ -1577,6 +1564,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Swamp_DRAGON" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -1606,6 +1594,9 @@
 
     <roamingmob tier="7">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -1625,6 +1616,8 @@
         <!-- Three Mobs -->
         <prefab name="_SWAMP_DEAD_UNDEAD_ROAMING_SOLGULGUL" weight="9" />
         <prefab name="_SWAMP_DEAD_UNDEAD_ROAMING_SKELSKELSKEL" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -1707,6 +1700,7 @@
         <prefab name="SWAMP_DEAD_T7_FIBER" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_SWAMP_DRYAD" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -1723,8 +1717,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1733,8 +1726,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -1743,8 +1735,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1756,8 +1747,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1769,8 +1759,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T6_TREE_B" weight="48" />
+        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -1782,9 +1771,9 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="459" />
-        <prefab name="SWAMP_DEAD_T7_TREE_B" weight="458" />
+        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -1863,6 +1852,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBOAR_SMALL" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -1882,6 +1872,9 @@
 
     <roamingmob tier="8">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -1901,6 +1894,8 @@
         <!-- Three Mobs -->
         <prefab name="_SWAMP_DEAD_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_SWAMP_DEAD_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -1991,6 +1986,7 @@
       <prefabs>
         <prefab name="SWAMP_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -1999,8 +1995,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2009,8 +2004,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2019,8 +2013,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2032,8 +2025,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2045,8 +2037,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T6_TREE_B" weight="48" />
+        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2058,8 +2049,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -2071,6 +2061,7 @@
       <prefabs>
         <prefab name="SWAMP_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -2147,6 +2138,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBEAR_SMALL" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -2170,8 +2162,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="40" />
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_B_COMP_01" weight="40" />
+        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="80" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2269,8 +2260,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="40" />
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_B_COMP_01" weight="40" />
+        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="80" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2279,8 +2269,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="28" />
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_B_COMP_01" weight="28" />
+        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="56" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_GREEN_SPIRIT" weight="24" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2290,8 +2279,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="75" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
       </prefabs>
@@ -2301,8 +2289,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="26" />
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_B_COMP_01" weight="26" />
+        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="52" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="23" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
@@ -2313,8 +2300,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="74" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
@@ -2327,8 +2313,7 @@
       <prefabs>
 
 
-        <prefab name="FOREST_GREEN_T7_TREE_A" weight="350" />
-        <prefab name="FOREST_GREEN_T7_TREE_B" weight="350" />
+        <prefab name="FOREST_GREEN_T7_TREE_A" weight="700" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="300" />
 
       </prefabs>
@@ -2556,8 +2541,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="40" />
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_B_COMP_01" weight="40" />
+        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="80" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2566,8 +2550,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="28" />
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_B_COMP_01" weight="28" />
+        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="56" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_GREEN_SPIRIT" weight="24" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2577,8 +2560,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="75" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
       </prefabs>
@@ -2588,8 +2570,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="26" />
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_B_COMP_01" weight="26" />
+        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="52" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="23" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
@@ -2600,8 +2581,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="74" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
@@ -2612,12 +2592,8 @@
 
     <wood tier="7">
       <prefabs>
-
-
-        <prefab name="FOREST_GREEN_T7_TREE_A" weight="350" />
-        <prefab name="FOREST_GREEN_T7_TREE_B" weight="350" />
-        <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="300" />
-
+        <prefab name="FOREST_GREEN_T7_TREE_A" weight="70" />
+        <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -2831,8 +2807,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="40" />
-        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_B_COMP_01" weight="40" />
+        <prefab name="_FOREST_GREEN_T2_TREE_FOREST_A_COMP_01" weight="80" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -2841,8 +2816,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="28" />
-        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_B_COMP_01" weight="28" />
+        <prefab name="_FOREST_GREEN_T3_TREE_FOREST_A_COMP_01" weight="56" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_GREEN_SPIRIT" weight="24" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -2852,8 +2826,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T4_TREE_FOREST_A_COMP_01" weight="75" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
       </prefabs>
@@ -2863,8 +2836,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="26" />
-        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_B_COMP_01" weight="26" />
+        <prefab name="_FOREST_GREEN_T5_TREE_FOREST_A_COMP_01" weight="52" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="23" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
@@ -2875,8 +2847,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="38" />
-        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_B_COMP_01" weight="38" />
+        <prefab name="_FOREST_GREEN_T6_TREE_FOREST_A_COMP_01" weight="74" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
@@ -2887,12 +2858,8 @@
 
     <wood tier="7">
       <prefabs>
-
-
-        <prefab name="FOREST_GREEN_T7_TREE_A" weight="350" />
-        <prefab name="FOREST_GREEN_T7_TREE_B" weight="350" />
-        <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="300" />
-
+        <prefab name="FOREST_GREEN_T7_TREE_A" weight="70" />
+        <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -2987,6 +2954,9 @@
 
     <roamingmob tier="5">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -3006,6 +2976,8 @@
         <!-- Three Mobs -->
         <prefab name="_FOREST_RED_KEEPER_ROAMING_AXEUNUN" weight="9" />
         <prefab name="_FOREST_RED_KEEPER_ROAMING_AXEBERUN" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" continent="Outlands" />
@@ -3064,6 +3036,7 @@
       <prefabs>
         <prefab name="FOREST_RED_T5_ROCK" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3108,8 +3081,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -3118,8 +3090,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="28" />
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_B_COMP_01" weight="28" />
+        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="56" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="24" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3129,8 +3100,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3140,10 +3110,10 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="319" />
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_B_COMP_01" weight="319" />
+        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="638" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="47" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3153,8 +3123,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3165,8 +3134,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_RED_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_RED_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_RED_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -3222,6 +3190,7 @@
       <prefabs>
         <prefab name="SpawnPoint_BEAR" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3262,6 +3231,9 @@
 
     <roamingmob tier="6">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -3281,6 +3253,8 @@
         <!-- Three Mobs -->
         <prefab name="_FOREST_RED_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_FOREST_RED_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -3353,6 +3327,7 @@
       <prefabs>
         <prefab name="FOREST_RED_T6_ROCK" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3385,8 +3360,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -3395,8 +3369,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3406,8 +3379,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3417,8 +3389,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="33" />
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="66" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="29" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3429,10 +3400,10 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="453" />
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_B_COMP_01" weight="453" />
+        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3442,8 +3413,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_RED_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_RED_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_RED_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -3510,6 +3480,7 @@
         <prefab name="SpawnPoint_DIREWOLF" weight="458" />
         <prefab name="SpawnPoint_Forest_GIANTSTAG" weight="458" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -3539,6 +3510,9 @@
 
     <roamingmob tier="7">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -3558,6 +3532,8 @@
         <!-- Three Mobs -->
         <prefab name="_FOREST_DEAD_UNDEAD_ROAMING_SOLGULGUL" weight="9" />
         <prefab name="_FOREST_DEAD_UNDEAD_ROAMING_SKELSKELSKEL" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -3642,6 +3618,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T7_ROCK" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="FOREST_DEAD_T1_ROCK" weight="10" />
@@ -3663,8 +3640,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -3673,8 +3649,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3684,8 +3659,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3695,8 +3669,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="34" />
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="67" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="28" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3707,8 +3680,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3719,10 +3691,10 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_DEAD_T7_TREE_A" weight="321" />
-        <prefab name="FOREST_DEAD_T7_TREE_B" weight="321" />
+        <prefab name="FOREST_DEAD_T7_TREE_A" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -3798,6 +3770,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBOAR_SMALL" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -3817,6 +3790,9 @@
 
     <roamingmob tier="8">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -3836,6 +3812,8 @@
         <!-- Three Mobs -->
         <prefab name="_FOREST_DEAD_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_FOREST_DEAD_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -3930,6 +3908,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="FOREST_DEAD_T1_ROCK" weight="10" />
@@ -3940,8 +3919,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -3950,8 +3928,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3961,8 +3938,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -3972,8 +3948,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="33" />
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="66" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="29" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3984,8 +3959,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -3996,8 +3970,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_DEAD_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_DEAD_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_DEAD_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -4008,6 +3981,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -4083,6 +4057,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBEAR_SMALL" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -4824,6 +4799,9 @@
 
     <roamingmob tier="5">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -4843,6 +4821,8 @@
         <!-- Three Mobs -->
         <prefab name="_STEPPE_RED_KEEPER_ROAMING_AXEUNUN" weight="9" />
         <prefab name="_STEPPE_RED_KEEPER_ROAMING_AXEBERUN" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" continent="Outlands" />
@@ -4901,6 +4881,7 @@
         <prefab name="SpawnPoint_Steppe_TERRORBIRD" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_STEPPE_COUGAR" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -4968,6 +4949,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T5_FIBER" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -5037,6 +5019,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T5_ORE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -5084,6 +5067,9 @@
 
     <roamingmob tier="6">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -5103,6 +5089,8 @@
         <!-- Three Mobs -->
         <prefab name="_STEPPE_RED_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_STEPPE_RED_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -5174,6 +5162,7 @@
         <prefab name="SpawnPoint_Steppe_DESERTWOLF" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_STEPPE" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -5240,6 +5229,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T6_FIBER" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -5311,6 +5301,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T6_ORE" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -5346,6 +5337,9 @@
 
     <roamingmob tier="7">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -5365,6 +5359,8 @@
         <!-- Three Mobs -->
         <prefab name="_STEPPE_DEAD_UNDEAD_ROAMING_SOLGULGUL" weight="9" />
         <prefab name="_STEPPE_DEAD_UNDEAD_ROAMING_SKELSKELSKEL" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -5447,6 +5443,7 @@
         <prefab name="SpawnPoint_Steppe_RHINO_SMALL" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_STEPPE_COUGAR" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -5512,6 +5509,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T7_FIBER" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -5584,6 +5582,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T7_ORE" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
         <prefab name="STEPPE_DEAD_T1_ROCK" weight="10" />
@@ -5607,6 +5606,9 @@
 
     <roamingmob tier="8">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="33" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -5626,6 +5628,8 @@
         <!-- Three Mobs -->
         <prefab name="_STEPPE_DEAD_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_STEPPE_DEAD_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="33" />
@@ -5716,6 +5720,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Steppe_MAMMOTH" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -5781,6 +5786,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -5856,6 +5862,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
         <prefab name="STEPPE_DEAD_T1_ROCK" weight="10" />
@@ -6078,8 +6085,7 @@
 
 
         <prefab name="HIGHLAND_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="HIGHLAND_GREEN_T7_TREE_B" weight="500" />
-
+        
 
       </prefabs>
       <fillerprefabs>
@@ -6365,8 +6371,7 @@
 
 
         <prefab name="HIGHLAND_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="HIGHLAND_GREEN_T7_TREE_B" weight="500" />
-
+        
 
       </prefabs>
       <fillerprefabs>
@@ -6641,8 +6646,7 @@
 
 
         <prefab name="HIGHLAND_GREEN_T7_TREE_A" weight="500" />
-        <prefab name="HIGHLAND_GREEN_T7_TREE_B" weight="500" />
-
+        
 
       </prefabs>
       <fillerprefabs>
@@ -6664,6 +6668,9 @@
 
     <roamingmob tier="5">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -6683,6 +6690,8 @@
         <!-- Three Mobs -->
         <prefab name="_HIGHLAND_RED_KEEPER_ROAMING_AXEUNUN" weight="8" />
         <prefab name="_HIGHLAND_RED_KEEPER_ROAMING_AXEBERUN" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" continent="Outlands" />
@@ -6751,6 +6760,7 @@
         <prefab name="HIGHLAND_RED_T5_ROCK" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_HIGHLAND_RED_EARTHELEMENTAL" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -6827,6 +6837,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T5_ORE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -6901,6 +6912,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T5_TREE_A" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -6920,8 +6932,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_RED_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -6941,6 +6952,9 @@
 
     <roamingmob tier="6">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -6960,6 +6974,8 @@
         <!-- Three Mobs -->
         <prefab name="_HIGHLAND_RED_MORGANA_ROAMING_SOLDSOLDSOLD" weight="8" />
         <prefab name="_HIGHLAND_RED_MORGANA_ROAMING_SOLDCULTCROSS" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -7043,6 +7059,7 @@
         <prefab name="HIGHLAND_RED_T6_ROCK" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_HIGHLAND" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -7116,6 +7133,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T6_ORE" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -7190,6 +7208,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T6_TREE_A" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -7199,8 +7218,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_RED_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -7220,6 +7238,9 @@
 
     <roamingmob tier="7">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -7239,6 +7260,8 @@
         <!-- Three Mobs -->
         <prefab name="_HIGHLAND_DEAD_UNDEAD_ROAMING_SOLGULGUL" weight="8" />
         <prefab name="_HIGHLAND_DEAD_UNDEAD_ROAMING_SKELSKELSKEL" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -7334,6 +7357,7 @@
         <prefab name="HIGHLAND_DEAD_T7_ROCK" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_HIGHLAND_DEAD_EARTHELEMENTAL" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="HIGHLAND_DEAD_T1_ROCK" weight="10" />
@@ -7404,6 +7428,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T7_ORE" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -7476,9 +7501,9 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="459" />
-        <prefab name="HIGHLAND_DEAD_T7_TREE_B" weight="458" />
+        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -7498,6 +7523,9 @@
 
     <roamingmob tier="8">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -7517,6 +7545,8 @@
         <!-- Three Mobs -->
         <prefab name="_HIGHLAND_DEAD_MORGANA_ROAMING_SOLDSOLDSOLD" weight="8" />
         <prefab name="_HIGHLAND_DEAD_MORGANA_ROAMING_SOLDCULTCROSS" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -7623,6 +7653,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="HIGHLAND_DEAD_T1_ROCK" weight="10" />
@@ -7691,6 +7722,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -7755,8 +7787,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_DEAD_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -7766,6 +7797,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -8560,6 +8592,9 @@
 
     <roamingmob tier="5">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -8579,6 +8614,8 @@
         <!-- Three Mobs -->
         <prefab name="_MOUNTAIN_RED_KEEPER_ROAMING_AXEUNUN" weight="8" />
         <prefab name="_MOUNTAIN_RED_KEEPER_ROAMING_AXEBERUN" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" continent="Outlands" />
@@ -8637,6 +8674,7 @@
         <prefab name="MOUNTAIN_RED_T5_ORE" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -8715,6 +8753,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T5_ROCK" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -8789,6 +8828,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T5_FIBER" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -8828,6 +8868,9 @@
 
     <roamingmob tier="6">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="17" continent="Outlands" />
@@ -8847,6 +8890,8 @@
         <!-- Three Mobs -->
         <prefab name="_MOUNTAIN_RED_MORGANA_ROAMING_SOLDSOLDSOLD" weight="9" />
         <prefab name="_MOUNTAIN_RED_MORGANA_ROAMING_SOLDCULTCROSS" weight="9" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -8918,6 +8963,7 @@
         <prefab name="MOUNTAIN_RED_T6_ORE" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_MOUNTAIN" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -8997,6 +9043,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T6_ROCK" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -9069,6 +9116,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T6_FIBER" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -9098,6 +9146,9 @@
 
     <roamingmob tier="7">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -9117,6 +9168,8 @@
         <!-- Three Mobs -->
         <prefab name="_MOUNTAIN_DEAD_UNDEAD_ROAMING_SOLGULGUL" weight="8" />
         <prefab name="_MOUNTAIN_DEAD_UNDEAD_ROAMING_SKELSKELSKEL" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -9199,6 +9252,7 @@
         <prefab name="MOUNTAIN_DEAD_T7_ORE" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_MOUNTAIN_DEAD_OREELEMENTAL" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -9279,6 +9333,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T7_ROCK" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="MOUNTAIN_DEAD_T1_ROCK" weight="10" />
@@ -9349,6 +9404,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T7_FIBER" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -9368,6 +9424,9 @@
 
     <roamingmob tier="8">
       <prefabs>
+        <!-- Events -->
+        <prefab name="TreasureSpawnpointEaster" weight="33" flags="easter" />
+        <prefab name="TreasureSpawnpointAnniversary" weight="33" flags="anniversary" />
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointLootchest" weight="31" />
         <prefab name="TreasureSpawnpointPowercore" weight="16" continent="Outlands" />
@@ -9387,6 +9446,8 @@
         <!-- Three Mobs -->
         <prefab name="_MOUNTAIN_DEAD_MORGANA_ROAMING_SOLDSOLDSOLD" weight="8" />
         <prefab name="_MOUNTAIN_DEAD_MORGANA_ROAMING_SOLDCULTCROSS" weight="8" />
+        <!-- Event Mobs -->
+        <prefab name="SpawnPoint_ROAMING_ANNIVERSARY_ANY" weight="480" flags="anniversary"/>
 
         <!--Treasure Minion -->
         <prefab name="SpawnPoint_RANDOM_ROAMING_AVALON_TREASURE_MINION" weight="31" />
@@ -9477,6 +9538,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -9559,6 +9621,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="MOUNTAIN_DEAD_T1_ROCK" weight="10" />
@@ -9627,6 +9690,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -9716,6 +9780,7 @@
       <prefabs>
         <!-- Treasure Chest Nodes -->
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
 
         <!-- Code Resources -->
         <prefab name="SWAMP_RED_T5_FIBER" weight="637" />
@@ -9764,8 +9829,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_RED_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -9774,8 +9838,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_RED_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -9784,8 +9847,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_RED_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -9797,9 +9859,9 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_RED_T5_TREE_A" weight="455" />
-        <prefab name="SWAMP_RED_T5_TREE_B" weight="455" />
+        <prefab name="SWAMP_RED_T5_TREE_A" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -9811,8 +9873,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_RED_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T6_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -9824,8 +9885,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_RED_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_RED_T1_ROCK" weight="10" />
@@ -9884,6 +9944,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Swamp_GIANTSNAKE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10012,6 +10073,7 @@
         <prefab name="SWAMP_RED_T6_FIBER" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_SWAMP" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10039,8 +10101,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_RED_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10049,8 +10110,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_RED_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10059,8 +10119,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_RED_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10072,8 +10131,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_RED_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_RED_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_RED_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10085,9 +10143,9 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_RED_T6_TREE_A" weight="458" />
-        <prefab name="SWAMP_RED_T6_TREE_B" weight="458" />
+        <prefab name="SWAMP_RED_T6_TREE_A" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10099,8 +10157,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_RED_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_RED_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_RED_T1_ROCK" weight="10" />
@@ -10169,6 +10226,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Swamp_DRAGON" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10299,6 +10357,7 @@
         <prefab name="SWAMP_DEAD_T7_FIBER" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_SWAMP_DRYAD" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -10315,8 +10374,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10325,8 +10383,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10335,8 +10392,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10348,8 +10404,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10361,8 +10416,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T6_TREE_B" weight="48" />
+        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10374,9 +10428,9 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="459" />
-        <prefab name="SWAMP_DEAD_T7_TREE_B" weight="458" />
+        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -10455,6 +10509,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBOAR_SMALL" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -10583,6 +10638,7 @@
       <prefabs>
         <prefab name="SWAMP_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -10591,8 +10647,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T2_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T2_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10601,8 +10656,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T3_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T3_TREE_A" weight="100" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10611,8 +10665,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T4_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T4_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10624,8 +10677,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T5_TREE_B" weight="47" />
+        <prefab name="SWAMP_DEAD_T5_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10637,8 +10689,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="48" />
-        <prefab name="SWAMP_DEAD_T6_TREE_B" weight="48" />
+        <prefab name="SWAMP_DEAD_T6_TREE_A" weight="95" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_SWAMP_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10650,8 +10701,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="50" />
-        <prefab name="SWAMP_DEAD_T7_TREE_B" weight="50" />
+        <prefab name="SWAMP_DEAD_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -10663,6 +10713,7 @@
       <prefabs>
         <prefab name="SWAMP_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
         <prefab name="SWAMP_DEAD_T1_ROCK" weight="10" />
@@ -10739,6 +10790,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBEAR_SMALL" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -10828,6 +10880,7 @@
       <prefabs>
         <prefab name="FOREST_RED_T5_ROCK" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10872,8 +10925,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -10882,8 +10934,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="28" />
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_B_COMP_01" weight="28" />
+        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="56" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="24" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10893,8 +10944,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -10904,10 +10954,10 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="319" />
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_B_COMP_01" weight="319" />
+        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="638" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="47" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -10917,8 +10967,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -10929,8 +10978,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_RED_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_RED_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_RED_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -10986,6 +11034,7 @@
       <prefabs>
         <prefab name="SpawnPoint_BEAR" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -11117,6 +11166,7 @@
       <prefabs>
         <prefab name="FOREST_RED_T6_ROCK" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -11149,8 +11199,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_RED_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_RED_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -11159,8 +11208,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_RED_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_RED_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11170,8 +11218,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_RED_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_RED_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11181,8 +11228,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="33" />
-        <prefab name="_FOREST_RED_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_RED_T5_TREE_FOREST_A_COMP_01" weight="66" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_RED_SPIRIT" weight="29" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -11193,10 +11239,10 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="453" />
-        <prefab name="_FOREST_RED_T6_TREE_FOREST_B_COMP_01" weight="453" />
+        <prefab name="_FOREST_RED_T6_TREE_FOREST_A_COMP_01" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -11206,8 +11252,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_RED_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_RED_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_RED_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -11274,6 +11319,7 @@
         <prefab name="SpawnPoint_DIREWOLF" weight="458" />
         <prefab name="SpawnPoint_Forest_GIANTSTAG" weight="458" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -11406,6 +11452,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T7_ROCK" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="FOREST_DEAD_T1_ROCK" weight="10" />
@@ -11427,8 +11474,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -11437,8 +11483,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11448,8 +11493,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11459,8 +11503,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="34" />
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="77" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="28" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -11471,8 +11514,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -11483,10 +11525,10 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_DEAD_T7_TREE_A" weight="321" />
-        <prefab name="FOREST_DEAD_T7_TREE_B" weight="321" />
+        <prefab name="FOREST_DEAD_T7_TREE_A" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -11562,6 +11604,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBOAR_SMALL" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -11694,6 +11737,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="FOREST_DEAD_T1_ROCK" weight="10" />
@@ -11704,8 +11748,7 @@
 
     <wood tier="2">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="50" />
-        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_B_COMP_01" weight="50" />
+        <prefab name="_FOREST_DEAD_T2_TREE_FOREST_A_COMP_01" weight="100" />
         <prefab name="SpawnPoint_T2_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
       <fillerprefabs>
@@ -11714,8 +11757,7 @@
 
     <wood tier="3">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="35" />
-        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_B_COMP_01" weight="35" />
+        <prefab name="_FOREST_DEAD_T3_TREE_FOREST_A_COMP_01" weight="70" />
         <prefab name="SpawnPoint_T3_MOB_CRITTER_FOREST_RED_SPIRIT" weight="30" />
         <prefab name="SpawnPoint_T3_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11725,8 +11767,7 @@
 
     <wood tier="4">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="48" />
-        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T4_TREE_FOREST_A_COMP_01" weight="95" />
         <prefab name="SpawnPoint_T4_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T4_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
       </prefabs>
@@ -11736,8 +11777,7 @@
 
     <wood tier="5">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="33" />
-        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_B_COMP_01" weight="33" />
+        <prefab name="_FOREST_DEAD_T5_TREE_FOREST_A_COMP_01" weight="66" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="29" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -11748,8 +11788,7 @@
 
     <wood tier="6">
       <prefabs>
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="47" />
-        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_B_COMP_01" weight="47" />
+        <prefab name="_FOREST_DEAD_T6_TREE_FOREST_A_COMP_01" weight="94" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_FOREST" weight="1" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_FOREST_CHEST" weight="5" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="1" flags="res_easter" />
@@ -11760,8 +11799,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="FOREST_DEAD_T7_TREE_A" weight="35" />
-        <prefab name="FOREST_DEAD_T7_TREE_B" weight="35" />
+        <prefab name="FOREST_DEAD_T7_TREE_A" weight="70" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_FOREST_DEAD_SPIRIT" weight="30" />
       </prefabs>
       <fillerprefabs>
@@ -11772,6 +11810,7 @@
       <prefabs>
         <prefab name="FOREST_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -11847,6 +11886,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Forest_DIREBEAR_SMALL" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -11936,6 +11976,7 @@
         <prefab name="SpawnPoint_Steppe_TERRORBIRD" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_STEPPE_COUGAR" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="42" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12003,6 +12044,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T5_FIBER" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12072,6 +12114,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T5_ORE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12209,6 +12252,7 @@
         <prefab name="SpawnPoint_Steppe_DESERTWOLF" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_STEPPE" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="36" flags="dynamic_event_hide" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12275,6 +12319,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T6_FIBER" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12346,6 +12391,7 @@
       <prefabs>
         <prefab name="STEPPE_RED_T6_ORE" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_STEPPE_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -12482,6 +12528,7 @@
         <prefab name="SpawnPoint_Steppe_RHINO_SMALL" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_STEPPE_COUGAR" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="83" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -12547,6 +12594,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T7_FIBER" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -12619,6 +12667,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T7_ORE" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
         <prefab name="STEPPE_DEAD_T1_ROCK" weight="10" />
@@ -12751,6 +12800,7 @@
       <prefabs>
         <prefab name="SpawnPoint_Steppe_MAMMOTH" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableHide" weight="167" flags="dynamic_event_hide" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -12816,6 +12866,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -12891,6 +12942,7 @@
       <prefabs>
         <prefab name="STEPPE_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
         <prefab name="STEPPE_DEAD_T1_ROCK" weight="10" />
@@ -12992,6 +13044,7 @@
         <prefab name="HIGHLAND_RED_T5_ROCK" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_HIGHLAND_RED_EARTHELEMENTAL" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13068,6 +13121,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T5_ORE" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13142,6 +13196,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T5_TREE_A" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="42" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13161,8 +13216,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_RED_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -13284,6 +13338,7 @@
         <prefab name="HIGHLAND_RED_T6_ROCK" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_HIGHLAND" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13357,6 +13412,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T6_ORE" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13431,6 +13487,7 @@
       <prefabs>
         <prefab name="HIGHLAND_RED_T6_TREE_A" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="36" flags="dynamic_event_wood" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_HIGHLAND_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -13440,8 +13497,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_RED_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_RED_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -13575,6 +13631,7 @@
         <prefab name="HIGHLAND_DEAD_T7_ROCK" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_HIGHLAND_DEAD_EARTHELEMENTAL" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="HIGHLAND_DEAD_T1_ROCK" weight="10" />
@@ -13645,6 +13702,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T7_ORE" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -13717,9 +13775,9 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="459" />
-        <prefab name="HIGHLAND_DEAD_T7_TREE_B" weight="458" />
+        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="83" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -13864,6 +13922,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="HIGHLAND_DEAD_T1_ROCK" weight="10" />
@@ -13932,6 +13991,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -13996,8 +14056,7 @@
 
     <wood tier="7">
       <prefabs>
-        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="50" />
-        <prefab name="HIGHLAND_DEAD_T7_TREE_B" weight="50" />
+        <prefab name="HIGHLAND_DEAD_T7_TREE_A" weight="100" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -14007,6 +14066,7 @@
       <prefabs>
         <prefab name="HIGHLAND_DEAD_T8_TREE_A" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableWood" weight="167" flags="dynamic_event_wood" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -14096,6 +14156,7 @@
         <prefab name="MOUNTAIN_RED_T5_ORE" weight="637" />
         <prefab name="SpawnPoint_T5_MOB_CRITTER_MOUNTAIN_RED_OREELEMENTAL" weight="273" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="42" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14174,6 +14235,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T5_ROCK" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="42" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14248,6 +14310,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T5_FIBER" weight="910" />
         <prefab name="TreasureSpawnpointHarvestable" weight="42" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="42" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T5_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T5_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14377,6 +14440,7 @@
         <prefab name="MOUNTAIN_RED_T6_ORE" weight="906" />
         <prefab name="SpawnPoint_RANDOM_MINIGUARDIAN_MOUNTAIN" weight="10" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="36" flags="dynamic_event_ore" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14456,6 +14520,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T6_ROCK" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="36" flags="dynamic_event_rock" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14528,6 +14593,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_RED_T6_FIBER" weight="916" />
         <prefab name="TreasureSpawnpointHarvestable" weight="36" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="36" flags="dynamic_event_fiber" />
         <prefab name="SpawnPoint_T6_MOB_ROAMING_MOUNTAIN_CHEST" weight="48" />
         <prefab name="SpawnPoint_T6_MOB_EVENT_EASTER_RESOURCE" weight="11" flags="res_easter" />
       </prefabs>
@@ -14658,6 +14724,7 @@
         <prefab name="MOUNTAIN_DEAD_T7_ORE" weight="642" />
         <prefab name="SpawnPoint_T7_MOB_CRITTER_MOUNTAIN_DEAD_OREELEMENTAL" weight="275" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="83" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -14738,6 +14805,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T7_ROCK" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="83" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="MOUNTAIN_DEAD_T1_ROCK" weight="10" />
@@ -14808,6 +14876,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T7_FIBER" weight="917" />
         <prefab name="TreasureSpawnpointHarvestable" weight="83" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="83" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -14936,6 +15005,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_ORE" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableOre" weight="167" flags="dynamic_event_ore" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>
@@ -15018,6 +15088,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_ROCK" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableRock" weight="167" flags="dynamic_event_rock" />
       </prefabs>
       <fillerprefabs>
         <prefab name="MOUNTAIN_DEAD_T1_ROCK" weight="10" />
@@ -15086,6 +15157,7 @@
       <prefabs>
         <prefab name="MOUNTAIN_DEAD_T8_FIBER" weight="833" />
         <prefab name="TreasureSpawnpointHarvestable" weight="167" />
+        <prefab name="TreasureSpawnpointHarvestableFiber" weight="167" flags="dynamic_event_fiber" />
       </prefabs>
       <fillerprefabs>
       </fillerprefabs>

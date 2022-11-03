@@ -315,7 +315,7 @@
           "@showpvpplayeronminimap": "false",
           "@showfriendlycount": "false",
           "@showhostilecount": "true",
-          "@spellcooldownsonenteringseconds": "0",
+          "@spellcooldownsonenteringseconds": "10",
           "@buildingcraftcapacityregenfactor": "1",
           "@itempowersoftcap": "900",
           "@itempowerscalingfactor": "0.1",
@@ -340,7 +340,7 @@
           "@showpvpplayeronminimap": "false",
           "@showfriendlycount": "false",
           "@showhostilecount": "true",
-          "@spellcooldownsonenteringseconds": "0",
+          "@spellcooldownsonenteringseconds": "10",
           "@buildingcraftcapacityregenfactor": "1",
           "@itempowersoftcap": "1000",
           "@itempowerscalingfactor": "0.2",
@@ -365,7 +365,7 @@
           "@showpvpplayeronminimap": "false",
           "@showfriendlycount": "false",
           "@showhostilecount": "true",
-          "@spellcooldownsonenteringseconds": "0",
+          "@spellcooldownsonenteringseconds": "10",
           "@buildingcraftcapacityregenfactor": "1",
           "@itempowersoftcap": "1300",
           "@itempowerscalingfactor": "0.5",
@@ -680,7 +680,7 @@
           "@spellcooldownsonenteringseconds": "0",
           "@buildingcraftcapacityregenfactor": "1",
           "@itempowersoftcap": "700",
-          "@itempowerscalingfactor": "0.2",
+          "@itempowerscalingfactor": "0.05",
           "@animalgrowthfactor": "0.5",
           "@cropyieldfactor": "2",
           "@clusterdangerbonustype": "yellow",
@@ -725,8 +725,8 @@
           "@showhostilecount": "false",
           "@spellcooldownsonenteringseconds": "0",
           "@buildingcraftcapacityregenfactor": "1",
-          "@itempowersoftcap": "1000",
-          "@itempowerscalingfactor": "0.5",
+          "@itempowersoftcap": "900",
+          "@itempowerscalingfactor": "0.2",
           "@animalgrowthfactor": "0.5",
           "@cropyieldfactor": "2",
           "@clusterdangerbonustype": "yellow",
@@ -859,6 +859,7 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
+          "@doactionsdisabletownportal": "false",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -879,6 +880,10 @@
           "@allowmounts": "true",
           "@allowfactionrewards": "false",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
+          "@enforceAsTownPortalDestination": "true",
+          "@townportalzonemodifier": "0.363",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -915,6 +920,9 @@
           "@allowmounts": "true",
           "@allowfactionrewards": "false",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -935,6 +943,9 @@
           "@allowmounts": "true",
           "@allowfactionrewards": "false",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -954,6 +965,7 @@
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -973,6 +985,7 @@
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -991,7 +1004,10 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
-          "@showvanitymainoffhand": "true"
+          "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
+          "@ignoreminfurnituredistance": "true"
         },
         {
           "@name": "PLAYERCITY_BLACK_NOFURNITURE",
@@ -1003,7 +1019,8 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@showvanitymainoffhand": "true",
-          "@allowmounts": "true"
+          "@allowmounts": "true",
+          "@doactionsdisabletownportal": "false"
         },
         {
           "@name": "PLAYERCITY_BLACK_ROYAL",
@@ -1016,6 +1033,9 @@
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -1035,6 +1055,8 @@
           "@hasshortspawnbuffonleave": "false",
           "@showvanitymainoffhand": "true",
           "@allowmounts": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -1042,6 +1064,20 @@
               "@isclusterchange": "Must"
             }
           }
+        },
+        {
+          "@name": "PLAYERCITY_BLACK_PORTALCITY_NOFURNITURE",
+          "@archetype": "CITY-BLACK",
+          "@logoutseconds": "10",
+          "@editorcolor": "255, 0, 255",
+          "@furnitureobjectsallowed": "false",
+          "@citytype": "PortalCity",
+          "@isdungeon": "false",
+          "@hasshortspawnbuffonleave": "false",
+          "@showvanitymainoffhand": "true",
+          "@allowmounts": "true",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363"
         },
         {
           "@name": "PLAYERCITY_BLACK_ROYAL_NOFURNITURE_HALL_OF_FAME",
@@ -1055,6 +1091,8 @@
           "@allowmounts": "true",
           "@ishalloffame": "true",
           "@maxduelheight": "15",
+          "@doactionsdisabletownportal": "false",
+          "@townportalzonemodifier": "0.363",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -1077,6 +1115,8 @@
           "@allowmounts": "true",
           "@clustervaluelookup": "Royal",
           "@tunnelpreset": "SAFEZONE",
+          "@townportalspell": "TOWN_PORTAL_SHORT",
+          "@townportalzonemodifier": "0.363",
           "spawnbuff": {
             "buff": [
               {
@@ -1250,7 +1290,7 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
               }
             ]
           },
@@ -1276,6 +1316,8 @@
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
           "@allowfactionrewards": "false",
+          "@doactionsdisabletownportal": "false",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -1301,6 +1343,8 @@
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
           "@allowfactionrewards": "false",
+          "@doactionsdisabletownportal": "false",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_BONUS_REMOVAL",
@@ -1326,6 +1370,8 @@
           "@allowmounts": "true",
           "@showvanitymainoffhand": "true",
           "@allowfactionrewards": "false",
+          "@doactionsdisabletownportal": "false",
+          "@ignoreminfurnituredistance": "true",
           "spawnbuff": {
             "buff": {
               "@name": "HIDEOUT_EXIT_ON_RESPAWN",
@@ -1343,7 +1389,7 @@
         {
           "@name": "OPENPVP_YELLOW",
           "@archetype": "YELLOW",
-          "@logoutseconds": "60",
+          "@logoutseconds": "10",
           "@editorcolor": "255, 255, 0",
           "@furnitureobjectsallowed": "true",
           "@isdungeon": "false",
@@ -1353,6 +1399,9 @@
           "@allowmounts": "true",
           "@clustervaluelookup": "Royal",
           "@tunnelpreset": "YELLOW",
+          "@townportalspell": "TOWN_PORTAL_SHORT",
+          "@townportalzonemodifier": "0.55",
+          "@disablespellsbytag": "gvgmountcombatspell",
           "spawnbuff": {
             "buff": [
               {
@@ -1558,7 +1607,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -1585,6 +1639,8 @@
           "@clustervaluelookup": "Royal",
           "@allowmounts": "true",
           "@tunnelpreset": "OPENPVP_RED",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "3.3",
           "spawnbuff": {
             "buff": [
               {
@@ -1671,7 +1727,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -1712,7 +1773,8 @@
           "@SmartClusterQueueMinActiveTimeBeforeSkippingAllowed": "120",
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
-          "@clustervaluelookup": "Default",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_LOW",
           "spawnbuff": {
             "buff": [
@@ -1846,6 +1908,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_LOW",
           "spawnbuff": {
             "buff": [
@@ -2108,7 +2172,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -2170,6 +2239,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_LOW",
           "spawnbuff": {
             "buff": [
@@ -2432,7 +2503,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -2494,6 +2570,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_MEDIUM",
           "spawnbuff": {
             "buff": [
@@ -2756,7 +2834,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -2818,6 +2901,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_MEDIUM",
           "spawnbuff": {
             "buff": [
@@ -3080,7 +3165,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -3142,6 +3232,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_HIGH",
           "spawnbuff": {
             "buff": [
@@ -3404,7 +3496,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -3466,6 +3563,8 @@
           "@allowfactionrewards": "false",
           "@allowpowercrystals": "true",
           "@clustervaluelookup": "Outlands",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "OPENPVP_BLACK_HIGH",
           "spawnbuff": {
             "buff": [
@@ -3728,7 +3827,12 @@
               {
                 "@upgradelevelindex": "11",
                 "@op": "equal",
-                "@limit": "1"
+                "@limit": "3"
+              },
+              {
+                "@upgradelevelindex": "20",
+                "@op": "equal",
+                "@limit": "30"
               }
             ]
           },
@@ -3787,6 +3891,8 @@
           "@escapedungeonspellavailable": "false",
           "@isdungeon": "true",
           "@hasshortspawnbuffonleave": "false",
+          "@townportalspell": "TOWN_PORTAL_SHORT",
+          "@townportalzonemodifier": "0.363",
           "@allowmounts": "true",
           "spawnbuff": {
             "buff": [
@@ -3828,6 +3934,8 @@
           "@hasshortspawnbuffonleave": "false",
           "@smartclusterqueue": "true",
           "@SmartClusterQueueMinActiveTimeBeforeSkippingAllowed": "0",
+          "@townportalspell": "TOWN_PORTAL_SHORT",
+          "@townportalzonemodifier": "0.55",
           "@allowmounts": "true",
           "spawnbuff": {
             "buff": [
@@ -3877,6 +3985,8 @@
           "@hasshortspawnbuffonleave": "false",
           "@smartclusterqueue": "true",
           "@SmartClusterQueueMinActiveTimeBeforeSkippingAllowed": "0",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "3.3",
           "@allowmounts": "true",
           "spawnbuff": {
             "buff": [
@@ -3926,6 +4036,9 @@
           "@hasshortspawnbuffonleave": "false",
           "@smartclusterqueue": "true",
           "@SmartClusterQueueMinActiveTimeBeforeSkippingAllowed": "120",
+          "@allowpowercrystals": "true",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@allowmounts": "true",
           "spawnbuff": {
             "buff": [
@@ -3972,8 +4085,13 @@
           "@clustervaluelookup": "RoyalDungeon",
           "@hasshortspawnbuffonleave": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "0.363",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@ispvppossible": "Must",
@@ -4011,8 +4129,13 @@
           "@clustervaluelookup": "RoyalDungeon",
           "@hasshortspawnbuffonleave": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "0.55",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4054,8 +4177,13 @@
           "@clustervaluelookup": "RoyalDungeon",
           "@hasshortspawnbuffonleave": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "3.3",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4094,12 +4222,16 @@
           "@furnitureobjectsallowed": "true",
           "@escapedungeonspellavailable": "true",
           "@isdungeon": "true",
-          "@clustervaluelookup": "Default",
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4135,8 +4267,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4182,8 +4319,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4229,8 +4371,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4276,8 +4423,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4323,8 +4475,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4370,8 +4527,13 @@
           "@hasshortspawnbuffonleave": "true",
           "@allowpowercrystals": "true",
           "@allowmounts": "false",
+          "@townportalzonemodifier": "7.15",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4418,6 +4580,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
               },
@@ -4452,7 +4618,6 @@
           "@furnitureobjectsallowed": "false",
           "@escapedungeonspellavailable": "true",
           "@isdungeon": "true",
-          "@clustervaluelookup": "Default",
           "@hasshortspawnbuffonleave": "true",
           "@allowmounts": "false",
           "mobspawns": {
@@ -4472,6 +4637,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4511,6 +4680,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
               },
@@ -4549,6 +4722,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4604,6 +4781,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
               },
@@ -4641,6 +4822,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4681,6 +4866,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
               },
@@ -4720,6 +4909,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "HELL_2V2_ENTER",
                 "@isclusterchange": "Must"
               },
@@ -4749,11 +4942,17 @@
           "@escapedungeonspellavailable": "true",
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
-            "buff": {
-              "@name": "SPAWN_INVULNERABILITY_HELL",
-              "@ispvppossible": "Must",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "SPAWN_INVULNERABILITY_HELL",
+                "@ispvppossible": "Must",
+                "@isclusterchange": "Must"
+              }
+            ]
           },
           "mobspawns": {
             "@defaulttimefactor": "9999.0",
@@ -4774,11 +4973,17 @@
           "@escapedungeonspellavailable": "true",
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
-            "buff": {
-              "@name": "SPAWN_INVULNERABILITY_HELL",
-              "@ispvppossible": "Must",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "SPAWN_INVULNERABILITY_HELL",
+                "@ispvppossible": "Must",
+                "@isclusterchange": "Must"
+              }
+            ]
           },
           "mobspawns": {
             "@defaulttimefactor": "9999.0",
@@ -4800,6 +5005,10 @@
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "HELL_2V2_ENTER",
                 "@isclusterchange": "Must"
@@ -4830,11 +5039,17 @@
           "@escapedungeonspellavailable": "true",
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
-            "buff": {
-              "@name": "SPAWN_INVULNERABILITY_HELL",
-              "@ispvppossible": "Must",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "SPAWN_INVULNERABILITY_HELL",
+                "@ispvppossible": "Must",
+                "@isclusterchange": "Must"
+              }
+            ]
           },
           "mobspawns": {
             "@defaulttimefactor": "9999.0",
@@ -4855,11 +5070,17 @@
           "@escapedungeonspellavailable": "true",
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
-            "buff": {
-              "@name": "SPAWN_INVULNERABILITY_HELL",
-              "@ispvppossible": "Must",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "SPAWN_INVULNERABILITY_HELL",
+                "@ispvppossible": "Must",
+                "@isclusterchange": "Must"
+              }
+            ]
           },
           "mobspawns": {
             "@defaulttimefactor": "9999.0",
@@ -4880,6 +5101,10 @@
           "@persistsimulationtodatabase": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -4921,6 +5146,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -4957,6 +5186,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
@@ -4995,6 +5228,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -5031,6 +5268,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
@@ -5069,6 +5310,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -5105,6 +5350,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
@@ -5143,6 +5392,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -5179,6 +5432,10 @@
           "@allowmounts": "false",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
@@ -5217,6 +5474,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -5254,6 +5515,10 @@
           "spawnbuff": {
             "buff": [
               {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
                 "@name": "SPAWN_INVULNERABILITY_EXPEDITION",
                 "@isclusterchange": "Must"
               },
@@ -5285,6 +5550,18 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "false",
+          "spawnbuff": {
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "ARENA_ENTER",
+                "@isclusterchange": "Must"
+              }
+            ]
+          },
           "mobspawns": {
             "@defaulttimefactor": "1.0"
           },
@@ -5300,6 +5577,18 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
+          "spawnbuff": {
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "ARENA_ENTER",
+                "@isclusterchange": "Must"
+              }
+            ]
+          },
           "mobspawns": {
             "@defaulttimefactor": "1.0"
           },
@@ -5315,6 +5604,18 @@
           "@isdungeon": "false",
           "@hasshortspawnbuffonleave": "false",
           "@allowmounts": "true",
+          "spawnbuff": {
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "ARENA_ENTER",
+                "@isclusterchange": "Must"
+              }
+            ]
+          },
           "mobspawns": {
             "@defaulttimefactor": "1.0"
           },
@@ -5334,10 +5635,20 @@
           "@allowmounts": "false",
           "@usegroupspawns": "true",
           "spawnbuff": {
-            "buff": {
-              "@name": "CORRUPTED_DUNGEON_ENTER",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "CORRUPTED_DUNGEON_ENTER",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              }
+            ]
           }
         },
         {
@@ -5352,10 +5663,20 @@
           "@allowmounts": "false",
           "@usegroupspawns": "true",
           "spawnbuff": {
-            "buff": {
-              "@name": "CORRUPTED_DUNGEON_ENTER",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "CORRUPTED_DUNGEON_ENTER",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              }
+            ]
           }
         },
         {
@@ -5370,10 +5691,20 @@
           "@allowmounts": "false",
           "@usegroupspawns": "true",
           "spawnbuff": {
-            "buff": {
-              "@name": "CORRUPTED_DUNGEON_ENTER",
-              "@isclusterchange": "Must"
-            }
+            "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "CORRUPTED_DUNGEON_ENTER",
+                "@isclusterchange": "Must"
+              },
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              }
+            ]
           }
         },
         {
@@ -5386,9 +5717,15 @@
           "@smartclusterqueue": "false",
           "@allowmounts": "true",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_ROYAL",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5426,9 +5763,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_BLACK_LOW",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5487,9 +5830,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_BLACK_MEDIUM",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5548,9 +5897,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_BLACK_HIGH",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5609,9 +5964,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_LOW",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5670,9 +6031,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_MEDIUM",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5731,9 +6098,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_HIGH",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5792,9 +6165,15 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_DEEP",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5853,10 +6232,16 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_HIDEOUT",
           "@forceshowtimezone": "true",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5915,10 +6300,16 @@
           "@allowmounts": "true",
           "@smartclusterqueue": "false",
           "@allowfactionrewards": "false",
+          "@townportalspell": "TOWN_PORTAL_LONG",
+          "@townportalzonemodifier": "7.15",
           "@tunnelpreset": "TUNNEL_HIDEOUT_DEEP",
           "@forceshowtimezone": "true",
           "spawnbuff": {
             "buff": [
+              {
+                "@name": "BUFFSHRINE_OUTLANDCITY_INVISIBILITY_REMOVE",
+                "@isclusterchange": "Must"
+              },
               {
                 "@name": "SPAWN_BUFFIMMUNITY_ONDEATH",
                 "@isrevive": "Must"
@@ -5977,103 +6368,297 @@
           "displaytype": [
             {
               "@type": "silver",
-              "@maxnumberoficons": "clustertier",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "100000"
+                  "@threshold": "150000"
                 },
                 {
                   "@level": "2",
-                  "@threshold": "300000"
+                  "@threshold": "625000"
                 },
                 {
                   "@level": "3",
-                  "@threshold": "600000"
+                  "@threshold": "2500000"
                 },
                 {
                   "@level": "4",
-                  "@threshold": "1000000"
+                  "@threshold": "10000000"
                 },
                 {
                   "@level": "5",
-                  "@threshold": "1500000"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "2100000"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "2800000"
-                },
-                {
-                  "@level": "8",
-                  "@threshold": "3600000"
+                  "@threshold": "40000000"
                 }
               ]
             },
             {
               "@type": "resource",
               "@tier": "2",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "150"
+                  "@threshold": "100"
                 },
                 {
                   "@level": "2",
-                  "@threshold": "300"
+                  "@threshold": "450"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "800"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1150"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
                 }
               ]
             },
             {
               "@type": "resource",
               "@tier": "3",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "200"
+                  "@threshold": "100"
                 },
                 {
                   "@level": "2",
-                  "@threshold": "400"
+                  "@threshold": "450"
                 },
                 {
                   "@level": "3",
-                  "@threshold": "600"
+                  "@threshold": "800"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1150"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
                 }
               ]
             },
             {
               "@type": "resource",
               "@tier": "4",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "150"
+                  "@threshold": "60"
                 },
                 {
                   "@level": "2",
-                  "@threshold": "300"
+                  "@threshold": "295"
                 },
                 {
                   "@level": "3",
-                  "@threshold": "450"
+                  "@threshold": "530"
                 },
                 {
                   "@level": "4",
-                  "@threshold": "600"
+                  "@threshold": "765"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1000"
                 }
               ]
             },
             {
               "@type": "resource",
               "@tier": "5",
-              "@maxnumberoficons": "levels",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "40"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "230"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "420"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "610"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "800"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "6",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "60"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "295"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "530"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "765"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1000"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "7",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "10"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "60"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "120"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "180"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "240"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "8",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "10"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "40"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "80"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "120"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "160"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@name": "Royal",
+          "@lookupintervalseconds": "1800",
+          "displaytype": [
+            {
+              "@type": "silver",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "150000"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "625000"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "2500000"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "10000000"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "40000000"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "2",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "300"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "600"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "900"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1200"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "3",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "300"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "600"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "900"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1200"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "4",
               "step": [
                 {
                   "@level": "1",
@@ -6099,214 +6684,7 @@
             },
             {
               "@type": "resource",
-              "@tier": "6",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "250"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "400"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "550"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "700"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "850"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "1000"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "7",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "10"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "30"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "60"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "90"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "130"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "180"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "250"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "8",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "1"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "5"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "10"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "20"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "40"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "70"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "110"
-                },
-                {
-                  "@level": "8",
-                  "@threshold": "160"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@name": "Royal",
-          "@lookupintervalseconds": "1800",
-          "displaytype": [
-            {
-              "@type": "silver",
-              "@maxnumberoficons": "clustertier",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "100000"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "300000"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "600000"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "2000000"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "5000000"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "10000000"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "20000000"
-                },
-                {
-                  "@level": "8",
-                  "@threshold": "40000000"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "2",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "750"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "1500"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "3",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "500"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "1000"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "1500"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "4",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "300"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "500"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "700"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "1000"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
               "@tier": "5",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
@@ -6333,255 +6711,6 @@
             {
               "@type": "resource",
               "@tier": "6",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "250"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "400"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "550"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "700"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "850"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "1000"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "7",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "10"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "30"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "60"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "90"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "130"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "180"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "250"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "8",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "1"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "5"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "10"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "20"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "40"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "70"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "110"
-                },
-                {
-                  "@level": "8",
-                  "@threshold": "160"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "@name": "RoyalDungeon",
-          "@lookupintervalseconds": "3600",
-          "displaytype": {
-            "@type": "silver",
-            "@maxnumberoficons": "clustertier",
-            "step": [
-              {
-                "@level": "1",
-                "@threshold": "10000"
-              },
-              {
-                "@level": "2",
-                "@threshold": "20000"
-              },
-              {
-                "@level": "3",
-                "@threshold": "30000"
-              },
-              {
-                "@level": "4",
-                "@threshold": "5000000"
-              },
-              {
-                "@level": "5",
-                "@threshold": "10000000"
-              },
-              {
-                "@level": "6",
-                "@threshold": "15000000"
-              },
-              {
-                "@level": "7",
-                "@threshold": "20000000"
-              },
-              {
-                "@level": "8",
-                "@threshold": "25000000"
-              }
-            ]
-          }
-        },
-        {
-          "@name": "Outlands",
-          "@lookupintervalseconds": "3600",
-          "displaytype": [
-            {
-              "@type": "silver",
-              "@maxnumberoficons": "clustertier",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "100000"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "300000"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "600000"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "1000000"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "10000000"
-                },
-                {
-                  "@level": "6",
-                  "@threshold": "20000000"
-                },
-                {
-                  "@level": "7",
-                  "@threshold": "30000000"
-                },
-                {
-                  "@level": "8",
-                  "@threshold": "40000000"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "2",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "150"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "300"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "3",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "200"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "400"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "600"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "4",
-              "@maxnumberoficons": "levels",
-              "step": [
-                {
-                  "@level": "1",
-                  "@threshold": "150"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "300"
-                },
-                {
-                  "@level": "3",
-                  "@threshold": "450"
-                },
-                {
-                  "@level": "4",
-                  "@threshold": "600"
-                }
-              ]
-            },
-            {
-              "@type": "resource",
-              "@tier": "5",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
@@ -6607,31 +6736,242 @@
             },
             {
               "@type": "resource",
-              "@tier": "6",
-              "@maxnumberoficons": "levels",
+              "@tier": "7",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "250"
+                  "@threshold": "10"
                 },
                 {
                   "@level": "2",
-                  "@threshold": "400"
+                  "@threshold": "60"
                 },
                 {
                   "@level": "3",
-                  "@threshold": "550"
+                  "@threshold": "120"
                 },
                 {
                   "@level": "4",
-                  "@threshold": "700"
+                  "@threshold": "180"
                 },
                 {
                   "@level": "5",
-                  "@threshold": "850"
+                  "@threshold": "240"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "8",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "10"
                 },
                 {
-                  "@level": "6",
+                  "@level": "2",
+                  "@threshold": "40"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "80"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "120"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "160"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@name": "RoyalDungeon",
+          "@lookupintervalseconds": "3600",
+          "displaytype": {
+            "@type": "silver",
+            "step": [
+              {
+                "@level": "1",
+                "@threshold": "100000"
+              },
+              {
+                "@level": "2",
+                "@threshold": "1000000"
+              },
+              {
+                "@level": "3",
+                "@threshold": "5000000"
+              },
+              {
+                "@level": "4",
+                "@threshold": "15000000"
+              },
+              {
+                "@level": "5",
+                "@threshold": "25000000"
+              }
+            ]
+          }
+        },
+        {
+          "@name": "Outlands",
+          "@lookupintervalseconds": "3600",
+          "displaytype": [
+            {
+              "@type": "silver",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "150000"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "625000"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "2500000"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "10000000"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "40000000"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "2",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "100"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "450"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "800"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1150"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "3",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "100"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "450"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "800"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "1150"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1500"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "4",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "60"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "295"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "530"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "765"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "1000"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "5",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "40"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "230"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "420"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "610"
+                },
+                {
+                  "@level": "5",
+                  "@threshold": "800"
+                }
+              ]
+            },
+            {
+              "@type": "resource",
+              "@tier": "6",
+              "step": [
+                {
+                  "@level": "1",
+                  "@threshold": "60"
+                },
+                {
+                  "@level": "2",
+                  "@threshold": "295"
+                },
+                {
+                  "@level": "3",
+                  "@threshold": "530"
+                },
+                {
+                  "@level": "4",
+                  "@threshold": "765"
+                },
+                {
+                  "@level": "5",
                   "@threshold": "1000"
                 }
               ]
@@ -6639,7 +6979,6 @@
             {
               "@type": "resource",
               "@tier": "7",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
@@ -6647,65 +6986,44 @@
                 },
                 {
                   "@level": "2",
-                  "@threshold": "30"
-                },
-                {
-                  "@level": "3",
                   "@threshold": "60"
                 },
                 {
+                  "@level": "3",
+                  "@threshold": "120"
+                },
+                {
                   "@level": "4",
-                  "@threshold": "90"
-                },
-                {
-                  "@level": "5",
-                  "@threshold": "130"
-                },
-                {
-                  "@level": "6",
                   "@threshold": "180"
                 },
                 {
-                  "@level": "7",
-                  "@threshold": "250"
+                  "@level": "5",
+                  "@threshold": "240"
                 }
               ]
             },
             {
               "@type": "resource",
               "@tier": "8",
-              "@maxnumberoficons": "levels",
               "step": [
                 {
                   "@level": "1",
-                  "@threshold": "1"
-                },
-                {
-                  "@level": "2",
-                  "@threshold": "5"
-                },
-                {
-                  "@level": "3",
                   "@threshold": "10"
                 },
                 {
-                  "@level": "4",
-                  "@threshold": "20"
-                },
-                {
-                  "@level": "5",
+                  "@level": "2",
                   "@threshold": "40"
                 },
                 {
-                  "@level": "6",
-                  "@threshold": "70"
+                  "@level": "3",
+                  "@threshold": "80"
                 },
                 {
-                  "@level": "7",
-                  "@threshold": "110"
+                  "@level": "4",
+                  "@threshold": "120"
                 },
                 {
-                  "@level": "8",
+                  "@level": "5",
                   "@threshold": "160"
                 }
               ]
@@ -6717,7 +7035,6 @@
           "@lookupintervalseconds": "3600",
           "displaytype": {
             "@type": "silver",
-            "@maxnumberoficons": "clustertier",
             "step": [
               {
                 "@level": "1",
@@ -6725,30 +7042,18 @@
               },
               {
                 "@level": "2",
-                "@threshold": "300000"
-              },
-              {
-                "@level": "3",
-                "@threshold": "600000"
-              },
-              {
-                "@level": "4",
                 "@threshold": "1000000"
               },
               {
-                "@level": "5",
-                "@threshold": "10000000"
+                "@level": "3",
+                "@threshold": "5000000"
               },
               {
-                "@level": "6",
+                "@level": "4",
                 "@threshold": "15000000"
               },
               {
-                "@level": "7",
-                "@threshold": "20000000"
-              },
-              {
-                "@level": "8",
+                "@level": "5",
                 "@threshold": "25000000"
               }
             ]
@@ -6760,7 +7065,7 @@
       "island": [
         {
           "@name": "PLAYER_ISLAND",
-          "@premiumrequirement": "28",
+          "@premiumrequirement": "7",
           "cluster": [
             {
               "@name": "ISLAND-PLAYER-0001a",
