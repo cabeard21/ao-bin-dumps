@@ -232,6 +232,46 @@
           "@hidden": "true"
         },
         {
+          "@name": "GVGSEASON_18_CRYSTAL",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_18_GOLD",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_18_SILVER",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_18_BRONZE",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_19_CRYSTAL",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_19_GOLD",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_19_SILVER",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "GVGSEASON_19_BRONZE",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
           "@name": "AVATAR_FAMERANK_01",
           "@locked": "true"
         },
@@ -362,6 +402,21 @@
         },
         {
           "@name": "RING_GVGSEASONREWARD_AVALON_INVASION",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "AVATARRING_ARENA_CRYSTAL",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "AVATARRING_ARENA_GOLD1",
+          "@locked": "true",
+          "@hidden": "true"
+        },
+        {
+          "@name": "AVATARRING_ARENA_SILVER1",
           "@locked": "true",
           "@hidden": "true"
         },
