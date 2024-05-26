@@ -113,6 +113,7 @@ class AoBinData(metaclass=SingletonMeta):
             items.extend(temp_items['items']['equipmentitem'])
             items.extend(temp_items['items']['weapon'])
             items.extend(temp_items['items']['mount'])
+            items.extend(temp_items['items']['transformationweapon'])
             assert len(items) > 0, "Failed to load items"
 
         with open(fp_names, encoding='utf8') as json_file:
