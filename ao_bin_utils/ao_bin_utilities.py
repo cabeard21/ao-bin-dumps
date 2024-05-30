@@ -306,10 +306,10 @@ def get_items_above_ip(
     res = []
 
     for tier in range(min_tier, 9):
-        for enchant in range(0, 4):
+        for enchant in range(0, 5):
             item_name = (
                 f"T{tier}_" + pattern.split(unique_item_name)[-1]
-                + (f"@{enchant}" if enchant > 0 and enchant < 4 else '')
+                + (f"@{enchant}" if enchant > 0 and enchant < 5 else '')
             )
 
             for quality in range(1, 6):
